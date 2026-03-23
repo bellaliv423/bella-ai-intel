@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BELLA AI Intel | AI Intelligence Dashboard</title>
+<meta name="description" content="AI 최신 정보 대시보드 - Claude, Claude Code, API, AI 트렌드를 한눈에. BELLA AI 자동화 팀 운영.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&family=Noto+Sans+TC:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --primary: #d97757;
+    --primary-dark: #c4613c;
+    --primary-light: #fdf0eb;
+    --primary-lighter: #fef8f5;
+    --accent: #eda100;
+    --accent-light: #fef8e7;
+    --dark: #1a1a19;
+    --gray-900: #2d2d2b;
+    --gray-700: #4a4a47;
+    --gray-500: #87867f;
+    --gray-300: #c8c6be;
+    --gray-200: #e5e4dc;
+    --gray-100: #f5f4ed;
+    --white: #ffffff;
+    --success: #5a9a72;
+    --info: #5b8dd9;
+    --gradient: linear-gradient(135deg, #d97757 0%, #c4613c 100%);
+    --gradient-subtle: linear-gradient(135deg, #fdf0eb 0%, #fef8f5 100%);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+    --radius: 12px;
+    --radius-sm: 8px;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Noto Sans KR', 'Inter', -apple-system, sans-serif;
+    color: var(--gray-900);
+    line-height: 1.6;
+    background: var(--gray-100);
+    min-height: 100vh;
+  }
+
+  body.zh { font-family: 'Noto Sans TC', 'Inter', -apple-system, sans-serif; }
+
+  a { color: var(--primary); text-decoration: none; }
+  a:hover { color: var(--primary-dark); }
+
+  /* Language System */
+  .lang-ko { display: inline; }
+  .lang-zh { display: none; }
+  .lang-ko-block { display: block; }
+  .lang-zh-block { display: none; }
+  body.zh .lang-ko { display: none; }
+  body.zh .lang-zh { display: inline; }
+  body.zh .lang-ko-block { display: none; }
+  body.zh .lang-zh-block { display: block; }
+
+  /* ===== HEADER ===== */
+  .header {
+    background: var(--dark);
+    color: var(--white);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  }
+
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: -0.5px;
+  }
+
+  .logo span { color: var(--gray-300); font-weight: 400; }
+
+  .clock {
+    font-family: 'Inter', monospace;
+    font-size: 0.85rem;
+    color: var(--gray-300);
+    background: rgba(255,255,255,0.08);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .lang-btn {
+    background: transparent;
+    border: 1px solid var(--gray-500);
+    color: var(--gray-300);
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+  }
+
+  .lang-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--white);
+  }
+
+  .header-link {
+    color: var(--gray-300);
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .header-link:hover {
+    color: var(--white);
+    border-color: var(--primary);
+    background: rgba(217,119,87,0.15);
+  }
+
+  /* ===== STATUS BAR ===== */
+  .status-bar {
+    background: var(--white);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 10px 0;
+  }
+
+  .status-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .status-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82rem;
+    color: var(--gray-700);
+  }
+
+  .status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  .status-badge {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+
+  /* ===== FILTERS ===== */
+  .filters {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 24px;
+  }
+
+  .filter-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .filter-btn {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    color: var(--gray-700);
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    transition: all 0.2s;
+    font-family: inherit;
+  }
+
+  .filter-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  .filter-btn.active {
+    background: var(--gradient);
+    border-color: var(--primary);
+    color: var(--white);
+  }
+
+  .search-box {
+    flex: 1;
+    min-width: 200px;
+    max-width: 320px;
+    position: relative;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: 6px 16px 6px 36px;
+    border: 1px solid var(--gray-200);
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-family: inherit;
+    background: var(--white);
+    color: var(--gray-900);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-box input:focus {
+    border-color: var(--primary);
+  }
+
+  .search-box::before {
+    content: "🔍";
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+  }
+
+  .time-filter {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+  }
+
+  .time-btn {
+    background: transparent;
+    border: 1px solid var(--gray-200);
+    color: var(--gray-500);
+    padding: 4px 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-family: inherit;
+    transition: all 0.2s;
+  }
+
+  .time-btn.active {
+    background: var(--dark);
+    border-color: var(--dark);
+    color: var(--white);
+  }
+
+  /* ===== MAIN CONTENT ===== */
+  .main {
+    max-width: 1200px;
+    margin: 16px auto 0;
+    padding: 0 24px 40px;
+  }
+
+  /* ===== NEWS CARDS ===== */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .card {
+    background: var(--white);
+    border-radius: var(--radius);
+    border: 1px solid var(--gray-200);
+    padding: 20px;
+    transition: all 0.25s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .card-category {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .cat-claude_release { background: #fdf0eb; color: #c4613c; }
+  .cat-claude_code { background: #eef2ff; color: #4f46e5; }
+  .cat-claude_api { background: #f0fdf4; color: #16a34a; }
+  .cat-ai_trend { background: #fef8e7; color: #b45309; }
+  .cat-automation { background: #fdf2f8; color: #be185d; }
+  .cat-content_sns { background: #f5f3ff; color: #7c3aed; }
+
+  .card-date {
+    font-size: 0.72rem;
+    color: var(--gray-500);
+    white-space: nowrap;
+  }
+
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .card-summary {
+    font-size: 0.82rem;
+    color: var(--gray-700);
+    line-height: 1.55;
+    flex: 1;
+    margin-bottom: 12px;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+
+  .tag {
+    font-size: 0.68rem;
+    color: var(--primary);
+    background: var(--primary-lighter);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(217,119,87,0.15);
+  }
+
+  .card-actions {
+    display: flex;
+    gap: 6px;
+    border-top: 1px solid var(--gray-100);
+    padding-top: 10px;
+  }
+
+  .action-btn {
+    background: var(--gray-100);
+    border: none;
+    color: var(--gray-700);
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.72rem;
+    font-family: inherit;
+    transition: all 0.2s;
+  }
+
+  .action-btn:hover {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+  }
+
+  /* ===== STATS SECTION ===== */
+  .stats-section {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+  }
+
+  .stat-card {
+    background: var(--white);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--gray-200);
+    padding: 16px;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    font-family: 'Inter', sans-serif;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--gray-500);
+    margin-top: 2px;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    background: var(--dark);
+    color: var(--gray-300);
+    padding: 24px 0;
+    margin-top: 40px;
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.8rem;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    color: var(--gray-300);
+    font-size: 0.78rem;
+  }
+
+  .footer-links a:hover { color: var(--primary); }
+
+  /* ===== EMPTY STATE ===== */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--gray-500);
+  }
+
+  .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 768px) {
+    .header-inner { padding: 10px 16px; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .filter-row { gap: 6px; }
+    .search-box { min-width: 100%; max-width: 100%; order: -1; }
+    .time-filter { width: 100%; justify-content: flex-start; margin-left: 0; }
+    .stats-section { grid-template-columns: repeat(3, 1fr); }
+    .header-link { display: none; }
+  }
+
+  @media (max-width: 480px) {
+    .stats-section { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Toast notification */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--dark);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: var(--radius-sm);
+    font-size: 0.82rem;
+    z-index: 1000;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  .toast.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <div class="header-left">
+      <div class="logo">BELLA AI <span>Intel</span></div>
+      <div class="clock" id="clock">--:--:-- KST</div>
+    </div>
+    <div class="header-right">
+      <button class="lang-btn active" onclick="setLang('ko')" id="btn-ko">KO</button>
+      <button class="lang-btn" onclick="setLang('zh')" id="btn-zh">中文</button>
+      <a class="header-link" href="https://bellaliv423.github.io/bella-ai/" target="_blank">BELLA AI</a>
+      <a class="header-link" href="https://github.com/bellaliv423/bella-ai-intel" target="_blank">GitHub</a>
+      <a class="header-link" href="https://claude.ai" target="_blank">Claude</a>
+    </div>
+  </div>
+</header>
+
+<!-- STATUS BAR -->
+<div class="status-bar">
+  <div class="status-inner">
+    <div class="status-item">
+      <div class="status-dot"></div>
+      <span class="lang-ko">자동 수집 활성</span>
+      <span class="lang-zh">自動收集啟用中</span>
+    </div>
+    <div class="status-item">
+      <span class="lang-ko">마지막 수집:</span>
+      <span class="lang-zh">最後收集：</span>
+      <strong id="last-updated">--</strong>
+    </div>
+    <div class="status-item">
+      <span class="status-badge" id="total-count">0</span>
+      <span class="lang-ko">건 수집</span>
+      <span class="lang-zh">筆資料</span>
+    </div>
+    <div class="status-item">
+      <button class="action-btn" onclick="shareLink()">
+        <span class="lang-ko">공유 링크 복사</span>
+        <span class="lang-zh">複製分享連結</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- FILTERS -->
+<div class="filters">
+  <div class="filter-row">
+    <button class="filter-btn active" data-cat="all" onclick="filterCategory('all', this)">
+      <span class="lang-ko">전체</span>
+      <span class="lang-zh">全部</span>
+    </button>
+    <button class="filter-btn" data-cat="claude_release" onclick="filterCategory('claude_release', this)">
+      🚀 <span class="lang-ko">Claude 릴리즈</span><span class="lang-zh">Claude 發布</span>
+    </button>
+    <button class="filter-btn" data-cat="claude_code" onclick="filterCategory('claude_code', this)">
+      💻 Claude Code
+    </button>
+    <button class="filter-btn" data-cat="claude_api" onclick="filterCategory('claude_api', this)">
+      🔌 API/SDK
+    </button>
+    <button class="filter-btn" data-cat="ai_trend" onclick="filterCategory('ai_trend', this)">
+      📈 <span class="lang-ko">AI 트렌드</span><span class="lang-zh">AI 趨勢</span>
+    </button>
+    <button class="filter-btn" data-cat="automation" onclick="filterCategory('automation', this)">
+      ⚡ <span class="lang-ko">자동화</span><span class="lang-zh">自動化</span>
+    </button>
+    <button class="filter-btn" data-cat="content_sns" onclick="filterCategory('content_sns', this)">
+      📱 <span class="lang-ko">콘텐츠</span><span class="lang-zh">內容</span>
+    </button>
+
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="검색... (제목, 해시태그)" oninput="searchItems()">
+    </div>
+
+    <div class="time-filter">
+      <button class="time-btn active" data-time="all" onclick="filterTime('all', this)">
+        <span class="lang-ko">전체</span><span class="lang-zh">全部</span>
+      </button>
+      <button class="time-btn" data-time="7" onclick="filterTime('7', this)">7D</button>
+      <button class="time-btn" data-time="14" onclick="filterTime('14', this)">14D</button>
+      <button class="time-btn" data-time="30" onclick="filterTime('30', this)">30D</button>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<main class="main">
+  <!-- Stats -->
+  <div class="stats-section" id="stats-section"></div>
+
+  <!-- Cards Grid -->
+  <div class="cards-grid" id="cards-grid">
+    <div class="empty-state">
+      <div class="icon">📡</div>
+      <p class="lang-ko">데이터를 불러오는 중...</p>
+      <p class="lang-zh">正在載入資料...</p>
+    </div>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <span class="lang-ko">BELLA AI Intel Dashboard | AI 드림팀 자동 수집</span>
+      <span class="lang-zh">BELLA AI Intel Dashboard | AI 夢幻團隊自動收集</span>
+    </div>
+    <div class="footer-links">
+      <a href="https://bellaliv423.github.io/bella-ai/" target="_blank">BELLA AI</a>
+      <a href="https://bellaliv423.github.io/bella-obsidian/" target="_blank">Obsidian</a>
+      <a href="https://github.com/bellaliv423/bella-ai-intel" target="_blank">GitHub</a>
+      <a href="https://claude.ai" target="_blank">Claude AI</a>
+    </div>
+  </div>
+</footer>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ===== LANGUAGE =====
+function setLang(lang) {
+  document.body.classList.toggle('zh', lang === 'zh');
+  document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+  document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+  document.getElementById('search-input').placeholder = lang === 'ko' ? '검색... (제목, 해시태그)' : '搜尋... (標題, 標籤)';
+  localStorage.setItem('bella-intel-lang', lang);
+}
+
+// Init language
+(function() {
+  const saved = localStorage.getItem('bella-intel-lang');
+  const urlLang = new URLSearchParams(window.location.search).get('lang');
+  if (urlLang) setLang(urlLang);
+  else if (saved) setLang(saved);
+})();
+
+// ===== CLOCK =====
+function updateClock() {
+  const now = new Date();
+  const kst = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Seoul' }));
+  const h = String(kst.getHours()).padStart(2, '0');
+  const m = String(kst.getMinutes()).padStart(2, '0');
+  const s = String(kst.getSeconds()).padStart(2, '0');
+  document.getElementById('clock').textContent = `${h}:${m}:${s} KST`;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ===== DATA =====
+let allItems = [];
+let currentCategory = 'all';
+let currentTimeDays = 'all';
+let searchQuery = '';
+
+const CATEGORY_META = {
+  claude_release: { ko: 'Claude 릴리즈', zh: 'Claude 發布', icon: '🚀' },
+  claude_code: { ko: 'Claude Code', zh: 'Claude Code', icon: '💻' },
+  claude_api: { ko: 'API/SDK', zh: 'API/SDK', icon: '🔌' },
+  ai_trend: { ko: 'AI 트렌드', zh: 'AI 趨勢', icon: '📈' },
+  automation: { ko: '자동화', zh: '自動化', icon: '⚡' },
+  content_sns: { ko: '콘텐츠/SNS', zh: '內容/社群', icon: '📱' },
+};
+
+async function loadData() {
+  try {
+    const resp = await fetch('data/latest.json');
+    if (!resp.ok) throw new Error('No data file');
+    const data = await resp.json();
+    allItems = data.items || [];
+    document.getElementById('last-updated').textContent = data.stats?.last_collection || '--';
+    document.getElementById('total-count').textContent = allItems.length;
+    renderStats(data.stats);
+    renderCards();
+  } catch (e) {
+    // Use embedded seed data on first load
+    loadSeedData();
+  }
+}
+
+function loadSeedData() {
+  allItems = SEED_DATA;
+  document.getElementById('last-updated').textContent = '2026-03-23 (seed)';
+  document.getElementById('total-count').textContent = allItems.length;
+  renderStats({ total_items: allItems.length, categories: countCategories() });
+  renderCards();
+}
+
+function countCategories() {
+  const counts = {};
+  allItems.forEach(item => {
+    counts[item.category] = (counts[item.category] || 0) + 1;
+  });
+  return counts;
+}
+
+// ===== RENDER STATS =====
+function renderStats(stats) {
+  const cats = stats?.categories || countCategories();
+  const isZh = document.body.classList.contains('zh');
+  let html = '';
+
+  html += `<div class="stat-card">
+    <div class="stat-number">${stats?.total_items || allItems.length}</div>
+    <div class="stat-label">${isZh ? '總收集數' : '총 수집'}</div>
+  </div>`;
+
+  for (const [cat, count] of Object.entries(cats)) {
+    const meta = CATEGORY_META[cat] || { ko: cat, zh: cat, icon: '📋' };
+    html += `<div class="stat-card">
+      <div class="stat-number">${count}</div>
+      <div class="stat-label">${meta.icon} ${isZh ? meta.zh : meta.ko}</div>
+    </div>`;
+  }
+
+  document.getElementById('stats-section').innerHTML = html;
+}
+
+// ===== RENDER CARDS =====
+function renderCards() {
+  const filtered = filterItems();
+  const isZh = document.body.classList.contains('zh');
+  const grid = document.getElementById('cards-grid');
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-state">
+      <div class="icon">🔍</div>
+      <p>${isZh ? '沒有找到符合條件的資料' : '조건에 맞는 데이터가 없습니다'}</p>
+    </div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(item => {
+    const meta = CATEGORY_META[item.category] || { ko: 'etc', zh: 'etc', icon: '📋' };
+    const summary = isZh ? (item.summary_zh || item.summary_ko) : item.summary_ko;
+    const tags = (item.hashtags || []).map(t => `<span class="tag">${t}</span>`).join('');
+
+    return `<article class="card" data-category="${item.category}" data-date="${item.date}">
+      <div class="card-header">
+        <span class="card-category cat-${item.category}">${meta.icon} ${isZh ? meta.zh : meta.ko}</span>
+        <span class="card-date">${item.date}</span>
+      </div>
+      <h3 class="card-title">${item.title}</h3>
+      <p class="card-summary">${summary || ''}</p>
+      <div class="card-tags">${tags}</div>
+      <div class="card-actions">
+        <button class="action-btn" onclick="copyCard('${encodeURIComponent(item.title)}', '${encodeURIComponent(summary || '')}')">
+          ${isZh ? '📋 複製' : '📋 복사'}
+        </button>
+        ${item.url ? `<a class="action-btn" href="${item.url}" target="_blank">${isZh ? '🔗 原文' : '🔗 원문'}</a>` : ''}
+        <button class="action-btn" onclick="shareCard('${encodeURIComponent(item.title)}')">
+          ${isZh ? '📤 分享' : '📤 공유'}
+        </button>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ===== FILTER LOGIC =====
+function filterItems() {
+  let items = [...allItems];
+
+  // Category filter
+  if (currentCategory !== 'all') {
+    items = items.filter(i => i.category === currentCategory);
+  }
+
+  // Time filter
+  if (currentTimeDays !== 'all') {
+    const days = parseInt(currentTimeDays);
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - days);
+    const cutoffStr = cutoff.toISOString().slice(0, 10);
+    items = items.filter(i => i.date >= cutoffStr);
+  }
+
+  // Search filter
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    items = items.filter(i =>
+      (i.title || '').toLowerCase().includes(q) ||
+      (i.summary_ko || '').toLowerCase().includes(q) ||
+      (i.summary_zh || '').toLowerCase().includes(q) ||
+      (i.hashtags || []).some(t => t.toLowerCase().includes(q))
+    );
+  }
+
+  return items;
+}
+
+function filterCategory(cat, btn) {
+  currentCategory = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCards();
+}
+
+function filterTime(days, btn) {
+  currentTimeDays = days;
+  document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCards();
+}
+
+function searchItems() {
+  searchQuery = document.getElementById('search-input').value;
+  renderCards();
+}
+
+// ===== ACTIONS =====
+function copyCard(title, summary) {
+  const text = decodeURIComponent(title) + '\n\n' + decodeURIComponent(summary);
+  navigator.clipboard.writeText(text).then(() => showToast('Copied!'));
+}
+
+function shareCard(title) {
+  const text = decodeURIComponent(title) + '\n\nhttps://bellaliv423.github.io/bella-ai-intel/';
+  if (navigator.share) {
+    navigator.share({ text });
+  } else {
+    navigator.clipboard.writeText(text).then(() => showToast('Share link copied!'));
+  }
+}
+
+function shareLink() {
+  const isZh = document.body.classList.contains('zh');
+  const url = 'https://bellaliv423.github.io/bella-ai-intel/' + (isZh ? '?lang=zh' : '');
+  navigator.clipboard.writeText(url).then(() =>
+    showToast(isZh ? '連結已複製！' : '링크 복사 완료!')
+  );
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+// ===== SEED DATA (initial collection from 2026-03-23) =====
+const SEED_DATA = [
+  {
+    id: "s001", title: "Code Review 자동화 (Teams/Enterprise)",
+    summary_ko: "PR 자동 리뷰 - 다중 에이전트가 논리 오류/보안 취약점/회귀 감지. REVIEW.md로 커스텀 가능. 평균 $15-25/리뷰.",
+    summary_zh: "PR 自動審查 - 多代理偵測邏輯錯誤/安全漏洞/回歸。可用 REVIEW.md 自訂。平均 $15-25/次審查。",
+    category: "claude_code", hashtags: ["#ClaudeCode", "#CodeReview", "#CI/CD", "#자동화"],
+    source: "Claude Code Docs", url: "", date: "2026-03-20"
+  },
+  {
+    id: "s002", title: "Cowork 모바일 제어 - 영구 스레드 (Pro/Max)",
+    summary_ko: "Pro/Max 플랜 사용자가 Claude Desktop 또는 iOS/Android를 통해 Cowork 영구 에이전트 스레드에 접근 가능.",
+    summary_zh: "Pro/Max 方案用戶可透過 Claude Desktop 或 iOS/Android 存取 Cowork 持久代理執行緒。",
+    category: "claude_release", hashtags: ["#Claude", "#Cowork", "#모바일", "#AIAgent"],
+    source: "Claude Release Notes", date: "2026-03-17"
+  },
+  {
+    id: "s003", title: "3월 사용량 2배 프로모션 (비피크 시간대)",
+    summary_ko: "3/13~3/28 비피크 시간대 사용량 한도 2배. Free/Pro/Max/Team 자동 적용. 주간 한도에 미포함.",
+    summary_zh: "3/13~3/28 非尖峰時段用量上限加倍。Free/Pro/Max/Team 自動適用。不計入週用量。",
+    category: "claude_release", hashtags: ["#Claude", "#프로모션", "#Max", "#사용량"],
+    source: "Claude Support", date: "2026-03-13"
+  },
+  {
+    id: "s004", title: "Claude 인터랙티브 차트/다이어그램/시각화 생성",
+    summary_ko: "Claude가 대화 응답 내에서 맞춤 차트, 다이어그램, 시각화를 인라인으로 생성 가능.",
+    summary_zh: "Claude 現在可以在對話回應中直接生成自訂圖表、圖示和視覺化內容。",
+    category: "claude_release", hashtags: ["#Claude", "#시각화", "#차트", "#Anthropic"],
+    source: "Claude Release Notes", date: "2026-03-12"
+  },
+  {
+    id: "s005", title: "Excel + PowerPoint 통합 작업 개선",
+    summary_ko: "Claude for Excel/PowerPoint 애드인 개선. 두 앱 간 대화 컨텍스트 완전 공유, 스킬 지원, LLM 게이트웨이 연결.",
+    summary_zh: "Claude Excel/PowerPoint 外掛改進。兩個應用間完全共享對話上下文、支援技能、LLM 閘道連接。",
+    category: "claude_release", hashtags: ["#ClaudeExcel", "#ClaudePPT", "#Office", "#Anthropic"],
+    source: "Claude Release Notes", date: "2026-03-11"
+  },
+  {
+    id: "s006", title: "무료 사용자 Memory 기능 개방",
+    summary_ko: "채팅 기록 기반 Memory가 무료 사용자 포함 모든 Claude 사용자에게 개방.",
+    summary_zh: "基於聊天記錄的 Memory 功能現已向所有 Claude 用戶開放，包括免費用戶。",
+    category: "claude_release", hashtags: ["#Claude", "#AIMemory", "#무료"],
+    source: "Claude Release Notes", date: "2026-03-02"
+  },
+  {
+    id: "s007", title: "Claude Agent SDK 출시 (Python/TypeScript)",
+    summary_ko: "AI 에이전트 구축용 공식 SDK. query() 함수로 에이전틱 루프, 도구 자동 실행, 스트리밍 지원. permissionMode로 권한 제어.",
+    summary_zh: "AI 代理建構官方 SDK。query() 函數支援代理循環、工具自動執行、串流。permissionMode 控制權限。",
+    category: "claude_api", hashtags: ["#ClaudeAPI", "#AIAgent", "#SDK", "#Python"],
+    source: "Claude API Docs", url: "https://platform.claude.com/docs/en/agent-sdk/quickstart", date: "2026-03-01"
+  },
+  {
+    id: "s008", title: "공식 SDK 7개 언어 지원",
+    summary_ko: "Python, TypeScript, Java, Go, Ruby, C#, PHP 공식 SDK. Bedrock/Vertex/Foundry 멀티플랫폼.",
+    summary_zh: "Python、TypeScript、Java、Go、Ruby、C#、PHP 官方 SDK。支援 Bedrock/Vertex/Foundry 多平台。",
+    category: "claude_api", hashtags: ["#ClaudeAPI", "#SDK", "#개발자도구"],
+    source: "Claude API Docs", date: "2026-03-01"
+  },
+  {
+    id: "s009", title: "Cowork 예약 작업 (반복/온디맨드)",
+    summary_ko: "Cowork에서 반복 및 온디맨드 작업 예약 가능. Claude Desktop에 Customize 섹션 추가.",
+    summary_zh: "Cowork 支援排程重複和即時任務。Claude Desktop 新增 Customize 區塊。",
+    category: "claude_release", hashtags: ["#Cowork", "#자동화", "#Plugin"],
+    source: "Claude Release Notes", date: "2026-02-25"
+  },
+  {
+    id: "s010", title: "Cowork 플러그인 마켓플레이스 출시",
+    summary_ko: "Team/Enterprise 플랜용 플러그인 마켓플레이스 및 관리자 제어 출시.",
+    summary_zh: "推出 Team/Enterprise 方案的外掛市場和管理控制功能。",
+    category: "claude_release", hashtags: ["#Cowork", "#Plugin", "#Anthropic"],
+    source: "Claude Release Notes", date: "2026-02-24"
+  },
+  {
+    id: "s011", title: "Claude Sonnet 4.6 출시 (1M 컨텍스트 베타)",
+    summary_ko: "코딩, 컴퓨터 사용, 장문 추론, 에이전트 계획, 지식 작업, 디자인 전반 업그레이드. 1M 토큰 컨텍스트 윈도우 베타.",
+    summary_zh: "程式設計、電腦使用、長文推理、代理規劃、知識工作、設計全面升級。1M token 上下文視窗 Beta。",
+    category: "claude_release", hashtags: ["#Sonnet", "#Anthropic", "#1M컨텍스트"],
+    source: "Claude Release Notes", date: "2026-02-17"
+  },
+  {
+    id: "s012", title: "Claude Opus 4.6 출시",
+    summary_ko: "최고 지능 모델 업그레이드, 코딩 능력 강화.",
+    summary_zh: "最強智能模型升級，程式設計能力增強。",
+    category: "claude_release", hashtags: ["#Opus", "#Anthropic", "#AI모델"],
+    source: "Claude Release Notes", date: "2026-02-05"
+  },
+  {
+    id: "s013", title: "Models API - 모델 목록/상세 조회",
+    summary_ko: "사용 가능한 모델 목록 조회(GET /v1/models) 및 모델 별칭 해석 API. 페이지네이션 지원.",
+    summary_zh: "查詢可用模型列表（GET /v1/models）和解析模型別名的 API。支援分頁。",
+    category: "claude_api", hashtags: ["#ClaudeAPI", "#개발자도구", "#REST"],
+    source: "Claude API Docs", date: "2026-03-01"
+  },
+  {
+    id: "s014", title: "Beta Headers 시스템 (실험 기능 접근)",
+    summary_ko: "anthropic-beta 헤더로 실험 기능 접근. 복수 베타 동시 사용 가능. SDK에서 betas 파라미터로 지정.",
+    summary_zh: "透過 anthropic-beta 標頭存取實驗功能。可同時使用多個 Beta。SDK 中用 betas 參數指定。",
+    category: "claude_api", hashtags: ["#ClaudeAPI", "#Beta", "#SDK"],
+    source: "Claude API Docs", date: "2026-03-01"
+  }
+];
+
+// ===== INIT =====
+loadData();
+
+// Re-render on lang change for dynamic content
+const origSetLang = setLang;
+setLang = function(lang) {
+  origSetLang(lang);
+  renderStats({ total_items: allItems.length, categories: countCategories() });
+  renderCards();
+};
+</script>
+
+</body>
+</html>

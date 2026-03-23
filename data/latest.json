@@ -1,0 +1,223 @@
+{
+  "items": [
+    {
+      "id": "eb0c9a0dd5ef",
+      "title": "Code Review 자동화 (Teams/Enterprise)",
+      "summary_ko": "PR 자동 리뷰 - 다중 에이전트가 논리 오류/보안 취약점/회귀 감지. REVIEW.md로 커스텀 가능. 평균 $15-25/리뷰.",
+      "summary_zh": "PR 自動審查 - 多代理偵測邏輯錯誤/安全漏洞/回歸。可用 REVIEW.md 自訂。平均 $15-25/次審查。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#CodeReview",
+        "#코딩자동화"
+      ],
+      "source": "Claude Code Docs",
+      "url": "",
+      "date": "2026-03-20",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "766d547b7e43",
+      "title": "Cowork 모바일 제어 - 영구 스레드 (Pro/Max)",
+      "summary_ko": "Pro/Max 플랜 사용자가 Claude Desktop 또는 iOS/Android를 통해 Cowork 영구 에이전트 스레드에 접근 가능. Max 먼저 롤아웃, Pro는 2일 내.",
+      "summary_zh": "Pro/Max 方案用戶可透過 Claude Desktop 或 iOS/Android 存取 Cowork 持久代理執行緒。Max 率先推出，Pro 兩天內跟進。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Cowork"
+      ],
+      "source": "Claude Release Notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "date": "2026-03-17",
+      "collected_at": "2026-03-23T17:25:53.316618+09:00"
+    },
+    {
+      "id": "b3c6551612b5",
+      "title": "3월 사용량 2배 프로모션 (비피크 시간대)",
+      "summary_ko": "3/13~3/28 비피크 시간대(미동부 8AM-2PM 외) 사용량 한도 2배. Free/Pro/Max/Team 자동 적용. 주간 한도에 미포함.",
+      "summary_zh": "3/13~3/28 非尖峰時段（美東 8AM-2PM 以外）用量上限加倍。Free/Pro/Max/Team 自動適用。不計入週用量。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude"
+      ],
+      "source": "Claude Support",
+      "url": "",
+      "date": "2026-03-13",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "e6ffb46df631",
+      "title": "Claude 인터랙티브 차트/다이어그램/시각화 생성",
+      "summary_ko": "Claude가 대화 응답 내에서 맞춤 차트, 다이어그램, 시각화를 인라인으로 생성 가능.",
+      "summary_zh": "Claude 現在可以在對話回應中直接生成自訂圖表、圖示和視覺化內容。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-03-12",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "b6519b60a113",
+      "title": "Excel + PowerPoint 통합 작업 개선",
+      "summary_ko": "Claude for Excel/PowerPoint 애드인 개선. 두 앱 간 대화 컨텍스트 완전 공유, 스킬 지원, LLM 게이트웨이(Bedrock/Vertex/Foundry) 연결 가능.",
+      "summary_zh": "Claude Excel/PowerPoint 外掛改進。兩個應用間完全共享對話上下文、支援技能、可透過 LLM 閘道連接（Bedrock/Vertex/Foundry）。",
+      "category": "claude_release",
+      "hashtags": [
+        "#AWSBedrock",
+        "#Anthropic",
+        "#Claude",
+        "#ClaudeExcel",
+        "#ClaudePPT",
+        "#VertexAI"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-03-11",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "6ea4632d5284",
+      "title": "무료 사용자 Memory 기능 개방",
+      "summary_ko": "채팅 기록 기반 Memory가 무료 사용자 포함 모든 Claude 사용자에게 개방.",
+      "summary_zh": "基於聊天記錄的 Memory 功能現已向所有 Claude 用戶開放，包括免費用戶。",
+      "category": "claude_release",
+      "hashtags": [
+        "#AIMemory",
+        "#Anthropic",
+        "#Claude"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-03-02",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "9d7a68e31d65",
+      "title": "Claude Agent SDK 출시 (Python/TypeScript)",
+      "summary_ko": "AI 에이전트 구축용 공식 SDK. query() 함수로 에이전틱 루프, 도구 자동 실행, 스트리밍 지원. permissionMode로 권한 제어.",
+      "summary_zh": "AI 代理建構官方 SDK。query() 函數支援代理循環、工具自動執行、串流。permissionMode 控制權限。",
+      "category": "claude_api",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeAPI",
+        "#개발자도구"
+      ],
+      "source": "Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/agent-sdk/quickstart",
+      "date": "2026-03-01",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "e75afbaa5ea0",
+      "title": "Models API (List/Get)",
+      "summary_ko": "사용 가능한 모델 목록 조회 및 모델 별칭 해석 API. 페이지네이션 지원.",
+      "summary_zh": "查詢可用模型列表和解析模型別名的 API。支援分頁。",
+      "category": "claude_api",
+      "hashtags": [
+        "#ClaudeAPI",
+        "#개발자도구"
+      ],
+      "source": "Claude API Docs",
+      "url": "",
+      "date": "2026-03-01",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "73d1cc684213",
+      "title": "공식 SDK 7개 언어 지원",
+      "summary_ko": "Python, TypeScript, Java, Go, Ruby, C#, PHP 공식 SDK. Bedrock/Vertex/Foundry 멀티플랫폼 지원.",
+      "summary_zh": "Python、TypeScript、Java、Go、Ruby、C#、PHP 官方 SDK。支援 Bedrock/Vertex/Foundry 多平台。",
+      "category": "claude_api",
+      "hashtags": [
+        "#AWSBedrock",
+        "#ClaudeAPI",
+        "#VertexAI",
+        "#개발자도구"
+      ],
+      "source": "Claude API Docs",
+      "url": "",
+      "date": "2026-03-01",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "2fe9ac0b266a",
+      "title": "Cowork 예약 작업 (반복/온디맨드)",
+      "summary_ko": "Cowork에서 반복 및 온디맨드 작업 예약 가능. Claude Desktop에 Customize 섹션(스킬/플러그인/커넥터) 추가.",
+      "summary_zh": "Cowork 支援排程重複和即時任務。Claude Desktop 新增 Customize 區塊（技能/外掛/連接器）。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Cowork"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-02-25",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "dad615bdda5c",
+      "title": "Cowork 플러그인 마켓플레이스 + 관리자 제어",
+      "summary_ko": "Team/Enterprise 플랜용 플러그인 마켓플레이스 및 관리자 제어 출시.",
+      "summary_zh": "推出 Team/Enterprise 方案的外掛市場和管理控制功能。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Cowork"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-02-24",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "bc760f09d4b9",
+      "title": "Claude Sonnet 4.6 출시",
+      "summary_ko": "코딩, 컴퓨터 사용, 장문 추론, 에이전트 계획, 지식 작업, 디자인 전반 업그레이드. 1M 토큰 컨텍스트 윈도우 베타.",
+      "summary_zh": "程式設計、電腦使用、長文推理、代理規劃、知識工作、設計全面升級。1M token 上下文視窗 Beta。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Sonnet"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-02-17",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "614e43d0c3e9",
+      "title": "Claude Opus 4.6 출시",
+      "summary_ko": "최고 지능 모델 업그레이드, 코딩 능력 강화.",
+      "summary_zh": "最強智能模型升級，程式設計能力增強。",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Opus"
+      ],
+      "source": "Claude Release Notes",
+      "url": "",
+      "date": "2026-02-05",
+      "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    }
+  ],
+  "last_updated": "2026-03-23T17:25:53.317129+09:00",
+  "stats": {
+    "total_items": 13,
+    "categories": {
+      "claude_code": 1,
+      "claude_release": 9,
+      "claude_api": 3
+    },
+    "last_collection": "2026-03-23 17:25"
+  }
+}
