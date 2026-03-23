@@ -1,0 +1,10 @@
+# Archive files (too many for git)
+data/archive/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
