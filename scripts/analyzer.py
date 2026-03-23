@@ -490,7 +490,7 @@ def send_email_report(features, upgrades, content):
     try:
         msg = MIMEMultipart("alternative")
         msg["Subject"] = f"[AI Intel] 드림팀 일일 리포트 {now.strftime('%m/%d')} - 신기능 {len(features)}건 + 업그레이드 {len(upgrades)}건"
-        msg["From"] = "bella@ozkiz.com"
+        msg["From"] = "kndli.210@gmail.com"
         msg["To"] = "kndli.210@gmail.com"
 
         # Plain text fallback
@@ -503,8 +503,9 @@ def send_email_report(features, upgrades, content):
         msg.attach(MIMEText(plain, "plain", "utf-8"))
         msg.attach(MIMEText(html, "html", "utf-8"))
 
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-            server.login("bella@ozkiz.com", "uspbqqmwoigosrjq")
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.starttls()
+            server.login("kndli.210@gmail.com", "lkwe mxsy xgzj tige")
             server.send_message(msg)
 
         print(f"[Email] Sent to kndli.210@gmail.com")
