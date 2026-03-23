@@ -497,6 +497,84 @@
     .stats-section { grid-template-columns: repeat(2, 1fr); }
   }
 
+  /* Recommendation cards */
+  .rec-section-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 20px 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .rec-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    border: 1px solid var(--primary);
+    border-left: 4px solid var(--primary);
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: all 0.25s;
+  }
+
+  .rec-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-1px);
+  }
+
+  .rec-card .rec-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .rec-card .rec-title {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  .rec-card .rec-meta {
+    font-size: 0.78rem;
+    color: var(--gray-500);
+  }
+
+  .rec-card .rec-body {
+    font-size: 0.82rem;
+    color: var(--gray-700);
+    margin: 6px 0;
+    line-height: 1.5;
+  }
+
+  .rec-card .rec-project {
+    display: inline-block;
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+
+  .rec-card .stars {
+    color: var(--accent);
+    font-size: 0.85rem;
+  }
+
+  .rec-card .learning-note {
+    background: var(--gray-100);
+    border-radius: var(--radius-sm);
+    padding: 10px 14px;
+    margin-top: 8px;
+    font-size: 0.78rem;
+    color: var(--gray-700);
+    line-height: 1.5;
+    white-space: pre-line;
+  }
+
   /* Toast notification */
   .toast {
     position: fixed;
@@ -589,6 +667,9 @@
     </button>
     <button class="filter-btn" data-cat="content_sns" onclick="filterCategory('content_sns', this)">
       📱 <span class="lang-ko">콘텐츠</span><span class="lang-zh">內容</span>
+    </button>
+    <button class="filter-btn" data-cat="dreamteam" onclick="showDreamTeam(this)" style="border-color:var(--primary);color:var(--primary);font-weight:600">
+      ⭐ <span class="lang-ko">드림팀 추천</span><span class="lang-zh">夢幻團隊推薦</span>
     </button>
 
     <div class="search-box">
@@ -962,8 +1043,119 @@ const SEED_DATA = [
   }
 ];
 
+// ===== DREAM TEAM RECOMMENDATIONS =====
+let recData = null;
+
+async function loadRecommendations() {
+  try {
+    const resp = await fetch('data/recommendations.json');
+    if (!resp.ok) throw new Error('No rec file');
+    recData = await resp.json();
+  } catch(e) {
+    recData = null;
+  }
+}
+
+function showDreamTeam(btn) {
+  // Toggle active state
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentCategory = 'dreamteam';
+
+  const grid = document.getElementById('cards-grid');
+  const isZh = document.body.classList.contains('zh');
+
+  if (!recData) {
+    grid.innerHTML = `<div class="empty-state">
+      <div class="icon">⭐</div>
+      <p>${isZh ? '分析資料載入中... 請先執行 analyzer.py' : '분석 데이터 로딩 중... analyzer.py 실행 후 확인하세요'}</p>
+    </div>`;
+    return;
+  }
+
+  let html = '';
+
+  // Section 1: Features
+  const features = recData.features || [];
+  if (features.length > 0) {
+    html += `<div style="grid-column:1/-1"><div class="rec-section-title">🎯 ${isZh ? '適用新功能 Top ' + features.length : '적용 가능 신기능 Top ' + features.length}</div>`;
+    features.forEach((f, i) => {
+      const suggestion = isZh ? f.suggestion_zh : f.suggestion_ko;
+      const projName = isZh ? f.project_name_zh : f.project_name_ko;
+      const impact = isZh ? f.impact_zh : f.impact_ko;
+      html += `<div class="rec-card">
+        <div class="rec-head">
+          <div class="rec-title">${i+1}. ${f.news_title}</div>
+          <div class="rec-meta">${f.news_date}</div>
+        </div>
+        <div class="rec-body">
+          <span class="rec-project">${projName}</span>
+          <span class="stars" style="margin-left:8px">${f.difficulty_stars}</span>
+          <span class="rec-meta" style="margin-left:4px">(${isZh ? '' : f.difficulty_ko})</span>
+          <span style="margin-left:8px">${impact}</span>
+        </div>
+        <div class="rec-body">${suggestion}</div>
+        ${f.learning_note_ko ? `<div class="learning-note">${f.learning_note_ko}</div>` : ''}
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  // Section 2: Upgrades
+  const upgrades = recData.upgrades || [];
+  if (upgrades.length > 0) {
+    html += `<div style="grid-column:1/-1"><div class="rec-section-title">🔧 ${isZh ? '腳本升級點' : '스크립트 업그레이드 포인트'}</div>`;
+    upgrades.forEach(u => {
+      const projName = isZh ? u.project_name_zh : u.project_name_ko;
+      const suggestion = isZh ? u.upgrade_suggestion_zh : u.upgrade_suggestion_ko;
+      html += `<div class="rec-card">
+        <div class="rec-head">
+          <div class="rec-title">⚡ ${u.script_name}</div>
+          <div class="stars">${u.difficulty_stars}</div>
+        </div>
+        <div class="rec-body">
+          <span class="rec-project">${projName}</span>
+        </div>
+        <div class="rec-body">${suggestion}</div>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  // Section 3: Content
+  const content = recData.content || [];
+  if (content.length > 0) {
+    html += `<div style="grid-column:1/-1"><div class="rec-section-title">📸 ${isZh ? '內容素材推薦' : '콘텐츠 소재 추천'}</div>`;
+    content.forEach(c => {
+      const title = isZh ? c.title_zh : c.title_ko;
+      const desc = isZh ? (c.description_zh || c.description_ko) : c.description_ko;
+      const typeName = isZh ? c.type_zh : c.type_ko;
+      const tags = (c.hashtags || []).map(t => `<span class="tag">${t}</span>`).join(' ');
+      html += `<div class="rec-card">
+        <div class="rec-head">
+          <div class="rec-title">${c.type_icon} [${typeName}] ${title}</div>
+          <div class="rec-meta">${c.news_date || ''}</div>
+        </div>
+        <div class="rec-body">${desc}</div>
+        <div class="card-tags" style="margin-top:6px">${tags}</div>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  if (!html) {
+    html = `<div class="empty-state" style="grid-column:1/-1">
+      <div class="icon">⭐</div>
+      <p>${isZh ? '尚無推薦資料' : '아직 추천 데이터가 없습니다'}</p>
+    </div>`;
+  }
+
+  grid.innerHTML = html;
+}
+
 // ===== INIT =====
 loadData();
+loadRecommendations();
 
 // Re-render on lang change for dynamic content
 const origSetLang = setLang;

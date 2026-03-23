@@ -1,0 +1,106 @@
+{
+  "projects": [
+    {
+      "id": "buyer_discovery",
+      "name_ko": "바이어 발굴 자동화",
+      "name_zh": "買家開發自動化",
+      "keywords": ["email", "outreach", "search", "web search", "smtp", "google sheets", "buyer", "lead", "crm", "automation agent"],
+      "scripts": ["buyer_daily_auto.py", "buyer_discovery.py", "buyer_outreach_email.py"],
+      "path": "D:/OzKiz_Global_Automation/11_buyer/",
+      "priority": "high"
+    },
+    {
+      "id": "hanyang_bot",
+      "name_ko": "한양봇 MVP",
+      "name_zh": "漢陽Bot MVP",
+      "keywords": ["chatbot", "web", "next.js", "vercel", "faq", "education", "university", "agent sdk", "conversation"],
+      "scripts": ["weekly_report.py"],
+      "path": "D:/hanyang-smart-auto-bot/",
+      "priority": "high"
+    },
+    {
+      "id": "gnpl_dashboard",
+      "name_ko": "GNPL 대시보드",
+      "name_zh": "GNPL 儀表板",
+      "keywords": ["dashboard", "chart", "notion", "visualization", "kpi", "data", "react", "typescript"],
+      "scripts": [],
+      "path": "D:/gnpl-dashboard/",
+      "priority": "high"
+    },
+    {
+      "id": "instagram_automation",
+      "name_ko": "인스타 자동화",
+      "name_zh": "Instagram 自動化",
+      "keywords": ["content", "sns", "instagram", "image", "carousel", "social media", "post", "schedule", "canva"],
+      "scripts": [],
+      "path": "D:/OzKiz_Global_Automation/16_Instagram/",
+      "priority": "medium"
+    },
+    {
+      "id": "kndli_website",
+      "name_ko": "kndli.com 웹사이트",
+      "name_zh": "kndli.com 網站",
+      "keywords": ["web", "form", "landing", "seo", "google", "vercel", "apps script", "seminar"],
+      "scripts": [],
+      "path": "D:/kndli-website-new/",
+      "priority": "medium"
+    },
+    {
+      "id": "certificate_origin",
+      "name_ko": "원산지증명서 자동화",
+      "name_zh": "原產地證明自動化",
+      "keywords": ["document", "pdf", "docx", "export", "certificate", "fta", "trade"],
+      "scripts": ["generate_cert.js"],
+      "path": "D:/OzKiz_Global_Automation/09_CertificateOfOrigin/",
+      "priority": "medium"
+    },
+    {
+      "id": "bella_ai_landing",
+      "name_ko": "bella-ai 랜딩페이지",
+      "name_zh": "bella-ai 著陸頁",
+      "keywords": ["landing", "portfolio", "consulting", "seminar", "case study", "branding"],
+      "scripts": [],
+      "path": "D:/bella-ai/",
+      "priority": "medium"
+    },
+    {
+      "id": "obsidian_knowledge",
+      "name_ko": "Obsidian 지식자산",
+      "name_zh": "Obsidian 知識資產",
+      "keywords": ["knowledge", "tag", "sync", "obsidian", "memory", "note", "markdown", "dashboard"],
+      "scripts": ["sync_claude_to_obsidian.py", "auto_tagger.py", "generate_dashboard.py"],
+      "path": "D:/Obsidian_mcp_GPETers/",
+      "priority": "medium"
+    },
+    {
+      "id": "amazon_data",
+      "name_ko": "Amazon 데이터 통합",
+      "name_zh": "Amazon 數據整合",
+      "keywords": ["amazon", "ads", "roas", "acos", "inventory", "ecommerce", "marketplace"],
+      "scripts": [],
+      "path": "D:/OzKiz_Global_Automation/15.Amazon/",
+      "priority": "medium"
+    },
+    {
+      "id": "order_automation",
+      "name_ko": "주문/발주 자동화",
+      "name_zh": "訂單/採購自動化",
+      "keywords": ["order", "delivery", "whatsapp", "line", "ezadmin", "email fetch", "invoice"],
+      "scripts": ["auto_deliver.py", "email_fetch_order.py", "ezadmin_order.py", "line_download_and_forward.py"],
+      "path": "D:/OzKiz_Global_Automation/",
+      "priority": "high"
+    }
+  ],
+  "seminar_topics": [
+    "AI 업무 자동화",
+    "비개발자 AI 활용",
+    "Claude Code 실전",
+    "AI 에이전트 구축",
+    "자동화 설계 방법론"
+  ],
+  "content_channels": [
+    {"platform": "instagram", "account": "ozkizglobal", "focus": "자동화 사례, AI 팁"},
+    {"platform": "blog", "focus": "AI 트렌드 분석, 튜토리얼"},
+    {"platform": "seminar", "focus": "실습형 교육"}
+  ]
+}
