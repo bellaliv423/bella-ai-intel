@@ -210,7 +210,7 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     }
   ],
-  "last_updated": "2026-03-25T09:05:17.211821+09:00",
+  "last_updated": "2026-03-25T16:00:02.813553+09:00",
   "stats": {
     "total_items": 13,
     "categories": {
@@ -218,6 +218,6 @@
       "claude_release": 9,
       "claude_api": 3
     },
-    "last_collection": "2026-03-25 09:05"
+    "last_collection": "2026-03-25 16:00"
   }
 }
