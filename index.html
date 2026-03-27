@@ -888,10 +888,41 @@ function renderCards() {
 
   grid.innerHTML = filtered.map(item => {
     const meta = CATEGORY_META[item.category] || { ko: 'etc', zh: 'etc', en: 'etc', icon: '📋' };
-    const summary = lang === 'en' ? (item.summary_en || item.summary_ko) : lang === 'zh' ? (item.summary_zh || item.summary_en || item.summary_ko) : item.summary_ko;
+
+    // Determine if content is English-only (Reddit, Anthropic News, Changelog)
+    const isEnglishSource = item.source && (
+      item.source.includes('Reddit') ||
+      item.source.includes('Anthropic News') ||
+      item.source.includes('Changelog')
+    );
+    const hasTranslation = lang === 'zh' ? !!item.summary_zh : lang === 'ko' ? (item.summary_ko && item.summary_ko !== item.summary_en) : true;
+
+    // Choose summary based on language + availability
+    let summary = '';
+    if (lang === 'en') {
+      summary = item.summary_en || item.summary_ko || '';
+    } else if (lang === 'zh') {
+      summary = item.summary_zh || item.summary_en || item.summary_ko || '';
+    } else {
+      summary = (item.summary_ko && item.summary_ko !== item.summary_en) ? item.summary_ko : (item.summary_en || item.summary_ko || '');
+    }
+
     const tags = (item.hashtags || []).map(t => `<span class="tag">${t}</span>`).join('');
-    const isReddit = item.source && item.source.includes('Reddit');
-    const srcBadge = isReddit ? '<span class="tag" style="background:#ff450020;color:#ff4500;font-size:0.7rem">Reddit</span> ' : '';
+
+    // Source badge
+    let srcBadge = '';
+    if (item.source && item.source.includes('Reddit')) {
+      srcBadge = '<span class="tag" style="background:#ff450020;color:#ff4500;font-size:0.7rem">Reddit</span> ';
+    } else if (item.source && item.source.includes('Anthropic News')) {
+      srcBadge = '<span class="tag" style="background:#d9775720;color:#d97757;font-size:0.7rem">Anthropic</span> ';
+    } else if (item.source && item.source.includes('Changelog')) {
+      srcBadge = '<span class="tag" style="background:#5b8dd920;color:#5b8dd9;font-size:0.7rem">Changelog</span> ';
+    }
+
+    // Language notice for English-only content in KO/ZH mode
+    const langNotice = (isEnglishSource && !hasTranslation && lang !== 'en')
+      ? `<div style="font-size:0.7rem;color:var(--gray-500);margin-top:4px;font-style:italic">${lang === 'ko' ? '📝 영문 원문 (English source)' : '📝 英文原文 (English source)'}</div>`
+      : '';
 
     return `<article class="card" data-category="${item.category}" data-date="${item.date}">
       <div class="card-header">
@@ -900,6 +931,7 @@ function renderCards() {
       </div>
       <h3 class="card-title">${srcBadge}${item.title}</h3>
       <p class="card-summary">${summary || ''}</p>
+      ${langNotice}
       <div class="card-tags">${tags}</div>
       <div class="card-actions">
         <button class="action-btn" onclick="copyCard('${encodeURIComponent(item.title)}', '${encodeURIComponent(summary || '')}')">
