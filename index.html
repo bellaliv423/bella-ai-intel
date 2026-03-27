@@ -52,15 +52,25 @@
   a { color: var(--primary); text-decoration: none; }
   a:hover { color: var(--primary-dark); }
 
-  /* Language System */
+  /* Language System - KO/ZH/EN */
   .lang-ko { display: inline; }
   .lang-zh { display: none; }
+  .lang-en { display: none; }
   .lang-ko-block { display: block; }
   .lang-zh-block { display: none; }
+  .lang-en-block { display: none; }
   body.zh .lang-ko { display: none; }
   body.zh .lang-zh { display: inline; }
+  body.zh .lang-en { display: none; }
   body.zh .lang-ko-block { display: none; }
   body.zh .lang-zh-block { display: block; }
+  body.zh .lang-en-block { display: none; }
+  body.en .lang-ko { display: none; }
+  body.en .lang-zh { display: none; }
+  body.en .lang-en { display: inline; }
+  body.en .lang-ko-block { display: none; }
+  body.en .lang-zh-block { display: none; }
+  body.en .lang-en-block { display: block; }
 
   /* ===== HEADER ===== */
   .header {
@@ -609,6 +619,7 @@
     <div class="header-right">
       <button class="lang-btn active" onclick="setLang('ko')" id="btn-ko">KO</button>
       <button class="lang-btn" onclick="setLang('zh')" id="btn-zh">中文</button>
+      <button class="lang-btn" onclick="setLang('en')" id="btn-en">EN</button>
       <a class="header-link" href="https://bellaliv423.github.io/bella-ai/" target="_blank">BELLA AI</a>
       <a class="header-link" href="https://github.com/bellaliv423/bella-ai-intel" target="_blank">GitHub</a>
       <a class="header-link" href="https://claude.ai" target="_blank">Claude</a>
@@ -623,21 +634,25 @@
       <div class="status-dot"></div>
       <span class="lang-ko">자동 수집 활성</span>
       <span class="lang-zh">自動收集啟用中</span>
+      <span class="lang-en">Auto-collect Active</span>
     </div>
     <div class="status-item">
       <span class="lang-ko">마지막 수집:</span>
       <span class="lang-zh">最後收集：</span>
+      <span class="lang-en">Last collected:</span>
       <strong id="last-updated">--</strong>
     </div>
     <div class="status-item">
       <span class="status-badge" id="total-count">0</span>
       <span class="lang-ko">건 수집</span>
       <span class="lang-zh">筆資料</span>
+      <span class="lang-en">collected</span>
     </div>
     <div class="status-item">
       <button class="action-btn" onclick="shareLink()">
         <span class="lang-ko">공유 링크 복사</span>
         <span class="lang-zh">複製分享連結</span>
+        <span class="lang-en">Copy share link</span>
       </button>
     </div>
   </div>
@@ -647,11 +662,10 @@
 <div class="filters">
   <div class="filter-row">
     <button class="filter-btn active" data-cat="all" onclick="filterCategory('all', this)">
-      <span class="lang-ko">전체</span>
-      <span class="lang-zh">全部</span>
+      <span class="lang-ko">전체</span><span class="lang-zh">全部</span><span class="lang-en">All</span>
     </button>
     <button class="filter-btn" data-cat="claude_release" onclick="filterCategory('claude_release', this)">
-      🚀 <span class="lang-ko">Claude 릴리즈</span><span class="lang-zh">Claude 發布</span>
+      🚀 <span class="lang-ko">Claude 릴리즈</span><span class="lang-zh">Claude 發布</span><span class="lang-en">Claude Release</span>
     </button>
     <button class="filter-btn" data-cat="claude_code" onclick="filterCategory('claude_code', this)">
       💻 Claude Code
@@ -660,16 +674,16 @@
       🔌 API/SDK
     </button>
     <button class="filter-btn" data-cat="ai_trend" onclick="filterCategory('ai_trend', this)">
-      📈 <span class="lang-ko">AI 트렌드</span><span class="lang-zh">AI 趨勢</span>
+      📈 <span class="lang-ko">AI 트렌드</span><span class="lang-zh">AI 趨勢</span><span class="lang-en">AI Trend</span>
     </button>
     <button class="filter-btn" data-cat="automation" onclick="filterCategory('automation', this)">
-      ⚡ <span class="lang-ko">자동화</span><span class="lang-zh">自動化</span>
+      ⚡ <span class="lang-ko">자동화</span><span class="lang-zh">自動化</span><span class="lang-en">Automation</span>
     </button>
     <button class="filter-btn" data-cat="content_sns" onclick="filterCategory('content_sns', this)">
-      📱 <span class="lang-ko">콘텐츠</span><span class="lang-zh">內容</span>
+      📱 <span class="lang-ko">콘텐츠</span><span class="lang-zh">內容</span><span class="lang-en">Content</span>
     </button>
     <button class="filter-btn" data-cat="dreamteam" onclick="showDreamTeam(this)" style="border-color:var(--primary);color:var(--primary);font-weight:600">
-      ⭐ <span class="lang-ko">드림팀 추천</span><span class="lang-zh">夢幻團隊推薦</span>
+      ⭐ <span class="lang-ko">드림팀 추천</span><span class="lang-zh">夢幻團隊推薦</span><span class="lang-en">Dream Team</span>
     </button>
 
     <div class="search-box">
@@ -678,7 +692,7 @@
 
     <div class="time-filter">
       <button class="time-btn active" data-time="all" onclick="filterTime('all', this)">
-        <span class="lang-ko">전체</span><span class="lang-zh">全部</span>
+        <span class="lang-ko">전체</span><span class="lang-zh">全部</span><span class="lang-en">All</span>
       </button>
       <button class="time-btn" data-time="7" onclick="filterTime('7', this)">7D</button>
       <button class="time-btn" data-time="14" onclick="filterTime('14', this)">14D</button>
@@ -698,6 +712,7 @@
       <div class="icon">📡</div>
       <p class="lang-ko">데이터를 불러오는 중...</p>
       <p class="lang-zh">正在載入資料...</p>
+      <p class="lang-en">Loading data...</p>
     </div>
   </div>
 </main>
@@ -708,6 +723,7 @@
     <div>
       <span class="lang-ko">BELLA AI Intel Dashboard | AI 드림팀 자동 수집</span>
       <span class="lang-zh">BELLA AI Intel Dashboard | AI 夢幻團隊自動收集</span>
+      <span class="lang-en">BELLA AI Intel Dashboard | AI Dream Team Auto-Collect</span>
     </div>
     <div class="footer-links">
       <a href="https://bellaliv423.github.io/bella-ai/" target="_blank">BELLA AI</a>
@@ -726,10 +742,14 @@
 <script>
 // ===== LANGUAGE =====
 function setLang(lang) {
-  document.body.classList.toggle('zh', lang === 'zh');
+  document.body.classList.remove('zh', 'en');
+  if (lang === 'zh') document.body.classList.add('zh');
+  if (lang === 'en') document.body.classList.add('en');
   document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
   document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
-  document.getElementById('search-input').placeholder = lang === 'ko' ? '검색... (제목, 해시태그)' : '搜尋... (標題, 標籤)';
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  const placeholders = { ko: '검색... (제목, 해시태그)', zh: '搜尋... (標題, 標籤)', en: 'Search... (title, hashtag)' };
+  document.getElementById('search-input').placeholder = placeholders[lang] || placeholders.ko;
   localStorage.setItem('bella-intel-lang', lang);
 }
 
@@ -760,13 +780,19 @@ let currentTimeDays = 'all';
 let searchQuery = '';
 
 const CATEGORY_META = {
-  claude_release: { ko: 'Claude 릴리즈', zh: 'Claude 發布', icon: '🚀' },
-  claude_code: { ko: 'Claude Code', zh: 'Claude Code', icon: '💻' },
-  claude_api: { ko: 'API/SDK', zh: 'API/SDK', icon: '🔌' },
-  ai_trend: { ko: 'AI 트렌드', zh: 'AI 趨勢', icon: '📈' },
-  automation: { ko: '자동화', zh: '自動化', icon: '⚡' },
-  content_sns: { ko: '콘텐츠/SNS', zh: '內容/社群', icon: '📱' },
+  claude_release: { ko: 'Claude 릴리즈', zh: 'Claude 發布', en: 'Claude Release', icon: '🚀' },
+  claude_code: { ko: 'Claude Code', zh: 'Claude Code', en: 'Claude Code', icon: '💻' },
+  claude_api: { ko: 'API/SDK', zh: 'API/SDK', en: 'API/SDK', icon: '🔌' },
+  ai_trend: { ko: 'AI 트렌드', zh: 'AI 趨勢', en: 'AI Trend', icon: '📈' },
+  automation: { ko: '자동화', zh: '自動化', en: 'Automation', icon: '⚡' },
+  content_sns: { ko: '콘텐츠/SNS', zh: '內容/社群', en: 'Content/SNS', icon: '📱' },
 };
+
+function getLang() {
+  if (document.body.classList.contains('zh')) return 'zh';
+  if (document.body.classList.contains('en')) return 'en';
+  return 'ko';
+}
 
 async function loadData() {
   try {
@@ -803,19 +829,20 @@ function countCategories() {
 // ===== RENDER STATS =====
 function renderStats(stats) {
   const cats = stats?.categories || countCategories();
-  const isZh = document.body.classList.contains('zh');
+  const lang = getLang();
+  const totalLabels = { ko: '총 수집', zh: '總收集數', en: 'Total' };
   let html = '';
 
   html += `<div class="stat-card">
     <div class="stat-number">${stats?.total_items || allItems.length}</div>
-    <div class="stat-label">${isZh ? '總收集數' : '총 수집'}</div>
+    <div class="stat-label">${totalLabels[lang]}</div>
   </div>`;
 
   for (const [cat, count] of Object.entries(cats)) {
-    const meta = CATEGORY_META[cat] || { ko: cat, zh: cat, icon: '📋' };
+    const meta = CATEGORY_META[cat] || { ko: cat, zh: cat, en: cat, icon: '📋' };
     html += `<div class="stat-card">
       <div class="stat-number">${count}</div>
-      <div class="stat-label">${meta.icon} ${isZh ? meta.zh : meta.ko}</div>
+      <div class="stat-label">${meta.icon} ${meta[lang] || meta.ko}</div>
     </div>`;
   }
 
@@ -825,37 +852,44 @@ function renderStats(stats) {
 // ===== RENDER CARDS =====
 function renderCards() {
   const filtered = filterItems();
-  const isZh = document.body.classList.contains('zh');
+  const lang = getLang();
   const grid = document.getElementById('cards-grid');
 
+  const emptyMsg = { ko: '조건에 맞는 데이터가 없습니다', zh: '沒有找到符合條件的資料', en: 'No matching data found' };
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="empty-state">
       <div class="icon">🔍</div>
-      <p>${isZh ? '沒有找到符合條件的資料' : '조건에 맞는 데이터가 없습니다'}</p>
+      <p>${emptyMsg[lang]}</p>
     </div>`;
     return;
   }
 
+  const copyLabel = { ko: '📋 복사', zh: '📋 複製', en: '📋 Copy' };
+  const linkLabel = { ko: '🔗 원문', zh: '🔗 原文', en: '🔗 Source' };
+  const shareLabel = { ko: '📤 공유', zh: '📤 分享', en: '📤 Share' };
+
   grid.innerHTML = filtered.map(item => {
-    const meta = CATEGORY_META[item.category] || { ko: 'etc', zh: 'etc', icon: '📋' };
-    const summary = isZh ? (item.summary_zh || item.summary_ko) : item.summary_ko;
+    const meta = CATEGORY_META[item.category] || { ko: 'etc', zh: 'etc', en: 'etc', icon: '📋' };
+    const summary = lang === 'zh' ? (item.summary_zh || item.summary_ko) : item.summary_ko;
     const tags = (item.hashtags || []).map(t => `<span class="tag">${t}</span>`).join('');
+    const isReddit = item.source && item.source.includes('Reddit');
+    const srcBadge = isReddit ? '<span class="tag" style="background:#ff450020;color:#ff4500;font-size:0.7rem">Reddit</span> ' : '';
 
     return `<article class="card" data-category="${item.category}" data-date="${item.date}">
       <div class="card-header">
-        <span class="card-category cat-${item.category}">${meta.icon} ${isZh ? meta.zh : meta.ko}</span>
+        <span class="card-category cat-${item.category}">${meta.icon} ${meta[lang] || meta.ko}</span>
         <span class="card-date">${item.date}</span>
       </div>
-      <h3 class="card-title">${item.title}</h3>
+      <h3 class="card-title">${srcBadge}${item.title}</h3>
       <p class="card-summary">${summary || ''}</p>
       <div class="card-tags">${tags}</div>
       <div class="card-actions">
         <button class="action-btn" onclick="copyCard('${encodeURIComponent(item.title)}', '${encodeURIComponent(summary || '')}')">
-          ${isZh ? '📋 複製' : '📋 복사'}
+          ${copyLabel[lang]}
         </button>
-        ${item.url ? `<a class="action-btn" href="${item.url}" target="_blank">${isZh ? '🔗 原文' : '🔗 원문'}</a>` : ''}
+        ${item.url ? `<a class="action-btn" href="${item.url}" target="_blank">${linkLabel[lang]}</a>` : ''}
         <button class="action-btn" onclick="shareCard('${encodeURIComponent(item.title)}')">
-          ${isZh ? '📤 分享' : '📤 공유'}
+          ${shareLabel[lang]}
         </button>
       </div>
     </article>`;
@@ -929,11 +963,11 @@ function shareCard(title) {
 }
 
 function shareLink() {
-  const isZh = document.body.classList.contains('zh');
-  const url = 'https://bellaliv423.github.io/bella-ai-intel/' + (isZh ? '?lang=zh' : '');
-  navigator.clipboard.writeText(url).then(() =>
-    showToast(isZh ? '連結已複製！' : '링크 복사 완료!')
-  );
+  const lang = getLang();
+  const langParam = lang !== 'ko' ? `?lang=${lang}` : '';
+  const url = 'https://bellaliv423.github.io/bella-ai-intel/' + langParam;
+  const msgs = { ko: '링크 복사 완료!', zh: '連結已複製！', en: 'Link copied!' };
+  navigator.clipboard.writeText(url).then(() => showToast(msgs[lang]));
 }
 
 function showToast(msg) {
@@ -1060,17 +1094,20 @@ async function loadRecommendations() {
 
 function showDreamTeam(btn) {
   // Toggle active state
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
   currentCategory = 'dreamteam';
 
   const grid = document.getElementById('cards-grid');
-  const isZh = document.body.classList.contains('zh');
+  const lang = getLang();
 
+  const loadingMsg = { ko: '분석 데이터 로딩 중... analyzer.py 실행 후 확인하세요', zh: '分析資料載入中... 請先執行 analyzer.py', en: 'Loading analysis data... Run analyzer.py first' };
   if (!recData) {
     grid.innerHTML = `<div class="empty-state">
       <div class="icon">⭐</div>
-      <p>${isZh ? '分析資料載入中... 請先執行 analyzer.py' : '분석 데이터 로딩 중... analyzer.py 실행 후 확인하세요'}</p>
+      <p>${loadingMsg[lang]}</p>
     </div>`;
     return;
   }
@@ -1079,12 +1116,15 @@ function showDreamTeam(btn) {
 
   // Section 1: Features
   const features = recData.features || [];
+  const sec1Title = { ko: '적용 가능 신기능 Top ', zh: '適用新功能 Top ', en: 'Applicable Features Top ' };
   if (features.length > 0) {
-    html += `<div style="grid-column:1/-1"><div class="rec-section-title">🎯 ${isZh ? '適用新功能 Top ' + features.length : '적용 가능 신기능 Top ' + features.length}</div>`;
+    html += `<div style="grid-column:1/-1"><div class="rec-section-title">🎯 ${sec1Title[lang] + features.length}</div>`;
     features.forEach((f, i) => {
-      const suggestion = isZh ? f.suggestion_zh : f.suggestion_ko;
-      const projName = isZh ? f.project_name_zh : f.project_name_ko;
-      const impact = isZh ? f.impact_zh : f.impact_ko;
+      const suggestion = lang === 'zh' ? f.suggestion_zh : lang === 'en' ? (f.suggestion_zh || f.suggestion_ko) : f.suggestion_ko;
+      const projName = lang === 'zh' ? f.project_name_zh : f.project_name_ko;
+      const impact = lang === 'zh' ? f.impact_zh : f.impact_ko;
+      const diffLabel = lang === 'zh' ? (f.difficulty_zh || '') : lang === 'en' ? (f.difficulty_ko || '') : f.difficulty_ko;
+      const noteField = lang === 'zh' ? f.learning_note_zh : f.learning_note_ko;
       html += `<div class="rec-card">
         <div class="rec-head">
           <div class="rec-title">${i+1}. ${f.news_title}</div>
@@ -1093,11 +1133,11 @@ function showDreamTeam(btn) {
         <div class="rec-body">
           <span class="rec-project">${projName}</span>
           <span class="stars" style="margin-left:8px">${f.difficulty_stars}</span>
-          <span class="rec-meta" style="margin-left:4px">(${isZh ? (f.difficulty_zh || '') : f.difficulty_ko})</span>
+          <span class="rec-meta" style="margin-left:4px">(${diffLabel})</span>
           <span style="margin-left:8px">${impact}</span>
         </div>
         <div class="rec-body">${suggestion}</div>
-        ${isZh ? (f.learning_note_zh ? `<div class="learning-note">${f.learning_note_zh}</div>` : '') : (f.learning_note_ko ? `<div class="learning-note">${f.learning_note_ko}</div>` : '')}
+        ${noteField ? `<div class="learning-note">${noteField}</div>` : ''}
       </div>`;
     });
     html += '</div>';
@@ -1105,11 +1145,12 @@ function showDreamTeam(btn) {
 
   // Section 2: Upgrades
   const upgrades = recData.upgrades || [];
+  const sec2Title = { ko: '스크립트 업그레이드 포인트', zh: '腳本升級點', en: 'Script Upgrade Points' };
   if (upgrades.length > 0) {
-    html += `<div style="grid-column:1/-1"><div class="rec-section-title">🔧 ${isZh ? '腳本升級點' : '스크립트 업그레이드 포인트'}</div>`;
+    html += `<div style="grid-column:1/-1"><div class="rec-section-title">🔧 ${sec2Title[lang]}</div>`;
     upgrades.forEach(u => {
-      const projName = isZh ? u.project_name_zh : u.project_name_ko;
-      const suggestion = isZh ? u.upgrade_suggestion_zh : u.upgrade_suggestion_ko;
+      const projName = lang === 'zh' ? u.project_name_zh : u.project_name_ko;
+      const suggestion = lang === 'zh' ? u.upgrade_suggestion_zh : u.upgrade_suggestion_ko;
       html += `<div class="rec-card">
         <div class="rec-head">
           <div class="rec-title">⚡ ${u.script_name}</div>
@@ -1126,12 +1167,13 @@ function showDreamTeam(btn) {
 
   // Section 3: Content
   const content = recData.content || [];
+  const sec3Title = { ko: '콘텐츠 소재 추천', zh: '內容素材推薦', en: 'Content Recommendations' };
   if (content.length > 0) {
-    html += `<div style="grid-column:1/-1"><div class="rec-section-title">📸 ${isZh ? '內容素材推薦' : '콘텐츠 소재 추천'}</div>`;
+    html += `<div style="grid-column:1/-1"><div class="rec-section-title">📸 ${sec3Title[lang]}</div>`;
     content.forEach(c => {
-      const title = isZh ? c.title_zh : c.title_ko;
-      const desc = isZh ? (c.description_zh || c.description_ko) : c.description_ko;
-      const typeName = isZh ? c.type_zh : c.type_ko;
+      const title = lang === 'zh' ? c.title_zh : c.title_ko;
+      const desc = lang === 'zh' ? (c.description_zh || c.description_ko) : c.description_ko;
+      const typeName = lang === 'zh' ? c.type_zh : c.type_ko;
       const tags = (c.hashtags || []).map(t => `<span class="tag">${t}</span>`).join(' ');
       html += `<div class="rec-card">
         <div class="rec-head">
@@ -1164,7 +1206,12 @@ const origSetLang = setLang;
 setLang = function(lang) {
   origSetLang(lang);
   renderStats({ total_items: allItems.length, categories: countCategories() });
-  renderCards();
+  // If dream team view is active, re-render dream team instead of cards
+  if (currentCategory === 'dreamteam') {
+    showDreamTeam(null);
+  } else {
+    renderCards();
+  }
 };
 </script>
 
