@@ -1,9 +1,9 @@
 {
   "features": [
     {
-      "news_title": "무료 사용자 Memory 기능 개방",
-      "news_date": "2026-03-02",
-      "news_category": "claude_release",
+      "news_title": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
+      "news_date": "2026-03-27",
+      "news_category": "claude_code",
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
@@ -13,51 +13,57 @@
       "difficulty": 1,
       "difficulty_stars": "⭐",
       "difficulty_ko": "쉬움",
+      "impact_ko": "높음 🔥",
+      "impact_zh": "高 🔥",
+      "suggestion_ko": "'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' → Obsidian 지식자산 코드 품질 향상에 활용 가능!",
+      "suggestion_zh": "'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' → 可應用於 Obsidian 知識資產",
+      "learning_note_ko": "💡 Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails\n   → This might be useful for some of you here. I've been using Claude Code heavily a...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails\n   → \n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
+      "news_title": "Substantial Claude achievement unlocked",
+      "news_date": "2026-03-27",
+      "news_category": "claude_release",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
+      "matched_keywords": [
+        "note"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
       "impact_ko": "보통 💡",
       "impact_zh": "一般 💡",
-      "suggestion_ko": "'무료 사용자 Memory 기능 개방' → Obsidian 지식자산 워크플로우 개선에 적용 가능!",
-      "suggestion_zh": "'무료 사용자 Memory 기능 개방' → 可應用於 Obsidian 知識資產",
-      "learning_note_ko": "💡 무료 사용자 Memory 기능 개방\n   → 채팅 기록 기반 Memory가 무료 사용자 포함 모든 Claude 사용자에게 개방.\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
+      "suggestion_ko": "'Substantial Claude achievement unlocked' → Obsidian 지식자산 워크플로우 개선에 적용 가능!",
+      "suggestion_zh": "'Substantial Claude achievement unlocked' → 可應用於 Obsidian 知識資產",
+      "learning_note_ko": "💡 Substantial Claude achievement unlocked\n   → TLDR; Claude ingested the entirety of my legacy notes, refactored them completel...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Substantial Claude achievement unlocked\n   → \n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
+      "difficulty_zh": "簡單",
       "score": 1
     },
     {
-      "news_title": "Claude Agent SDK 출시 (Python/TypeScript)",
-      "news_date": "2026-03-01",
-      "news_category": "claude_api",
-      "project_id": "hanyang_bot",
-      "project_name_ko": "한양봇 MVP",
-      "project_name_zh": "漢陽Bot MVP",
+      "news_title": "Exclusive: Anthropic acknowledges testing new AI model representing ‘step change’ in capabilities, after accidental data leak reveals its existence",
+      "news_date": "2026-03-27",
+      "news_category": "claude_release",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
       "matched_keywords": [
-        "agent sdk"
+        "knowledge"
       ],
-      "difficulty": 3,
-      "difficulty_stars": "⭐⭐⭐",
-      "difficulty_ko": "어려움",
-      "impact_ko": "높음 🔥",
-      "impact_zh": "高 🔥",
-      "suggestion_ko": "'Claude Agent SDK 출시 (Python/TypeScript)' → 한양봇 MVP에 API 연동하면 기능 확장 가능!",
-      "suggestion_zh": "'Claude Agent SDK 출시 (Python/TypeScript)' → 可應用於 漢陽Bot MVP",
-      "learning_note_ko": "💡 Claude Agent SDK 출시 (Python/TypeScript)\n   → AI 에이전트 구축용 공식 SDK. query() 함수로 에이전틱 루프, 도구 자동 실행, 스트리밍 지원. permissionMode로 권한 제...\n   → 벨라님 프로젝트 '한양봇 MVP'에 적용하면 효율 UP!",
-      "score": 1
-    },
-    {
-      "news_title": "공식 SDK 7개 언어 지원",
-      "news_date": "2026-03-01",
-      "news_category": "claude_api",
-      "project_id": "gnpl_dashboard",
-      "project_name_ko": "GNPL 대시보드",
-      "project_name_zh": "GNPL 儀表板",
-      "matched_keywords": [
-        "typescript"
-      ],
-      "difficulty": 3,
-      "difficulty_stars": "⭐⭐⭐",
-      "difficulty_ko": "어려움",
-      "impact_ko": "높음 🔥",
-      "impact_zh": "高 🔥",
-      "suggestion_ko": "'공식 SDK 7개 언어 지원' → GNPL 대시보드에 API 연동하면 기능 확장 가능!",
-      "suggestion_zh": "'공식 SDK 7개 언어 지원' → 可應用於 GNPL 儀表板",
-      "learning_note_ko": "💡 공식 SDK 7개 언어 지원\n   → Python, TypeScript, Java, Go, Ruby, C#, PHP 공식 SDK. Bedrock/Vertex/Foundry 멀티플랫폼...\n   → 벨라님 프로젝트 'GNPL 대시보드'에 적용하면 효율 UP!",
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Exclusive: Anthropic acknowledges testing new AI model representing ‘step change’ in capabilities, after accidental data leak reveals its existence' → Obsidian 지식자산 워크플로우 개선에 적용 가능!",
+      "suggestion_zh": "'Exclusive: Anthropic acknowledges testing new AI model representing ‘step change’ in capabilities, after accidental data leak reveals its existence' → 可應用於 Obsidian 知識資產",
+      "learning_note_ko": "💡 Exclusive: Anthropic acknowledges testing new AI model representing ‘step change’ in capabilities, after accidental data leak reveals its existence\n   → \n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Exclusive: Anthropic acknowledges testing new AI model representing ‘step change’ in capabilities, after accidental data leak reveals its existence\n   → \n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
+      "difficulty_zh": "簡單",
       "score": 1
     }
   ],
@@ -67,10 +73,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "무료 사용자 Memory 기능 개방",
-      "trigger_date": "2026-03-02",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → '무료 사용자 Memory 기능 개방' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 '무료 사용자 Memory 기능 개방' 可提升效能",
+      "trigger_news": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
+      "trigger_date": "2026-03-27",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -79,10 +85,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "무료 사용자 Memory 기능 개방",
-      "trigger_date": "2026-03-02",
-      "upgrade_suggestion_ko": "auto_tagger.py → '무료 사용자 Memory 기능 개방' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 '무료 사용자 Memory 기능 개방' 可提升效能",
+      "trigger_news": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
+      "trigger_date": "2026-03-27",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -91,99 +97,104 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "무료 사용자 Memory 기능 개방",
-      "trigger_date": "2026-03-02",
-      "upgrade_suggestion_ko": "generate_dashboard.py → '무료 사용자 Memory 기능 개방' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 '무료 사용자 Memory 기능 개방' 可提升效能",
+      "trigger_news": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
+      "trigger_date": "2026-03-27",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
   ],
   "content": [
     {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Claude AI is devouring 5hr Usage like Bermuda Triangle.' 핵심 정리 카드",
+      "title_zh": "'Claude AI is devouring 5hr Usage like Bermuda Triangle.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Claude AI is devouring 5hr Usage like Bermuda Triangle. 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-03-27"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-03 Claude AI is devouring 5hr Usage like Bermuda Triangle. 총정리",
+      "title_zh": "2026年 2026-03 Claude AI is devouring 5hr Usage like Bermuda Triangle. 總整理",
+      "description_ko": "Claude AI is devouring 5hr Usage like Bermuda Triangle. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-03-27"
+    },
+    {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Code Review 자동화 (Teams/Enterprise)' 실습 세션",
-      "title_zh": "'Code Review 자동화 (Teams/Enterprise)' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Code Review 자동화 (Teams/Enterprise) 체험 + Q&A",
+      "title_ko": "'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 실습 세션",
+      "title_zh": "'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails 체험 + Q&A",
       "hashtags": [
+        "#AIAgent",
+        "#AIMemory",
         "#ClaudeCode",
-        "#CodeReview",
-        "#코딩자동화",
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-03-20"
+      "news_date": "2026-03-27"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-03 Code Review 자동화 (Teams/Enterprise) 총정리",
-      "title_zh": "2026年 2026-03 Code Review 자동화 (Teams/Enterprise) 總整理",
-      "description_ko": "Code Review 자동화 (Teams/Enterprise) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-03 Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails 총정리",
+      "title_zh": "2026年 2026-03 Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails 總整理",
+      "description_ko": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
+        "#AIAgent",
+        "#AIMemory",
         "#ClaudeCode",
-        "#CodeReview",
-        "#코딩자동화",
+        "#MCP",
         "#AI블로그"
       ],
-      "news_date": "2026-03-20"
+      "news_date": "2026-03-27"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Cowork 모바일 제어 - 영구 스레드 (Pro/Max)' 핵심 정리 카드",
-      "title_zh": "'Cowork 모바일 제어 - 영구 스레드 (Pro/Max)' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Cowork 모바일 제어 - 영구 스레드 (Pro/Max) 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Substantial Claude achievement unlocked' 핵심 정리 카드",
+      "title_zh": "'Substantial Claude achievement unlocked' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Substantial Claude achievement unlocked 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#Anthropic",
         "#Claude",
-        "#Cowork",
+        "#Reddit",
+        "#ClaudeAI",
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-03-17"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-03 Cowork 모바일 제어 - 영구 스레드 (Pro/Max) 총정리",
-      "title_zh": "2026年 2026-03 Cowork 모바일 제어 - 영구 스레드 (Pro/Max) 總整理",
-      "description_ko": "Cowork 모바일 제어 - 영구 스레드 (Pro/Max) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#Cowork",
-        "#AI블로그"
-      ],
-      "news_date": "2026-03-17"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'3월 사용량 2배 프로모션 (비피크 시간대)' 핵심 정리 카드",
-      "title_zh": "'3월 사용량 2배 프로모션 (비피크 시간대)' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 3월 사용량 2배 프로모션 (비피크 시간대) 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-03-13"
+      "news_date": "2026-03-27"
     }
   ],
-  "last_analyzed": "2026-03-27T16:00:02.712347+09:00",
+  "last_analyzed": "2026-03-27T16:48:30.645267+09:00",
   "analyzed_date": "2026-03-27",
-  "analyzed_time": "16:00 KST"
+  "analyzed_time": "16:48 KST"
 }

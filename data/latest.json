@@ -1,6 +1,245 @@
 {
   "items": [
     {
+      "id": "1f1f6e04799b",
+      "title": "Claude AI is devouring 5hr Usage like Bermuda Triangle.",
+      "summary_ko": "I have started using the cloud code a week ago in Pro plan, at the start it was good, I was giving tasks for hours and it was doing all my prompts, no...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4dyb2/claude_ai_is_devouring_5hr_usage_like_bermuda/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:47.779324+09:00",
+      "reddit_score": 106
+    },
+    {
+      "id": "aad7543415bd",
+      "title": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
+      "summary_ko": "This might be useful for some of you here. I've been using Claude Code heavily and the thing that kept bugging me wasn't just the memory loss between ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#AIMemory",
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4gz18/built_an_mcp_server_that_turns_claude_code_into_a/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:47.779324+09:00",
+      "reddit_score": 79
+    },
+    {
+      "id": "14b012596088",
+      "title": "Substantial Claude achievement unlocked",
+      "summary_ko": "TLDR; Claude ingested the entirety of my legacy notes, refactored them completely, &amp; output a completely engineered second brain.\n\nA bit about me:...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4un2f/substantial_claude_achievement_unlocked/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:47.779324+09:00",
+      "reddit_score": 14
+    },
+    {
+      "id": "ad2feae6b98d",
+      "title": "How does Anthropic do QA so fast?",
+      "summary_ko": "I'm bamboozled by how quickly anthropic is adding new features to Claude.  I think we all are.  How do you think they are effectively testing these to...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4m14b/how_does_anthropic_do_qa_so_fast/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 72
+    },
+    {
+      "id": "a2502637ffcb",
+      "title": "Thinking of spending $100+ on Claude… convince me (or don’t), Anyone regret upgrading to Claude Max plan?",
+      "summary_ko": "I’ve been using Claude on the $20/month plan for a while now, and honestly it used to work pretty well for my needs.\n\nBut ever since the weekly limits...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4w618/thinking_of_spending_100_on_claude_convince_me_or/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 22
+    },
+    {
+      "id": "99956bccffcf",
+      "title": "Built an MCP server with Claude Code that gives Claude access to 4M+ real US court opinions",
+      "summary_ko": "Built this entirely with Claude Code, an MCP server that gives Claude access to real US case law instead of hallucinating citations.\n\nFree and open so...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4q60a/built_an_mcp_server_with_claude_code_that_gives/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 72
+    },
+    {
+      "id": "d3a17f178d08",
+      "title": "Hard data on Claude’s recent token inflation: How usage is being silently reduced",
+      "summary_ko": "**tl;dr;** I’ve been tracking token consumption across thousands of sessions. The data shows Anthropic is reducing tokens-per-usage (effectively nerfi...",
+      "summary_zh": "",
+      "category": "claude_api",
+      "hashtags": [
+        "#ClaudeAPI",
+        "#개발자도구",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4rreq/hard_data_on_claudes_recent_token_inflation_how/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:34.705825+09:00",
+      "reddit_score": 66
+    },
+    {
+      "id": "b67069469f1c",
+      "title": "Exclusive: Anthropic acknowledges testing new AI model representing ‘step change’ in capabilities, after accidental data leak reveals its existence",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4ucsu/exclusive_anthropic_acknowledges_testing_new_ai/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T16:45:34.705825+09:00",
+      "reddit_score": 328
+    },
+    {
+      "id": "b53b321fae00",
+      "title": "Running Claude Code fully offline on a MacBook — no API key, no cloud, 17s per task",
+      "summary_ko": "I wanted to share something I've been working on that might be useful for folks who want to use Claude Code without burning through API credits or sen...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s43b8w/running_claude_code_fully_offline_on_a_macbook_no/",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 471
+    },
+    {
+      "id": "98cc60752c68",
+      "title": "Giving Claude access to my MacBook / macOS",
+      "summary_ko": "Good idea or nah?",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 3679
+    },
+    {
+      "id": "c2dce8e31d9d",
+      "title": "Golden Gate Claude on the Rwandan genocide",
+      "summary_ko": "(Golden Gate Claude was a version Claude 3 Sonnet released by Anthropic, but it was weirdly obsessed Golden Gate Bridge)",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Sonnet",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s46md2/golden_gate_claude_on_the_rwandan_genocide/",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 448
+    },
+    {
+      "id": "b275bb61fe96",
+      "title": "I did NOT know what the fuss was about",
+      "summary_ko": "Sorry guys. I've been reading posts about all the bad usage rates that apparently started a few days ago and was flabbergasted. \n\nMy subscription seem...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s49c8u/i_did_not_know_what_the_fuss_was_about/",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-27T16:45:34.706823+09:00",
+      "reddit_score": 564
+    },
+    {
+      "id": "e2f30585c0ed",
+      "title": "25 years. Multiple specialists. Zero answers. One Claude conversation cracked it.",
+      "summary_ko": "My 62-year-old uncle in India:\n\n* Kidney failure (on dialysis 3x/week)\n* Diabetes\n* Hypertension\n* Stroke 6 years ago\n* Severe migraines ONLY when lyi...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s41fny/25_years_multiple_specialists_zero_answers_one/",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-27T16:45:34.705825+09:00",
+      "reddit_score": 4342
+    },
+    {
       "id": "eb0c9a0dd5ef",
       "title": "Code Review 자동화 (Teams/Enterprise)",
       "summary_ko": "PR 자동 리뷰 - 다중 에이전트가 논리 오류/보안 취약점/회귀 감지. REVIEW.md로 커스텀 가능. 평균 $15-25/리뷰.",
@@ -210,14 +449,15 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     }
   ],
-  "last_updated": "2026-03-27T16:00:02.327065+09:00",
+  "last_updated": "2026-03-27T16:45:47.779324+09:00",
   "stats": {
-    "total_items": 13,
+    "total_items": 26,
     "categories": {
-      "claude_code": 1,
-      "claude_release": 9,
-      "claude_api": 3
+      "claude_release": 17,
+      "claude_code": 4,
+      "claude_api": 4,
+      "ai_trend": 1
     },
-    "last_collection": "2026-03-27 16:00"
+    "last_collection": "2026-03-27 16:45"
   }
 }

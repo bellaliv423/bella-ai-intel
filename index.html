@@ -714,6 +714,8 @@
       <a href="https://bellaliv423.github.io/bella-obsidian/" target="_blank">Obsidian</a>
       <a href="https://github.com/bellaliv423/bella-ai-intel" target="_blank">GitHub</a>
       <a href="https://claude.ai" target="_blank">Claude AI</a>
+      <a href="https://www.reddit.com/r/ClaudeAI/" target="_blank" style="color:#ff4500">Reddit r/ClaudeAI</a>
+      <a href="https://www.linkedin.com/showcase/claude/posts/?feedView=all" target="_blank" style="color:#0a66c2">LinkedIn Claude</a>
     </div>
   </div>
 </footer>
@@ -1091,11 +1093,11 @@ function showDreamTeam(btn) {
         <div class="rec-body">
           <span class="rec-project">${projName}</span>
           <span class="stars" style="margin-left:8px">${f.difficulty_stars}</span>
-          <span class="rec-meta" style="margin-left:4px">(${isZh ? '' : f.difficulty_ko})</span>
+          <span class="rec-meta" style="margin-left:4px">(${isZh ? (f.difficulty_zh || '') : f.difficulty_ko})</span>
           <span style="margin-left:8px">${impact}</span>
         </div>
         <div class="rec-body">${suggestion}</div>
-        ${f.learning_note_ko ? `<div class="learning-note">${f.learning_note_ko}</div>` : ''}
+        ${isZh ? (f.learning_note_zh ? `<div class="learning-note">${f.learning_note_zh}</div>` : '') : (f.learning_note_ko ? `<div class="learning-note">${f.learning_note_ko}</div>` : '')}
       </div>`;
     });
     html += '</div>';

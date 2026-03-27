@@ -13,6 +13,8 @@ import os
 import sys
 import re
 import hashlib
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -21,6 +23,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import get_paths, CATEGORIES, SOURCES
 
 KST = timezone(timedelta(hours=9))
+
+# Fix Windows console encoding
+import io
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 
 def generate_id(title, date_str):
@@ -362,11 +370,90 @@ def collect_from_release_notes(data):
     return data
 
 
+def collect_from_reddit(data):
+    """Collect latest posts from r/ClaudeAI via Reddit JSON API"""
+    print("\n[Reddit r/ClaudeAI]")
+    url = "https://www.reddit.com/r/ClaudeAI/hot.json?limit=15"
+
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "BELLA-AI-Intel/1.0 (Knowledge Dashboard)"
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            reddit_data = json.loads(resp.read().decode("utf-8"))
+
+        posts = reddit_data.get("data", {}).get("children", [])
+        added = 0
+
+        for post in posts:
+            p = post.get("data", {})
+            title = p.get("title", "").strip()
+            if not title:
+                continue
+
+            # Skip pinned/stickied posts
+            if p.get("stickied"):
+                continue
+
+            score = p.get("score", 0)
+            if score < 5:
+                continue  # Skip low-engagement posts
+
+            created_utc = p.get("created_utc", 0)
+            post_date = datetime.fromtimestamp(created_utc, tz=KST).strftime("%Y-%m-%d")
+            permalink = f"https://www.reddit.com{p.get('permalink', '')}"
+            selftext = p.get("selftext", "")[:200]
+
+            category = auto_categorize(title, selftext)
+            hashtags = auto_hashtags(title, selftext, category)
+
+            item = {
+                "id": generate_id(title, post_date),
+                "title": title,
+                "summary_ko": selftext[:150] + "..." if len(selftext) > 150 else selftext,
+                "summary_zh": "",  # Reddit posts are in English
+                "category": category,
+                "hashtags": hashtags + ["#Reddit", "#ClaudeAI"],
+                "source": "Reddit r/ClaudeAI",
+                "url": permalink,
+                "date": post_date,
+                "collected_at": datetime.now(KST).isoformat(),
+                "reddit_score": score,
+            }
+
+            existing_ids = {i["id"] for i in data["items"]}
+            if item["id"] not in existing_ids:
+                data["items"].insert(0, item)
+                added += 1
+                print(f"  [+] {post_date} [score:{score}] {title[:60]}")
+
+        print(f"  [Reddit] {added} new posts added")
+
+    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as e:
+        print(f"  [Reddit] Error: {e}")
+    except Exception as e:
+        print(f"  [Reddit] Unexpected error: {e}")
+
+    # Sort by date descending
+    data["items"].sort(key=lambda x: x.get("date", ""), reverse=True)
+    return data
+
+
+def collect_from_linkedin_showcase():
+    """Note: LinkedIn requires authentication for API access.
+    This adds LinkedIn Claude Showcase as a reference source."""
+    print("\n[LinkedIn Claude Showcase]")
+    print("  [Info] LinkedIn API requires OAuth - added as reference link")
+    print("  [Info] URL: https://www.linkedin.com/showcase/claude/posts/")
+    return None  # Manual collection only
+
+
 def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="BELLA AI Intel Collector")
-    parser.add_argument("--source", default="all", help="Source to collect from (all, claude_release_notes, ai_trends_search)")
+    parser.add_argument("--source", default="all",
+                       help="Source to collect from (all, claude_release_notes, reddit, ai_trends_search)")
     parser.add_argument("--obsidian", action="store_true", default=True, help="Also save to Obsidian")
     args = parser.parse_args()
 
@@ -387,6 +474,14 @@ def main():
     if args.source in ("all", "claude_release_notes"):
         print("\n[Claude Release Notes]")
         data = collect_from_release_notes(data)
+
+    # Collect from Reddit
+    if args.source in ("all", "reddit"):
+        data = collect_from_reddit(data)
+
+    # LinkedIn reference
+    if args.source in ("all", "linkedin"):
+        collect_from_linkedin_showcase()
 
     # Save
     save_data(paths, data)

@@ -95,4 +95,14 @@ SOURCES = {
         "category": "ai_trend",
         "method": "web_search",
     },
+    "reddit_claude_ai": {
+        "url": "https://www.reddit.com/r/ClaudeAI/hot.json?limit=15",
+        "category": "ai_trend",
+        "method": "reddit_json",
+    },
+    "linkedin_claude": {
+        "url": "https://www.linkedin.com/showcase/claude/posts/?feedView=all",
+        "category": "claude_release",
+        "method": "manual_reference",
+    },
 }

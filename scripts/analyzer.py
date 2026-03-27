@@ -170,6 +170,8 @@ def generate_feature_recommendations(matches):
             "suggestion_ko": generate_suggestion_ko(match),
             "suggestion_zh": generate_suggestion_zh(match),
             "learning_note_ko": generate_learning_note(match),
+            "learning_note_zh": generate_learning_note_zh(match),
+            "difficulty_zh": DIFFICULTY[diff]["zh"],
             "score": match["score"],
         }
         recommendations.append(rec)
@@ -216,6 +218,17 @@ def generate_learning_note(match):
     note = f"💡 {news['title']}\n"
     note += f"   → {summary[:80]}...\n" if len(summary) > 80 else f"   → {summary}\n"
     note += f"   → 벨라님 프로젝트 '{match['project']['name_ko']}'에 적용하면 효율 UP!"
+    return note
+
+
+def generate_learning_note_zh(match):
+    """Generate Chinese learning note for Bella"""
+    news = match["news_item"]
+    summary = news.get("summary_zh", news.get("summary_ko", ""))
+
+    note = f"💡 {news['title']}\n"
+    note += f"   → {summary[:80]}...\n" if len(summary) > 80 else f"   → {summary}\n"
+    note += f"   → 應用到 Bella 的專案「{match['project']['name_zh']}」可提升效率！"
     return note
 
 
