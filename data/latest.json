@@ -1,11 +1,50 @@
 {
   "items": [
     {
+      "id": "1abc896b0a81",
+      "title": "Session Limits is a big problem",
+      "summary_en": "I have switched from Gemini Pro to Claude Pro plan. Although Claude feels better and more user friendly, this usage limit per session halts my product...",
+      "summary_ko": "저는 Gemini Pro에서 Claude Pro 플랜으로 전환했습니다. Claude가 더 좋고 사용자 친화적으로 느껴지지만, 세션당 이 사용 제한이 제 제품을 중단시킵니다...",
+      "summary_zh": "摘要：我已從 Gemini Pro 切換到 Claude Pro 方案。雖然 Claude 感覺更好且使用者介面更友善，但這個每次會話的使用量限制阻礙了我的產品...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Gemini",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4zj6q/session_limits_is_a_big_problem/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:59:13.277580+09:00",
+      "reddit_score": 13
+    },
+    {
+      "id": "47a6ef96ac77",
+      "title": "One sentence that instantly improves any Claude conversation — borrowed from how GANs work",
+      "summary_en": "The single most useful thing I've learned isn't a prompt template — it's one sentence you can drop into any conversation at any point:\n\n**\"Use a GAN-s...",
+      "summary_ko": "제가 배운 가장 유용한 것은 프롬프트 템플릿이 아니라, 어떤 대화에서든 언제든지 사용할 수 있는 한 문장입니다:\n\n**\"GAN을 사용하여...\"",
+      "summary_zh": "摘要：我學到最有用的單一事物不是提示詞範本——它是一句你可以在任何時刻插入任何對話中的話：\n\n**「使用 GAN…",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4zqeq/one_sentence_that_instantly_improves_any_claude/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:59:13.277580+09:00",
+      "reddit_score": 17
+    },
+    {
       "id": "59d15684d34d",
       "title": "I built an open-source app for Claude Code",
       "summary_en": "Hey everyone, Paseo is multi-platform interface for running Claude Code, Codex and OpenCode. The daemon runs on any machine (your Macbook, a VPS, what...",
-      "summary_ko": "Hey everyone, Paseo is multi-platform interface for running Claude Code, Codex and OpenCode. The daemon runs on any machine (your Macbook, a VPS, what...",
-      "summary_zh": "",
+      "summary_ko": "안녕하세요, Paseo는 Claude Code, Codex 및 OpenCode를 실행하기 위한 멀티플랫폼 인터페이스입니다. 데몬은 모든 머신(Mac북, VPS 등...)에서 실행됩니다.",
+      "summary_zh": "摘要：大家好，Paseo是運行Claude Code、Codex和OpenCode的跨平台界面。守護程序可以在任何機器上運行（你的Mac、VPS或什麼...",
       "category": "claude_code",
       "hashtags": [
         "#ClaudeCode",
@@ -42,8 +81,8 @@
       "id": "17c8f668f216",
       "title": "A basic itinerary planner I wanted and \"built\" for myself, with some basic features",
       "summary_en": "Built almost entirely with Claude Code (Opus), from the initial layout to the map integration, budget tracking, and mobile responsive design. I direct...",
-      "summary_ko": "Built almost entirely with Claude Code (Opus), from the initial layout to the map integration, budget tracking, and mobile responsive design. I direct...",
-      "summary_zh": "",
+      "summary_ko": "Claude Code (Opus)로 거의 전적으로 구축되었으며, 초기 레이아웃부터 지도 통합, 예산 추적 및 모바일 반응형 디자인까지 포함됩니다. 나는...",
+      "summary_zh": "摘要：幾乎完全使用 Claude Code（Opus）構建，從初始佈局到地圖整合、預算追蹤和移動響應式設計。我指導...",
       "category": "claude_code",
       "hashtags": [
         "#ClaudeCode",
@@ -62,8 +101,8 @@
       "id": "b84c7a5aa2b3",
       "title": "Claude Status Update : Elevated error rates on Opus 4.6 on 2026-03-27T06:59:38.000Z",
       "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated error rates on Opus 4.6\n\nCheck o...",
-      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated error rates on Opus 4.6\n\nCheck o...",
-      "summary_zh": "",
+      "summary_ko": "이것은 공식 Claude 시스템 상태 업데이트 후 2분 이내에 트리거된 자동 게시물입니다.\n\n사건: Opus 4.6 오류율 상승\n\n확인...",
+      "summary_zh": "摘要：這是在官方 Claude 系統狀態更新後 2 分鐘內自動觸發的帖子。\n\n事件：Opus 4.6 上的錯誤率升高\n\n查看...",
       "category": "claude_release",
       "hashtags": [
         "#Anthropic",
@@ -82,8 +121,8 @@
       "id": "c77900aab46f",
       "title": "So the \"rate limit bug\" was actually Anthropic quietly making your limits drain faster during peak hours",
       "summary_en": "Thariq just confirmed it — weekdays between 5am and 11am PT, your 5-hour session limits now get consumed faster than before. Weekly limits stay the sa...",
-      "summary_ko": "Thariq just confirmed it — weekdays between 5am and 11am PT, your 5-hour session limits now get consumed faster than before. Weekly limits stay the sa...",
-      "summary_zh": "",
+      "summary_ko": "Thariq가 방금 확인했습니다 — 태평양 표준시 평일 오전 5시부터 오전 11시까지, 당신의 5시간 세션 한도가 이전보다 더 빠르게 소진됩니다. 주간 한도는 동일하게 유지됩니다...",
+      "summary_zh": "摘要：Thariq剛剛確認了——在太平洋時間工作日上午5點至11點之間，你的5小時會話限額現在消耗速度比以前更快。每週限額保持不變...",
       "category": "claude_release",
       "hashtags": [
         "#Anthropic",
@@ -814,15 +853,15 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-03-27T19:21:57.483382+09:00",
+  "last_updated": "2026-03-27T20:23:05.719792+09:00",
   "stats": {
-    "total_items": 46,
+    "total_items": 48,
     "categories": {
+      "claude_release": 20,
+      "ai_trend": 14,
       "claude_code": 10,
-      "ai_trend": 13,
-      "claude_release": 19,
       "claude_api": 4
     },
-    "last_collection": "2026-03-27 19:21"
+    "last_collection": "2026-03-27 20:23"
   }
 }
