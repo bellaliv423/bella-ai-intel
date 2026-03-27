@@ -246,6 +246,23 @@
       "reddit_score": 328
     },
     {
+      "id": "713cbe9f3e03",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on March 26, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (March 26, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (March 26, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-27T19:19:14.637968+09:00"
+    },
+    {
       "id": "b53b321fae00",
       "title": "Running Claude Code fully offline on a MacBook — no API key, no cloud, 17s per task",
       "summary_ko": "I wanted to share something I've been working on that might be useful for folks who want to use Claude Code without burning through API credits or sen...",
@@ -337,6 +354,40 @@
       "reddit_score": 4342
     },
     {
+      "id": "ab5ff4a38170",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on March 25, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (March 25, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (March 25, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-25",
+      "collected_at": "2026-03-27T19:19:14.637968+09:00"
+    },
+    {
+      "id": "b95884e28eb2",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on March 20, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (March 20, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (March 20, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-20",
+      "collected_at": "2026-03-27T19:19:14.637968+09:00"
+    },
+    {
       "id": "eb0c9a0dd5ef",
       "title": "Code Review 자동화 (Teams/Enterprise)",
       "summary_ko": "PR 자동 리뷰 - 다중 에이전트가 논리 오류/보안 취약점/회귀 감지. REVIEW.md로 커스텀 가능. 평균 $15-25/리뷰.",
@@ -351,6 +402,23 @@
       "url": "",
       "date": "2026-03-20",
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "4952a3098442",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on March 19, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (March 19, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (March 19, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-19",
+      "collected_at": "2026-03-27T19:19:14.637968+09:00"
     },
     {
       "id": "766d547b7e43",
@@ -384,6 +452,24 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     },
     {
+      "id": "89665a62ee73",
+      "title": "Anthropic invests $100 million into the Claude Partner Network",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/the-anthropic-institute",
+      "date": "2026-03-12",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
+    },
+    {
       "id": "e6ffb46df631",
       "title": "Claude 인터랙티브 차트/다이어그램/시각화 생성",
       "summary_ko": "Claude가 대화 응답 내에서 맞춤 차트, 다이어그램, 시각화를 인라인으로 생성 가능.",
@@ -397,6 +483,24 @@
       "url": "",
       "date": "2026-03-12",
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "4ecb3ab62afe",
+      "title": "Introducing The Anthropic Institute",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+      "date": "2026-03-11",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
     },
     {
       "id": "b6519b60a113",
@@ -416,6 +520,60 @@
       "url": "",
       "date": "2026-03-11",
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "ab3ad77d4c48",
+      "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+      "date": "2026-03-10",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
+    },
+    {
+      "id": "c00d8bb91348",
+      "title": "Partnering with Mozilla to improve Firefox’s security",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/where-stand-department-war",
+      "date": "2026-03-06",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
+    },
+    {
+      "id": "1c7800810f7c",
+      "title": "Where things stand with the Department of War",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "date": "2026-03-05",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
     },
     {
       "id": "6ea4632d5284",
@@ -482,6 +640,60 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     },
     {
+      "id": "0f17c416293e",
+      "title": "Statement on the comments from Secretary of War Pete Hegseth",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/statement-department-of-war",
+      "date": "2026-02-27",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
+    },
+    {
+      "id": "660ee5c3f7b4",
+      "title": "Statement from Dario Amodei on our discussions with the Department of War",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/acquires-vercept",
+      "date": "2026-02-26",
+      "collected_at": "2026-03-27T19:21:57.483382+09:00"
+    },
+    {
+      "id": "64475325ff2f",
+      "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "date": "2026-02-25",
+      "collected_at": "2026-03-27T19:21:57.483382+09:00"
+    },
+    {
       "id": "2fe9ac0b266a",
       "title": "Cowork 예약 작업 (반복/온디맨드)",
       "summary_ko": "Cowork에서 반복 및 온디맨드 작업 예약 가능. Claude Desktop에 Customize 섹션(스킬/플러그인/커넥터) 추가.",
@@ -496,6 +708,24 @@
       "url": "",
       "date": "2026-02-25",
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "7078eb1169c4",
+      "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+      "date": "2026-02-24",
+      "collected_at": "2026-03-27T19:21:57.483382+09:00"
     },
     {
       "id": "dad615bdda5c",
@@ -530,6 +760,25 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     },
     {
+      "id": "135dbd7199f6",
+      "title": "Introducing Claude Sonnet 4.6",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Sonnet",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "date": "2026-02-05",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
+    },
+    {
       "id": "614e43d0c3e9",
       "title": "Claude Opus 4.6 출시",
       "summary_ko": "최고 지능 모델 업그레이드, 코딩 능력 강화.",
@@ -544,17 +793,36 @@
       "url": "",
       "date": "2026-02-05",
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
+    },
+    {
+      "id": "34ecd1ecbd83",
+      "title": "Introducing Claude Opus 4.6",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "date": "2026-02-04",
+      "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-03-27T19:06:09.420689+09:00",
+  "last_updated": "2026-03-27T19:21:57.483382+09:00",
   "stats": {
-    "total_items": 31,
+    "total_items": 46,
     "categories": {
-      "claude_code": 6,
-      "ai_trend": 2,
+      "claude_code": 10,
+      "ai_trend": 13,
       "claude_release": 19,
       "claude_api": 4
     },
-    "last_collection": "2026-03-27 19:06"
+    "last_collection": "2026-03-27 19:21"
   }
 }

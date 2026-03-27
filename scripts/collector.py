@@ -37,20 +37,82 @@ def generate_id(title, date_str):
     return hashlib.md5(raw.encode()).hexdigest()[:12]
 
 
-def auto_categorize(title, content=""):
-    """Auto-categorize based on keywords"""
-    text = (title + " " + content).lower()
+def auto_categorize(title, content="", source=""):
+    """Auto-categorize based on keywords, source context, and content patterns.
 
-    if any(k in text for k in ["claude code", "cli", "terminal", "코드"]):
-        return "claude_code"
-    if any(k in text for k in ["api", "sdk", "endpoint", "token"]):
-        return "claude_api"
-    if any(k in text for k in ["claude", "anthropic", "cowork", "release"]):
+    Priority order:
+    1. claude_code  - Claude Code, MCP servers, CLI tools, dev tools built with Claude
+    2. claude_api   - API, SDK, tokens, endpoints, developer integration
+    3. claude_release - Official releases, pricing/plans, system status, usage limits
+    4. automation   - Workflow automation, pipelines
+    5. content_sns  - Content creation, social media
+    6. ai_trend     - Community discussion, questions, use cases, experiences (default)
+    """
+    text = (title + " " + content).lower()
+    title_lower = title.lower()
+    source_lower = source.lower() if source else ""
+
+    # --- Rule 0: Official sources get fixed categories ---
+    if source_lower in ("claude release notes", "claude support"):
         return "claude_release"
-    if any(k in text for k in ["자동화", "automation", "pipeline", "workflow"]):
+    if source_lower in ("claude code docs",):
+        return "claude_code"
+    if source_lower in ("claude api docs",):
+        return "claude_api"
+
+    # --- Rule 1: Claude Code / MCP / dev tools ---
+    if any(k in text for k in [
+        "claude code", "mcp server", "mcp tool",
+        "cli tool", "terminal", "코드", "vscode",
+        "open-source app for claude", "open source app for claude",
+        "built with claude code", "built an mcp",
+    ]):
+        return "claude_code"
+
+    # --- Rule 2: API / SDK / developer integration ---
+    if any(k in text for k in [
+        "api key", "sdk", "endpoint", "api call",
+        "api rate", "api pricing", "rest api",
+        "agent sdk", "models api",
+    ]):
+        return "claude_api"
+
+    # --- Rule 3: Official releases, system status, pricing/plans/usage ---
+    # Only match genuinely official or pricing/usage content
+    official_keywords = [
+        "release note", "출시", "launch", "announce",
+        "system status", "status update", "elevated error",
+        "new model", "new feature release",
+    ]
+    pricing_keywords = [
+        "pricing", "price", "plan", "subscription", "구독",
+        "max plan", "pro plan", "team plan", "enterprise plan",
+        "rate limit", "usage limit", "usage cap",
+        "5-hour", "5hr", "5 hour", "weekly limit",
+        "token inflation", "token consumption",
+        "drain faster", "사용량",
+    ]
+    if any(k in text for k in official_keywords):
+        return "claude_release"
+    if any(k in text for k in pricing_keywords):
+        return "claude_release"
+
+    # --- Rule 4: Automation / workflow ---
+    if any(k in text for k in [
+        "자동화", "automation", "pipeline", "workflow",
+        "automate", "scheduled", "cron", "task scheduler",
+    ]):
         return "automation"
-    if any(k in text for k in ["콘텐츠", "content", "sns", "instagram", "youtube"]):
+
+    # --- Rule 5: Content / SNS ---
+    if any(k in text for k in [
+        "콘텐츠", "content creator", "sns", "instagram",
+        "youtube", "tiktok", "blog post", "newsletter",
+    ]):
         return "content_sns"
+
+    # --- Rule 6: Default = ai_trend (community discussion, Q&A, use cases) ---
+    # Reddit posts about Claude that don't match above = community discussion
     return "ai_trend"
 
 
@@ -205,7 +267,7 @@ def add_manual_item(data, title, summary_ko="", summary_zh="", source="manual",
     date_str = now.strftime("%Y-%m-%d")
 
     if category is None:
-        category = auto_categorize(title, summary_ko)
+        category = auto_categorize(title, summary_ko, source=source)
 
     hashtags = auto_hashtags(title, summary_ko, category)
 
@@ -370,6 +432,263 @@ def collect_from_release_notes(data):
     return data
 
 
+def collect_from_anthropic_news(data):
+    """Collect latest news from anthropic.com/news"""
+    print("\n[Anthropic Official News]")
+    url = "https://www.anthropic.com/news"
+
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "BELLA-AI-Intel/1.0 (Knowledge Dashboard)",
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "en-US,en;q=0.9",
+        })
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            html = resp.read().decode("utf-8")
+
+        added = 0
+
+        # Method 1: Parse __NEXT_DATA__ JSON
+        import re as _re
+        next_data_match = _re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, _re.DOTALL)
+        if next_data_match:
+            try:
+                next_data = json.loads(next_data_match.group(1))
+                # Navigate: props.pageProps.page.sections[*].posts
+                props = next_data.get("props", {}).get("pageProps", {})
+                page = props.get("page", props)
+                sections = page.get("sections", [])
+
+                # Find all posts from publicationList sections
+                posts = []
+                for section in sections:
+                    section_posts = section.get("posts", [])
+                    if section_posts:
+                        posts.extend(section_posts)
+
+                # Fallback: try direct keys
+                if not posts:
+                    posts = props.get("posts", props.get("articles", props.get("news", [])))
+
+                if isinstance(posts, list):
+                    for post in posts[:10]:
+                        title = post.get("title", "")
+                        if not title:
+                            continue
+
+                        # slug can be string or object with "current" key
+                        slug_raw = post.get("slug", "")
+                        slug = slug_raw.get("current", slug_raw) if isinstance(slug_raw, dict) else slug_raw
+                        summary = post.get("summary", post.get("description", post.get("excerpt", ""))) or ""
+                        date_raw = post.get("publishedOn", post.get("date", post.get("publishedAt", "")))
+
+                        # Parse date
+                        post_date = ""
+                        if date_raw:
+                            date_match = _re.search(r'\d{4}-\d{2}-\d{2}', str(date_raw))
+                            if date_match:
+                                post_date = date_match.group(0)
+
+                        if not post_date:
+                            post_date = datetime.now(KST).strftime("%Y-%m-%d")
+
+                        post_url = f"https://www.anthropic.com/news/{slug}" if slug else ""
+                        category = auto_categorize(title, summary, source="Anthropic News")
+                        hashtags = auto_hashtags(title, summary, category)
+
+                        item = {
+                            "id": generate_id(title, post_date),
+                            "title": title,
+                            "summary_en": summary[:200] if summary else "",
+                            "summary_ko": summary[:200] if summary else "",
+                            "summary_zh": "",
+                            "category": category,
+                            "hashtags": hashtags + ["#Anthropic", "#Official"],
+                            "source": "Anthropic News",
+                            "url": post_url,
+                            "date": post_date,
+                            "collected_at": datetime.now(KST).isoformat(),
+                        }
+
+                        existing_ids = {i["id"] for i in data["items"]}
+                        if item["id"] not in existing_ids:
+                            data["items"].insert(0, item)
+                            added += 1
+                            print(f"  [+] {post_date} {title[:60]}")
+
+                    print(f"  [Anthropic News] {added} new items from __NEXT_DATA__")
+            except (json.JSONDecodeError, KeyError) as e:
+                print(f"  [Anthropic News] __NEXT_DATA__ parse error: {e}")
+
+        # Method 2: Fallback - parse HTML context around /news/ links
+        if added == 0:
+            seen_slugs = set()
+            for m in _re.finditer(r'href="/news/([^"]+)"', html):
+                slug = m.group(1)
+                if slug in seen_slugs:
+                    continue
+                seen_slugs.add(slug)
+
+                # Extract context around the link (title + date nearby)
+                start = max(0, m.start() - 300)
+                end = min(len(html), m.end() + 400)
+                ctx = html[start:end]
+
+                # Find title text (long text in tags nearby)
+                titles = _re.findall(r'>([^<]{15,120})<', ctx)
+                dates = _re.findall(
+                    r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*\s+\d{1,2},?\s+\d{4})',
+                    ctx
+                )
+
+                if not titles:
+                    continue
+
+                title = titles[0].strip()
+                # Clean HTML entities
+                title = title.replace("&#x27;", "'").replace("&amp;", "&").replace("&quot;", '"')
+
+                # Parse date
+                post_date = datetime.now(KST).strftime("%Y-%m-%d")
+                if dates:
+                    try:
+                        from datetime import datetime as _dt
+                        for fmt in ["%b %d, %Y", "%B %d, %Y", "%b %d %Y"]:
+                            try:
+                                parsed = _dt.strptime(dates[0].strip(), fmt)
+                                post_date = parsed.strftime("%Y-%m-%d")
+                                break
+                            except ValueError:
+                                continue
+                    except Exception:
+                        pass
+
+                post_url = f"https://www.anthropic.com/news/{slug}"
+                category = auto_categorize(title, "", source="Anthropic News")
+                hashtags = auto_hashtags(title, "", category)
+
+                item = {
+                    "id": generate_id(title, post_date),
+                    "title": title,
+                    "summary_en": "",
+                    "summary_ko": "",
+                    "summary_zh": "",
+                    "category": category,
+                    "hashtags": hashtags + ["#Anthropic", "#Official"],
+                    "source": "Anthropic News",
+                    "url": post_url,
+                    "date": post_date,
+                    "collected_at": datetime.now(KST).isoformat(),
+                }
+
+                existing_ids = {i["id"] for i in data["items"]}
+                if item["id"] not in existing_ids:
+                    data["items"].insert(0, item)
+                    added += 1
+                    print(f"  [+] {post_date} {title[:60]}")
+
+            if added > 0:
+                print(f"  [Anthropic News] {added} new items from HTML")
+
+        if added == 0:
+            print("  [Anthropic News] No new items found")
+
+    except (urllib.error.URLError, urllib.error.HTTPError) as e:
+        print(f"  [Anthropic News] Error: {e}")
+    except Exception as e:
+        print(f"  [Anthropic News] Unexpected error: {e}")
+
+    data["items"].sort(key=lambda x: x.get("date", ""), reverse=True)
+    return data
+
+
+def collect_from_changelog(data):
+    """Collect Claude Code changelog updates"""
+    print("\n[Claude Code Changelog]")
+    url = "https://code.claude.com/docs/en/changelog"
+
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "BELLA-AI-Intel/1.0 (Knowledge Dashboard)",
+            "Accept": "text/html",
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8")
+
+        import re as _re
+        added = 0
+
+        # Parse changelog entries: version + date + changes
+        # Pattern: version labels and dates
+        entries = _re.findall(
+            r'(?:label|version)["\s:=]+(\d+\.\d+\.\d+)["\s]*.*?(?:description|date)["\s:=]+([^"<\n]+)',
+            html, _re.IGNORECASE | _re.DOTALL
+        )
+
+        if not entries:
+            # Fallback: look for heading patterns like "## 2.1.85 - March 26, 2026"
+            entries = _re.findall(r'#+\s*(\d+\.\d+\.\d+)\s*[-–—]\s*(.+?)(?:\n|<)', html)
+
+        if not entries:
+            # Fallback 2: look for any version + date pair
+            versions = _re.findall(r'(\d+\.\d+\.\d+)', html)
+            dates = _re.findall(r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4})', html)
+            entries = list(zip(versions[:5], dates[:5]))
+
+        for version, date_str in entries[:5]:
+            title = f"Claude Code v{version} Release"
+            date_str = date_str.strip().rstrip(',')
+
+            # Parse date
+            try:
+                from datetime import datetime as _dt
+                for fmt in ["%B %d, %Y", "%B %d %Y", "%b %d, %Y"]:
+                    try:
+                        parsed = _dt.strptime(date_str.strip(), fmt)
+                        post_date = parsed.strftime("%Y-%m-%d")
+                        break
+                    except ValueError:
+                        continue
+                else:
+                    post_date = datetime.now(KST).strftime("%Y-%m-%d")
+            except Exception:
+                post_date = datetime.now(KST).strftime("%Y-%m-%d")
+
+            summary = f"Claude Code {version} released on {date_str}. Check changelog for details."
+            category = "claude_code"
+            hashtags = auto_hashtags(title, summary, category) + ["#Changelog"]
+
+            item = {
+                "id": generate_id(title, post_date),
+                "title": title,
+                "summary_en": summary,
+                "summary_ko": f"Claude Code {version} 릴리즈 ({date_str}). 변경사항은 체인지로그를 확인하세요.",
+                "summary_zh": f"Claude Code {version} 發布 ({date_str})。詳情請查看更新日誌。",
+                "category": category,
+                "hashtags": hashtags,
+                "source": "Claude Code Changelog",
+                "url": "https://code.claude.com/docs/en/changelog",
+                "date": post_date,
+                "collected_at": datetime.now(KST).isoformat(),
+            }
+
+            existing_ids = {i["id"] for i in data["items"]}
+            if item["id"] not in existing_ids:
+                data["items"].insert(0, item)
+                added += 1
+                print(f"  [+] {post_date} v{version}")
+
+        print(f"  [Changelog] {added} new versions added")
+
+    except (urllib.error.URLError, urllib.error.HTTPError) as e:
+        print(f"  [Changelog] Error: {e}")
+    except Exception as e:
+        print(f"  [Changelog] Unexpected error: {e}")
+
+    data["items"].sort(key=lambda x: x.get("date", ""), reverse=True)
+    return data
+
+
 def collect_from_reddit(data):
     """Collect latest posts from r/ClaudeAI via Reddit JSON API"""
     print("\n[Reddit r/ClaudeAI]")
@@ -404,7 +723,7 @@ def collect_from_reddit(data):
             permalink = f"https://www.reddit.com{p.get('permalink', '')}"
             selftext = p.get("selftext", "")[:200]
 
-            category = auto_categorize(title, selftext)
+            category = auto_categorize(title, selftext, source="Reddit r/ClaudeAI")
             hashtags = auto_hashtags(title, selftext, category)
 
             item = {
@@ -454,7 +773,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="BELLA AI Intel Collector")
     parser.add_argument("--source", default="all",
-                       help="Source to collect from (all, claude_release_notes, reddit, ai_trends_search)")
+                       help="Source: all, claude_release_notes, anthropic_news, changelog, reddit")
     parser.add_argument("--obsidian", action="store_true", default=True, help="Also save to Obsidian")
     args = parser.parse_args()
 
@@ -471,10 +790,18 @@ def main():
     data = load_existing_data(paths)
     before_count = len(data["items"])
 
-    # Collect from release notes
+    # Collect from release notes (hardcoded baseline)
     if args.source in ("all", "claude_release_notes"):
         print("\n[Claude Release Notes]")
         data = collect_from_release_notes(data)
+
+    # Collect from Anthropic official news
+    if args.source in ("all", "anthropic_news"):
+        data = collect_from_anthropic_news(data)
+
+    # Collect from Claude Code changelog
+    if args.source in ("all", "changelog"):
+        data = collect_from_changelog(data)
 
     # Collect from Reddit
     if args.source in ("all", "reddit"):
