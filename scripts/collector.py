@@ -28,6 +28,67 @@ KST = timezone(timedelta(hours=9))
 import io
 if sys.stdout.encoding != 'utf-8':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+
+# ===== AUTO-TRANSLATION (Claude Haiku) =====
+def translate_text(text, target_lang="ko"):
+    """Translate text using Claude Haiku (very cheap: ~$0.001/item)"""
+    if not text or len(text.strip()) < 5:
+        return ""
+    try:
+        import anthropic
+        client = anthropic.Anthropic()
+
+        lang_name = {"ko": "Korean", "zh": "Traditional Chinese (繁體中文)"}
+        prompt = f"Translate the following English text to {lang_name.get(target_lang, target_lang)}. Return ONLY the translation, no explanation:\n\n{text[:300]}"
+
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=400,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return response.content[0].text.strip()
+    except Exception as e:
+        print(f"  [Translate] Error ({target_lang}): {e}")
+        return ""
+
+
+def translate_item(item):
+    """Translate title + summary of a news item to KO and ZH"""
+    title = item.get("title", "")
+    summary = item.get("summary_en", item.get("summary_ko", ""))
+
+    # Skip if already has proper translations
+    if item.get("summary_ko") and item["summary_ko"] != item.get("summary_en", ""):
+        return item
+    if not summary and not title:
+        return item
+
+    print(f"  [Translate] {title[:40]}...")
+
+    # Translate combined text for efficiency (1 API call for both languages)
+    text_to_translate = f"Title: {title}\nSummary: {summary[:200]}" if summary else f"Title: {title}"
+
+    # Korean translation
+    ko = translate_text(text_to_translate, "ko")
+    if ko:
+        parts = ko.split("\n", 1)
+        ko_title = parts[0].replace("제목:", "").replace("Title:", "").strip()
+        ko_summary = parts[1].replace("요약:", "").replace("Summary:", "").strip() if len(parts) > 1 else ""
+        if ko_summary:
+            item["summary_ko"] = ko_summary
+        elif ko_title:
+            item["summary_ko"] = ko_title
+
+    # Chinese translation
+    zh = translate_text(text_to_translate, "zh")
+    if zh:
+        parts = zh.split("\n", 1)
+        zh_summary = parts[1].replace("摘要:", "").replace("Summary:", "").strip() if len(parts) > 1 else parts[0].replace("標題:", "").replace("Title:", "").strip()
+        if zh_summary:
+            item["summary_zh"] = zh_summary
+
+    return item
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 
@@ -775,6 +836,7 @@ def main():
     parser.add_argument("--source", default="all",
                        help="Source: all, claude_release_notes, anthropic_news, changelog, reddit")
     parser.add_argument("--obsidian", action="store_true", default=True, help="Also save to Obsidian")
+    parser.add_argument("--no-translate", action="store_true", help="Skip auto-translation")
     args = parser.parse_args()
 
     paths = get_paths()
@@ -816,6 +878,27 @@ def main():
 
     new_count = len(data["items"]) - before_count
     print(f"\n[Summary] {new_count} new items added (total: {len(data['items'])})")
+
+    # Auto-translate English-only items to KO/ZH
+    if not args.no_translate:
+        print("\n[Auto-Translate KO/ZH]")
+        translated = 0
+        for item in data["items"]:
+            # Only translate items without proper KO/ZH translations
+            is_english_only = (
+                item.get("summary_ko", "") == item.get("summary_en", "") or
+                (item.get("summary_ko", "") and not item.get("summary_zh", ""))
+            )
+            if is_english_only and item.get("summary_en", ""):
+                item = translate_item(item)
+                translated += 1
+                if translated >= 15:  # Limit to 15 items per run to control costs
+                    print(f"  [Translate] Reached limit (15 items)")
+                    break
+        print(f"  [Translate] {translated} items translated")
+        # Re-save with translations
+        if translated > 0:
+            save_data(paths, data)
 
     # Obsidian sync
     if args.obsidian:
