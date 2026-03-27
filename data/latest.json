@@ -1,6 +1,103 @@
 {
   "items": [
     {
+      "id": "59d15684d34d",
+      "title": "I built an open-source app for Claude Code",
+      "summary_en": "Hey everyone, Paseo is multi-platform interface for running Claude Code, Codex and OpenCode. The daemon runs on any machine (your Macbook, a VPS, what...",
+      "summary_ko": "Hey everyone, Paseo is multi-platform interface for running Claude Code, Codex and OpenCode. The daemon runs on any machine (your Macbook, a VPS, what...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4x9mb/i_built_an_opensource_app_for_claude_code/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:06:09.420689+09:00",
+      "reddit_score": 13
+    },
+    {
+      "id": "e98228a1adb6",
+      "title": "Duality of Dario",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4xdl0/duality_of_dario/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:06:09.420689+09:00",
+      "reddit_score": 17
+    },
+    {
+      "id": "17c8f668f216",
+      "title": "A basic itinerary planner I wanted and \"built\" for myself, with some basic features",
+      "summary_en": "Built almost entirely with Claude Code (Opus), from the initial layout to the map integration, budget tracking, and mobile responsive design. I direct...",
+      "summary_ko": "Built almost entirely with Claude Code (Opus), from the initial layout to the map integration, budget tracking, and mobile responsive design. I direct...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Opus",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4xsue/a_basic_itinerary_planner_i_wanted_and_built_for/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:06:09.420689+09:00",
+      "reddit_score": 19
+    },
+    {
+      "id": "b84c7a5aa2b3",
+      "title": "Claude Status Update : Elevated error rates on Opus 4.6 on 2026-03-27T06:59:38.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated error rates on Opus 4.6\n\nCheck o...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated error rates on Opus 4.6\n\nCheck o...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Opus",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4wxyd/claude_status_update_elevated_error_rates_on_opus/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:06:09.420689+09:00",
+      "reddit_score": 27
+    },
+    {
+      "id": "c77900aab46f",
+      "title": "So the \"rate limit bug\" was actually Anthropic quietly making your limits drain faster during peak hours",
+      "summary_en": "Thariq just confirmed it — weekdays between 5am and 11am PT, your 5-hour session limits now get consumed faster than before. Weekly limits stay the sa...",
+      "summary_ko": "Thariq just confirmed it — weekdays between 5am and 11am PT, your 5-hour session limits now get consumed faster than before. Weekly limits stay the sa...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s4xriy/so_the_rate_limit_bug_was_actually_anthropic/",
+      "date": "2026-03-27",
+      "collected_at": "2026-03-27T19:06:09.420689+09:00",
+      "reddit_score": 161
+    },
+    {
       "id": "1f1f6e04799b",
       "title": "Claude AI is devouring 5hr Usage like Bermuda Triangle.",
       "summary_ko": "I have started using the cloud code a week ago in Pro plan, at the start it was good, I was giving tasks for hours and it was doing all my prompts, no...",
@@ -449,15 +546,15 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     }
   ],
-  "last_updated": "2026-03-27T16:45:47.779324+09:00",
+  "last_updated": "2026-03-27T19:06:09.420689+09:00",
   "stats": {
-    "total_items": 26,
+    "total_items": 31,
     "categories": {
-      "claude_release": 17,
-      "claude_code": 4,
-      "claude_api": 4,
-      "ai_trend": 1
+      "claude_code": 6,
+      "ai_trend": 2,
+      "claude_release": 19,
+      "claude_api": 4
     },
-    "last_collection": "2026-03-27 16:45"
+    "last_collection": "2026-03-27 19:06"
   }
 }

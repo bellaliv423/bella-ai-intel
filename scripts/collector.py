@@ -410,8 +410,9 @@ def collect_from_reddit(data):
             item = {
                 "id": generate_id(title, post_date),
                 "title": title,
+                "summary_en": selftext[:150] + "..." if len(selftext) > 150 else selftext,
                 "summary_ko": selftext[:150] + "..." if len(selftext) > 150 else selftext,
-                "summary_zh": "",  # Reddit posts are in English
+                "summary_zh": "",  # Reddit posts are in English, summary_en has original
                 "category": category,
                 "hashtags": hashtags + ["#Reddit", "#ClaudeAI"],
                 "source": "Reddit r/ClaudeAI",

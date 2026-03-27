@@ -48,6 +48,7 @@
   }
 
   body.zh { font-family: 'Noto Sans TC', 'Inter', -apple-system, sans-serif; }
+  body.en { font-family: 'Inter', -apple-system, sans-serif; }
 
   a { color: var(--primary); text-decoration: none; }
   a:hover { color: var(--primary-dark); }
@@ -870,7 +871,7 @@ function renderCards() {
 
   grid.innerHTML = filtered.map(item => {
     const meta = CATEGORY_META[item.category] || { ko: 'etc', zh: 'etc', en: 'etc', icon: '📋' };
-    const summary = lang === 'zh' ? (item.summary_zh || item.summary_ko) : item.summary_ko;
+    const summary = lang === 'en' ? (item.summary_en || item.summary_ko) : lang === 'zh' ? (item.summary_zh || item.summary_en || item.summary_ko) : item.summary_ko;
     const tags = (item.hashtags || []).map(t => `<span class="tag">${t}</span>`).join('');
     const isReddit = item.source && item.source.includes('Reddit');
     const srcBadge = isReddit ? '<span class="tag" style="background:#ff450020;color:#ff4500;font-size:0.7rem">Reddit</span> ' : '';
@@ -1188,9 +1189,10 @@ function showDreamTeam(btn) {
   }
 
   if (!html) {
+    const noDataMsg = { ko: '아직 추천 데이터가 없습니다', zh: '尚無推薦資料', en: 'No recommendation data yet' };
     html = `<div class="empty-state" style="grid-column:1/-1">
       <div class="icon">⭐</div>
-      <p>${isZh ? '尚無推薦資料' : '아직 추천 데이터가 없습니다'}</p>
+      <p>${noDataMsg[lang]}</p>
     </div>`;
   }
 
