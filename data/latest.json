@@ -1,6 +1,102 @@
 {
   "items": [
     {
+      "id": "9871b0320c7d",
+      "title": "As an IT engineer, I want to give my respect",
+      "summary_en": "I’ve always been interested in software development, but the deeper stuff like languages, architecture, and software frameworks never really clicked f...",
+      "summary_ko": "저는 항상 소프트웨어 개발에 관심이 있었지만, 프로그래밍 언어, 아키텍처, 소프트웨어 프레임워크 같은 더 심화된 내용들은 제대로 이해가 되지 않았습니다...",
+      "summary_zh": "摘要：我一直對軟體開發感興趣，但更深層的東西，比如程式語言、架構和軟體框架，從來沒有真正讓我理解...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7b76k/as_an_it_engineer_i_want_to_give_my_respect/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-30T16:00:16.098248+09:00",
+      "reddit_score": 19
+    },
+    {
+      "id": "e0e7e557c79e",
+      "title": "Unpopular opinion: problem clarity is more valuable than coding right now.",
+      "summary_en": "Claude can write code. It can't read your mind. If you're fuzzy on the problem, the AI just produces a polished version of your confusion.\n\nI've seen ...",
+      "summary_ko": "Claude는 코드를 작성할 수 있다. 하지만 당신의 생각을 읽을 수 없다. 문제가 모호하면, AI는 단지 당신의 혼란을 세련되게 표현한 버전을 만들어낼 뿐이다.\n\n나는...",
+      "summary_zh": "摘要：Claude 可以寫程式碼。但它讀不了你的心思。如果你對問題的認識模糊不清，AI 只會產生一個精緻版本的你的困惑。\n\n我見過...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7g1w9/unpopular_opinion_problem_clarity_is_more/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-30T16:00:16.097242+09:00",
+      "reddit_score": 20
+    },
+    {
+      "id": "3d660ba9e788",
+      "title": "A new Claude Skill every 7 minutes on Github? ~200 additions/day!?",
+      "summary_en": "My research suggests github is seeing a new (public) MCP server added every 20 minutes. A new Claude skill every 7.5 minutes. Who here has tried to bu...",
+      "summary_ko": "제 연구에 따르면 Github에서는 평균 20분마다 새로운 (공개) MCP 서버가 추가되고 있습니다. 7.5분마다 새로운 Claude 스킬이 생깁니다. 여기서 시도해본 사람이 있나요...",
+      "summary_zh": "摘要：我的研究表明 Github 上每 20 分鐘就會新增一個（公開的）MCP 伺服器。每 7.5 分鐘就有一個新的 Claude 技能。這裡有人試過購買...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7bep0/a_new_claude_skill_every_7_minutes_on_github_200/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-30T16:00:16.097242+09:00",
+      "reddit_score": 36
+    },
+    {
+      "id": "47a41463de59",
+      "title": "[Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.",
+      "summary_en": "Published drug safety studies take months of specialized work and end up behind paywalls. Commercial pharmacovigilance platforms cost about 50K-500K/y...",
+      "summary_ko": "발행된 의약품 안전 연구는 수개월의 전문적인 작업이 필요하며 결국 페이월 뒤에 있습니다. 상용 약물감시 플랫폼의 비용은 연간 약 5만~50만 달러입니다...",
+      "summary_zh": "摘要：已發表的藥物安全研究需要數月的專業工作，最終被放在付費牆後面。商業藥物警戒平台的成本約為5萬-50萬美元/年...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7habk/built_with_claude_a_500kyear_pharmacovigilance/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-30T16:00:16.096237+09:00",
+      "reddit_score": 44
+    },
+    {
+      "id": "adc702db014d",
+      "title": "Claude Usage Limits Discussion Megathread Ongoing (sort this by New!)",
+      "summary_en": "**Why a Usage Limits** **Discussion Megathread?**\n\nThis Megathread makes it easier for everyone to see what others are experiencing at any time by col...",
+      "summary_ko": "**사용 제한 논의 메가스레드가 필요한 이유?**\n\n이 메가스레드를 통해 모든 사람들이 언제든지 다른 사람들의 경험을 쉽게 볼 수 있습니다...",
+      "summary_zh": "摘要：**為什麼要有使用限制討論主題帖？**\n\n此主題帖通過收集大家的經歷，使每個人都能更輕鬆地隨時瞭解其他人的遭遇...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7fcjf/claude_usage_limits_discussion_megathread_ongoing/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-30T16:00:16.096237+09:00",
+      "reddit_score": 127
+    },
+    {
       "id": "48b12e837f95",
       "title": "Non-Coding Claude Usage",
       "summary_en": "Just curious how many people here use Claude primarily for personal life and not for coding/work purposes? I’ve been using ChatGPT and now Claude for ...",
@@ -1136,17 +1232,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-03-30T09:06:21.342593+09:00",
+  "last_updated": "2026-03-30T16:00:47.575220+09:00",
   "stats": {
-    "total_items": 63,
+    "total_items": 68,
     "categories": {
-      "ai_trend": 21,
-      "claude_code": 16,
+      "ai_trend": 24,
+      "claude_code": 17,
+      "claude_release": 21,
       "content_sns": 1,
       "automation": 1,
-      "claude_release": 20,
       "claude_api": 4
     },
-    "last_collection": "2026-03-30 09:06"
+    "last_collection": "2026-03-30 16:00"
   }
 }

@@ -1,6 +1,28 @@
 {
   "features": [
     {
+      "news_title": "[Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.",
+      "news_date": "2026-03-30",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "form"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'[Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'[Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 [Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.\n   → 발행된 의약품 안전 연구는 수개월의 전문적인 작업이 필요하며 결국 페이월 뒤에 있습니다. 상용 약물감시 플랫폼의 비용은 연간 약 5만~50만 달...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 [Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.\n   → 摘要：已發表的藥物安全研究需要數月的專業工作，最終被放在付費牆後面。商業藥物警戒平台的成本約為5萬-50萬美元/年...\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost",
       "news_date": "2026-03-30",
       "news_category": "content_sns",
@@ -41,28 +63,6 @@
       "suggestion_zh": "'I am fully addicted to building dumb little AI web apps. I love it.' → 可應用於 kndli.com 網站",
       "learning_note_ko": "💡 I am fully addicted to building dumb little AI web apps. I love it.\n   → 나는 코딩하는 방법을 모른다. 정말로. Claude가 99.9%의 코딩을 했다. 나는 물건이 어떻게 되고 싶은지, 어떻게 보이고 싶은지, 어떻게...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
       "learning_note_zh": "💡 I am fully addicted to building dumb little AI web apps. I love it.\n   → 摘要：我不知道如何編寫代碼。根本不知道。Claude完成了99.9%的編碼工作。我只是知道我想要事物的樣子、外觀和行為方式。構建愚蠢的...\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
-    },
-    {
-      "news_title": "What are dead giveaways for AI slop websites?",
-      "news_date": "2026-03-29",
-      "news_category": "ai_trend",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "web"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'What are dead giveaways for AI slop websites?' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
-      "suggestion_zh": "'What are dead giveaways for AI slop websites?' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 What are dead giveaways for AI slop websites?\n   → 나는 Claude로 만든 내 웹사이트를 정말 사랑했는데, 갑자기 하나, 그 다음 둘, 셋, 넷... 수십 개의 다른 사이트들을 발견했다...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 What are dead giveaways for AI slop websites?\n   → 摘要：我曾經深深喜愛我用Claude構建的網站，直到我突然發現了一個，然後是兩個、三個、四個...十幾個其他網站...\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 1
     }
@@ -111,12 +111,11 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Non-Coding Claude Usage' 핵심 정리 카드",
-      "title_zh": "'Non-Coding Claude Usage' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Non-Coding Claude Usage 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'As an IT engineer, I want to give my respect' 핵심 정리 카드",
+      "title_zh": "'As an IT engineer, I want to give my respect' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 As an IT engineer, I want to give my respect 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
-        "#GPT",
         "#생성형AI",
         "#Reddit",
         "#ClaudeAI",
@@ -130,32 +129,33 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-03 Non-Coding Claude Usage 총정리",
-      "title_zh": "2026年 2026-03 Non-Coding Claude Usage 總整理",
-      "description_ko": "Non-Coding Claude Usage 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-03 As an IT engineer, I want to give my respect 총정리",
+      "title_zh": "2026年 2026-03 As an IT engineer, I want to give my respect 總整理",
+      "description_ko": "As an IT engineer, I want to give my respect 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
-        "#GPT",
         "#생성형AI",
         "#Reddit",
+        "#ClaudeAI",
         "#AI블로그"
       ],
       "news_date": "2026-03-30"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'Claude Mascot Generator' 실습 세션",
-      "title_zh": "'Claude Mascot Generator' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude Mascot Generator 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Unpopular opinion: problem clarity is more valuable than coding right now.' 핵심 정리 카드",
+      "title_zh": "'Unpopular opinion: problem clarity is more valuable than coding right now.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Unpopular opinion: problem clarity is more valuable than coding right now. 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
       "news_date": "2026-03-30"
     },
@@ -164,12 +164,12 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-03 Claude Mascot Generator 총정리",
-      "title_zh": "2026年 2026-03 Claude Mascot Generator 總整理",
-      "description_ko": "Claude Mascot Generator 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-03 Unpopular opinion: problem clarity is more valuable than coding right now. 총정리",
+      "title_zh": "2026年 2026-03 Unpopular opinion: problem clarity is more valuable than coding right now. 總整理",
+      "description_ko": "Unpopular opinion: problem clarity is more valuable than coding right now. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
@@ -181,20 +181,20 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'20x max usage gone in 19 minutes??' 실습 세션",
-      "title_zh": "'20x max usage gone in 19 minutes??' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 20x max usage gone in 19 minutes?? 체험 + Q&A",
+      "title_ko": "'A new Claude Skill every 7 minutes on Github? ~200 additions/day!?' 실습 세션",
+      "title_zh": "'A new Claude Skill every 7 minutes on Github? ~200 additions/day!?' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 A new Claude Skill every 7 minutes on Github? ~200 additions/day!? 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
+        "#MCP",
         "#코딩자동화",
-        "#Reddit",
         "#AI세미나",
         "#실습"
       ],
       "news_date": "2026-03-30"
     }
   ],
-  "last_analyzed": "2026-03-30T09:06:22.554288+09:00",
+  "last_analyzed": "2026-03-30T16:00:48.627331+09:00",
   "analyzed_date": "2026-03-30",
-  "analyzed_time": "09:06 KST"
+  "analyzed_time": "16:00 KST"
 }
