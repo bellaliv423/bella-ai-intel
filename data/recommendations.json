@@ -111,9 +111,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'As an IT engineer, I want to give my respect' 핵심 정리 카드",
-      "title_zh": "'As an IT engineer, I want to give my respect' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 As an IT engineer, I want to give my respect 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Three annual Pro subs and the experience keeps getting worse' 핵심 정리 카드",
+      "title_zh": "'Three annual Pro subs and the experience keeps getting worse' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Three annual Pro subs and the experience keeps getting worse 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -122,16 +122,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-03-30"
+      "news_date": "2026-03-31"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-03 As an IT engineer, I want to give my respect 총정리",
-      "title_zh": "2026年 2026-03 As an IT engineer, I want to give my respect 總整理",
-      "description_ko": "As an IT engineer, I want to give my respect 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-03 Three annual Pro subs and the experience keeps getting worse 총정리",
+      "title_zh": "2026年 2026-03 Three annual Pro subs and the experience keeps getting worse 總整理",
+      "description_ko": "Three annual Pro subs and the experience keeps getting worse 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -139,62 +139,64 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-03-30"
+      "news_date": "2026-03-31"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Unpopular opinion: problem clarity is more valuable than coding right now.' 핵심 정리 카드",
-      "title_zh": "'Unpopular opinion: problem clarity is more valuable than coding right now.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Unpopular opinion: problem clarity is more valuable than coding right now. 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'How I use Claude for targeted outbound' 핵심 정리 카드",
+      "title_zh": "'How I use Claude for targeted outbound' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 How I use Claude for targeted outbound 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#Anthropic",
+        "#Claude",
         "#Reddit",
         "#ClaudeAI",
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-03-30"
+      "news_date": "2026-03-31"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-03 Unpopular opinion: problem clarity is more valuable than coding right now. 총정리",
-      "title_zh": "2026年 2026-03 Unpopular opinion: problem clarity is more valuable than coding right now. 總整理",
-      "description_ko": "Unpopular opinion: problem clarity is more valuable than coding right now. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-03 How I use Claude for targeted outbound 총정리",
+      "title_zh": "2026年 2026-03 How I use Claude for targeted outbound 總整理",
+      "description_ko": "How I use Claude for targeted outbound 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#Anthropic",
+        "#Claude",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-03-30"
+      "news_date": "2026-03-31"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'A new Claude Skill every 7 minutes on Github? ~200 additions/day!?' 실습 세션",
-      "title_zh": "'A new Claude Skill every 7 minutes on Github? ~200 additions/day!?' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 A new Claude Skill every 7 minutes on Github? ~200 additions/day!? 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'I tracked my actual API cost on a $100/month Max plan. $565 in 7 days. No wonder Anthropic keeps reducing limits.' 핵심 정리 카드",
+      "title_zh": "'I tracked my actual API cost on a $100/month Max plan. $565 in 7 days. No wonder Anthropic keeps reducing limits.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I tracked my actual API cost on a $100/month Max plan. $565 in 7 days. No wonder Anthropic keeps reducing limits. 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#MCP",
-        "#코딩자동화",
-        "#AI세미나",
-        "#실습"
+        "#Anthropic",
+        "#Claude",
+        "#Opus",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
-      "news_date": "2026-03-30"
+      "news_date": "2026-03-31"
     }
   ],
-  "last_analyzed": "2026-03-30T16:00:48.627331+09:00",
-  "analyzed_date": "2026-03-30",
+  "last_analyzed": "2026-03-31T16:00:36.118794+09:00",
+  "analyzed_date": "2026-03-31",
   "analyzed_time": "16:00 KST"
 }

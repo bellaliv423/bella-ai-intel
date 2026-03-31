@@ -1,6 +1,328 @@
 {
   "items": [
     {
+      "id": "d25365f20cec",
+      "title": "Three annual Pro subs and the experience keeps getting worse",
+      "summary_en": "So I run a small business in Sydney and I've been using Claude daily since late last year. It’s now at the point where I thought it was good enough to...",
+      "summary_ko": "저는 시드니에서 소규모 사업을 운영하고 있으며 작년 말부터 Claude를 매일 사용해왔습니다. 이제는 충분히 좋다고 생각해서...",
+      "summary_zh": "摘要：我在雪梨經營一家小企業，自去年年底以來一直在日常使用Claude。現在到了我以為它已經足夠好到...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8cri2/three_annual_pro_subs_and_the_experience_keeps/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T16:00:19.841057+09:00",
+      "reddit_score": 23
+    },
+    {
+      "id": "422f21685ac0",
+      "title": "How I use Claude for targeted outbound",
+      "summary_en": "I do outbound for a B2B company. Been doing cold email for about 2 years. For most of that time I ran the full workflow on Clay. It was useful. But wi...",
+      "summary_ko": "저는 B2B 회사에서 아웃바운드를 담당하고 있습니다. 약 2년 동안 콜드 이메일을 해왔습니다. 대부분의 기간 동안 Clay에서 전체 워크플로우를 실행했습니다. 유용했습니다. 하지만...",
+      "summary_zh": "摘要：我在一家B2B公司做外聯工作。做冷郵件營銷已經有大約2年的時間。在大部分時間裡，我都在Clay上運行完整的工作流程。這很有用。但是...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8bwpw/how_i_use_claude_for_targeted_outbound/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T16:00:19.841057+09:00",
+      "reddit_score": 31
+    },
+    {
+      "id": "9fabebbe2f3b",
+      "title": "I tracked my actual API cost on a $100/month Max plan. $565 in 7 days. No wonder Anthropic keeps reducing limits.",
+      "summary_en": "58 sessions. $9.75 per session. $0.88 per prompt. All Opus. In one week.\n\nOnce you see the actual numbers it kind of makes sense why they keep tighten...",
+      "summary_ko": "58개 세션. 세션당 $9.75. 프롬프트당 $0.88. 모두 Opus. 1주일 동안.\n\n실제 숫자를 보면 왜 그들이 계속 조이는지 어느 정도 이해가 됩니다...",
+      "summary_zh": "摘要：58 個會話。每個會話 $9.75。每個提示 $0.88。全部使用 Opus。在一週內。\n\n一旦你看到實際數字，就不難理解為什麼他們一直在收緊...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Opus",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8aksh/i_tracked_my_actual_api_cost_on_a_100month_max/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T16:00:19.841057+09:00",
+      "reddit_score": 62
+    },
+    {
+      "id": "acaf5049c38f",
+      "title": "I vibe-coded a full WC2 inspired RTS game with Claude - 9 factions, 200+ units, multiplayer, AI commanders, and it runs in your browser",
+      "summary_en": "I've been vibe coding a full RTS game with Claude in my spare time. 20 minutes here and there in the evening, walking the dog, waiting for the kettle ...",
+      "summary_ko": "여유 시간에 Claude와 함께 완전한 RTS 게임을 바이브 코딩하고 있습니다. 저녁에 여기저기 20분씩, 개를 산책시키며, 주전자를 기다리며",
+      "summary_zh": "摘要：我在空閒時間一直在用Claude編寫一款完整的RTS遊戲。晚上零零碎碎地花20分鐘、遛狗時、等水燒開時",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s828ad/i_vibecoded_a_full_wc2_inspired_rts_game_with/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T10:16:33.758826+09:00",
+      "reddit_score": 29
+    },
+    {
+      "id": "057c5c1d098c",
+      "title": "I gave Claude its own computer and let it run 24/7. Here's what it built.",
+      "summary_en": "Hey everyone. I built something called Phantom and just open sourced it. The idea is simple: what if instead of Claude running in your terminal and fo...",
+      "summary_ko": "안녕하세요. Phantom이라는 것을 만들었고 방금 오픈소스로 공개했습니다. 아이디어는 간단합니다. Claude가 터미널에서 실행되는 대신...",
+      "summary_zh": "摘要：各位好。我構建了一個叫做Phantom的東西，並剛剛開源了它。想法很簡單：如果不是讓Claude在你的終端中運行，而是...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 135
+    },
+    {
+      "id": "ee03ecb4122b",
+      "title": "Don’t let Claude use your actual computer from the CLI",
+      "summary_en": "Anthropic’s computer-use stuff is cool, but I think people are normalizing the wrong default.\n\nThe exciting part is obvious: an AI can now look at a s...",
+      "summary_ko": "Anthropic의 컴퓨터 사용 기능은 멋있지만, 사람들이 잘못된 기본값을 정상화하고 있다고 생각합니다.\n\n흥미로운 부분은 명백합니다: AI가 이제 화면을 볼 수 있습니다...",
+      "summary_zh": "摘要：Anthropic 的電腦使用功能很酷，但我認為人們在標準化錯誤的默認設置。\n\n令人興奮的部分很明顯：AI 現在可以查看一個 s...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s839hp/dont_let_claude_use_your_actual_computer_from_the/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 181
+    },
+    {
+      "id": "efbee5b3a3c8",
+      "title": "Computer use is now in Claude Code.",
+      "summary_en": "Claude can open your apps, click through your UI, and test what it built, right from the CLI. \n\nIt works on anything you can open on your Mac: a compi...",
+      "summary_ko": "Claude는 CLI에서 직접 당신의 앱을 열고, UI를 클릭하고, 자신이 만든 것을 테스트할 수 있습니다.\n\nMac에서 열 수 있는 모든 것에 작동합니다: 컴퓨터...",
+      "summary_zh": "摘要：Claude 可以打開您的應用程序、點擊您的用戶界面，並直接從 CLI 測試它構建的內容。\n\n它適用於您可以在 Mac 上打開的任何東西：一個計算...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7wkky/computer_use_is_now_in_claude_code/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 513
+    },
+    {
+      "id": "bb5e17b7d07d",
+      "title": "Istg, its unhinged",
+      "summary_en": "was training a model with highly imbalanced classes, getting terrible metrics, it was late night (2am) and  said 'tackle it tomorrow' but claude had o...",
+      "summary_ko": "클래스 불균형이 심한 모델을 훈련하고 있었는데 지표가 형편없었고, 밤이 늦었을 때(오전 2시)라 '내일 해결하자'고 생각했지만 claude는...",
+      "summary_zh": "摘要：我在訓練一個類別高度不平衡的模型，得到了可怕的指標，當時是深夜（凌晨2點），我說「明天再解決」，但Claude卻...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s820s3/istg_its_unhinged/",
+      "date": "2026-03-31",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 569
+    },
+    {
+      "id": "d6eb53da1088",
+      "title": "Garry Tan open-sourced gstack : his personal skill pack for Claude Code (56k stars)",
+      "summary_en": "Hey r/ClaudeAI,\n\nGarry Tan (CEO of Y Combinator) just open-sourced gstack — his own personal pack of slash commands/skills for Claude Code.\n\nInstead o...",
+      "summary_ko": "r/ClaudeAI 여러분에게,\n\nGarry Tan (Y Combinator CEO)이 Claude Code용 자신의 개인 슬래시 커맨드/스킬 팩인 gstack을 오픈소스로 공개했습니다.\n\n대신...",
+      "summary_zh": "摘要：嘿 r/ClaudeAI，\n\nY Combinator CEO Garry Tan 剛剛開源了 gstack — 他個人的 Claude Code 斜杠命令/技能包。\n\n而不是...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7jdof/garry_tan_opensourced_gstack_his_personal_skill/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.758826+09:00",
+      "reddit_score": 227
+    },
+    {
+      "id": "4e71760f323e",
+      "title": "15 New Claude Code Hidden Features from Boris Cherny (creator of CC) on 30 Mar 2026",
+      "summary_en": "Complete 15 tips in claude-code-best-practice-repo: [https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-15-tips-30-...",
+      "summary_ko": "claude-code-best-practice-repo의 완전한 15가지 팁: [https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-15-tips-30-...",
+      "summary_zh": "摘要：完整的15個提示在claude-code-best-practice-repo中：[https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-boris-15-tips-30-...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7j9f2/15_new_claude_code_hidden_features_from_boris/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.758826+09:00",
+      "reddit_score": 358
+    },
+    {
+      "id": "5b7f43879cda",
+      "title": "I built a Steam game in 10 days with Claude Code — here's what actually happened behind the scenes",
+      "summary_en": "Hi everyone. Thank you for all the interest and honest feedback on my last post. As promised, here's the actual workflow.\n\n**Background** I'm a backen...",
+      "summary_ko": "안녕하세요. 지난 글에 대한 관심과 솔직한 피드백 감사합니다. 약속한 대로 실제 작업 흐름을 공유합니다.\n\n**배경** 저는 백엔드...",
+      "summary_zh": "摘要：大家好。感謝大家對我上一篇文章的興趣和誠實的反饋。正如承諾的那樣，這是實際的工作流程。\n\n**背景** 我是一個後端...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7mfil/i_built_a_steam_game_in_10_days_with_claude_code/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.758826+09:00",
+      "reddit_score": 195
+    },
+    {
+      "id": "cc32103160c2",
+      "title": "claude-code-best-practice trending on GitHub with 25,000★",
+      "summary_en": "i started this repo with claude to maintain all the best practices + tips/workflows by the creator himself as well as the community. Now its trending ...",
+      "summary_ko": "나는 이 저장소를 Claude와 함께 시작하여 개발자 본인과 커뮤니티의 모든 모범 사례 + 팁/워크플로우를 유지하고 있습니다. 이제 트렌딩 중입니다...",
+      "summary_zh": "摘要：我與 claude 一起啟動了這個倉庫，以維護所有最佳實踐 + 創建者本人以及社區的提示/工作流程。現在它正在熱門中...",
+      "category": "automation",
+      "hashtags": [
+        "#AI자동화",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7onll/claudecodebestpractice_trending_on_github_with/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.758826+09:00",
+      "reddit_score": 215
+    },
+    {
+      "id": "f9e007b67acc",
+      "title": "I built a universal CLAUDE.md that cuts Claude output tokens by 63% - validated with benchmarks, fully open source",
+      "summary_en": "Been using Claude Code heavily across multiple projects and got tired of the same issues everyone complains about.\n\nSo I built a fix. One file. Drop i...",
+      "summary_ko": "Claude Code를 여러 프로젝트에서 많이 사용하다 보니 모두가 불평하는 같은 문제들이 계속 반복되었습니다.\n\n그래서 해결책을 만들었습니다. 한 개 파일. 그냥 넣으면 됩니다...",
+      "summary_zh": "摘要：我在多個項目中大量使用 Claude Code，對所有人抱怨的相同問題感到厭倦。\n\n所以我建立了一個修復方案。一個檔案。放入i...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7qu07/i_built_a_universal_claudemd_that_cuts_claude/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.758826+09:00",
+      "reddit_score": 186
+    },
+    {
+      "id": "5dc12bab971e",
+      "title": "PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds",
+      "summary_en": "I spent the past few days reverse-engineering the Claude Code standalone binary (228MB ELF, Ghidra + MITM proxy + radare2) and found two independent b...",
+      "summary_ko": "저는 지난 며칠간 Claude Code 독립형 바이너리(228MB ELF, Ghidra + MITM 프록시 + radare2)를 역공학했고 두 가지 독립적인 버그를 발견했습니다...",
+      "summary_zh": "摘要：我在過去幾天內對 Claude Code 獨立二進制文件（228MB ELF，Ghidra + MITM proxy + radare2）進行了逆向工程，發現了兩個獨立的...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 670
+    },
+    {
+      "id": "a9785c005f80",
+      "title": "Claude subscriptions double in just two months, overshadowing users leaving because of rate limits",
+      "summary_en": "Congratulations!",
+      "summary_ko": "축하합니다!",
+      "summary_zh": "摘要：恭喜！",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 888
+    },
+    {
+      "id": "fe24794e97be",
+      "title": "Robots won't take your job. They'll bury you in work.",
+      "summary_en": "Everyone talks about AI replacing developers. Here's what actually happened to me.\n\nI had a CRM project. Started 2019, one developer, 80 commits/month...",
+      "summary_ko": "모두가 AI가 개발자를 대체한다고 말한다. 실제로 나에게 일어난 일은 다음과 같다.\n\n나는 CRM 프로젝트를 가지고 있었다. 2019년에 시작, 개발자 1명, 월 80개의 커밋...",
+      "summary_zh": "摘要：每個人都在談論人工智能取代開發者。以下是實際發生在我身上的情況。\n\n我有一個客戶關係管理項目。始於2019年，一位開發者，每月80次提交...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s7qs82/robots_wont_take_your_job_theyll_bury_you_in_work/",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:33.757830+09:00",
+      "reddit_score": 949
+    },
+    {
+      "id": "bf12ba8c51f8",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on March 30, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (March 30, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (March 30, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-30",
+      "collected_at": "2026-03-31T10:16:32.509839+09:00"
+    },
+    {
       "id": "9871b0320c7d",
       "title": "As an IT engineer, I want to give my respect",
       "summary_en": "I’ve always been interested in software development, but the deeper stuff like languages, architecture, and software frameworks never really clicked f...",
@@ -210,6 +532,23 @@
       "date": "2026-03-30",
       "collected_at": "2026-03-30T09:05:10.853471+09:00",
       "reddit_score": 333
+    },
+    {
+      "id": "308c6c3a2128",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on March 29, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (March 29, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (March 29, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-29",
+      "collected_at": "2026-03-31T10:16:32.510836+09:00"
     },
     {
       "id": "4decf5c05953",
@@ -645,6 +984,23 @@
       "date": "2026-03-27",
       "collected_at": "2026-03-27T16:45:34.705825+09:00",
       "reddit_score": 328
+    },
+    {
+      "id": "2d4fe14237e5",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on March 26, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (March 26, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (March 26, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-26",
+      "collected_at": "2026-03-31T10:16:32.510836+09:00"
     },
     {
       "id": "713cbe9f3e03",
@@ -1232,17 +1588,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-03-30T16:00:47.575220+09:00",
+  "last_updated": "2026-03-31T16:00:35.717076+09:00",
   "stats": {
-    "total_items": 68,
+    "total_items": 87,
     "categories": {
-      "ai_trend": 24,
-      "claude_code": 17,
-      "claude_release": 21,
+      "ai_trend": 28,
+      "claude_release": 25,
+      "claude_code": 27,
+      "automation": 2,
       "content_sns": 1,
-      "automation": 1,
       "claude_api": 4
     },
-    "last_collection": "2026-03-30 16:00"
+    "last_collection": "2026-03-31 16:00"
   }
 }
