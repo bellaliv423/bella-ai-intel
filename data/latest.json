@@ -1,6 +1,274 @@
 {
   "items": [
     {
+      "id": "33a0b1beafa0",
+      "title": "AI induced anxiety?",
+      "summary_en": "This may sound weird, but figured this community may understand.  I’m just looking for a shared experience.\n\nI use Claude professionally and personall...",
+      "summary_ko": "이상하게 들릴 수 있지만, 이 커뮤니티에서 이해해줄 수 있을 것 같아서 올렸습니다. 그냥 비슷한 경험을 공유하고 싶습니다.\n\n전문적으로 그리고 개인적으로 Claude를 사용하고 있습니다...",
+      "summary_zh": "摘要：這聽起來可能很奇怪，但我覺得這個社群可能會理解。我只是在尋找共同的經驗。\n\n我在專業和個人方面都使用Claude...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8xokm/ai_induced_anxiety/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.031540+09:00",
+      "reddit_score": 32
+    },
+    {
+      "id": "d03eba67b932",
+      "title": "Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version",
+      "summary_en": "u/iamfakeguru recently dropped a detailed thread after digging into the leaked Claude Code source:\n\n→ [https://x.com/iamfakeguru/status/20389655672692...",
+      "summary_ko": "u/iamfakeguru가 유출된 Claude 코드 소스를 파고든 후 상세한 스레드를 최근에 공개했습니다:\n\n→ [https://x.com/iamfakeguru/status/20389655672692...",
+      "summary_zh": "摘要：u/iamfakeguru 在深入研究洩露的 Claude 程式碼源後最近發布了詳細的帖子：\n\n→ [https://x.com/iamfakeguru/status/20389655672692...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8y0yg/anthropic_employees_use_this_secret_claudemd_user/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.030479+09:00",
+      "reddit_score": 34
+    },
+    {
+      "id": "f89cbad1e292",
+      "title": "About to lose another Max user. I haven't been able to work in 9-10 Days. Here is my week's findings.",
+      "summary_en": "10 Days Testing Claude's Published Artifact Infrastructure — Here's What's Actually Broken\n\n\n\nI'm a Cloud Operations Technician Team Manager (SaaS tro...",
+      "summary_ko": "Claude의 공개 Artifact 인프라 10일 테스트 — 실제로 깨진 것들\n\n\n\n저는 클라우드 운영 기술자 팀 관리자(SaaS tro...",
+      "summary_zh": "摘要：10天測試Claude發佈的Artifact基礎設施——以下是實際上損壞的東西\n\n我是雲運營技術員團隊經理（SaaS支援...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8t56t/about_to_lose_another_max_user_i_havent_been_able/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.028957+09:00",
+      "reddit_score": 68
+    },
+    {
+      "id": "c0f5fcd83521",
+      "title": "I turned my Claude agents into pixel hamsters",
+      "summary_en": "Saw Pixel Agents in VSCode and wanted it in the menubar, so I made this.\n\nAgents show up as pixel hamsters,  \nwith mini ones for sub-agents and a crow...",
+      "summary_ko": "VSCode에서 Pixel Agents를 봤는데 메뉴바에 넣고 싶어서 만들었습니다.\n\n에이전트는 픽셀 햄스터로 표시되고,\n서브 에이전트에는 미니 버전, 그리고 까마귀가 있습니다...",
+      "summary_zh": "摘要：在VSCode中看到像素代理，想要在菜單欄中使用它，所以我做了這個。\n\n代理顯示為像素倉鼠，\n子代理有迷你版本，還有一隻烏鴉...",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s91bbz/i_turned_my_claude_agents_into_pixel_hamsters/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.028957+09:00",
+      "reddit_score": 30
+    },
+    {
+      "id": "c215c4b560f9",
+      "title": "I am fully blind, and this is why Claude is changing my life.",
+      "summary_en": "So, I want to tell you about my experience with Claude.\n\n\n\nFirstly, I am fully blind. i am telling you this because this is the main reason why Ai has...",
+      "summary_ko": "그래서 나는 당신에게 Claude와의 나의 경험에 대해 말해주고 싶습니다.\n\n먼저, 나는 완전히 시각장애인입니다. 나는 당신에게 이것을 말하고 있습니다. 왜냐하면 이것이 AI가...",
+      "summary_zh": "摘要：所以，我想告訴你我與Claude的經歷。\n\n\n\n首先，我完全失明。我告訴你這一點是因為這是為什麼人工智能……",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9225a/i_am_fully_blind_and_this_is_why_claude_is/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.027962+09:00",
+      "reddit_score": 41
+    },
+    {
+      "id": "bb74f0a28257",
+      "title": "Claude Code's source code just leaked — so I had Claude Code analyze its own internals and build an open-source multi-agent framework from it",
+      "summary_en": "Claude Code's full source was exposed via source maps. 500K+ lines of TypeScript with the full architecture visible.\n\n\n\nI studied the multi-agent orch...",
+      "summary_ko": "Claude Code의 전체 소스가 소스 맵을 통해 노출되었습니다. 전체 아키텍처가 드러난 50만 줄 이상의 TypeScript입니다.\n\n\n\n저는 멀티 에이전트를 연구했습니다",
+      "summary_zh": "摘要：Claude Code 的完整源代碼通過源代碼地圖洩露。50 萬多行 TypeScript 代碼，完整的架構一覽無遺。\n\n我研究了多代理",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8xfwt/claude_codes_source_code_just_leaked_so_i_had/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.025954+09:00",
+      "reddit_score": 189
+    },
+    {
+      "id": "432d8ff99eeb",
+      "title": "Thanks to the leaked source code for Claude Code, I used Codex to find and patch the root cause of the insane token drain in Claude Code and patched it. Usage limits are back to normal for me!",
+      "summary_en": "https://github.com/Rangizingo/cc-cache-fix/tree/main\n\nDisclaimer : Codex found and fixed this, not me. I work in IT and know how to ask the right ques...",
+      "summary_ko": "https://github.com/Rangizingo/cc-cache-fix/tree/main\n\n면책 조항: Codex가 발견하고 수정했습니다",
+      "summary_zh": "摘要：https://github.com/Rangizingo/cc-cache-fix/tree/main\n\n免責聲明：Codex找到並修復了th",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8zxt4/thanks_to_the_leaked_source_code_for_claude_code/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.024746+09:00",
+      "reddit_score": 206
+    },
+    {
+      "id": "31451499e39d",
+      "title": "Guys, stop bad mouthing your AI.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8tf4q/guys_stop_bad_mouthing_your_ai/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T09:09:16.023739+09:00",
+      "reddit_score": 800
+    },
+    {
+      "id": "54d35c7a1638",
+      "title": "I read 17 papers on agentic AI workflows. Most Claude Code advice is measurably wrong",
+      "summary_en": "I lead a small engineering team doing a greenfield SaaS rewrite. I've been testing agentic coding but could never get reliable enough output to integr...",
+      "summary_ko": "저는 신규 SaaS 재작성을 진행 중인 소규모 엔지니어링 팀을 이끌고 있습니다. 저는 에이전트 코딩을 테스트해봤지만 신뢰할 수 있을 만큼 충분한 출력을 얻을 수 없었습니다...",
+      "summary_zh": "摘要：我領導一個小型工程團隊進行全新的SaaS重寫。我一直在測試代理型編碼，但無法獲得足夠可靠的輸出來整合...",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8mbqm/i_read_17_papers_on_agentic_ai_workflows_most/",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-01T09:09:16.027962+09:00",
+      "reddit_score": 221
+    },
+    {
+      "id": "39f405776c99",
+      "title": "I wrote a cron job that saves me ~2 hours of dead time on Claude Code every day",
+      "summary_en": "If you're on a Max plan and use Claude Code heavily, you've probably noticed the 5-hour usage window starts when you send your first message, floored ...",
+      "summary_ko": "Max 플랜을 사용 중이고 Claude Code를 자주 사용한다면, 5시간 사용 윈도우가 첫 메시지를 보낼 때 시작되는 것을 알아챘을 것입니다 ...",
+      "summary_zh": "摘要：如果你使用 Max 方案並經常使用 Claude Code，你可能已經注意到 5 小時的使用時間窗口從你發送第一條消息時開始，向下取整...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8pae9/i_wrote_a_cron_job_that_saves_me_2_hours_of_dead/",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-01T09:09:16.027962+09:00",
+      "reddit_score": 244
+    },
+    {
+      "id": "168f9d61a3c6",
+      "title": "Did Claude just troll me?",
+      "summary_en": "I was hoping to have a dialogue that would make me see issues I hadn't considered, but Claude was not cooperating so I asked it if it had the ability ...",
+      "summary_ko": "내가 고려하지 못했던 문제들을 볼 수 있게 해주는 대화를 원했지만, Claude가 협조하지 않아서 그것이 능력이 있는지 물었습니다 ...",
+      "summary_zh": "摘要：我希望能進行一場對話，讓我看到我沒有考慮過的問題，但 Claude 不願配合，所以我問它是否有能力...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8n50m/did_claude_just_troll_me/",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-01T09:09:16.026957+09:00",
+      "reddit_score": 364
+    },
+    {
+      "id": "e3543c874671",
+      "title": "Claude code source code has been leaked via a map file in their npm registry",
+      "summary_en": "From Chaofan Shou on 𝕏: [https://x.com/Fried\\_rice/status/2038894956459290963](https://x.com/Fried_rice/status/2038894956459290963)",
+      "summary_ko": "Chaofan Shou의 𝕏 게시물: [https://x.com/Fried\\_rice/status/2038894956459290963](https://x.com/Fried_rice/status/2038894956459290963)",
+      "summary_zh": "摘要：來自 Chaofan Shou 在 𝕏 上的信息：[https://x.com/Fried\\_rice/status/2038894956459290963](https://x.com/Fried_rice/status/2038894956459290963)",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-01T09:09:16.024746+09:00",
+      "reddit_score": 1948
+    },
+    {
+      "id": "cd18d198e893",
+      "title": "i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged",
+      "summary_en": "so claude code's full source leaked through a .map file in their npm package and someone uploaded it to github. i spent a few hours going through it a...",
+      "summary_ko": "Claude Code의 전체 소스가 npm 패키지의 .map 파일을 통해 유출되었고 누군가 Github에 업로드했습니다. 나는 몇 시간을 들여서 그것을 살펴봤는데...",
+      "summary_zh": "摘要：所以claude code的完整源代碼通過他們npm包中的.map文件洩露，有人把它上傳到了github。我花了幾個小時瀏覽它...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-01T09:09:16.023739+09:00",
+      "reddit_score": 3312
+    },
+    {
+      "id": "55d2be8bac49",
+      "title": "Australian government and Anthropic sign MOU for AI safety and research",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-partner-network",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-01T09:09:12.538015+09:00"
+    },
+    {
       "id": "d25365f20cec",
       "title": "Three annual Pro subs and the experience keeps getting worse",
       "summary_en": "So I run a small business in Sydney and I've been using Claude daily since late last year. It’s now at the point where I thought it was good enough to...",
@@ -1111,6 +1379,23 @@
       "reddit_score": 4342
     },
     {
+      "id": "6269fbbd3992",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on March 25, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (March 25, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (March 25, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-25",
+      "collected_at": "2026-04-01T09:09:14.639401+09:00"
+    },
+    {
       "id": "ab5ff4a38170",
       "title": "Claude Code v7.1.0 Release",
       "summary_en": "Claude Code 7.1.0 released on March 25, 2026. Check changelog for details.",
@@ -1588,17 +1873,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-03-31T16:00:35.717076+09:00",
+  "last_updated": "2026-04-01T09:10:57.081019+09:00",
   "stats": {
-    "total_items": 87,
+    "total_items": 102,
     "categories": {
-      "ai_trend": 28,
+      "ai_trend": 34,
+      "claude_code": 36,
       "claude_release": 25,
-      "claude_code": 27,
       "automation": 2,
       "content_sns": 1,
       "claude_api": 4
     },
-    "last_collection": "2026-03-31 16:00"
+    "last_collection": "2026-04-01 09:10"
   }
 }
