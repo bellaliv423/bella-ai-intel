@@ -1,6 +1,100 @@
 {
   "items": [
     {
+      "id": "a777c5efacb7",
+      "title": "So you're saying it was capable???",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s94thw/so_youre_saying_it_was_capable/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T16:00:13.791074+09:00",
+      "reddit_score": 39
+    },
+    {
+      "id": "12a5089c68b7",
+      "title": "So it's good to express your emotion clearly with Claude :))))",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s98p2b/so_its_good_to_express_your_emotion_clearly_with/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T16:00:13.791074+09:00",
+      "reddit_score": 31
+    },
+    {
+      "id": "7424972c8f19",
+      "title": "Well look who just got a new Buddy!",
+      "summary_en": "Just noticed /buddy pop up in the bottom right of my teminal. I got a lil mushroom guy!",
+      "summary_ko": "터미널 오른쪽 아래에 /buddy가 나타났어. 작은 버섯 친구를 얻었어!",
+      "summary_zh": "摘要：剛剛注意到我的終端機右下角出現了 /buddy。我得到了一個小蘑菇傢伙！",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s97brj/well_look_who_just_got_a_new_buddy/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T16:00:13.790073+09:00",
+      "reddit_score": 109
+    },
+    {
+      "id": "637a719f77a3",
+      "title": "You can now build a fully functional Claude Code executable directly from source code now - modding claude code has never been easier",
+      "summary_en": "This running claude code instance is built entirely from leaked sourcemap. Opus 4.6 helped me build a staged dependency resolution system to reconstru...",
+      "summary_ko": "이 실행 중인 Claude 코드 인스턴스는 유출된 소스맵으로 완전히 구축되었습니다. Opus 4.6이 단계별 종속성 해석 시스템을 구축하여 재구성을 도와주었습니다",
+      "summary_zh": "摘要：這個運行中的 Claude Code 實例完全由洩露的源映射構建而成。Opus 4.6 幫助我構建了一個分階段依賴解決系統來重建",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Opus",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s98srg/you_can_now_build_a_fully_functional_claude_code/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T16:00:13.790073+09:00",
+      "reddit_score": 449
+    },
+    {
+      "id": "9cf7d160553d",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 1, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 1, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 1, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-01T16:00:11.682002+09:00"
+    },
+    {
       "id": "33a0b1beafa0",
       "title": "AI induced anxiety?",
       "summary_en": "This may sound weird, but figured this community may understand.  I’m just looking for a shared experience.\n\nI use Claude professionally and personall...",
@@ -1873,17 +1967,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-01T09:10:57.081019+09:00",
+  "last_updated": "2026-04-01T16:00:25.126923+09:00",
   "stats": {
-    "total_items": 102,
+    "total_items": 107,
     "categories": {
-      "ai_trend": 34,
-      "claude_code": 36,
+      "ai_trend": 37,
+      "claude_code": 38,
       "claude_release": 25,
       "automation": 2,
       "content_sns": 1,
       "claude_api": 4
     },
-    "last_collection": "2026-04-01 09:10"
+    "last_collection": "2026-04-01 16:00"
   }
 }

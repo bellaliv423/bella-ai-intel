@@ -111,9 +111,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'AI induced anxiety?' 핵심 정리 카드",
-      "title_zh": "'AI induced anxiety?' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 AI induced anxiety? 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'So you're saying it was capable???' 핵심 정리 카드",
+      "title_zh": "'So you're saying it was capable???' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 So you're saying it was capable??? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -129,46 +129,12 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 AI induced anxiety? 총정리",
-      "title_zh": "2026年 2026-04 AI induced anxiety? 總整理",
-      "description_ko": "AI induced anxiety? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 So you're saying it was capable??? 총정리",
+      "title_zh": "2026年 2026-04 So you're saying it was capable??? 總整理",
+      "description_ko": "So you're saying it was capable??? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-01"
-    },
-    {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version' 실습 세션",
-      "title_zh": "'Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version 체험 + Q&A",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#AI세미나",
-        "#실습"
-      ],
-      "news_date": "2026-04-01"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version 총정리",
-      "title_zh": "2026年 2026-04 Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version 總整理",
-      "description_ko": "Anthropic Employees Use This Secret CLAUDE.md (USER_TYPE=ant) – Here’s the leaked &amp; improved version 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
@@ -180,9 +146,44 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'About to lose another Max user. I haven't been able to work in 9-10 Days. Here is my week's findings.' 핵심 정리 카드",
-      "title_zh": "'About to lose another Max user. I haven't been able to work in 9-10 Days. Here is my week's findings.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 About to lose another Max user. I haven't been able to work in 9-10 Days. Here is my week's findings. 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'So it's good to express your emotion clearly with Claude :))))' 핵심 정리 카드",
+      "title_zh": "'So it's good to express your emotion clearly with Claude :))))' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 So it's good to express your emotion clearly with Claude :)))) 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-04-01"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 So it's good to express your emotion clearly with Claude :)))) 총정리",
+      "title_zh": "2026年 2026-04 So it's good to express your emotion clearly with Claude :)))) 總整理",
+      "description_ko": "So it's good to express your emotion clearly with Claude :)))) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-01"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Well look who just got a new Buddy!' 핵심 정리 카드",
+      "title_zh": "'Well look who just got a new Buddy!' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Well look who just got a new Buddy! 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -194,7 +195,7 @@
       "news_date": "2026-04-01"
     }
   ],
-  "last_analyzed": "2026-04-01T09:10:58.028953+09:00",
+  "last_analyzed": "2026-04-01T16:00:25.906838+09:00",
   "analyzed_date": "2026-04-01",
-  "analyzed_time": "09:10 KST"
+  "analyzed_time": "16:00 KST"
 }
