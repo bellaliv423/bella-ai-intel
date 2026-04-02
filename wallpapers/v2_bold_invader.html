@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>BELLA AI Dream Team v2 - Bold Invader</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1920px; height: 1080px;
+    background: #141413;
+    overflow: hidden;
+    font-family: 'Press Start 2P', monospace;
+    position: relative;
+  }
+  body::before {
+    content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,0,0,0.05) 3px, rgba(0,0,0,0.05) 6px);
+    pointer-events: none; z-index: 100;
+  }
+  body::after {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 40%, rgba(193,95,60,0.07) 0%, transparent 60%);
+    pointer-events: none; z-index: 0;
+  }
+  .container {
+    position: relative; z-index: 10;
+    width: 100%; height: 100%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 12px;
+  }
+  .title-block { text-align: center; margin-bottom: 4px; }
+  .title-block h1 {
+    font-size: 32px; color: #C15F3C;
+    text-shadow: 4px 4px 0 #7a3a24, 0 0 40px rgba(193,95,60,0.25);
+    letter-spacing: 6px;
+  }
+  .title-block .subtitle {
+    font-family: 'Silkscreen', monospace;
+    font-size: 12px; color: #888; margin-top: 6px;
+    letter-spacing: 8px; text-transform: uppercase;
+  }
+  .team-section { text-align: center; }
+  .team-label {
+    font-size: 10px; letter-spacing: 4px;
+    margin-bottom: 12px; padding: 5px 20px;
+    display: inline-block; border: 1px solid; border-radius: 3px;
+  }
+  .team-label.hamsterz { color: #C15F3C; border-color: rgba(193,95,60,0.5); background: rgba(193,95,60,0.1); }
+  .team-label.puppyz { color: #5B8DEF; border-color: rgba(91,141,239,0.5); background: rgba(91,141,239,0.1); }
+  .characters-row {
+    display: flex; justify-content: center; gap: 16px;
+  }
+  .char {
+    display: flex; flex-direction: column;
+    align-items: center; gap: 6px; width: 130px;
+  }
+  .char-name {
+    font-size: 8px; letter-spacing: 1px;
+    text-shadow: 0 0 8px currentColor;
+  }
+  .char-role {
+    font-family: 'Silkscreen', monospace;
+    font-size: 9px; color: #666;
+  }
+  .char.leader canvas { filter: drop-shadow(0 0 16px rgba(193,95,60,0.5)); }
+  .char.leader-p canvas { filter: drop-shadow(0 0 16px rgba(91,141,239,0.5)); }
+  .star {
+    position: absolute; width: 2px; height: 2px;
+    background: rgba(193,95,60,0.25); border-radius: 50%; z-index: 1;
+  }
+  .badge {
+    position: absolute; bottom: 16px; font-family: 'Silkscreen', monospace;
+    font-size: 9px; color: #3a3a38; z-index: 10;
+  }
+  .badge.left { left: 24px; }
+  .badge.right { right: 24px; }
+  canvas { image-rendering: pixelated; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="title-block">
+    <h1>BELLA AI DREAM TEAM</h1>
+    <div class="subtitle">Hamsterz &times; Puppyz &mdash; Since 2026</div>
+  </div>
+  <div class="team-section">
+    <div class="team-label hamsterz">HAMSTERZ &mdash; Claude Code</div>
+    <div class="characters-row" id="hrow"></div>
+  </div>
+  <div class="team-section" style="margin-top:4px">
+    <div class="team-label puppyz">PUPPYZ &mdash; OpenClaw</div>
+    <div class="characters-row" id="prow"></div>
+  </div>
+</div>
+<div class="badge left">Made with Claude by Bella (KNDLI) &copy; 2026</div>
+<div class="badge right">v2 Bold Invader &mdash; Dream Team Wallpaper</div>
+
+<script>
+const PX = 8; // pixel size for 16x16 grid → 128px canvas
+const G = 16; // grid size
+
+// Color helper
+function hex(c) { return c; }
+
+// --- HAMSTER SPRITES (16x16) ---
+// 0=empty 1=body 2=outline 3=eye-white 4=pupil 5=cheek 6=accent 7=item
+function baseHamster() {
+  return [
+    '0000002662000000',
+    '0000026116200000',
+    '0002261111622000',
+    '0026111111116200',
+    '0261111111111620',
+    '0211111111111120',
+    '0211341111431120',
+    '0211141111411120',
+    '0211115111511120',
+    '0211111221111120',
+    '0021115555112000',
+    '0002111111112000',
+    '0000211111120000',
+    '0000021111200000',
+    '0000021002100000',
+    '0000022002200000',
+  ];
+}
+
+function basePuppy() {
+  return [
+    '0260000000000620',
+    '2616200000261612',
+    '2611620000261162',
+    '0261116111611620',
+    '0026111111116200',
+    '0021111111111200',
+    '0021134111431200',
+    '0021114111411200',
+    '0021111111111200',
+    '0021111221111200',
+    '0002111111112000',
+    '0002111111112000',
+    '0000211111120000',
+    '0000021111200000',
+    '0000021002100000',
+    '0000022002200000',
+  ];
+}
+
+const hamsters = [
+  { name:'GOLDI', role:'Master', body:'#C15F3C', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FF9B7A', accent:'#E8845A', nameC:'#C15F3C', leader:true,
+    mods: function(g) {
+      // Crown
+      const crown = [
+        [5,0,'#FFD700'],[6,0,'#FFD700'],[7,0,'#FFD700'],[8,0,'#FFD700'],[9,0,'#FFD700'],[10,0,'#FFD700'],
+        [6,-1,'#FFD700'],[8,-1,'#FFD700'],[10,-1,'#FFD700'],
+        [5,-1,'#FFA000'],[7,-1,'#FFA000'],[9,-1,'#FFA000'],
+      ];
+      return crown;
+    }
+  },
+  { name:'ROBO', role:'Auto', body:'#4CAF50', outline:'#1a1a19', eyeW:'#76FF03', pupil:'#111',
+    cheek:'#81C784', accent:'#66BB6A', nameC:'#4CAF50',
+    mods: function() {
+      // Antenna
+      return [[7,-2,'#76FF03'],[8,-2,'#76FF03'],[7,-1,'#4CAF50'],[8,-1,'#4CAF50'],[7,0,'#388E3C'],[8,0,'#388E3C']];
+    }
+  },
+  { name:'WINDY', role:'Mentor', body:'#5B8DEF', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#9DBCFA', accent:'#7BA4F5', nameC:'#5B8DEF',
+    mods: function() {
+      // Glasses frames
+      return [
+        [3,6,'#222'],[4,6,'#222'],[5,6,'#222'],[6,6,'#222'],[7,6,'#333'],
+        [8,6,'#222'],[9,6,'#222'],[10,6,'#222'],[11,6,'#222'],
+        [3,8,'#222'],[4,8,'#222'],[5,8,'#222'],[6,8,'#222'],
+        [8,8,'#222'],[9,8,'#222'],[10,8,'#222'],[11,8,'#222'],
+      ];
+    }
+  },
+  { name:'SIRI', role:'Designer', body:'#9C27B0', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#CE93D8', accent:'#AB47BC', nameC:'#AB47BC',
+    mods: function() {
+      // Pencil
+      return [[14,4,'#FFC107'],[14,5,'#FFC107'],[14,6,'#FFC107'],[14,7,'#795548'],[14,8,'#EF5350']];
+    }
+  },
+  { name:'CHAI', role:'Researcher', body:'#FF5722', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FF8A65', accent:'#FF7043', nameC:'#FF5722',
+    mods: function() {
+      // Magnifying glass
+      return [[14,5,'#90CAF9'],[15,5,'#90CAF9'],[14,6,'#90CAF9'],[15,6,'#90CAF9'],
+              [13,5,'#607D8B'],[13,6,'#607D8B'],[14,4,'#607D8B'],[15,4,'#607D8B'],
+              [14,7,'#607D8B'],[15,7,'#607D8B'],[13,8,'#795548'],[12,9,'#795548']];
+    }
+  },
+  { name:'PANDA', role:'Creator', body:'#E0E0E0', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FFF9C4', accent:'#BDBDBD', nameC:'#9E9E9E',
+    mods: function() {
+      // Panda eye patches
+      return [[3,5,'#333'],[4,5,'#333'],[5,5,'#333'],[3,6,'#333'],[5,6,'#333'],[3,7,'#333'],[4,7,'#333'],[5,7,'#333'],
+              [9,5,'#333'],[10,5,'#333'],[11,5,'#333'],[9,6,'#333'],[11,6,'#333'],[9,7,'#333'],[10,7,'#333'],[11,7,'#333']];
+    }
+  },
+  { name:'TEDDY', role:'Analyst', body:'#795548', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FFAB91', accent:'#8D6E63', nameC:'#8D6E63',
+    mods: function() {
+      // Chart badge
+      return [[13,9,'#4CAF50'],[14,9,'#4CAF50'],[13,10,'#FFC107'],[14,10,'#2196F3'],[13,11,'#4CAF50'],[14,11,'#EF5350']];
+    }
+  },
+  { name:'CAM', role:'QA', body:'#00BCD4', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#80DEEA', accent:'#26C6DA', nameC:'#00BCD4',
+    mods: function() {
+      // Checkmark shield
+      return [[13,6,'#FFC107'],[14,6,'#FFC107'],[15,6,'#FFC107'],
+              [13,7,'#FFC107'],[14,7,'#4CAF50'],[15,7,'#FFC107'],
+              [13,8,'#FFC107'],[14,8,'#4CAF50'],[15,8,'#FFC107'],
+              [14,9,'#FFC107']];
+    }
+  },
+  { name:'HUNTER', role:'Debug', body:'#424242', outline:'#111', eyeW:'#EF5350', pupil:'#B71C1C',
+    cheek:'#616161', accent:'#333', nameC:'#EF5350',
+    mods: function() {
+      // Red laser eyes
+      return [[5,7,'#EF5350'],[4,7,'#FF1744'],[3,7,'#FF174480'],
+              [10,7,'#EF5350'],[11,7,'#FF1744'],[12,7,'#FF174480']];
+    }
+  },
+  { name:'PEARL', role:'UI/UX', body:'#EEEEEE', outline:'#BDBDBD', eyeW:'#FFF', pupil:'#111',
+    cheek:'#F8BBD0', accent:'#F5F5F5', nameC:'#F48FB1',
+    mods: function() {
+      // Heart + palette
+      return [[14,5,'#E91E63'],[15,5,'#E91E63'],[13,6,'#E91E63'],[14,6,'#E91E63'],
+              [13,8,'#EF5350'],[14,8,'#2196F3'],[15,8,'#FFC107'],[13,9,'#4CAF50']];
+    }
+  },
+];
+
+const puppies = [
+  { name:'COLLIE', role:'Lead', body:'#FF9800', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FFE0B2', accent:'#FFB74D', nameC:'#FF9800', leader:true,
+    mods: function() {
+      // Bandana
+      return [[4,9,'#EF5350'],[5,9,'#EF5350'],[6,9,'#EF5350'],[7,9,'#EF5350'],
+              [8,9,'#EF5350'],[9,9,'#EF5350'],[10,9,'#EF5350'],[11,9,'#EF5350'],
+              [12,10,'#EF5350'],[13,10,'#D32F2F'],[13,11,'#D32F2F']];
+    }
+  },
+  { name:'SHIBA', role:'Patrol', body:'#FFC107', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FFF8E1', accent:'#FFD54F', nameC:'#FFC107',
+    mods: function() {
+      // Guard hat
+      return [[4,-1,'#1B5E20'],[5,-1,'#1B5E20'],[6,-1,'#1B5E20'],[7,-1,'#1B5E20'],
+              [8,-1,'#1B5E20'],[9,-1,'#1B5E20'],[10,-1,'#1B5E20'],[11,-1,'#1B5E20'],
+              [5,0,'#2E7D32'],[6,0,'#2E7D32'],[7,0,'#2E7D32'],[8,0,'#2E7D32'],
+              [9,0,'#2E7D32'],[10,0,'#2E7D32'],[7,-1,'#FFD700']];
+    }
+  },
+  { name:'RITRI', role:'CS', body:'#8BC34A', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#F0F4C3', accent:'#AED581', nameC:'#8BC34A',
+    mods: function() {
+      // Heart necklace
+      return [[6,10,'#E91E63'],[7,10,'#FFD700'],[8,10,'#FFD700'],[9,10,'#E91E63'],
+              [7,11,'#E91E63'],[8,11,'#E91E63']];
+    }
+  },
+  { name:'POMI', role:'SNS', body:'#E91E63', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#F8BBD0', accent:'#F06292', nameC:'#E91E63',
+    mods: function() {
+      // Ribbon + stars
+      return [[6,0,'#FF80AB'],[7,0,'#FF80AB'],[8,0,'#FF80AB'],[9,0,'#FF80AB'],
+              [5,1,'#FF4081'],[10,1,'#FF4081'],
+              [0,2,'#FFEB3B'],[15,3,'#FFEB3B'],[1,12,'#FFEB3B'],[14,1,'#FFEB3B']];
+    }
+  },
+  { name:'DOBI', role:'Security', body:'#37474F', outline:'#111', eyeW:'#111', pupil:'#111',
+    cheek:'#546E7A', accent:'#455A64', nameC:'#78909C',
+    mods: function() {
+      // Sunglasses (like Claude mascot!)
+      return [[3,6,'#111'],[4,6,'#222'],[5,6,'#222'],[6,6,'#111'],
+              [7,6,'#333'],[8,6,'#111'],
+              [9,6,'#222'],[10,6,'#222'],[11,6,'#222'],[12,6,'#111'],
+              [4,7,'#333'],[5,7,'#333'],[10,7,'#333'],[11,7,'#333']];
+    }
+  },
+  { name:'CORGI', role:'Collect', body:'#FF7043', outline:'#1a1a19', eyeW:'#FFF', pupil:'#111',
+    cheek:'#FFCCBC', accent:'#FF8A65', nameC:'#FF7043',
+    mods: function() {
+      // Bag + short legs (wider body)
+      return [[14,7,'#795548'],[15,7,'#795548'],[14,8,'#795548'],[15,8,'#795548'],
+              [14,9,'#795548'],[15,9,'#8D6E63'],[14,10,'#A1887F']];
+    }
+  },
+];
+
+function drawSprite(canvas, data, isHamster) {
+  const ctx = canvas.getContext('2d');
+  const grid = isHamster ? baseHamster() : basePuppy();
+  canvas.width = G * PX; canvas.height = G * PX;
+  canvas.style.width = (G * PX) + 'px';
+  canvas.style.height = (G * PX) + 'px';
+
+  const colorMap = {
+    '0': null,
+    '1': data.body,
+    '2': data.outline,
+    '3': data.eyeW,
+    '4': data.pupil,
+    '5': data.cheek,
+    '6': data.accent,
+  };
+
+  // Draw base grid
+  for (let y = 0; y < G; y++) {
+    const row = grid[y] || '';
+    for (let x = 0; x < G; x++) {
+      const v = row[x] || '0';
+      const c = colorMap[v];
+      if (!c) continue;
+      ctx.fillStyle = c;
+      ctx.fillRect(x * PX, y * PX, PX, PX);
+    }
+  }
+
+  // Draw eye highlights
+  ctx.fillStyle = '#FFF';
+  ctx.fillRect(4 * PX + 1, 6 * PX + 1, 3, 3);
+  ctx.fillRect(10 * PX + 1, 6 * PX + 1, 3, 3);
+
+  // Apply character-specific mods
+  if (data.mods) {
+    const mods = data.mods();
+    mods.forEach(([x, y, color]) => {
+      ctx.fillStyle = color;
+      ctx.fillRect(x * PX, y * PX, PX, PX);
+    });
+  }
+}
+
+function createCard(data, isHamster) {
+  const div = document.createElement('div');
+  div.className = 'char' + (data.leader && isHamster ? ' leader' : '') + (data.leader && !isHamster ? ' leader-p' : '');
+
+  const canvas = document.createElement('canvas');
+  drawSprite(canvas, data, isHamster);
+
+  const name = document.createElement('div');
+  name.className = 'char-name';
+  name.style.color = data.nameC;
+  name.textContent = data.name;
+
+  const role = document.createElement('div');
+  role.className = 'char-role';
+  role.textContent = data.role;
+
+  div.appendChild(canvas);
+  div.appendChild(name);
+  div.appendChild(role);
+  return div;
+}
+
+// Render
+hamsters.forEach(h => document.getElementById('hrow').appendChild(createCard(h, true)));
+puppies.forEach(p => document.getElementById('prow').appendChild(createCard(p, false)));
+
+// Stars
+for (let i = 0; i < 80; i++) {
+  const s = document.createElement('div');
+  s.className = 'star';
+  s.style.left = Math.random() * 1920 + 'px';
+  s.style.top = Math.random() * 1080 + 'px';
+  s.style.opacity = Math.random() * 0.4 + 0.1;
+  s.style.width = s.style.height = (Math.random() > 0.6 ? 3 : 2) + 'px';
+  if (Math.random() > 0.7) s.style.background = 'rgba(91,141,239,0.2)';
+  document.body.appendChild(s);
+}
+</script>
+</body>
+</html>

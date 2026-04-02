@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>BELLA AI Dream Team v3 - Space Invader</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1920px;height:1080px;background:#1a1a19;overflow:hidden;font-family:'Press Start 2P',monospace;position:relative}
+  body::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,0.04) 3px,rgba(0,0,0,0.04) 6px);pointer-events:none;z-index:100}
+  body::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(193,95,60,0.08) 0%,transparent 55%),radial-gradient(ellipse at 50% 75%,rgba(91,141,239,0.05) 0%,transparent 50%);pointer-events:none;z-index:0}
+  .wrap{position:relative;z-index:10;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+  .title{text-align:center;margin-bottom:2px}
+  .title h1{font-size:30px;color:#C15F3C;text-shadow:4px 4px 0 #7a3a24,0 0 40px rgba(193,95,60,0.3);letter-spacing:5px}
+  .title .sub{font-family:'Silkscreen',monospace;font-size:11px;color:#777;margin-top:6px;letter-spacing:8px}
+  .team{text-align:center}
+  .label{font-size:10px;letter-spacing:4px;margin-bottom:10px;padding:4px 18px;display:inline-block;border:1px solid;border-radius:2px}
+  .label.h{color:#C15F3C;border-color:rgba(193,95,60,0.5);background:rgba(193,95,60,0.1)}
+  .label.p{color:#5B8DEF;border-color:rgba(91,141,239,0.5);background:rgba(91,141,239,0.1)}
+  .row{display:flex;justify-content:center;gap:12px}
+  .c{display:flex;flex-direction:column;align-items:center;gap:5px;width:138px}
+  .c canvas{image-rendering:pixelated}
+  .nm{font-size:9px;letter-spacing:2px;text-shadow:0 0 10px currentColor}
+  .rl{font-family:'Silkscreen',monospace;font-size:9px;color:#555}
+  .c.gl canvas{filter:drop-shadow(0 0 18px rgba(193,95,60,0.5))}
+  .c.bl canvas{filter:drop-shadow(0 0 18px rgba(91,141,239,0.5))}
+  .c.bgl canvas{filter:drop-shadow(0 0 12px rgba(255,255,255,0.15))}
+  .st{position:absolute;width:2px;height:2px;border-radius:50%;z-index:1}
+  .bg{position:absolute;bottom:14px;font-family:'Silkscreen',monospace;font-size:8px;color:#333;z-index:10}
+  .bg.l{left:20px}.bg.r{right:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title">
+    <h1>BELLA AI DREAM TEAM</h1>
+    <div class="sub">Hamsterz &times; Puppyz &mdash; Since 2026</div>
+  </div>
+  <div class="team">
+    <div class="label h">HAMSTERZ &mdash; Claude Code</div>
+    <div class="row" id="hr"></div>
+  </div>
+  <div class="team" style="margin-top:2px">
+    <div class="label p">PUPPYZ &mdash; OpenClaw</div>
+    <div class="row" id="pr"></div>
+  </div>
+</div>
+<div class="bg l">Made with Claude by Bella (KNDLI) &copy; 2026</div>
+<div class="bg r">v3 Space Invader &mdash; Dream Team Wallpaper</div>
+
+<script>
+const P = 7, S = 20; // pixel size, grid size
+
+// ========== HAMSTER TEMPLATE (20x20) ==========
+// Round ears on top, square body, 2 short legs
+const H_TPL = `
+00000006006000000000
+00000066006600000000
+00000661166100000000
+00000611116100000000
+00002211112200000000
+00021111111120000000
+00211111111112000000
+00211111111112000000
+02111111111111200000
+02111341114311200000
+02111141111411200000
+02111111111111200000
+02111155115511200000
+00211111111112000000
+00021111111120000000
+00002111111200000000
+00002111111200000000
+00000211112000000000
+00000210001200000000
+00000220002200000000
+`.trim().split('\n').map(r=>r.trim());
+
+// ========== PUPPY TEMPLATE (20x20) ==========
+// Floppy triangle ears, square body, 4 short legs
+const P_TPL = `
+00026000000006200000
+00261000000001620000
+02610000000000162000
+26100000000000016200
+02211111111111220000
+00211111111112000000
+00211111111112000000
+02111111111111200000
+02111341114311200000
+02111141111411200000
+02111111111111200000
+02111111221111200000
+00211111111112000000
+00021111111120000000
+00021111111120000000
+00002111111200000000
+00002111111200000000
+00000211112000000000
+00000210102100000000
+00000220202200000000
+`.trim().split('\n').map(r=>r.trim());
+
+const hamsters = [
+  {n:'GOLDI',r:'Master',body:'#C15F3C',out:'#2a1a12',ew:'#FFF',ep:'#111',ck:'#FFB09A',ac:'#E8845A',nc:'#C15F3C',cls:'gl',
+    mod(ctx,P){
+      // Big golden crown
+      const c='#FFD700',d='#FFA000';
+      [[6,-3,c],[7,-3,d],[8,-3,c],[9,-3,d],[10,-3,c],[11,-3,d],[12,-3,c],
+       [7,-2,c],[9,-2,c],[11,-2,c],[6,-2,d],[8,-2,d],[10,-2,d],[12,-2,d],
+       [6,-1,c],[7,-1,c],[8,-1,c],[9,-1,c],[10,-1,c],[11,-1,c],[12,-1,c],
+      ].forEach(([x,y,cl])=>{ctx.fillStyle=cl;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'ROBO',r:'Auto',body:'#4CAF50',out:'#1B5E20',ew:'#76FF03',ep:'#111',ck:'#A5D6A7',ac:'#66BB6A',nc:'#4CAF50',cls:'',
+    mod(ctx,P){
+      // Antenna + LED
+      [[8,-3,'#76FF03'],[9,-3,'#76FF03'],[10,-3,'#76FF03'],
+       [9,-2,'#388E3C'],[9,-1,'#4CAF50'],
+       [8,-3,'#B9F6CA'],[10,-3,'#B9F6CA'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'WINDY',r:'Mentor',body:'#5B8DEF',out:'#1a2a4a',ew:'#FFF',ep:'#111',ck:'#B3D1FF',ac:'#7BA4F5',nc:'#5B8DEF',cls:'',
+    mod(ctx,P){
+      // Big round glasses
+      const f='#222',g='#44444480';
+      [[4,9,f],[5,9,f],[6,9,f],[7,9,f],[8,9,f],
+       [10,9,f],[11,9,f],[12,9,f],[13,9,f],[14,9,f],
+       [4,11,f],[5,11,f],[6,11,f],[7,11,f],[8,11,f],
+       [10,11,f],[11,11,f],[12,11,f],[13,11,f],[14,11,f],
+       [4,10,f],[8,10,f],[9,10,f],[10,10,f],[14,10,f],
+       [5,10,g],[6,10,g],[7,10,g],[11,10,g],[12,10,g],[13,10,g],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'SIRI',r:'Designer',body:'#9C27B0',out:'#4A148C',ew:'#FFF',ep:'#111',ck:'#E1BEE7',ac:'#BA68C8',nc:'#CE93D8',cls:'',
+    mod(ctx,P){
+      // Pencil on right side
+      [[17,5,'#FFC107'],[17,6,'#FFC107'],[17,7,'#FFC107'],[17,8,'#FFEB3B'],
+       [17,9,'#795548'],[17,10,'#795548'],[17,11,'#EF5350'],
+       [16,5,'#F57F17'],[16,6,'#F57F17'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'CHAI',r:'Researcher',body:'#FF5722',out:'#BF360C',ew:'#FFF',ep:'#111',ck:'#FFAB91',ac:'#FF7043',nc:'#FF5722',cls:'',
+    mod(ctx,P){
+      // Big magnifying glass
+      [[16,4,'#78909C'],[17,4,'#78909C'],[18,4,'#78909C'],
+       [16,5,'#90CAF9'],[17,5,'#BBDEFB'],[18,5,'#90CAF9'],
+       [16,6,'#78909C'],[17,6,'#90CAF9'],[18,6,'#78909C'],
+       [15,7,'#5D4037'],[14,8,'#5D4037'],[13,9,'#5D4037'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'PANDA',r:'Creator',body:'#E8E8E8',out:'#333',ew:'#FFF',ep:'#111',ck:'#FFF9C4',ac:'#BDBDBD',nc:'#9E9E9E',cls:'bgl',
+    mod(ctx,P){
+      // Big panda eye patches
+      [[4,8,'#222'],[5,8,'#222'],[6,8,'#222'],[7,8,'#222'],
+       [4,9,'#222'],[7,9,'#222'],
+       [4,10,'#222'],[7,10,'#222'],
+       [4,11,'#222'],[5,11,'#222'],[6,11,'#222'],[7,11,'#222'],
+       [11,8,'#222'],[12,8,'#222'],[13,8,'#222'],[14,8,'#222'],
+       [11,9,'#222'],[14,9,'#222'],
+       [11,10,'#222'],[14,10,'#222'],
+       [11,11,'#222'],[12,11,'#222'],[13,11,'#222'],[14,11,'#222'],
+       // White eyes inside patches
+       [5,9,'#FFF'],[6,9,'#FFF'],[5,10,'#FFF'],[6,10,'#FFF'],
+       [12,9,'#FFF'],[13,9,'#FFF'],[12,10,'#FFF'],[13,10,'#FFF'],
+       // Pupils
+       [6,10,'#111'],[13,10,'#111'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'TEDDY',r:'Analyst',body:'#8D6E63',out:'#3E2723',ew:'#FFF',ep:'#111',ck:'#FFCCBC',ac:'#A1887F',nc:'#A1887F',cls:'bgl',
+    mod(ctx,P){
+      // Big chart badge
+      [[16,8,'#1B5E20'],[17,8,'#1B5E20'],[18,8,'#1B5E20'],
+       [16,9,'#4CAF50'],[17,9,'#FFC107'],[18,9,'#2196F3'],
+       [16,10,'#4CAF50'],[17,10,'#FFC107'],[18,10,'#2196F3'],
+       [16,11,'#4CAF50'],[17,11,'#4CAF50'],[18,11,'#4CAF50'],
+       [16,12,'#81C784'],[17,12,'#FFD54F'],[18,12,'#64B5F6'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'CAM',r:'QA',body:'#00BCD4',out:'#006064',ew:'#FFF',ep:'#111',ck:'#B2EBF2',ac:'#26C6DA',nc:'#00BCD4',cls:'',
+    mod(ctx,P){
+      // Big checkmark shield
+      [[16,6,'#FFC107'],[17,6,'#FFC107'],[18,6,'#FFC107'],
+       [16,7,'#FFC107'],[17,7,'#FFC107'],[18,7,'#FFC107'],
+       [16,8,'#FFC107'],[17,8,'#4CAF50'],[18,8,'#FFC107'],
+       [16,9,'#FFC107'],[17,9,'#4CAF50'],[18,9,'#FFC107'],
+       [15,10,'#FFC107'],[16,10,'#4CAF50'],[17,10,'#FFC107'],
+       [16,11,'#FFC107'],[17,11,'#FFC107'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'HUNTER',r:'Debug',body:'#555',out:'#888',ew:'#EF5350',ep:'#B71C1C',ck:'#777',ac:'#666',nc:'#EF5350',cls:'bgl',
+    mod(ctx,P){
+      // Red laser beams from eyes
+      [[3,10,'#FF174430'],[2,10,'#FF174420'],[1,10,'#FF174410'],[0,10,'#FF174408'],
+       [4,10,'#FF1744'],[5,10,'#EF5350'],
+       [15,10,'#EF5350'],[16,10,'#FF1744'],
+       [17,10,'#FF174430'],[18,10,'#FF174420'],[19,10,'#FF174410'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+      // Bright outline already set via out:'#888'
+    }},
+  {n:'PEARL',r:'UI/UX',body:'#F5F5F5',out:'#BDBDBD',ew:'#FFF',ep:'#111',ck:'#FCE4EC',ac:'#E0E0E0',nc:'#F48FB1',cls:'bgl',
+    mod(ctx,P){
+      // Big heart + palette
+      [[16,5,'#E91E63'],[18,5,'#E91E63'],
+       [16,6,'#E91E63'],[17,6,'#E91E63'],[18,6,'#E91E63'],
+       [17,7,'#E91E63'],
+       [16,9,'#EF5350'],[17,9,'#42A5F5'],[18,9,'#FFEE58'],
+       [16,10,'#66BB6A'],[17,10,'#AB47BC'],[18,10,'#FF7043'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+];
+
+const puppies = [
+  {n:'COLLIE',r:'Lead',body:'#FF9800',out:'#E65100',ew:'#FFF',ep:'#111',ck:'#FFE0B2',ac:'#FFB74D',nc:'#FF9800',cls:'bl',
+    mod(ctx,P){
+      // Red bandana
+      [[5,11,'#D32F2F'],[6,11,'#EF5350'],[7,11,'#EF5350'],[8,11,'#EF5350'],
+       [9,11,'#EF5350'],[10,11,'#EF5350'],[11,11,'#EF5350'],[12,11,'#EF5350'],[13,11,'#D32F2F'],
+       [14,12,'#D32F2F'],[15,12,'#B71C1C'],[15,13,'#B71C1C'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'SHIBA',r:'Patrol',body:'#FFC107',out:'#F57F17',ew:'#FFF',ep:'#111',ck:'#FFF8E1',ac:'#FFD54F',nc:'#FFC107',cls:'',
+    mod(ctx,P){
+      // Big guard hat
+      [[5,-2,'#1B5E20'],[6,-2,'#1B5E20'],[7,-2,'#1B5E20'],[8,-2,'#1B5E20'],
+       [9,-2,'#1B5E20'],[10,-2,'#1B5E20'],[11,-2,'#1B5E20'],[12,-2,'#1B5E20'],[13,-2,'#1B5E20'],
+       [6,-1,'#2E7D32'],[7,-1,'#2E7D32'],[8,-1,'#2E7D32'],[9,-1,'#FFD700'],
+       [10,-1,'#2E7D32'],[11,-1,'#2E7D32'],[12,-1,'#2E7D32'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'RITRI',r:'CS',body:'#8BC34A',out:'#33691E',ew:'#FFF',ep:'#111',ck:'#F0F4C3',ac:'#AED581',nc:'#8BC34A',cls:'',
+    mod(ctx,P){
+      // Big heart necklace
+      [[7,12,'#FFD700'],[8,12,'#E91E63'],[9,12,'#FFD700'],[10,12,'#E91E63'],[11,12,'#FFD700'],
+       [8,13,'#E91E63'],[9,13,'#FF4081'],[10,13,'#E91E63'],
+       [9,14,'#E91E63'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'POMI',r:'SNS',body:'#E91E63',out:'#880E4F',ew:'#FFF',ep:'#111',ck:'#FCE4EC',ac:'#F06292',nc:'#E91E63',cls:'',
+    mod(ctx,P){
+      // Big ribbon + sparkles
+      [[6,-1,'#FF80AB'],[7,-1,'#FF80AB'],[8,-1,'#FF4081'],[9,-1,'#FF4081'],
+       [10,-1,'#FF80AB'],[11,-1,'#FF80AB'],[12,-1,'#FF80AB'],
+       [5,0,'#FF4081'],[13,0,'#FF4081'],
+       // Sparkles
+       [0,3,'#FFEB3B'],[1,3,'#FFEB3B'],[18,2,'#FFEB3B'],[19,2,'#FFEB3B'],
+       [1,15,'#FFEB3B'],[17,14,'#FFEB3B'],[18,14,'#FFEB3B'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'DOBI',r:'Security',body:'#455A64',out:'#999',ew:'#111',ep:'#000',ck:'#607D8B',ac:'#546E7A',nc:'#90A4AE',cls:'bgl',
+    mod(ctx,P){
+      // BIG sunglasses like Claude mascot!
+      [[3,8,'#111'],[4,8,'#111'],[5,8,'#222'],[6,8,'#222'],[7,8,'#111'],
+       [8,8,'#333'],[9,8,'#333'],
+       [10,8,'#111'],[11,8,'#222'],[12,8,'#222'],[13,8,'#222'],[14,8,'#111'],
+       [3,9,'#111'],[4,9,'#333'],[5,9,'#444'],[6,9,'#444'],[7,9,'#111'],
+       [10,9,'#111'],[11,9,'#444'],[12,9,'#444'],[13,9,'#333'],[14,9,'#111'],
+       [3,10,'#111'],[4,10,'#111'],[5,10,'#111'],[6,10,'#111'],[7,10,'#111'],
+       [10,10,'#111'],[11,10,'#111'],[12,10,'#111'],[13,10,'#111'],[14,10,'#111'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+  {n:'CORGI',r:'Collect',body:'#FF7043',out:'#BF360C',ew:'#FFF',ep:'#111',ck:'#FFCCBC',ac:'#FF8A65',nc:'#FF7043',cls:'',
+    mod(ctx,P){
+      // Big bag + white butt
+      [[16,8,'#6D4C41'],[17,8,'#6D4C41'],[18,8,'#6D4C41'],
+       [16,9,'#8D6E63'],[17,9,'#A1887F'],[18,9,'#8D6E63'],
+       [16,10,'#6D4C41'],[17,10,'#8D6E63'],[18,10,'#6D4C41'],
+       [16,11,'#5D4037'],[17,11,'#5D4037'],[18,11,'#5D4037'],
+       // White corgi butt
+       [7,15,'#FFF'],[8,15,'#FFF'],[9,15,'#FFF'],[10,15,'#FFF'],[11,15,'#FFF'],
+      ].forEach(([x,y,c])=>{ctx.fillStyle=c;ctx.fillRect(x*P,y*P,P,P)});
+    }},
+];
+
+function draw(canvas, data, tpl) {
+  const ctx = canvas.getContext('2d');
+  canvas.width = S*P; canvas.height = S*P;
+  canvas.style.width = S*P+'px'; canvas.style.height = S*P+'px';
+  const cm = {'0':null,'1':data.body,'2':data.out,'3':data.ew,'4':data.ep,'5':data.ck,'6':data.ac};
+
+  for(let y=0;y<S;y++){
+    const row=tpl[y]||'';
+    for(let x=0;x<S;x++){
+      const v=row[x]||'0';
+      if(cm[v]){ctx.fillStyle=cm[v];ctx.fillRect(x*P,y*P,P,P)}
+    }
+  }
+  // Eye highlights
+  ctx.fillStyle='#FFF';
+  ctx.fillRect(6*P+1,9*P+1,3,3);
+  ctx.fillRect(12*P+1,9*P+1,3,3);
+  // Smile
+  ctx.fillStyle=data.out;
+  ctx.fillRect(8*P,11*P+Math.floor(P*0.6),P,2);
+  ctx.fillRect(9*P,11*P+Math.floor(P*0.6),P,2);
+  ctx.fillRect(10*P,11*P+Math.floor(P*0.6),P,2);
+  // Mods
+  if(data.mod) data.mod(ctx,P);
+}
+
+function card(d,tpl){
+  const div=document.createElement('div');
+  div.className='c '+(d.cls||'');
+  const cv=document.createElement('canvas');
+  draw(cv,d,tpl);
+  const nm=document.createElement('div');
+  nm.className='nm';nm.style.color=d.nc;nm.textContent=d.n;
+  const rl=document.createElement('div');
+  rl.className='rl';rl.textContent=d.r;
+  div.append(cv,nm,rl);return div;
+}
+
+hamsters.forEach(h=>document.getElementById('hr').appendChild(card(h,H_TPL)));
+puppies.forEach(p=>document.getElementById('pr').appendChild(card(p,P_TPL)));
+
+// Stars
+for(let i=0;i<100;i++){
+  const s=document.createElement('div');s.className='st';
+  s.style.left=Math.random()*1920+'px';s.style.top=Math.random()*1080+'px';
+  s.style.opacity=Math.random()*0.4+0.1;
+  s.style.width=s.style.height=(Math.random()>0.6?3:2)+'px';
+  s.style.background=Math.random()>0.6?'rgba(91,141,239,0.25)':'rgba(193,95,60,0.25)';
+  document.body.appendChild(s);
+}
+</script>
+</body>
+</html>

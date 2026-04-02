@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>BELLA AI Dream Team v5 - Cute Items</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1920px;height:1080px;background:#0d0d0c;overflow:hidden;font-family:'Press Start 2P',monospace;position:relative}
+  body::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.06) 2px,rgba(0,0,0,0.06) 4px);pointer-events:none;z-index:100}
+  body::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 38%,rgba(193,95,60,0.08) 0%,transparent 55%),radial-gradient(ellipse at 50% 80%,rgba(91,141,239,0.05) 0%,transparent 45%);pointer-events:none;z-index:0}
+  .wrap{position:relative;z-index:10;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+  .title{text-align:center;margin-bottom:0}
+  .title h1{font-size:38px;color:#C15F3C;text-shadow:4px 4px 0 #7a3a24,0 0 50px rgba(193,95,60,0.35);letter-spacing:8px}
+  .title .sub{font-family:'Silkscreen',monospace;font-size:14px;color:#B1ADA1;margin-top:6px;letter-spacing:8px}
+  .team{text-align:center}
+  .label{font-size:11px;letter-spacing:4px;margin-bottom:8px;padding:4px 18px;display:inline-block;border:1px solid;border-radius:2px}
+  .label.h{color:#C15F3C;border-color:rgba(193,95,60,0.5);background:rgba(193,95,60,0.1)}
+  .label.p{color:#5B8DEF;border-color:rgba(91,141,239,0.5);background:rgba(91,141,239,0.1)}
+  .row{display:flex;justify-content:center;gap:8px}
+  .c{display:flex;flex-direction:column;align-items:center;gap:4px;width:148px}
+  .nm{font-size:9px;letter-spacing:2px;text-shadow:0 0 10px currentColor}
+  .rl{font-family:'Silkscreen',monospace;font-size:9px;color:#555}
+  .c.gl canvas{filter:drop-shadow(0 0 18px rgba(193,95,60,0.5))}
+  .c.gp canvas{filter:drop-shadow(0 0 18px rgba(91,141,239,0.5))}
+  .c.gbr canvas{filter:drop-shadow(0 0 10px rgba(255,255,255,0.12))}
+  .st{position:absolute;border-radius:50%;z-index:1}
+  .bg{position:absolute;bottom:12px;font-family:'Silkscreen',monospace;font-size:8px;color:#333;z-index:10}
+  .bg.l{left:20px}.bg.r{right:20px}
+  canvas{image-rendering:pixelated}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title">
+    <h1>BELLA AI DREAM TEAM</h1>
+    <div class="sub">Hamsterz x Puppyz &mdash; 2026</div>
+  </div>
+  <div class="team">
+    <div class="label h">HAMSTERZ &mdash; Claude Code</div>
+    <div class="row" id="hr"></div>
+  </div>
+  <div class="team">
+    <div class="label p">PUPPYZ &mdash; OpenClaw</div>
+    <div class="row" id="pr"></div>
+  </div>
+</div>
+<div class="bg l">Made with Claude by Bella (KNDLI) &copy; 2026</div>
+<div class="bg r">v5 Cute Items &mdash; Dream Team Wallpaper</div>
+
+<script>
+const PX = 13; // v1=6, v4=11, v5=13!
+
+const H_BASE = [
+  [0,0,0,2,2,0,0,2,2,0,0,0],
+  [0,0,2,1,1,2,2,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,2,2,1,1,1,2,0],
+  [0,2,1,5,1,1,1,1,5,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+const P_BASE = [
+  [0,2,2,0,0,0,0,0,0,2,2,0],
+  [2,4,4,2,0,0,0,0,2,4,4,2],
+  [0,2,2,1,1,1,1,1,1,2,2,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,1,2,2,2,2,1,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+const hamsters = [
+  {n:'GOLDI',r:'Master',color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',nc:'#C15F3C',cls:'gl',leader:true,
+   item(ctx,p){
+     // Big golden crown
+     ctx.fillStyle='#FFD700';
+     ctx.fillRect(3*p,0,p,p);ctx.fillRect(4*p,-p,p,p);ctx.fillRect(5*p,0,p,p);
+     ctx.fillRect(6*p,-p,p,p);ctx.fillRect(7*p,0,p,p);ctx.fillRect(4*p,0,4*p,p);
+     ctx.fillStyle='#FFA000';
+     ctx.fillRect(4*p,-p,p,Math.floor(p/2));ctx.fillRect(6*p,-p,p,Math.floor(p/2));
+     // Star on crown
+     ctx.fillStyle='#FFF';
+     ctx.fillRect(5*p+Math.floor(p/3),-p+2,Math.floor(p/3),Math.floor(p/3));
+   }},
+  {n:'ROBO',r:'Auto',color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',nc:'#4CAF50',cls:'',
+   item(ctx,p){
+     // Wrench tool
+     ctx.fillStyle='#90A4AE';
+     ctx.fillRect(11*p,3*p,p,p);ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);
+     ctx.fillRect(11*p,6*p,p,p);ctx.fillRect(11*p,7*p,p,p);
+     ctx.fillStyle='#607D8B';
+     ctx.fillRect(11*p,2*p,p,p);ctx.fillRect(11*p,8*p,p,p);
+   }},
+  {n:'WINDY',r:'Mentor',color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',nc:'#5B8DEF',cls:'',glasses:true,
+   item(ctx,p){
+     // Book
+     ctx.fillStyle='#1565C0';
+     ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);ctx.fillRect(11*p,7*p,p,p);
+     ctx.fillRect(11*p,8*p,p,p);
+     ctx.fillStyle='#BBDEFB';
+     ctx.fillRect(11*p+2,6*p+2,p-4,p-4);ctx.fillRect(11*p+2,7*p+2,p-4,p-4);
+   }},
+  {n:'SIRI',r:'Designer',color:'#9C27B0',accent:'#AB47BC',cheek:'#CE93D8',nc:'#CE93D8',cls:'',
+   item(ctx,p){
+     // Pencil
+     ctx.fillStyle='#FFC107';
+     ctx.fillRect(11*p,3*p,p,p);ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);
+     ctx.fillStyle='#FFEB3B';ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillStyle='#795548';ctx.fillRect(11*p,7*p,p,p);
+     ctx.fillStyle='#EF5350';ctx.fillRect(11*p,8*p,p,Math.floor(p/2));
+   }},
+  {n:'CHAI',r:'Researcher',color:'#FF5722',accent:'#FF7043',cheek:'#FF8A65',nc:'#FF5722',cls:'',
+   item(ctx,p){
+     // Magnifying glass
+     ctx.fillStyle='#78909C';
+     ctx.fillRect(11*p,3*p,p,p);ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);
+     ctx.fillStyle='#90CAF9';
+     ctx.fillRect(11*p+2,3*p+2,p-4,p-4);ctx.fillRect(11*p+2,4*p+2,p-4,p-4);
+     ctx.fillStyle='#5D4037';
+     ctx.fillRect(11*p,6*p,p,p);ctx.fillRect(11*p,7*p,p,p);
+   }},
+  {n:'PANDA',r:'Creator',color:'#607D8B',accent:'#78909C',cheek:'#FFF9C4',nc:'#9E9E9E',cls:'gbr',panda:true,
+   item(ctx,p){
+     // Camera
+     ctx.fillStyle='#333';
+     ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillStyle='#2196F3';
+     ctx.fillRect(11*p+3,5*p+3,p-6,p-6);
+     ctx.fillStyle='#666';ctx.fillRect(11*p+2,4*p+2,p-4,3);
+   }},
+  {n:'TEDDY',r:'Analyst',color:'#795548',accent:'#8D6E63',cheek:'#FFAB91',nc:'#A1887F',cls:'gbr',
+   item(ctx,p){
+     // Bar chart
+     ctx.fillStyle='#4CAF50';ctx.fillRect(11*p,6*p,p,p);ctx.fillRect(11*p,7*p,p,p);
+     ctx.fillStyle='#FFC107';ctx.fillRect(11*p,5*p,p,p);
+     ctx.fillStyle='#2196F3';ctx.fillRect(11*p,4*p,p,p);
+     ctx.fillStyle='#EF5350';ctx.fillRect(11*p,8*p,p,Math.floor(p/2));
+   }},
+  {n:'CAM',r:'QA',color:'#00BCD4',accent:'#26C6DA',cheek:'#80DEEA',nc:'#00BCD4',cls:'',
+   item(ctx,p){
+     // Shield + check
+     ctx.fillStyle='#FFC107';
+     ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillRect(11*p,7*p,Math.floor(p/2),Math.floor(p/2));
+     ctx.fillStyle='#4CAF50';
+     ctx.fillRect(11*p+3,5*p+2,p-6,p-4);
+   }},
+  {n:'HUNTER',r:'Debug',color:'#212121',accent:'#424242',cheek:'#EF5350',nc:'#EF5350',cls:'gbr',
+   item(ctx,p){
+     // Red crosshair / target
+     ctx.fillStyle='#EF5350';
+     ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillStyle='#FF1744';
+     ctx.fillRect(11*p+Math.floor(p/3),5*p+Math.floor(p/3),Math.ceil(p/3),Math.ceil(p/3));
+     // Laser from eyes
+     ctx.fillStyle='#FF174460';
+     ctx.fillRect(0,4*p+Math.floor(p/2),3*p,2);
+   }},
+  {n:'PEARL',r:'UI/UX',color:'#E0E0E0',accent:'#F5F5F5',cheek:'#F8BBD0',nc:'#F48FB1',cls:'gbr',
+   item(ctx,p){
+     // Heart + palette
+     ctx.fillStyle='#E91E63';
+     ctx.fillRect(11*p,4*p,p,p);
+     ctx.fillStyle='#EF5350';ctx.fillRect(11*p,5*p,p,p);
+     ctx.fillStyle='#42A5F5';ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillStyle='#FFEE58';ctx.fillRect(11*p,7*p,p,p);
+     ctx.fillStyle='#66BB6A';ctx.fillRect(11*p,8*p,p,Math.floor(p/2));
+   }},
+];
+
+const puppies = [
+  {n:'COLLIE',r:'Lead',color:'#FF9800',accent:'#FFB74D',cheek:'#FFE0B2',nc:'#FF9800',cls:'gp',leader:true,
+   item(ctx,p){
+     // Red bandana knot
+     ctx.fillStyle='#EF5350';
+     ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillStyle='#D32F2F';
+     ctx.fillRect(11*p,7*p,p,Math.floor(p/2));
+   }},
+  {n:'SHIBA',r:'Patrol',color:'#FFC107',accent:'#FFD54F',cheek:'#FFF8E1',nc:'#FFC107',cls:'',
+   item(ctx,p){
+     // Guard hat badge
+     ctx.fillStyle='#1B5E20';
+     ctx.fillRect(3*p,-p,6*p,p);
+     ctx.fillStyle='#2E7D32';
+     ctx.fillRect(4*p,0,4*p,Math.floor(p/2));
+     ctx.fillStyle='#FFD700';
+     ctx.fillRect(5*p+Math.floor(p/3),-p+2,Math.ceil(p/3),Math.ceil(p/3));
+   }},
+  {n:'RITRI',r:'CS',color:'#CDDC39',accent:'#D4E157',cheek:'#F0F4C3',nc:'#CDDC39',cls:'',
+   item(ctx,p){
+     // Heart necklace
+     ctx.fillStyle='#E91E63';
+     ctx.fillRect(11*p,5*p,p,p);
+     ctx.fillStyle='#FFD700';
+     ctx.fillRect(11*p,6*p,p,p);ctx.fillRect(11*p,7*p,p,Math.floor(p/2));
+   }},
+  {n:'POMI',r:'SNS',color:'#E91E63',accent:'#F06292',cheek:'#F8BBD0',nc:'#E91E63',cls:'',
+   item(ctx,p){
+     // Star + ribbon
+     ctx.fillStyle='#FFEB3B';
+     ctx.fillRect(0,2*p,p,p);ctx.fillRect(11*p,3*p,p,p);
+     ctx.fillStyle='#FF80AB';
+     ctx.fillRect(4*p,-p,4*p,Math.floor(p/2));
+     ctx.fillStyle='#FF4081';
+     ctx.fillRect(3*p,0,p,Math.floor(p/2));ctx.fillRect(8*p,0,p,Math.floor(p/2));
+   }},
+  {n:'DOBI',r:'Security',color:'#37474F',accent:'#546E7A',cheek:'#EF5350',nc:'#78909C',cls:'gbr',
+   item(ctx,p){
+     // Sunglasses (wide, Claude style!)
+     ctx.fillStyle='#111';
+     ctx.fillRect(2*p,4*p-2,3*p,p+4);
+     ctx.fillRect(7*p,4*p-2,3*p,p+4);
+     ctx.fillStyle='#333';
+     ctx.fillRect(2*p+2,4*p,3*p-4,p);
+     ctx.fillRect(7*p+2,4*p,3*p-4,p);
+     ctx.fillStyle='#222';
+     ctx.fillRect(5*p,4*p+Math.floor(p/3),2*p,3);
+     // Shield
+     ctx.fillStyle='#455A64';
+     ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);ctx.fillRect(11*p,7*p,p,Math.floor(p/2));
+   }},
+  {n:'CORGI',r:'Collect',color:'#FF7043',accent:'#FF8A65',cheek:'#FFCCBC',nc:'#FF7043',cls:'',
+   item(ctx,p){
+     // Backpack
+     ctx.fillStyle='#6D4C41';
+     ctx.fillRect(11*p,4*p,p,p);ctx.fillRect(11*p,5*p,p,p);ctx.fillRect(11*p,6*p,p,p);
+     ctx.fillStyle='#8D6E63';
+     ctx.fillRect(11*p+2,5*p+2,p-4,p-4);
+   }},
+];
+
+function draw(canvas, d, base) {
+  const ctx = canvas.getContext('2d');
+  const p = PX;
+  canvas.width = 12*p; canvas.height = 12*p;
+  canvas.style.width = 12*p+'px'; canvas.style.height = 12*p+'px';
+
+  const cm = {0:null, 1:d.color, 2:'#1a1a19', 3:'#FFFFFF', 4:d.accent, 5:d.cheek};
+
+  for(let y=0;y<12;y++) for(let x=0;x<12;x++){
+    const v=base[y][x]; if(!cm[v])continue;
+    ctx.fillStyle=cm[v]; ctx.fillRect(x*p,y*p,p,p);
+  }
+
+  // Pupils
+  ctx.fillStyle='#111';
+  ctx.fillRect(3*p+2,4*p+2,p-4,p-4);
+  ctx.fillRect(8*p+2,4*p+2,p-4,p-4);
+  // Eye shine
+  ctx.fillStyle='#FFF';
+  ctx.fillRect(3*p+2,4*p+2,4,4);
+  ctx.fillRect(8*p+2,4*p+2,4,4);
+  // Smile
+  ctx.fillStyle='#1a1a19';
+  ctx.fillRect(5*p,5*p+Math.floor(p*0.55),p,3);
+  ctx.fillRect(6*p,5*p+Math.floor(p*0.55),p,3);
+
+  // Glasses
+  if(d.glasses){
+    ctx.fillStyle='#1a1a19'; ctx.lineWidth=2; ctx.strokeStyle='#1a1a19';
+    ctx.strokeRect(2*p,4*p-2,2.5*p,p+4);
+    ctx.strokeRect(7*p,4*p-2,2.5*p,p+4);
+    ctx.fillRect(4.5*p,4*p+2,3*p,3);
+  }
+  // Panda
+  if(d.panda){
+    ctx.fillStyle='#111';
+    ctx.fillRect(2*p,3.5*p,2.5*p,1.5*p);
+    ctx.fillRect(7*p,3.5*p,2.5*p,1.5*p);
+    ctx.fillStyle='#FFF';
+    ctx.fillRect(3*p+2,4*p,p-4,p-4);
+    ctx.fillRect(8*p+2,4*p,p-4,p-4);
+  }
+  // Items!
+  if(d.item) d.item(ctx, p);
+}
+
+function card(d, base){
+  const div=document.createElement('div');
+  div.className='c '+(d.cls||'');
+  const cv=document.createElement('canvas');
+  draw(cv, d, JSON.parse(JSON.stringify(base)));
+  const nm=document.createElement('div');
+  nm.className='nm'; nm.style.color=d.nc||d.color; nm.textContent=d.n;
+  const rl=document.createElement('div');
+  rl.className='rl'; rl.textContent=d.r;
+  div.append(cv,nm,rl); return div;
+}
+
+hamsters.forEach(h=>document.getElementById('hr').appendChild(card(h,H_BASE)));
+puppies.forEach(p=>document.getElementById('pr').appendChild(card(p,P_BASE)));
+
+// Stars
+for(let i=0;i<90;i++){
+  const s=document.createElement('div'); s.className='st';
+  s.style.left=Math.random()*1920+'px'; s.style.top=Math.random()*1080+'px';
+  s.style.opacity=Math.random()*0.4+0.1;
+  const sz=(Math.random()>0.7?3:2)+'px'; s.style.width=s.style.height=sz;
+  s.style.background=Math.random()>0.5?'rgba(91,141,239,0.25)':'rgba(193,95,60,0.25)';
+  document.body.appendChild(s);
+}
+</script>
+</body>
+</html>

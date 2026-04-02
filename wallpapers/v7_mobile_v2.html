@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>BELLA AI Dream Team - Mobile v2 (Flip 6)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1080px;height:2640px;background:#0d0d0c;overflow:hidden;font-family:'Press Start 2P',monospace;position:relative}
+  body::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.06) 2px,rgba(0,0,0,0.06) 4px);pointer-events:none;z-index:100}
+  body::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 25%,rgba(193,95,60,0.08) 0%,transparent 45%),radial-gradient(ellipse at 50% 75%,rgba(91,141,239,0.05) 0%,transparent 40%);pointer-events:none;z-index:0}
+  .wrap{position:relative;z-index:10;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;padding-top:280px;gap:0}
+
+  /* Title */
+  .title{text-align:center;margin-bottom:60px}
+  .title h1{font-size:52px;color:#C15F3C;text-shadow:4px 4px 0 #7a3a24,0 0 50px rgba(193,95,60,0.3);letter-spacing:8px;line-height:1.4}
+  .title .sub{font-family:'Silkscreen',monospace;font-size:16px;color:#B1ADA1;margin-top:14px;letter-spacing:8px;text-transform:uppercase}
+
+  /* Team */
+  .team{text-align:center;margin-bottom:50px}
+  .label{font-size:15px;letter-spacing:5px;margin-bottom:24px;padding:8px 24px;display:inline-block;border:1px solid;border-radius:3px}
+  .label.h{color:#C15F3C;border-color:rgba(193,95,60,0.5);background:rgba(193,95,60,0.1)}
+  .label.p{color:#5B8DEF;border-color:rgba(91,141,239,0.5);background:rgba(91,141,239,0.1)}
+
+  /* Grid: 5 per row for hamsters, 3 per row for puppies */
+  .grid5{display:grid;grid-template-columns:repeat(5,1fr);gap:20px 16px;max-width:900px;justify-items:center}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px 30px;max-width:600px;justify-items:center}
+
+  .c{display:flex;flex-direction:column;align-items:center;gap:8px}
+  .nm{font-size:11px;letter-spacing:2px;text-shadow:0 0 10px currentColor}
+  .rl{font-family:'Silkscreen',monospace;font-size:11px;color:#777}
+  .c.gl canvas{filter:drop-shadow(0 0 18px rgba(193,95,60,0.5))}
+  .c.gp canvas{filter:drop-shadow(0 0 18px rgba(91,141,239,0.5))}
+  .c.gbr canvas{filter:drop-shadow(0 0 10px rgba(255,255,255,0.12))}
+
+  /* Separator */
+  .sep{width:200px;height:1px;background:linear-gradient(90deg,transparent,rgba(193,95,60,0.2),rgba(91,141,239,0.2),transparent);margin:10px 0}
+
+  .st{position:absolute;border-radius:50%;z-index:1}
+  .bg{position:absolute;bottom:40px;font-family:'Silkscreen',monospace;font-size:10px;color:#333;z-index:10;left:50%;transform:translateX(-50%);white-space:nowrap}
+  canvas{image-rendering:pixelated}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title">
+    <h1>BELLA AI<br>DREAM TEAM</h1>
+    <div class="sub">Hamsterz x Puppyz &mdash; 2026</div>
+  </div>
+
+  <div class="team">
+    <div class="label h">HAMSTERZ &mdash; Claude Code</div>
+    <div class="grid5" id="hr"></div>
+  </div>
+
+  <div class="sep"></div>
+
+  <div class="team">
+    <div class="label p">PUPPYZ &mdash; OpenClaw</div>
+    <div class="grid3" id="pr"></div>
+  </div>
+</div>
+<div class="bg">Made with Claude by Bella (KNDLI) &copy; 2026</div>
+
+<script>
+const PX = 14; // 모바일은 크게!
+
+const H_BASE = [
+  [0,0,0,2,2,0,0,2,2,0,0,0],
+  [0,0,2,1,1,2,2,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,2,2,1,1,1,2,0],
+  [0,2,1,5,1,1,1,1,5,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+const P_BASE = [
+  [0,2,2,0,0,0,0,0,0,2,2,0],
+  [2,4,4,2,0,0,0,0,2,4,4,2],
+  [0,2,2,1,1,1,1,1,1,2,2,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,1,2,2,2,2,1,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+// 모바일: 골디 왕관만!
+const hamsters = [
+  {n:'GOLDI',r:'Master',color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',nc:'#C15F3C',cls:'gl',crown:true},
+  {n:'ROBO',r:'Auto',color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',nc:'#4CAF50',cls:''},
+  {n:'WINDY',r:'Mentor',color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',nc:'#5B8DEF',cls:''},
+  {n:'SIRI',r:'Designer',color:'#9C27B0',accent:'#AB47BC',cheek:'#CE93D8',nc:'#CE93D8',cls:''},
+  {n:'CHAI',r:'Researcher',color:'#FF5722',accent:'#FF7043',cheek:'#FF8A65',nc:'#FF5722',cls:''},
+  {n:'PANDA',r:'Creator',color:'#607D8B',accent:'#78909C',cheek:'#FFF9C4',nc:'#9E9E9E',cls:'',panda:true},
+  {n:'TEDDY',r:'Analyst',color:'#795548',accent:'#8D6E63',cheek:'#FFAB91',nc:'#A1887F',cls:'gbr'},
+  {n:'CAM',r:'QA',color:'#00BCD4',accent:'#26C6DA',cheek:'#80DEEA',nc:'#00BCD4',cls:''},
+  {n:'HUNTER',r:'Debug',color:'#212121',accent:'#424242',cheek:'#EF5350',nc:'#EF5350',cls:'gbr',whiteMouth:true},
+  {n:'PEARL',r:'UI/UX',color:'#E0E0E0',accent:'#F5F5F5',cheek:'#F8BBD0',nc:'#F48FB1',cls:'gbr'},
+];
+
+const puppies = [
+  {n:'COLLIE',r:'Lead',color:'#FF9800',accent:'#FFB74D',cheek:'#FFE0B2',nc:'#FF9800',cls:'gp'},
+  {n:'SHIBA',r:'Patrol',color:'#FFC107',accent:'#FFD54F',cheek:'#FFF8E1',nc:'#FFC107',cls:''},
+  {n:'RITRI',r:'CS',color:'#CDDC39',accent:'#D4E157',cheek:'#F0F4C3',nc:'#CDDC39',cls:''},
+  {n:'POMI',r:'SNS',color:'#E91E63',accent:'#F06292',cheek:'#F8BBD0',nc:'#E91E63',cls:''},
+  {n:'DOBI',r:'Security',color:'#37474F',accent:'#546E7A',cheek:'#EF5350',nc:'#78909C',cls:'gbr'},
+  {n:'CORGI',r:'Collect',color:'#FF7043',accent:'#FF8A65',cheek:'#FFCCBC',nc:'#FF7043',cls:''},
+];
+
+function draw(canvas, d, base) {
+  const ctx = canvas.getContext('2d');
+  const p = PX;
+  canvas.width = 12*p; canvas.height = 12*p;
+  canvas.style.width = 12*p+'px'; canvas.style.height = 12*p+'px';
+  const cm = {0:null, 1:d.color, 2:'#1a1a19', 3:'#FFFFFF', 4:d.accent, 5:d.cheek};
+  for(let y=0;y<12;y++) for(let x=0;x<12;x++){
+    const v=base[y][x]; if(!cm[v])continue;
+    ctx.fillStyle=cm[v]; ctx.fillRect(x*p,y*p,p,p);
+  }
+  // Pupils
+  ctx.fillStyle='#111';
+  ctx.fillRect(3*p+2,4*p+2,p-4,p-4);
+  ctx.fillRect(8*p+2,4*p+2,p-4,p-4);
+  // Eye shine
+  ctx.fillStyle='#FFF';
+  ctx.fillRect(3*p+2,4*p+2,4,4);
+  ctx.fillRect(8*p+2,4*p+2,4,4);
+  // Mouth
+  ctx.fillStyle = d.whiteMouth ? '#FFF' : '#1a1a19';
+  ctx.fillRect(5*p, 5*p+Math.floor(p*0.55), p, 3);
+  ctx.fillRect(6*p, 5*p+Math.floor(p*0.55), p, 3);
+
+  // Crown (골디만!)
+  if(d.crown){
+    ctx.fillStyle='#FFD700';
+    ctx.fillRect(3*p,0,6*p,p);
+    ctx.fillRect(4*p,-p,p,p);
+    ctx.fillRect(5.5*p,-1.5*p,p,1.5*p);
+    ctx.fillRect(7*p,-p,p,p);
+    ctx.fillStyle='#FFA000';
+    ctx.fillRect(4*p,-p,p,Math.floor(p*0.4));
+    ctx.fillRect(7*p,-p,p,Math.floor(p*0.4));
+    // 핑크 보석 (중앙!)
+    ctx.fillStyle='#FF69B4';
+    ctx.fillRect(5.5*p+Math.floor(p*0.2),-1.5*p+2,Math.floor(p*0.6),Math.floor(p*0.6));
+    ctx.fillStyle='#FFA000';
+    ctx.fillRect(3*p,p-2,6*p,2);
+  }
+
+  // Panda
+  if(d.panda){
+    ctx.fillStyle='#111';
+    ctx.fillRect(2*p,3.5*p,2.5*p,1.5*p);
+    ctx.fillRect(7*p,3.5*p,2.5*p,1.5*p);
+    ctx.fillStyle='#FFF';
+    ctx.fillRect(3*p+2,4*p,p-4,p-4);
+    ctx.fillRect(8*p+2,4*p,p-4,p-4);
+  }
+}
+
+function card(d, base){
+  const div=document.createElement('div');
+  div.className='c '+(d.cls||'');
+  const cv=document.createElement('canvas');
+  draw(cv, d, JSON.parse(JSON.stringify(base)));
+  const nm=document.createElement('div');
+  nm.className='nm'; nm.style.color=d.nc||d.color; nm.textContent=d.n;
+  const rl=document.createElement('div');
+  rl.className='rl'; rl.textContent=d.r;
+  div.append(cv,nm,rl); return div;
+}
+
+hamsters.forEach(h=>document.getElementById('hr').appendChild(card(h,H_BASE)));
+puppies.forEach(p=>document.getElementById('pr').appendChild(card(p,P_BASE)));
+
+// Stars
+for(let i=0;i<120;i++){
+  const s=document.createElement('div'); s.className='st';
+  s.style.left=Math.random()*1080+'px'; s.style.top=Math.random()*2640+'px';
+  s.style.opacity=Math.random()*0.4+0.1;
+  const sz=(Math.random()>0.7?3:2)+'px'; s.style.width=s.style.height=sz;
+  s.style.background=Math.random()>0.5?'rgba(91,141,239,0.25)':'rgba(193,95,60,0.25)';
+  document.body.appendChild(s);
+}
+</script>
+</body>
+</html>

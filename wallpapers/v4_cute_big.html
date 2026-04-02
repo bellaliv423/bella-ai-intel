@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>BELLA AI Dream Team v4 - Cute Big</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1920px;
+    height: 1080px;
+    background: #0d0d0c;
+    overflow: hidden;
+    font-family: 'Press Start 2P', monospace;
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg, transparent, transparent 2px,
+      rgba(0,0,0,0.06) 2px, rgba(0,0,0,0.06) 4px
+    );
+    pointer-events: none;
+    z-index: 100;
+  }
+
+  body::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 50% 40%, rgba(193,95,60,0.07) 0%, transparent 60%),
+      radial-gradient(ellipse at 50% 80%, rgba(91,141,239,0.04) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .title-block { text-align: center; margin-bottom: 4px; }
+
+  .title-block h1 {
+    font-size: 32px;
+    color: #C15F3C;
+    text-shadow: 4px 4px 0 #7a3a24, 0 0 40px rgba(193,95,60,0.3);
+    letter-spacing: 6px;
+  }
+
+  .title-block .subtitle {
+    font-family: 'Silkscreen', monospace;
+    font-size: 13px;
+    color: #B1ADA1;
+    margin-top: 6px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .team-section { text-align: center; }
+
+  .team-label {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+    padding: 5px 18px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 2px;
+  }
+
+  .team-label.hamsterz {
+    color: #C15F3C;
+    border-color: rgba(193,95,60,0.5);
+    background: rgba(193,95,60,0.1);
+  }
+
+  .team-label.puppyz {
+    color: #5B8DEF;
+    border-color: rgba(91,141,239,0.5);
+    background: rgba(91,141,239,0.1);
+  }
+
+  .characters-row {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .char {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .char-name {
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px currentColor;
+  }
+
+  .char-role {
+    font-family: 'Silkscreen', monospace;
+    font-size: 9px;
+    color: #666;
+  }
+
+  .char.leader canvas {
+    filter: drop-shadow(0 0 16px rgba(193,95,60,0.45));
+  }
+
+  .char.leader-puppy canvas {
+    filter: drop-shadow(0 0 16px rgba(91,141,239,0.45));
+  }
+
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: rgba(193,95,60,0.3);
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .badge {
+    position: absolute;
+    bottom: 16px;
+    font-family: 'Silkscreen', monospace;
+    font-size: 9px;
+    color: #3a3a38;
+    z-index: 10;
+  }
+  .badge.l { left: 24px; }
+  .badge.r { right: 24px; }
+
+  canvas { image-rendering: pixelated; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="title-block">
+    <h1>BELLA AI DREAM TEAM</h1>
+    <div class="subtitle">Hamsterz x Puppyz &mdash; 2026</div>
+  </div>
+
+  <div class="team-section">
+    <div class="team-label hamsterz">HAMSTERZ &mdash; Claude Code</div>
+    <div class="characters-row" id="hamsterz-row"></div>
+  </div>
+
+  <div class="team-section" style="margin-top: 4px;">
+    <div class="team-label puppyz">PUPPYZ &mdash; OpenClaw</div>
+    <div class="characters-row" id="puppyz-row"></div>
+  </div>
+</div>
+
+<div class="badge l">Made with Claude by Bella (KNDLI) &copy; 2026</div>
+<div class="badge r">v4.0 Cute Big &mdash; Dream Team Wallpaper</div>
+
+<script>
+// === v1 디자인 100% 동일, 크기만 2배! ===
+
+const HAMSTER_BASE = [
+  [0,0,0,2,2,0,0,2,2,0,0,0],
+  [0,0,2,1,1,2,2,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,2,2,1,1,1,2,0],
+  [0,2,1,5,1,1,1,1,5,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+const PUPPY_BASE = [
+  [0,2,2,0,0,0,0,0,0,2,2,0],
+  [2,4,4,2,0,0,0,0,2,4,4,2],
+  [0,2,2,1,1,1,1,1,1,2,2,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,1,2,2,2,2,1,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+const hamsterz = [
+  { name: "GOLDI", role: "Master", color: "#C15F3C", accent: "#E8845A", cheek: "#FF9B7A", leader: true, crown: true },
+  { name: "ROBO", role: "Auto", color: "#4CAF50", accent: "#66BB6A", cheek: "#81C784" },
+  { name: "WINDY", role: "Mentor", color: "#5B8DEF", accent: "#7BA4F5", cheek: "#9DBCFA", glasses: true },
+  { name: "SIRI", role: "Designer", color: "#9C27B0", accent: "#AB47BC", cheek: "#CE93D8" },
+  { name: "CHAI", role: "Researcher", color: "#FF5722", accent: "#FF7043", cheek: "#FF8A65" },
+  { name: "PANDA", role: "Creator", color: "#607D8B", accent: "#78909C", cheek: "#FFF9C4", panda: true },
+  { name: "TEDDY", role: "Analyst", color: "#795548", accent: "#8D6E63", cheek: "#FFAB91" },
+  { name: "CAM", role: "QA", color: "#00BCD4", accent: "#26C6DA", cheek: "#80DEEA" },
+  { name: "HUNTER", role: "Debug", color: "#212121", accent: "#424242", cheek: "#EF5350" },
+  { name: "PEARL", role: "UI/UX", color: "#E0E0E0", accent: "#F5F5F5", cheek: "#F8BBD0" },
+];
+
+const puppyz = [
+  { name: "COLLIE", role: "Lead", color: "#FF9800", accent: "#FFB74D", cheek: "#FFE0B2", leader: true },
+  { name: "SHIBA", role: "Patrol", color: "#FFC107", accent: "#FFD54F", cheek: "#FFF8E1" },
+  { name: "RITRI", role: "CS", color: "#CDDC39", accent: "#D4E157", cheek: "#F0F4C3" },
+  { name: "POMI", role: "SNS", color: "#E91E63", accent: "#F06292", cheek: "#F8BBD0" },
+  { name: "DOBI", role: "Security", color: "#37474F", accent: "#546E7A", cheek: "#EF5350" },
+  { name: "CORGI", role: "Collect", color: "#FF7043", accent: "#FF8A65", cheek: "#FFCCBC" },
+];
+
+function drawCharacter(canvas, charData, isHamster) {
+  const ctx = canvas.getContext('2d');
+  const grid = isHamster ? JSON.parse(JSON.stringify(HAMSTER_BASE)) : JSON.parse(JSON.stringify(PUPPY_BASE));
+  const px = 11; // v1=6, v4=11 (약 2배!)
+  canvas.width = 12 * px;
+  canvas.height = 12 * px;
+  canvas.style.width = (12 * px) + 'px';
+  canvas.style.height = (12 * px) + 'px';
+
+  const colors = {
+    0: 'transparent',
+    1: charData.color,
+    2: '#1a1a19',
+    3: '#FFFFFF',
+    4: charData.accent,
+    5: charData.cheek,
+  };
+
+  // Draw base
+  for (let y = 0; y < 12; y++) {
+    for (let x = 0; x < 12; x++) {
+      const val = grid[y][x];
+      if (val === 0) continue;
+      ctx.fillStyle = colors[val] || charData.color;
+      ctx.fillRect(x * px, y * px, px, px);
+    }
+  }
+
+  // Eyes - pupils
+  ctx.fillStyle = '#111';
+  ctx.fillRect(3 * px + 2, 4 * px + 2, px - 4, px - 4);
+  ctx.fillRect(8 * px + 2, 4 * px + 2, px - 4, px - 4);
+
+  // Eye shine
+  ctx.fillStyle = '#FFF';
+  ctx.fillRect(3 * px + 2, 4 * px + 2, 3, 3);
+  ctx.fillRect(8 * px + 2, 4 * px + 2, 3, 3);
+
+  // Crown for Goldi
+  if (charData.crown) {
+    ctx.fillStyle = '#FFD700';
+    ctx.fillRect(4 * px, 0, px, px);
+    ctx.fillRect(5 * px, -px, px, px);
+    ctx.fillRect(6 * px, 0, px, px);
+    ctx.fillRect(7 * px, -px, px, px);
+    ctx.fillRect(5 * px, 0, 2 * px, px);
+  }
+
+  // Glasses for Windy
+  if (charData.glasses) {
+    ctx.fillStyle = '#1a1a19';
+    ctx.strokeStyle = '#1a1a19';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(2 * px, 4 * px - 2, 2.5 * px, px + 4);
+    ctx.strokeRect(7 * px, 4 * px - 2, 2.5 * px, px + 4);
+    ctx.fillRect(4.5 * px, 4 * px + 2, 3 * px, 3);
+  }
+
+  // Panda markings
+  if (charData.panda) {
+    ctx.fillStyle = '#111';
+    ctx.fillRect(2 * px, 3.5 * px, 2.5 * px, 1.5 * px);
+    ctx.fillRect(7 * px, 3.5 * px, 2.5 * px, 1.5 * px);
+    ctx.fillStyle = '#FFF';
+    ctx.fillRect(3 * px + 2, 4 * px, px - 4, px - 4);
+    ctx.fillRect(8 * px + 2, 4 * px, px - 4, px - 4);
+  }
+
+  // Mouth - cute smile
+  ctx.fillStyle = '#1a1a19';
+  ctx.fillRect(5 * px, 5 * px + Math.floor(px * 0.55), px, 3);
+  ctx.fillRect(6 * px, 5 * px + Math.floor(px * 0.55), px, 3);
+}
+
+function createCharCard(charData, isHamster) {
+  const div = document.createElement('div');
+  div.className = 'char' + (charData.leader && isHamster ? ' leader' : '') + (charData.leader && !isHamster ? ' leader-puppy' : '');
+
+  const canvas = document.createElement('canvas');
+  drawCharacter(canvas, charData, isHamster);
+
+  const nameEl = document.createElement('div');
+  nameEl.className = 'char-name';
+  nameEl.style.color = charData.color === '#212121' ? '#EF5350' : charData.color;
+  nameEl.textContent = charData.name;
+
+  const roleEl = document.createElement('div');
+  roleEl.className = 'char-role';
+  roleEl.textContent = charData.role;
+
+  div.appendChild(canvas);
+  div.appendChild(nameEl);
+  div.appendChild(roleEl);
+  return div;
+}
+
+// Render
+document.querySelectorAll('#hamsterz-row')[0] && null;
+const hRow = document.getElementById('hamsterz-row');
+const pRow = document.getElementById('puppyz-row');
+
+hamsterz.forEach(h => hRow.appendChild(createCharCard(h, true)));
+puppyz.forEach(p => pRow.appendChild(createCharCard(p, false)));
+
+// Stars
+for (let i = 0; i < 80; i++) {
+  const star = document.createElement('div');
+  star.className = 'star';
+  star.style.left = Math.random() * 1920 + 'px';
+  star.style.top = Math.random() * 1080 + 'px';
+  star.style.opacity = Math.random() * 0.5 + 0.1;
+  star.style.width = star.style.height = (Math.random() > 0.7 ? 3 : 2) + 'px';
+  if (Math.random() > 0.6) star.style.background = 'rgba(91,141,239,0.25)';
+  document.body.appendChild(star);
+}
+</script>
+</body>
+</html>
