@@ -1,6 +1,197 @@
 {
   "items": [
     {
+      "id": "b7e9b5960bc5",
+      "title": "I built a desktop pet duck with a built-in Claude Code terminal",
+      "summary_en": "Built this over the weekend. It's a pixel art duck that walks around your desktop. Right-click opens a Claude Code terminal above its head. The duck r...",
+      "summary_ko": "주말에 만들었습니다. 데스크톱 주변을 돌아다니는 픽셀 아트 오리입니다. 우클릭하면 머리 위에 Claude Code 터미널이 열립니다. 그 오리는...",
+      "summary_zh": "摘要：這是我在週末做的。這是一個像素藝術風格的鴨子，可以在你的桌面上走來走去。右鍵點擊會在它的頭上打開Claude Code終端。該鴨子可以...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9ncp2/i_built_a_desktop_pet_duck_with_a_builtin_claude/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-02T09:05:10.815174+09:00",
+      "reddit_score": 40
+    },
+    {
+      "id": "52f70f83a16e",
+      "title": "1hr 20m deep research for a 1-word output",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sa0wjo/1hr_20m_deep_research_for_a_1word_output/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-02T09:05:10.815174+09:00",
+      "reddit_score": 9
+    },
+    {
+      "id": "aa77c8fe8b8a",
+      "title": "Hitler Finds Out About the Claude Code Leak",
+      "summary_en": "Hitler getting briefed on the latest news.",
+      "summary_ko": "히틀러가 최신 뉴스에 대한 브리핑을 받다.",
+      "summary_zh": "摘要：希特勒獲得最新新聞簡報。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9v5v9/hitler_finds_out_about_the_claude_code_leak/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-02T09:05:10.814163+09:00",
+      "reddit_score": 34
+    },
+    {
+      "id": "6f05400aca7d",
+      "title": "My Opus model has gone off the rails",
+      "summary_en": "I’m not sure what happened but claude when it’s set in Opus 4.6 for me is kind of tweaking. It won’t stop talking about beginnings/keeps saying things...",
+      "summary_ko": "뭐가 된 건지 모르겠는데 Opus 4.6으로 설정했을 때 claude가 좀 이상하게 작동해요. 계속 처음에 대해 얘기를 하고 자꾸 뭔가를 말해요...",
+      "summary_zh": "摘要：我不確定發生了什麼，但當我把 claude 設置為 Opus 4.6 時，它似乎有點古怪。它不停地談論開始/一直在說一些事情...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9vry6/my_opus_model_has_gone_off_the_rails/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-02T09:05:10.812647+09:00",
+      "reddit_score": 95
+    },
+    {
+      "id": "e40425992b35",
+      "title": "Claude Code Source Leak Megathread",
+      "summary_en": "As most of you know, Claude Code CLI source code was apparently leaked yesterday [https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai](ht...",
+      "summary_ko": "대부분의 분들이 알고 계시듯이, Claude Code CLI 소스 코드가 어제 유출된 것으로 보입니다 [https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai](ht...",
+      "summary_zh": "摘要：如大多數人所知，Claude Code CLI 原始碼據稱在昨天洩露了 [https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai](ht...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-02T09:05:10.814163+09:00",
+      "reddit_score": 304
+    },
+    {
+      "id": "bf3c49f530ed",
+      "title": "AI’s fault, or more AI? That’s the question",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-02T09:05:10.814163+09:00",
+      "reddit_score": 448
+    },
+    {
+      "id": "009f4c35e610",
+      "title": "I made a free interactive guide for people who want to try Claude Code but don't know what a terminal is",
+      "summary_en": "I'm a PM, not an engineer. When I started using Claude Code, every guide I found assumed I already knew how to use a terminal, what a CLI is, and how ...",
+      "summary_ko": "저는 엔지니어가 아닌 PM입니다. Claude Code를 사용하기 시작했을 때, 제가 찾은 모든 가이드는 이미 터미널을 사용하는 방법, CLI가 무엇인지, 그리고 어떻게...를 알고 있다고 가정했습니다.",
+      "summary_zh": "摘要：我是產品經理，不是工程師。當我開始使用 Claude Code 時，我找到的每一份指南都假設我已經知道如何使用終端、什麼是 CLI，以及如何...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9mn6t/i_made_a_free_interactive_guide_for_people_who/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-02T09:05:10.814163+09:00",
+      "reddit_score": 118
+    },
+    {
+      "id": "d3fd4923fbbc",
+      "title": "Revenge for all the unfair lateral thinking puzzles Claude gives me",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9msw3/revenge_for_all_the_unfair_lateral_thinking/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-02T09:05:10.814163+09:00",
+      "reddit_score": 120
+    },
+    {
+      "id": "762917c3e2ab",
+      "title": "Anthropic staff reacts to Claude code leak 👀",
+      "summary_en": "Source url: https://x.com/trq212/status/2039201498996035924",
+      "summary_ko": "출처 URL: https://x.com/trq212/status/2039201498996035924",
+      "summary_zh": "摘要：來源網址：https://x.com/trq212/status/2039201498996035924",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-02T09:05:10.813657+09:00",
+      "reddit_score": 654
+    },
+    {
+      "id": "295ac61f6215",
+      "title": "Brother",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1s9iyp3/brother/",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-02T09:05:10.812647+09:00",
+      "reddit_score": 2563
+    },
+    {
       "id": "a777c5efacb7",
       "title": "So you're saying it was capable???",
       "summary_en": "",
@@ -1967,17 +2158,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-01T16:00:25.126923+09:00",
+  "last_updated": "2026-04-02T09:05:46.338519+09:00",
   "stats": {
-    "total_items": 107,
+    "total_items": 117,
     "categories": {
-      "ai_trend": 37,
-      "claude_code": 38,
+      "claude_code": 43,
+      "ai_trend": 42,
       "claude_release": 25,
       "automation": 2,
       "content_sns": 1,
       "claude_api": 4
     },
-    "last_collection": "2026-04-01 16:00"
+    "last_collection": "2026-04-02 09:05"
   }
 }

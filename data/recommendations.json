@@ -107,13 +107,47 @@
   ],
   "content": [
     {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'I built a desktop pet duck with a built-in Claude Code terminal' 실습 세션",
+      "title_zh": "'I built a desktop pet duck with a built-in Claude Code terminal' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I built a desktop pet duck with a built-in Claude Code terminal 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-04-02"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 I built a desktop pet duck with a built-in Claude Code terminal 총정리",
+      "title_zh": "2026年 2026-04 I built a desktop pet duck with a built-in Claude Code terminal 總整理",
+      "description_ko": "I built a desktop pet duck with a built-in Claude Code terminal 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-02"
+    },
+    {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'So you're saying it was capable???' 핵심 정리 카드",
-      "title_zh": "'So you're saying it was capable???' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 So you're saying it was capable??? 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'1hr 20m deep research for a 1-word output' 핵심 정리 카드",
+      "title_zh": "'1hr 20m deep research for a 1-word output' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 1hr 20m deep research for a 1-word output 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -122,16 +156,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-01"
+      "news_date": "2026-04-02"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 So you're saying it was capable??? 총정리",
-      "title_zh": "2026年 2026-04 So you're saying it was capable??? 總整理",
-      "description_ko": "So you're saying it was capable??? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 1hr 20m deep research for a 1-word output 총정리",
+      "title_zh": "2026年 2026-04 1hr 20m deep research for a 1-word output 總整理",
+      "description_ko": "1hr 20m deep research for a 1-word output 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -139,63 +173,27 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-01"
+      "news_date": "2026-04-02"
     },
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'So it's good to express your emotion clearly with Claude :))))' 핵심 정리 카드",
-      "title_zh": "'So it's good to express your emotion clearly with Claude :))))' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 So it's good to express your emotion clearly with Claude :)))) 설명 + 실전 활용법 5장 캐러셀",
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'Hitler Finds Out About the Claude Code Leak' 실습 세션",
+      "title_zh": "'Hitler Finds Out About the Claude Code Leak' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Hitler Finds Out About the Claude Code Leak 체험 + Q&A",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
+        "#AI세미나",
+        "#실습"
       ],
-      "news_date": "2026-04-01"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 So it's good to express your emotion clearly with Claude :)))) 총정리",
-      "title_zh": "2026年 2026-04 So it's good to express your emotion clearly with Claude :)))) 總整理",
-      "description_ko": "So it's good to express your emotion clearly with Claude :)))) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-01"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Well look who just got a new Buddy!' 핵심 정리 카드",
-      "title_zh": "'Well look who just got a new Buddy!' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Well look who just got a new Buddy! 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-01"
+      "news_date": "2026-04-02"
     }
   ],
-  "last_analyzed": "2026-04-01T16:00:25.906838+09:00",
-  "analyzed_date": "2026-04-01",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-04-02T09:05:51.479773+09:00",
+  "analyzed_date": "2026-04-02",
+  "analyzed_time": "09:05 KST"
 }
