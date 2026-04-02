@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>EP01 Story - Goldi's Monday Briefing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1080px;height:1920px;background:#0d0d0c;overflow:hidden;font-family:'Press Start 2P',monospace;position:relative}
+  body::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.06) 2px,rgba(0,0,0,0.06) 4px);pointer-events:none;z-index:100}
+  body::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(193,95,60,0.12) 0%,transparent 55%);pointer-events:none;z-index:0}
+  .wrap{position:relative;z-index:10;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;padding:60px 40px}
+  .ep-label{font-size:16px;color:#C15F3C;letter-spacing:10px;text-transform:uppercase;padding:8px 30px;border:1px solid rgba(193,95,60,0.5);border-radius:3px;background:rgba(193,95,60,0.1)}
+  .ep-title{font-size:28px;color:#E8845A;text-shadow:3px 3px 0 #7a3a24,0 0 30px rgba(193,95,60,0.3);letter-spacing:4px;text-align:center;line-height:1.6}
+
+  .scene{position:relative;width:900px;height:700px;border:2px solid rgba(193,95,60,0.3);border-radius:12px;background:rgba(193,95,60,0.03);display:flex;align-items:center;justify-content:center}
+
+  .bubble{position:absolute;top:40px;right:50px;background:rgba(255,255,255,0.95);border-radius:18px;padding:20px 24px;max-width:360px;font-family:'Silkscreen',monospace;font-size:15px;color:#1a1a19;line-height:1.8;box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+  .bubble::after{content:'';position:absolute;bottom:-14px;left:50px;width:0;height:0;border-left:14px solid transparent;border-right:14px solid transparent;border-top:14px solid rgba(255,255,255,0.95)}
+
+  .checklist{position:absolute;bottom:40px;left:50px;font-family:'Silkscreen',monospace;font-size:13px;color:#B1ADA1;line-height:2.4;text-align:left}
+  .checklist .done{color:#4CAF50;text-decoration:line-through;opacity:0.6}
+  .checklist .current{color:#C15F3C;animation:blink 1.2s ease-in-out infinite}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:0.4}}
+
+  .coffee{position:absolute;bottom:150px;left:170px}
+  .coffee-cup{width:44px;height:55px;background:#795548;border-radius:0 0 8px 8px;position:relative}
+  .coffee-cup::before{content:'';position:absolute;top:-5px;left:-3px;width:50px;height:10px;background:#5D4037;border-radius:3px}
+  .coffee-cup::after{content:'';position:absolute;top:12px;right:-15px;width:13px;height:22px;border:3px solid #795548;border-left:none;border-radius:0 8px 8px 0}
+  .steam{position:absolute;top:-28px;left:50%;transform:translateX(-50%);font-size:20px;color:rgba(255,255,255,0.4);animation:steam 2s ease-in-out infinite}
+  @keyframes steam{0%,100%{opacity:0.3;transform:translateX(-50%) translateY(0)}50%{opacity:0.7;transform:translateX(-50%) translateY(-8px)}}
+
+  .caption-box{background:rgba(193,95,60,0.08);border:1px solid rgba(193,95,60,0.25);border-radius:12px;padding:28px 36px;max-width:850px}
+  .caption{font-family:'Silkscreen',monospace;font-size:15px;color:#B1ADA1;text-align:center;line-height:2}
+  .caption .hl{color:#C15F3C}
+  .caption .sm{font-size:12px;color:#777;display:block;margin-top:12px}
+
+  .hashtags{font-family:'Silkscreen',monospace;font-size:11px;color:#5B8DEF;text-align:center;letter-spacing:1px;line-height:2}
+
+  .footer{position:absolute;bottom:20px;font-family:'Silkscreen',monospace;font-size:10px;color:#3a3a38;z-index:10}
+  .footer.l{left:24px}.footer.r{right:24px}
+  .st{position:absolute;border-radius:50%;z-index:1}
+  canvas{image-rendering:pixelated}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="ep-label">DREAM TEAM VLOG</div>
+  <div class="ep-title">EP01<br>GOLDI'S MONDAY<br>BRIEFING</div>
+
+  <div class="scene">
+    <div class="bubble">
+      "OK team! Monday morning!<br>
+      Let me check the status...<br>
+      <span style="color:#C15F3C">Coffee first though.</span>"
+    </div>
+    <div class="checklist">
+      <div class="done">[x] Memory sync</div>
+      <div class="done">[x] BRIEFING.md read</div>
+      <div class="current">[>] Alibaba buyers</div>
+      <div>[ ] Hanyang bot deploy</div>
+      <div>[ ] Nest gallery</div>
+    </div>
+    <div class="coffee"><div class="steam">~</div><div class="coffee-cup"></div></div>
+    <div style="display:flex;gap:22px;align-items:flex-end;position:absolute;bottom:90px;left:50%;transform:translateX(-50%)">
+      <div id="goldi-big"></div>
+      <div id="audience" style="display:flex;gap:14px;align-items:flex-end"></div>
+    </div>
+  </div>
+
+  <div class="caption-box">
+    <div class="caption">
+      <span class="hl">Every Monday at 9 AM</span>, Goldi adjusts his<br>
+      slightly tilted crown, grabs his 2nd coffee,<br>
+      and begins the weekly briefing.<br>
+      The team pretends to listen.<br>
+      <span class="hl">Robo is already coding.</span>
+      <span class="sm">The crown thing? Nobody knows. He fixes it alone in the mirror.</span>
+    </div>
+  </div>
+
+  <div class="hashtags">
+    #BellaAIDreamTeam #Hamsterz #GoldiTheMaster<br>
+    #MondayBriefing #PixelArt #ClaudeCode
+  </div>
+</div>
+
+<div class="footer l">BELLA AI Dream Team Vlog &copy; 2026</div>
+<div class="footer r">EP01 &mdash; Instagram Story</div>
+
+<script>
+const PX_BIG=18, PX_SM=10;
+const H_BASE=[[0,0,0,2,2,0,0,2,2,0,0,0],[0,0,2,1,1,2,2,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,2,2,1,1,1,2,0],[0,2,1,5,1,1,1,1,5,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+const P_BASE=[[0,2,2,0,0,0,0,0,0,2,2,0],[2,4,4,2,0,0,0,0,2,4,4,2],[0,2,2,1,1,1,1,1,1,2,2,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,1,2,2,2,2,1,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+
+function draw(cv,d,base,px){
+  const ctx=cv.getContext('2d');cv.width=12*px;cv.height=12*px;cv.style.width=12*px+'px';cv.style.height=12*px+'px';
+  const cm={0:null,1:d.color,2:'#1a1a19',3:'#FFFFFF',4:d.accent,5:d.cheek};
+  for(let y=0;y<12;y++)for(let x=0;x<12;x++){const v=base[y][x];if(!cm[v])continue;ctx.fillStyle=cm[v];ctx.fillRect(x*px,y*px,px,px)}
+  ctx.fillStyle='#111';ctx.fillRect(3*px+2,4*px+2,px-4,px-4);ctx.fillRect(8*px+2,4*px+2,px-4,px-4);
+  ctx.fillStyle='#FFF';ctx.fillRect(3*px+2,4*px+2,3,3);ctx.fillRect(8*px+2,4*px+2,3,3);
+  ctx.fillStyle=d.whiteMouth?'#FFFFFF':'#1a1a19';ctx.fillRect(5*px,5*px+Math.floor(px*0.55),px,3);ctx.fillRect(6*px,5*px+Math.floor(px*0.55),px,3);
+  if(d.crown){const g='#FFD700',dk='#FFA000',r='#EF5350';ctx.fillStyle=g;ctx.fillRect(3*px,0,6*px,px);ctx.fillRect(4*px,-px,px,px);ctx.fillRect(5.5*px,-1.5*px,px,1.5*px);ctx.fillRect(7*px,-px,px,px);ctx.fillStyle=dk;ctx.fillRect(4*px,-px,px,Math.floor(px*0.4));ctx.fillRect(7*px,-px,px,Math.floor(px*0.4));ctx.fillStyle=r;ctx.fillRect(5.5*px+Math.floor(px*0.25),-1.5*px+1,Math.floor(px*0.5),Math.floor(px*0.5));ctx.fillStyle=dk;ctx.fillRect(3*px,px-2,6*px,2)}
+  if(d.bolt){ctx.fillStyle='#FFEB3B';ctx.fillRect(5*px,-2.5*px,px,px);ctx.fillRect(5*px,-1.5*px,px,px);ctx.fillStyle='#FFC107';ctx.fillRect(4*px,-1.5*px,px,px);ctx.fillStyle='#FFEB3B';ctx.fillRect(4*px,-0.5*px,px,px);ctx.fillRect(5*px,-0.5*px,px,px)}
+  if(d.glasses){ctx.fillStyle='#1a1a19';ctx.strokeStyle='#1a1a19';ctx.lineWidth=2;ctx.strokeRect(2*px,4*px-2,2.5*px,px+4);ctx.strokeRect(7*px,4*px-2,2.5*px,px+4);ctx.fillRect(4.5*px,4*px+2,3*px,3)}
+}
+
+const gc=document.createElement('canvas');gc.style.filter='drop-shadow(0 0 24px rgba(193,95,60,0.5))';
+draw(gc,{color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',crown:true},JSON.parse(JSON.stringify(H_BASE)),PX_BIG);
+document.getElementById('goldi-big').appendChild(gc);
+
+const aud=[
+  {color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',bolt:true},
+  {color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',glasses:true},
+  {color:'#9C27B0',accent:'#AB47BC',cheek:'#CE93D8'},
+  {color:'#FF5722',accent:'#FF7043',cheek:'#FF8A65'},
+  {color:'#795548',accent:'#8D6E63',cheek:'#FFAB91'},
+  {color:'#FF9800',accent:'#FFB74D',cheek:'#FFE0B2'},
+  {color:'#FFC107',accent:'#FFD54F',cheek:'#FFF8E1'},
+];
+const el=document.getElementById('audience');
+aud.forEach((a,i)=>{const cv=document.createElement('canvas');draw(cv,a,JSON.parse(JSON.stringify(i<5?H_BASE:P_BASE)),PX_SM);el.appendChild(cv)});
+
+for(let i=0;i<60;i++){const s=document.createElement('div');s.className='st';s.style.left=Math.random()*1080+'px';s.style.top=Math.random()*1920+'px';s.style.opacity=Math.random()*0.3+0.1;const sz=(Math.random()>0.7?3:2)+'px';s.style.width=s.style.height=sz;s.style.background=Math.random()>0.5?'rgba(91,141,239,0.2)':'rgba(193,95,60,0.2)';document.body.appendChild(s)}
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Dream Team Leader Profiles</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1920px;height:640px;background:#faf9f6;overflow:hidden;font-family:'Press Start 2P',monospace;display:flex;gap:0}
+  .card{width:320px;height:320px;position:relative;overflow:hidden}
+  .card canvas{image-rendering:pixelated;position:absolute;top:0;left:0;z-index:2}
+  /* Name bar at bottom */
+  .name-bar{position:absolute;bottom:0;left:0;right:0;z-index:10;padding:14px 10px 12px;text-align:center}
+  .name-bar .name{font-size:16px;letter-spacing:3px;color:#fff;text-shadow:2px 2px 0 rgba(0,0,0,0.5)}
+  .name-bar .role{font-family:'Silkscreen',monospace;font-size:10px;color:rgba(255,255,255,0.8);margin-top:5px;letter-spacing:2px}
+  .name-bar .team-tag{font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:1px;margin-top:4px;opacity:0.6;color:#fff}
+</style>
+</head>
+<body>
+<script>
+const PX = 20;
+const H_BASE=[[0,0,0,2,2,0,0,2,2,0,0,0],[0,0,2,1,1,2,2,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,2,2,1,1,1,2,0],[0,2,1,5,1,1,1,1,5,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+const P_BASE=[[0,2,2,0,0,0,0,0,0,2,2,0],[2,4,4,2,0,0,0,0,2,4,4,2],[0,2,2,1,1,1,1,1,1,2,2,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,1,2,2,2,2,1,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+
+const leaders = [
+  {n:'GOLDI',r:'Master',team:'Hamsterz',color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',barColor:'#C15F3C',glowColor:'rgba(193,95,60,0.25)',base:'h',crown:true},
+  {n:'ROBO',r:'Auto',team:'Hamsterz',color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',barColor:'#388E3C',glowColor:'rgba(76,175,80,0.25)',base:'h',bolt:true},
+  {n:'WINDY',r:'Mentor',team:'Hamsterz',color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',barColor:'#3F6FD0',glowColor:'rgba(91,141,239,0.25)',base:'h',glasses:true},
+  {n:'COLLIE',r:'Orchestrator',team:'Puppyz',color:'#FF9800',accent:'#FFB74D',cheek:'#FFE0B2',barColor:'#E65100',glowColor:'rgba(255,152,0,0.25)',base:'p'},
+  {n:'SHIBA',r:'Patrol',team:'Puppyz',color:'#FFC107',accent:'#FFD54F',cheek:'#FFF8E1',barColor:'#F57F17',glowColor:'rgba(255,193,7,0.25)',base:'p'},
+  {n:'CAM',r:'QA Reviewer',team:'Hamsterz',color:'#00BCD4',accent:'#26C6DA',cheek:'#80DEEA',barColor:'#00838F',glowColor:'rgba(0,188,212,0.25)',base:'h'},
+];
+
+function draw(canvas, d) {
+  const W=320, H=320;
+  const ctx=canvas.getContext('2d');
+  canvas.width=W; canvas.height=H;
+  canvas.style.width=W+'px'; canvas.style.height=H+'px';
+
+  // Dark background
+  ctx.fillStyle='#0d0d0c';
+  ctx.fillRect(0,0,W,H);
+
+  // Character glow
+  const glow=ctx.createRadialGradient(W/2,H/2+10,30,W/2,H/2+10,160);
+  glow.addColorStop(0,d.glowColor);
+  glow.addColorStop(0.5,d.glowColor.replace('0.25','0.08'));
+  glow.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=glow;
+  ctx.fillRect(0,0,W,H);
+
+  const base = d.base==='h' ? H_BASE : P_BASE;
+  const gridW=12*PX, gridH=12*PX;
+  const ox=(W-gridW)/2, oy=(H-gridH)/2+(d.crown?15:5);
+  const cm={0:null,1:d.color,2:'#1a1a19',3:'#FFFFFF',4:d.accent,5:d.cheek};
+
+  for(let y=0;y<12;y++) for(let x=0;x<12;x++){
+    const v=base[y][x]; if(!cm[v])continue;
+    ctx.fillStyle=cm[v]; ctx.fillRect(ox+x*PX,oy+y*PX,PX,PX);
+  }
+
+  // Eyes
+  ctx.fillStyle='#111';
+  ctx.fillRect(ox+3*PX+PX*0.35,oy+4*PX+PX*0.25,PX*0.45,PX*0.55);
+  ctx.fillRect(ox+8*PX+PX*0.35,oy+4*PX+PX*0.25,PX*0.45,PX*0.55);
+  ctx.fillStyle='#FFF';
+  ctx.fillRect(ox+3*PX+PX*0.55,oy+4*PX+PX*0.25,PX*0.2,PX*0.25);
+  ctx.fillRect(ox+8*PX+PX*0.55,oy+4*PX+PX*0.25,PX*0.2,PX*0.25);
+
+  // Crown
+  if(d.crown){
+    const g='#FFD700',gem='#FF69B4';
+    ctx.fillStyle=g;
+    for(let c=2;c<=9;c++) ctx.fillRect(ox+c*PX,oy-PX,PX,PX);
+    [3,5,8].forEach(p=>{ctx.fillStyle=g;ctx.fillRect(ox+p*PX,oy-2*PX,PX,PX)});
+    ctx.fillStyle=gem;
+    ctx.fillRect(ox+5*PX+2,oy-2*PX+2,PX-4,PX-4);
+  }
+
+  // Bolt
+  if(d.bolt){
+    ctx.fillStyle='#FFEB3B';
+    ctx.fillRect(ox+5*PX,oy-2.5*PX,PX,PX);ctx.fillRect(ox+5*PX,oy-1.5*PX,PX,PX);
+    ctx.fillStyle='#FFC107';ctx.fillRect(ox+4*PX,oy-1.5*PX,PX,PX);
+    ctx.fillStyle='#FFEB3B';ctx.fillRect(ox+4*PX,oy-0.5*PX,PX,PX);ctx.fillRect(ox+5*PX,oy-0.5*PX,PX,PX);
+  }
+
+  // Glasses
+  if(d.glasses){
+    ctx.fillStyle='#1a1a19';ctx.strokeStyle='#1a1a19';ctx.lineWidth=2;
+    ctx.strokeRect(ox+2*PX,oy+4*PX-2,2.5*PX,PX+4);
+    ctx.strokeRect(ox+7*PX,oy+4*PX-2,2.5*PX,PX+4);
+    ctx.fillRect(ox+4.5*PX,oy+4*PX+2,3*PX,3);
+  }
+
+  // Name bar gradient (bottom)
+  const barH=70;
+  const grad=ctx.createLinearGradient(0,H-barH-20,0,H);
+  grad.addColorStop(0,'rgba(0,0,0,0)');
+  grad.addColorStop(0.3,d.barColor+'CC');
+  grad.addColorStop(1,d.barColor);
+  ctx.fillStyle=grad;
+  ctx.fillRect(0,H-barH-20,W,barH+20);
+
+  // Border line
+  ctx.fillStyle='rgba(255,255,255,0.3)';
+  ctx.fillRect(0,H-barH-20,W,2);
+}
+
+leaders.forEach((d,i)=>{
+  const card=document.createElement('div');
+  card.className='card';
+  const cv=document.createElement('canvas');
+  draw(cv,d);
+  card.appendChild(cv);
+
+  const bar=document.createElement('div');
+  bar.className='name-bar';
+  bar.innerHTML=`<div class="name">${d.n}</div><div class="role">${d.r}</div><div class="team-tag">${d.team}</div>`;
+  card.appendChild(bar);
+
+  document.body.appendChild(card);
+});
+</script>
+</body>
+</html>
