@@ -1,6 +1,50 @@
 {
   "features": [
     {
+      "news_title": "Claude Desktop release notes? Do they even make them?",
+      "news_date": "2026-04-02",
+      "news_category": "claude_release",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
+      "matched_keywords": [
+        "note"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Claude Desktop release notes? Do they even make them?' → Obsidian 지식자산 워크플로우 개선에 적용 가능!",
+      "suggestion_zh": "'Claude Desktop release notes? Do they even make them?' → 可應用於 Obsidian 知識資產",
+      "learning_note_ko": "💡 Claude Desktop release notes? Do they even make them?\n   → 저는 Windows에서 Claude Desktop을 사용 중입니다. 업데이트 주기가 정말 빠르네요. 보통 며칠마다 한 번씩 업데이트하고, 때로는...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Claude Desktop release notes? Do they even make them?\n   → 摘要：我在 Windows 上使用 Claude Desktop。更新節奏瘋狂，通常每隔幾天更新一次，有時甚至每天更新，我甚至已經...\n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
+      "news_title": "What do you do when Claude is “clauding”?",
+      "news_date": "2026-04-02",
+      "news_category": "content_sns",
+      "project_id": "instagram_automation",
+      "project_name_ko": "인스타 자동화",
+      "project_name_zh": "Instagram 自動化",
+      "matched_keywords": [
+        "sns"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'What do you do when Claude is “clauding”?' → 인스타 자동화 콘텐츠 전략에 반영!",
+      "suggestion_zh": "'What do you do when Claude is “clauding”?' → 可應用於 Instagram 自動化",
+      "learning_note_ko": "💡 What do you do when Claude is “clauding”?\n   → 생산성이 훨씬 떨어진 것 같습니다. 배포 측면이 아니라 시간당 얼마나 많은 키 입력을 하는지 측면에서요.\n\n이 AI 시대 이전에는 일에 집중할 ...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 What do you do when Claude is “clauding”?\n   → 摘要：我覺得我的生產力下降了許多。不是在交付方面，而是每小時的按鍵次數。\n\n在這個人工智能時代之前，我可以專注於工作...\n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "[Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.",
       "news_date": "2026-03-30",
       "news_category": "ai_trend",
@@ -21,50 +65,6 @@
       "learning_note_zh": "💡 [Built with Claude] A $500K/year pharmacovigilance platform, replicated in a weekend.\n   → 摘要：已發表的藥物安全研究需要數月的專業工作，最終被放在付費牆後面。商業藥物警戒平台的成本約為5萬-50萬美元/年...\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 1
-    },
-    {
-      "news_title": "Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost",
-      "news_date": "2026-03-30",
-      "news_category": "content_sns",
-      "project_id": "instagram_automation",
-      "project_name_ko": "인스타 자동화",
-      "project_name_zh": "Instagram 自動化",
-      "matched_keywords": [
-        "sns"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost' → 인스타 자동화 콘텐츠 전략에 반영!",
-      "suggestion_zh": "'Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost' → 可應用於 Instagram 自動化",
-      "learning_note_ko": "💡 Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost\n   → 링크: [https://m.youtube.com/watch?v=1sd26pWhfmg](https://m.youtube.com/watch?v=1s\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost\n   → 摘要：鏈接：[https://m.youtube.com/watch?v=1sd26pWhfmg](https://m.youtube.com/watch?v=...\n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
-    },
-    {
-      "news_title": "I am fully addicted to building dumb little AI web apps. I love it.",
-      "news_date": "2026-03-29",
-      "news_category": "claude_code",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "web"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'I am fully addicted to building dumb little AI web apps. I love it.' → kndli.com 웹사이트 코드 품질 향상에 활용 가능!",
-      "suggestion_zh": "'I am fully addicted to building dumb little AI web apps. I love it.' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 I am fully addicted to building dumb little AI web apps. I love it.\n   → 나는 코딩하는 방법을 모른다. 정말로. Claude가 99.9%의 코딩을 했다. 나는 물건이 어떻게 되고 싶은지, 어떻게 보이고 싶은지, 어떻게...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 I am fully addicted to building dumb little AI web apps. I love it.\n   → 摘要：我不知道如何編寫代碼。根本不知道。Claude完成了99.9%的編碼工作。我只是知道我想要事物的樣子、外觀和行為方式。構建愚蠢的...\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
     }
   ],
   "upgrades": [
@@ -73,10 +73,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
-      "trigger_date": "2026-03-27",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 可提升效能",
+      "trigger_news": "Claude Desktop release notes? Do they even make them?",
+      "trigger_date": "2026-04-02",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Claude Desktop release notes? Do they even make them?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Claude Desktop release notes? Do they even make them?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -85,10 +85,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
-      "trigger_date": "2026-03-27",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 可提升效能",
+      "trigger_news": "Claude Desktop release notes? Do they even make them?",
+      "trigger_date": "2026-04-02",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'Claude Desktop release notes? Do they even make them?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Claude Desktop release notes? Do they even make them?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -97,60 +97,26 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails",
-      "trigger_date": "2026-03-27",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'Built an MCP server that turns Claude Code into a full agent operating system with persistent memory, loop detection, and audit trails' 可提升效能",
+      "trigger_news": "Claude Desktop release notes? Do they even make them?",
+      "trigger_date": "2026-04-02",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'Claude Desktop release notes? Do they even make them?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'Claude Desktop release notes? Do they even make them?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
   ],
   "content": [
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'I built a desktop pet duck with a built-in Claude Code terminal' 실습 세션",
-      "title_zh": "'I built a desktop pet duck with a built-in Claude Code terminal' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I built a desktop pet duck with a built-in Claude Code terminal 체험 + Q&A",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#AI세미나",
-        "#실습"
-      ],
-      "news_date": "2026-04-02"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I built a desktop pet duck with a built-in Claude Code terminal 총정리",
-      "title_zh": "2026年 2026-04 I built a desktop pet duck with a built-in Claude Code terminal 總整理",
-      "description_ko": "I built a desktop pet duck with a built-in Claude Code terminal 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-02"
-    },
-    {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'1hr 20m deep research for a 1-word output' 핵심 정리 카드",
-      "title_zh": "'1hr 20m deep research for a 1-word output' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 1hr 20m deep research for a 1-word output 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Claude Desktop release notes? Do they even make them?' 핵심 정리 카드",
+      "title_zh": "'Claude Desktop release notes? Do they even make them?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Claude Desktop release notes? Do they even make them? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#Anthropic",
+        "#Claude",
         "#Reddit",
         "#ClaudeAI",
         "#AI자동화전문가",
@@ -163,12 +129,12 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 1hr 20m deep research for a 1-word output 총정리",
-      "title_zh": "2026年 2026-04 1hr 20m deep research for a 1-word output 總整理",
-      "description_ko": "1hr 20m deep research for a 1-word output 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Claude Desktop release notes? Do they even make them? 총정리",
+      "title_zh": "2026年 2026-04 Claude Desktop release notes? Do they even make them? 總整理",
+      "description_ko": "Claude Desktop release notes? Do they even make them? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#Anthropic",
+        "#Claude",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
@@ -180,20 +146,54 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Hitler Finds Out About the Claude Code Leak' 실습 세션",
-      "title_zh": "'Hitler Finds Out About the Claude Code Leak' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Hitler Finds Out About the Claude Code Leak 체험 + Q&A",
+      "title_ko": "'I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient' 실습 세션",
+      "title_zh": "'I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 체험 + Q&A",
       "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-04-02"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 총정리",
+      "title_zh": "2026年 2026-04 I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 總整理",
+      "description_ko": "I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AIAgent",
         "#ClaudeCode",
         "#코딩자동화",
         "#Reddit",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-02"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'I investigated Claude Code’s --resume cache bug. Here’s what was actually happening' 실습 세션",
+      "title_zh": "'I investigated Claude Code’s --resume cache bug. Here’s what was actually happening' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I investigated Claude Code’s --resume cache bug. Here’s what was actually happening 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
         "#AI세미나",
         "#실습"
       ],
       "news_date": "2026-04-02"
     }
   ],
-  "last_analyzed": "2026-04-02T09:05:51.479773+09:00",
+  "last_analyzed": "2026-04-02T17:49:13.180437+09:00",
   "analyzed_date": "2026-04-02",
-  "analyzed_time": "09:05 KST"
+  "analyzed_time": "17:49 KST"
 }

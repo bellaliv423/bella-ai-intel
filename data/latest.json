@@ -1,78 +1,11 @@
 {
   "items": [
     {
-      "id": "b91adb7d19c1",
-      "title": "Claude 사용량 최적화 완벽 가이드 — settings.json으로 60~80% 절감",
-      "summary_ko": "Reddit 모더레이터 정리. settings.json 블록(model:sonnet + MAX_THINKING_TOKENS:10000 + AUTOCOMPACT:50% + SUBAGENT:haiku)으로 60~80% 절감! .claudeignore, CLAUDE.md 60줄 이하, read-once hook, ccusage 모니터링, 하이브리드 전략(Codex+Gemini+Cursor). 피크시간=한국 밤9시~새벽3시.",
-      "summary_zh": "Reddit 版主整理。settings.json 區塊（model:sonnet + MAX_THINKING_TOKENS:10000 + AUTOCOMPACT:50% + SUBAGENT:haiku）節省60~80%！.claudeignore、CLAUDE.md 60行以下、read-once hook、ccusage 監控、混合策略。尖峰時段=韓國晚9點~凌晨3點。",
-      "category": "claude_code",
-      "hashtags": [
-        "#AIAgent",
-        "#ClaudeCode",
-        "#Gemini",
-        "#Haiku",
-        "#Sonnet",
-        "#코딩자동화"
-      ],
-      "source": "Reddit r/ClaudeAI Megathread",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1pygdbz/usage_limits_bugs_and_performance_discussion/",
-      "date": "2026-04-02",
-      "collected_at": "2026-04-02T16:42:33.796238+09:00"
-    },
-    {
-      "id": "637a8b695123",
-      "title": "Anthropic 공식 하네스 설계 — GAN 영감 3에이전트(Planner+Generator+Evaluator)",
-      "summary_ko": "Anthropic Labs가 공개한 장시간 자율 코딩 아키텍처. Solo($9,20분)→핵심기능고장 vs 3에이전트($200,6시간)→완성앱! 프론트엔드 평가기준 4가지(Design Quality, Originality, Craft, Functionality). Opus 4.6으로 스프린트 구조 제거 가능. Evaluator는 Playwright MCP로 실제 클릭 테스트.",
-      "summary_zh": "Anthropic Labs 公開的長時間自主編碼架構。Solo($9,20分)→核心功能故障 vs 3代理($200,6小時)→完整應用！前端評估4標準。Opus 4.6 可簡化衝刺結構。評估者用 Playwright MCP 實際點擊測試。",
-      "category": "claude_code",
-      "hashtags": [
-        "#ClaudeCode",
-        "#MCP",
-        "#Opus",
-        "#코딩자동화"
-      ],
-      "source": "Anthropic Engineering Blog",
-      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-      "date": "2026-04-02",
-      "collected_at": "2026-04-02T16:42:33.796238+09:00"
-    },
-    {
-      "id": "48710c431807",
-      "title": "Claude Code Auto Mode — 안전한 자동 권한 시스템 (Anthropic 공식)",
-      "summary_ko": "매번 권한 승인 대신 AI 분류기가 자동 판단! 2중 방어(입력층 프롬프트 인젝션 프로브 + 출력층 Sonnet 4.6 트랜스크립트 분류기). 3단계 결정(안전도구→프로젝트내→분류기). FPR 0.4%, FNR 17%. Deny-and-continue로 차단 시 자동 대안 시도. Team 플랜 프리뷰.",
-      "summary_zh": "不再每次批准權限！AI 分類器自動判斷安全性。雙層防禦（輸入層注入探針 + 輸出層 Sonnet 4.6 分類器）。三級決策。FPR 0.4%，FNR 17%。拒絕後自動嘗試安全替代方案。Team 方案預覽。",
-      "category": "claude_code",
-      "hashtags": [
-        "#ClaudeCode",
-        "#Sonnet",
-        "#코딩자동화"
-      ],
-      "source": "Anthropic Engineering Blog",
-      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-      "date": "2026-04-02",
-      "collected_at": "2026-04-02T16:42:33.796238+09:00"
-    },
-    {
-      "id": "b6ba7828fe27",
-      "title": "Claude Code v2.1.90 — /powerup, Auto Mode 경계 존중, 성능 대폭 개선",
-      "summary_ko": "/powerup(인터랙티브 학습), Auto Mode 사용자 경계 존중 수정, SSE 선형시간 처리, SDK 대화 속도 개선, PowerShell 보안 강화. /effort(노력도 조절), /branch(대화 분기), /color(세션 색상), /context(사용량 진단), Ctrl+O 트랜스크립트 검색 등 최신 슬래시 명령어 총정리.",
-      "summary_zh": "/powerup（互動學習）、Auto Mode 尊重用戶邊界修復、SSE 線性時間處理、SDK 對話速度改善、PowerShell 安全強化。/effort（調整深度）、/branch（對話分支）、/color（會話顏色）、/context（用量診斷）等最新斜線命令總整理。",
-      "category": "claude_code",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화"
-      ],
-      "source": "GitHub CHANGELOG",
-      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
-      "date": "2026-04-02",
-      "collected_at": "2026-04-02T16:42:33.795239+09:00"
-    },
-    {
       "id": "c5f53be19286",
       "title": "Claude Desktop release notes? Do they even make them?",
       "summary_en": "I have Claude Desktop on Windows. The update cadence is crazy, usually they update about once every couple of days, sometimes every day, I have even s...",
-      "summary_ko": "I have Claude Desktop on Windows. The update cadence is crazy, usually they update about once every couple of days, sometimes every day, I have even s...",
-      "summary_zh": "",
+      "summary_ko": "저는 Windows에서 Claude Desktop을 사용 중입니다. 업데이트 주기가 정말 빠르네요. 보통 며칠마다 한 번씩 업데이트하고, 때로는 매일 업데이트하기도 하는데, 저는 심지어...",
+      "summary_zh": "摘要：我在 Windows 上使用 Claude Desktop。更新節奏瘋狂，通常每隔幾天更新一次，有時甚至每天更新，我甚至已經...",
       "category": "claude_release",
       "hashtags": [
         "#Anthropic",
@@ -90,8 +23,8 @@
       "id": "3aa0c2b5e4a0",
       "title": "I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient",
       "summary_en": "To: r/ClaudeAI (and anyone using Claude Code with Cli or on the Desktop App),\n\nAfter reading a bunch of papers on agentic workflows and burning way to...",
-      "summary_ko": "To: r/ClaudeAI (and anyone using Claude Code with Cli or on the Desktop App),\n\nAfter reading a bunch of papers on agentic workflows and burning way to...",
-      "summary_zh": "",
+      "summary_ko": "r/ClaudeAI (그리고 Claude Code를 CLI나 데스크톱 앱에서 사용하는 모든 사람들)에게:\n\n에이전트 워크플로우와 소진에 관한 많은 논문을 읽은 후",
+      "summary_zh": "摘要：致：r/ClaudeAI（以及任何使用Claude Code的CLI或桌面應用程序的人），\n\n閱讀了許多關於代理工作流和消耗的論文後",
       "category": "claude_code",
       "hashtags": [
         "#AIAgent",
@@ -110,8 +43,8 @@
       "id": "cef2064c6e4e",
       "title": "I investigated Claude Code’s --resume cache bug. Here’s what was actually happening",
       "summary_en": "I dug into the Claude Code --resume cache bug and traced why usage limits were getting hit much faster for MCP-heavy setups.\n\nWhat I found:\n\n* since *...",
-      "summary_ko": "I dug into the Claude Code --resume cache bug and traced why usage limits were getting hit much faster for MCP-heavy setups.\n\nWhat I found:\n\n* since *...",
-      "summary_zh": "",
+      "summary_ko": "Claude Code의 --resume 캐시 버그를 파헤쳤고, MCP 집약적 설정에서 사용 제한이 훨씬 더 빠르게 도달하는 이유를 추적했습니다.\n\n발견 사항:\n\n* ...부터 *",
+      "summary_zh": "摘要：我深入調查了 Claude Code 的 --resume 快取漏洞，並追蹤了為什麼 MCP 密集設置的使用限額會耗盡得更快的原因。\n\n我發現的內容：\n\n* 自從 *...",
       "category": "claude_code",
       "hashtags": [
         "#ClaudeCode",
@@ -130,8 +63,8 @@
       "id": "e9291d5b8676",
       "title": "What do you do when Claude is “clauding”?",
       "summary_en": "I feel like I got much less productive. Not in terms of shipping, but in how many keystrokes I do per hour.\n\nBefore this AI era, I could focus on work...",
-      "summary_ko": "I feel like I got much less productive. Not in terms of shipping, but in how many keystrokes I do per hour.\n\nBefore this AI era, I could focus on work...",
-      "summary_zh": "",
+      "summary_ko": "생산성이 훨씬 떨어진 것 같습니다. 배포 측면이 아니라 시간당 얼마나 많은 키 입력을 하는지 측면에서요.\n\n이 AI 시대 이전에는 일에 집중할 수 있었습니다...",
+      "summary_zh": "摘要：我覺得我的生產力下降了許多。不是在交付方面，而是每小時的按鍵次數。\n\n在這個人工智能時代之前，我可以專注於工作...",
       "category": "content_sns",
       "hashtags": [
         "#AI콘텐츠",
@@ -149,8 +82,8 @@
       "id": "42af896bacdd",
       "title": "I built a tool that saves ~50K tokens per Claude Code conversation by pre-indexing your codebase",
       "summary_en": "Every Claude Code conversation starts the same way — it spends 10-20 tool calls exploring your codebase. Reading files, scanning directories, checking...",
-      "summary_ko": "Every Claude Code conversation starts the same way — it spends 10-20 tool calls exploring your codebase. Reading files, scanning directories, checking...",
-      "summary_zh": "",
+      "summary_ko": "모든 Claude Code 대화는 같은 방식으로 시작됩니다 — 10-20번의 도구 호출을 통해 코드베이스를 탐색하는 데 시간을 씁니다. 파일을 읽고, 디렉토리를 스캔하고, 확인하고...",
+      "summary_zh": "摘要：每次 Claude Code 對話都以相同的方式開始——它花費 10-20 個工具調用來探索你的程式碼庫。讀取文件、掃描目錄、檢查...",
       "category": "claude_code",
       "hashtags": [
         "#ClaudeCode",
@@ -2322,17 +2255,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-02T16:42:33.796238+09:00",
+  "last_updated": "2026-04-02T17:49:11.741013+09:00",
   "stats": {
-    "total_items": 126,
+    "total_items": 122,
     "categories": {
-      "claude_code": 50,
       "claude_release": 26,
+      "claude_code": 46,
       "content_sns": 2,
       "ai_trend": 42,
       "automation": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-02 16:42"
+    "last_collection": "2026-04-02 17:49"
   }
 }
