@@ -100,6 +100,36 @@ SOURCES = {
         "category": "ai_trend",
         "method": "reddit_json",
     },
+    "claude_code_changelog": {
+        "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+        "category": "claude_code",
+        "method": "web_fetch",
+        "description": "Claude Code 공식 CHANGELOG - 매일 새 버전 확인",
+    },
+    "anthropic_engineering_blog": {
+        "keywords": [
+            "site:anthropic.com/engineering 2026",
+            "Anthropic engineering blog new post",
+        ],
+        "category": "claude_code",
+        "method": "web_search",
+        "description": "Anthropic 엔지니어링 블로그 - 하네스설계, Auto Mode 등 기술 글",
+    },
+    "anthropic_news_blog": {
+        "keywords": [
+            "site:anthropic.com/news 2026",
+            "site:anthropic.com/research 2026",
+        ],
+        "category": "claude_release",
+        "method": "web_search",
+        "description": "Anthropic 공식 뉴스/연구 - 정책, 파트너십, 새 기능 발표",
+    },
+    "anthropic_discord": {
+        "url": "https://discord.com/channels/anthropic",
+        "category": "claude_release",
+        "method": "manual_reference",
+        "description": "Anthropic Discord @News 채널 - 벨라님 수동 수집 후 대시보드 반영",
+    },
     "linkedin_claude": {
         "url": "https://www.linkedin.com/showcase/claude/posts/?feedView=all",
         "category": "claude_release",
