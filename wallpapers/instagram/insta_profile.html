@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=320, height=320">
+<title>BELLA AI - GOLDI Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  width: 320px; height: 320px; overflow: hidden;
+  background: #0d0d0c; display: flex; align-items: center; justify-content: center;
+  font-family: 'Press Start 2P', monospace;
+}
+canvas {
+  image-rendering: pixelated; image-rendering: crisp-edges;
+}
+</style>
+</head>
+<body>
+<canvas id="c" width="320" height="320"></canvas>
+<script>
+const W = 320, H = 320, PX = 20;
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+
+// Colors: 0=transparent, 1=body, 2=outline, 3=eye white, 4=accent, 5=cheek
+const BODY = '#C15F3C', OUTLINE = '#1a1a19', EYE_W = '#FFFFFF', ACCENT = '#E8845A', CHEEK = '#FF9B7A';
+const PUPIL = '#111111', HIGHLIGHT = '#FFFFFF';
+const CROWN_GOLD = '#FFD700', CROWN_GEM = '#FF69B4';
+
+const hamster = [
+  [0,0,0,2,2,0,0,2,2,0,0,0],
+  [0,0,2,1,1,2,2,1,1,2,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,2,1,1,1,1,1,1,1,1,2,0],
+  [0,2,1,3,1,1,1,1,3,1,2,0],
+  [0,2,1,1,1,2,2,1,1,1,2,0],
+  [0,2,1,5,1,1,1,1,5,1,2,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,0,2,1,1,1,1,2,0,0,0],
+  [0,0,2,1,1,1,1,1,1,2,0,0],
+  [0,0,2,1,0,0,0,0,1,2,0,0],
+  [0,0,0,2,0,0,0,0,2,0,0,0],
+];
+
+const colorMap = { 1: BODY, 2: OUTLINE, 3: EYE_W, 4: ACCENT, 5: CHEEK };
+
+// Background
+ctx.fillStyle = '#0d0d0c';
+ctx.fillRect(0, 0, W, H);
+
+// Orange glow
+const glow = ctx.createRadialGradient(W/2, H/2 + 10, 30, W/2, H/2 + 10, 160);
+glow.addColorStop(0, 'rgba(193, 95, 60, 0.25)');
+glow.addColorStop(0.5, 'rgba(193, 95, 60, 0.08)');
+glow.addColorStop(1, 'rgba(193, 95, 60, 0)');
+ctx.fillStyle = glow;
+ctx.fillRect(0, 0, W, H);
+
+// Calculate offset to center the 12x12 grid
+const gridW = 12 * PX, gridH = 12 * PX;
+const ox = (W - gridW) / 2;
+const oy = (H - gridH) / 2 + 15; // slightly down for crown
+
+// Draw crown above hamster
+const crownOx = ox;
+const crownOy = oy - PX;
+
+// Crown base (cols 2-9)
+ctx.fillStyle = CROWN_GOLD;
+for (let c = 2; c <= 9; c++) {
+  ctx.fillRect(crownOx + c * PX, crownOy, PX, PX);
+}
+// Crown peaks at cols 3, 5.5, 8
+const peaks = [3, 5, 8];
+for (const p of peaks) {
+  ctx.fillRect(crownOx + p * PX, crownOy - PX, PX, PX);
+}
+// Pink gem in center peak
+ctx.fillStyle = CROWN_GEM;
+ctx.fillRect(crownOx + 5 * PX + 2, crownOy - PX + 2, PX - 4, PX - 4);
+
+// Draw hamster body
+for (let r = 0; r < 12; r++) {
+  for (let c = 0; c < 12; c++) {
+    const v = hamster[r][c];
+    if (v === 0) continue;
+    ctx.fillStyle = colorMap[v];
+    ctx.fillRect(ox + c * PX, oy + r * PX, PX, PX);
+  }
+}
+
+// Draw eyes with pupils and highlights
+// Left eye at row 4, col 3
+const eyePositions = [[4, 3], [4, 8]];
+for (const [er, ec] of eyePositions) {
+  const ex = ox + ec * PX, ey = oy + er * PX;
+  // White already drawn
+  // Pupil
+  ctx.fillStyle = PUPIL;
+  ctx.fillRect(ex + PX * 0.35, ey + PX * 0.25, PX * 0.45, PX * 0.55);
+  // Highlight
+  ctx.fillStyle = HIGHLIGHT;
+  ctx.fillRect(ex + PX * 0.55, ey + PX * 0.25, PX * 0.2, PX * 0.25);
+}
+</script>
+</body>
+</html>
