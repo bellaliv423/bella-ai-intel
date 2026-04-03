@@ -1,6 +1,237 @@
 {
   "items": [
     {
+      "id": "3831bd86e775",
+      "title": "Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens",
+      "summary_en": "Before any of the recent drama, WSJ had already profiled [Sigrid Jin](https://x.com/realsigridjin) in \"[The Trillion Dollar Race to Automate Our Entir...",
+      "summary_ko": "최근의 논란이 있기 전에 WSJ는 이미 Sigrid Jin을 \"[The Trillion Dollar Race to Automate Our En\"에서 프로필했습니다.",
+      "summary_zh": "摘要：在最近的戲劇性事件發生之前，《華爾街日報》已經在「[Sigrid Jin](https://x.com/realsigridjin)在[萬億美元自動化競賽中",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1saq6kp/sigrid_jin_the_author_of_claw_code_was_already/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.232309+09:00",
+      "reddit_score": 19
+    },
+    {
+      "id": "9dc4ec99ccf9",
+      "title": "Claude Code just Rick Rolled me out of nowhere",
+      "summary_en": "I was working on a hobby project to setup up an LMS site with some financial education lessons and this rick roll popped up out of nowhere! I did not ...",
+      "summary_ko": "금융 교육 강의를 포함한 LMS 사이트를 설정하는 취미 프로젝트를 진행 중이었는데 Rick Roll이 갑자기 튀어나왔어! 나는 ...",
+      "summary_zh": "摘要：我正在做一個業餘項目，設置一個帶有金融教育課程的學習管理系統網站，這個Rick Roll 突然從無處冒出來！我沒有...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sau5x3/claude_code_just_rick_rolled_me_out_of_nowhere/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.232309+09:00",
+      "reddit_score": 14
+    },
+    {
+      "id": "37364d73e439",
+      "title": "I connected Claude Voice Mode to Claude Code and it’s kind of great.",
+      "summary_en": "I’ve been dying to get Claude Voice mode on mobile connected to Claude Code, and I finally figured out a (hacky) way to do it. \n\nWhich means you can a...",
+      "summary_ko": "Claude 음성 모드를 모바일에서 Claude Code에 연결하고 싶었는데, 드디어 (우회적인) 방법을 찾았습니다.\n\n이것은 다음을 의미합니다...",
+      "summary_zh": "摘要：我一直想在行動裝置上將 Claude 語音模式連接到 Claude Code，我終於想到了一個（有點生硬的）方法。\n\n這意味著你可以……",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1saow7z/i_connected_claude_voice_mode_to_claude_code_and/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.232309+09:00",
+      "reddit_score": 44
+    },
+    {
+      "id": "e8e1d96d4e36",
+      "title": "Claude usage gets burned absurdly fast for serious work, even with tools/features disabled. How are people optimizing this?",
+      "summary_en": "I keep running into the same problem with Claude, and it'ss getting hard to work around.\n\nMy usage gets spent extremely fast, even when I've already s...",
+      "summary_ko": "Claude로 같은 문제에 계속 부딪히고 있으며, 해결 방법을 찾기가 점점 어려워지고 있습니다.\n\n사용량이 이미 많이 소진되었는데도 극도로 빠르게 소진됩니다...",
+      "summary_zh": "摘要：我不斷遇到 Claude 的同樣問題，而且越來越難以解決。\n\n我的使用量消耗得極其迅速，即使我已經...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1satb89/claude_usage_gets_burned_absurdly_fast_for/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.231310+09:00",
+      "reddit_score": 40
+    },
+    {
+      "id": "85167929e560",
+      "title": "Claude launches NO_FLICKER Mode - Boris Cherny Thread (9 details)",
+      "summary_en": "Original Thread: [https://x.com/bcherny/status/2039421575422980329](https://x.com/bcherny/status/2039421575422980329)",
+      "summary_ko": "원본 스레드: [https://x.com/bcherny/status/2039421575422980329](https://x.com/bcherny/status/2039421575422980329)",
+      "summary_zh": "摘要：原始討論串：[https://x.com/bcherny/status/2039421575422980329](https://x.com/bcherny/status/2039421575422980329)",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sakkoh/claude_launches_no_flicker_mode_boris_cherny/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.231310+09:00",
+      "reddit_score": 179
+    },
+    {
+      "id": "00ccfda53e42",
+      "title": "Switched from MCPs to CLIs for Claude Code and honestly never going back",
+      "summary_en": "I went pretty hard on MCPs at first. Set up a bunch of them, thought I was doing things “the right way.”\n\nBut after actually using them for a bit… it ...",
+      "summary_ko": "처음에는 MCP를 꽤 열심히 사용했습니다. 여러 개를 설정하고, \"올바른 방법\"으로 하고 있다고 생각했습니다.\n\n하지만 실제로 사용해본 후... 그것은...",
+      "summary_zh": "摘要：我一開始對 MCPs 非常熱情。設置了一堆，認為我在以「正確的方式」做事。\n\n但在實際使用了一段時間後……它…",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.231310+09:00",
+      "reddit_score": 324
+    },
+    {
+      "id": "cf58f199445a",
+      "title": "Claude - tried to kill me",
+      "summary_en": "Asked it how to clean my water cooler. Told me to add white wine vinegar and then bleach. Good job I know that’s not a good idea.\n\nSurprised this is s...",
+      "summary_ko": "정수기 청소 방법을 물었다. 화이트 와인 식초를 넣은 다음 표백제를 넣으라고 했다. 그게 좋은 생각이 아니라는 걸 알고 있어서 다행이다.\n\n이것이 ...라고 놀랐다",
+      "summary_zh": "摘要：我問它如何清潔我的水冷卻器。它告訴我加入白葡萄酒醋，然後加入漂白劑。幸好我知道這不是個好主意。\n\n對這是...感到驚訝",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.231310+09:00",
+      "reddit_score": 404
+    },
+    {
+      "id": "bd0d6babf3f5",
+      "title": "Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.230310+09:00",
+      "reddit_score": 331
+    },
+    {
+      "id": "71d20125d08c",
+      "title": "I gave several AIs money to invest in the stock market",
+      "summary_en": "Okay so I made a post 4 months that got super viral, we gave several AI agents real time financial data and money to invest in the stock market.\n\nMy h...",
+      "summary_ko": "좋아, 나는 4개월 전에 엄청 인기를 끈 포스트를 올렸는데, 우리는 여러 AI 에이전트에게 실시간 금융 데이터와 주식시장에 투자할 돈을 주었다.\n\n내...",
+      "summary_zh": "摘要：好吧，我在4個月前發了一篇帖子，它瘋狂走紅，我們給了幾個AI代理程式實時財務數據和真金白銀投資股票市場。\n\n我的...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T09:05:36.230310+09:00",
+      "reddit_score": 565
+    },
+    {
+      "id": "d6aeb0abb460",
+      "title": "I used Claude Code to build a portable AI worker Desktop from scratch — the open-source community gave it 391 stars in 6 days",
+      "summary_en": "I want to share something I built with Claude Code over the past week because it shows what AI-assisted development can actually do when pointed at a ...",
+      "summary_ko": "지난 주 Claude Code로 만든 것을 공유하고 싶습니다. AI 보조 개발이 어떤 일을 할 수 있는지 보여주기 때문입니다...",
+      "summary_zh": "摘要：我想分享我在過去一週用 Claude Code 構建的東西，因為它展示了當 AI 輔助開發被應用於...時，實際上能夠做到什麼",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sai916/i_used_claude_code_to_build_a_portable_ai_worker/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-03T09:05:36.232309+09:00",
+      "reddit_score": 60
+    },
+    {
+      "id": "860a7a04bf90",
+      "title": "/Buddy is Awesome",
+      "summary_en": "If anyone still didn’t try Claude /Buddy pet , I strongly advise you do .  ",
+      "summary_ko": "아직 Claude /Buddy 애완동물을 시도하지 않은 사람이 있다면, 꼭 해보시길 강력히 추천합니다.",
+      "summary_zh": "摘要：如果還有人沒有試過 Claude /Buddy 寵物，我強烈建議你試試。",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sabp9j/buddy_is_awesome/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-03T09:05:36.231310+09:00",
+      "reddit_score": 247
+    },
+    {
+      "id": "d07713784ed1",
+      "title": "How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏",
+      "summary_en": "Hey all, looking for some practical advice / setups from people who’ve actually made this work.\n\nContext:\n\n* I have **pretty severe ADHD**, so I’m try...",
+      "summary_ko": "안녕하세요, 실제로 이것을 성공적으로 만들어본 사람들의 실질적인 조언/설정을 찾고 있습니다.\n\n배경:\n\n* 저는 **상당히 심한 ADHD**가 있어서 시도하고 있습니다...",
+      "summary_zh": "摘要：嘿各位，我在尋求已經成功實現此方案的人的一些實際建議/設置。\n\n背景：\n\n* 我有**相當嚴重的ADHD**，所以我在嘗試...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-03T09:05:36.231310+09:00",
+      "reddit_score": 274
+    },
+    {
       "id": "c5f53be19286",
       "title": "Claude Desktop release notes? Do they even make them?",
       "summary_en": "I have Claude Desktop on Windows. The update cadence is crazy, usually they update about once every couple of days, sometimes every day, I have even s...",
@@ -2255,17 +2486,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-02T17:49:11.741013+09:00",
+  "last_updated": "2026-04-03T09:09:08.434131+09:00",
   "stats": {
-    "total_items": 122,
+    "total_items": 134,
     "categories": {
-      "claude_release": 26,
-      "claude_code": 46,
+      "claude_code": 51,
+      "ai_trend": 48,
+      "claude_release": 27,
       "content_sns": 2,
-      "ai_trend": 42,
       "automation": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-02 17:49"
+    "last_collection": "2026-04-03 09:09"
   }
 }

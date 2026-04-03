@@ -107,93 +107,92 @@
   ],
   "content": [
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude Desktop release notes? Do they even make them?' 핵심 정리 카드",
-      "title_zh": "'Claude Desktop release notes? Do they even make them?' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude Desktop release notes? Do they even make them? 설명 + 실전 활용법 5장 캐러셀",
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens' 실습 세션",
+      "title_zh": "'Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 체험 + Q&A",
       "hashtags": [
-        "#Anthropic",
-        "#Claude",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
+        "#AI세미나",
+        "#실습"
       ],
-      "news_date": "2026-04-02"
+      "news_date": "2026-04-03"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude Desktop release notes? Do they even make them? 총정리",
-      "title_zh": "2026年 2026-04 Claude Desktop release notes? Do they even make them? 總整理",
-      "description_ko": "Claude Desktop release notes? Do they even make them? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 총정리",
+      "title_zh": "2026年 2026-04 Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 總整理",
+      "description_ko": "Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#Anthropic",
-        "#Claude",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-02"
+      "news_date": "2026-04-03"
     },
     {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient' 실습 세션",
-      "title_zh": "'I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 체험 + Q&A",
+      "title_ko": "'Claude Code just Rick Rolled me out of nowhere' 실습 세션",
+      "title_zh": "'Claude Code just Rick Rolled me out of nowhere' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Claude Code just Rick Rolled me out of nowhere 체험 + Q&A",
       "hashtags": [
-        "#AIAgent",
         "#ClaudeCode",
         "#코딩자동화",
+        "#Reddit",
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-02"
+      "news_date": "2026-04-03"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 총정리",
-      "title_zh": "2026年 2026-04 I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 總整理",
-      "description_ko": "I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) — it's stupidly effective and token-efficient 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Claude Code just Rick Rolled me out of nowhere 총정리",
+      "title_zh": "2026年 2026-04 Claude Code just Rick Rolled me out of nowhere 總整理",
+      "description_ko": "Claude Code just Rick Rolled me out of nowhere 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AIAgent",
         "#ClaudeCode",
         "#코딩자동화",
         "#Reddit",
+        "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-02"
+      "news_date": "2026-04-03"
     },
     {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'I investigated Claude Code’s --resume cache bug. Here’s what was actually happening' 실습 세션",
-      "title_zh": "'I investigated Claude Code’s --resume cache bug. Here’s what was actually happening' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I investigated Claude Code’s --resume cache bug. Here’s what was actually happening 체험 + Q&A",
+      "title_ko": "'I connected Claude Voice Mode to Claude Code and it’s kind of great.' 실습 세션",
+      "title_zh": "'I connected Claude Voice Mode to Claude Code and it’s kind of great.' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I connected Claude Voice Mode to Claude Code and it’s kind of great. 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
-        "#MCP",
         "#코딩자동화",
+        "#Reddit",
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-02"
+      "news_date": "2026-04-03"
     }
   ],
-  "last_analyzed": "2026-04-02T17:49:13.180437+09:00",
-  "analyzed_date": "2026-04-02",
-  "analyzed_time": "17:49 KST"
+  "last_analyzed": "2026-04-03T09:09:27.898822+09:00",
+  "analyzed_date": "2026-04-03",
+  "analyzed_time": "09:09 KST"
 }
