@@ -1,6 +1,83 @@
 {
   "items": [
     {
+      "id": "ca6719959df1",
+      "title": "These 10 GitHub repos completely changed how I use Claude Code",
+      "summary_en": "Been using Claude Pro for a few months and recently started digging into Claude Code and the skills ecosystem. Went down a rabbit hole on GitHub and f...",
+      "summary_ko": "몇 달 동안 Claude Pro를 사용해 왔고 최근에 Claude Code와 스킬 생태계를 파고들기 시작했습니다. GitHub 토끼굴을 파고들었고...",
+      "summary_zh": "摘要：使用 Claude Pro 已有幾個月，最近開始深入研究 Claude Code 和技能生態系統。在 GitHub 上走進了兔子洞，並且...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sapnyb/these_10_github_repos_completely_changed_how_i/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T16:00:21.908846+09:00",
+      "reddit_score": 102
+    },
+    {
+      "id": "83a7bb0ab81d",
+      "title": "&lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs",
+      "summary_en": "As you know, *consumer* tier AI chat tools like ChatGPT and Claude explicitly state in their user TOS that the *user has no rights to privacy,* and th...",
+      "summary_ko": "아시다시피 ChatGPT 및 Claude와 같은 *소비자* 등급 AI 채팅 도구는 사용자 약관에서 *사용자가 개인정보 보호 권리가 없다*고 명시적으로 명시하고 있으며...",
+      "summary_zh": "摘要：如您所知，*消費者*級別的AI聊天工具（如ChatGPT和Claude）在其用戶服務條款中明確規定*用戶沒有隱私權*，並且...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sb5616/5_teams_no_claude_privacy_guarantee_product_gap/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T16:00:21.908846+09:00",
+      "reddit_score": 15
+    },
+    {
+      "id": "9db74c5c6eaa",
+      "title": "is AI making us better thinkers or just faster workers",
+      "summary_en": "I've been using claude daily for about 8 months now and something has been nagging at me that I want to talk about.\n\nwhen I first started using it I w...",
+      "summary_ko": "나는 약 8개월 동안 매일 Claude를 사용해 왔고, 무언가가 계속 나를 괴롭혀서 이야기하고 싶었다.\n\n처음 사용을 시작했을 때 나는...",
+      "summary_zh": "摘要：我已經每天使用 Claude 大約 8 個月了，有些東西一直在困擾著我，我想談談。\n\n當我剛開始使用它時，我...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sb053k/is_ai_making_us_better_thinkers_or_just_faster/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T16:00:21.908846+09:00",
+      "reddit_score": 56
+    },
+    {
+      "id": "ca39ca5e6b67",
+      "title": "things that claude say (part 2)",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sb4w67/things_that_claude_say_part_2/",
+      "date": "2026-04-03",
+      "collected_at": "2026-04-03T16:00:21.908846+09:00",
+      "reddit_score": 334
+    },
+    {
       "id": "3831bd86e775",
       "title": "Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens",
       "summary_en": "Before any of the recent drama, WSJ had already profiled [Sigrid Jin](https://x.com/realsigridjin) in \"[The Trillion Dollar Race to Automate Our Entir...",
@@ -172,6 +249,23 @@
       "date": "2026-04-03",
       "collected_at": "2026-04-03T09:05:36.230310+09:00",
       "reddit_score": 565
+    },
+    {
+      "id": "bcf4215e85c6",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 2, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 2, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 2, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-03T16:00:18.647878+09:00"
     },
     {
       "id": "d6aeb0abb460",
@@ -1566,6 +1660,23 @@
       "reddit_score": 1888
     },
     {
+      "id": "4abe9db18ba4",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on March 27, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (March 27, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (March 27, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-03-27",
+      "collected_at": "2026-04-03T16:00:18.648884+09:00"
+    },
+    {
       "id": "5b076eaa7d1c",
       "title": "Claude Code v7.1.0 Release",
       "summary_en": "Claude Code 7.1.0 released on March 27, 2026. Check changelog for details.",
@@ -2486,17 +2597,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-03T09:09:08.434131+09:00",
+  "last_updated": "2026-04-03T17:51:34.625510+09:00",
   "stats": {
-    "total_items": 134,
+    "total_items": 140,
     "categories": {
-      "claude_code": 51,
-      "ai_trend": 48,
+      "claude_code": 54,
+      "ai_trend": 51,
       "claude_release": 27,
       "content_sns": 2,
       "automation": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-03 09:09"
+    "last_collection": "2026-04-03 17:51"
   }
 }

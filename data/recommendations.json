@@ -111,9 +111,9 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens' 실습 세션",
-      "title_zh": "'Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 체험 + Q&A",
+      "title_ko": "'These 10 GitHub repos completely changed how I use Claude Code' 실습 세션",
+      "title_zh": "'These 10 GitHub repos completely changed how I use Claude Code' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 These 10 GitHub repos completely changed how I use Claude Code 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -128,9 +128,9 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 총정리",
-      "title_zh": "2026年 2026-04 Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 總整理",
-      "description_ko": "Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 These 10 GitHub repos completely changed how I use Claude Code 총정리",
+      "title_zh": "2026年 2026-04 These 10 GitHub repos completely changed how I use Claude Code 總整理",
+      "description_ko": "These 10 GitHub repos completely changed how I use Claude Code 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -141,19 +141,21 @@
       "news_date": "2026-04-03"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'Claude Code just Rick Rolled me out of nowhere' 실습 세션",
-      "title_zh": "'Claude Code just Rick Rolled me out of nowhere' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude Code just Rick Rolled me out of nowhere 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'&lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs' 핵심 정리 카드",
+      "title_zh": "'&lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 &lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#GPT",
+        "#생성형AI",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
       "news_date": "2026-04-03"
     },
@@ -162,37 +164,38 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude Code just Rick Rolled me out of nowhere 총정리",
-      "title_zh": "2026年 2026-04 Claude Code just Rick Rolled me out of nowhere 總整理",
-      "description_ko": "Claude Code just Rick Rolled me out of nowhere 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 &lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs 총정리",
+      "title_zh": "2026年 2026-04 &lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs 總整理",
+      "description_ko": "&lt; 5 teams, no Claude privacy guarantee: Product Gap for Solo Practitioners/Solopreneurs 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#GPT",
+        "#생성형AI",
         "#Reddit",
-        "#ClaudeAI",
         "#AI블로그"
       ],
       "news_date": "2026-04-03"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'I connected Claude Voice Mode to Claude Code and it’s kind of great.' 실습 세션",
-      "title_zh": "'I connected Claude Voice Mode to Claude Code and it’s kind of great.' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I connected Claude Voice Mode to Claude Code and it’s kind of great. 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'is AI making us better thinkers or just faster workers' 핵심 정리 카드",
+      "title_zh": "'is AI making us better thinkers or just faster workers' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 is AI making us better thinkers or just faster workers 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
       "news_date": "2026-04-03"
     }
   ],
-  "last_analyzed": "2026-04-03T09:09:27.898822+09:00",
+  "last_analyzed": "2026-04-03T17:51:36.222029+09:00",
   "analyzed_date": "2026-04-03",
-  "analyzed_time": "09:09 KST"
+  "analyzed_time": "17:51 KST"
 }
