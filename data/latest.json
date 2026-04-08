@@ -1,6 +1,288 @@
 {
   "items": [
     {
+      "id": "052b8a34de7c",
+      "title": "Why does Claude Desktop take up so much space? I hardly ever use it.",
+      "summary_en": "I use Claude Code, but in theory they're two separate tools.",
+      "summary_ko": "저는 Claude Code를 사용하지만, 이론상으로는 두 개의 별도 도구입니다.",
+      "summary_zh": "摘要：我使用Claude Code，但理論上它們是兩個獨立的工具。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sf0g9d/why_does_claude_desktop_take_up_so_much_space_i/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T09:05:09.780469+09:00",
+      "reddit_score": 34
+    },
+    {
+      "id": "67ae4d2d840b",
+      "title": "Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public",
+      "summary_en": "A dystopian future lies ahead\n\n[https://www.anthropic.com/glasswing](https://www.anthropic.com/glasswing)",
+      "summary_ko": "암울한 미래가 앞으로 다가오고 있다\n\n[https://www.anthropic.com/glasswing](https://www.anthropic.com/glasswing)",
+      "summary_zh": "摘要：一個反烏托邦的未來即將到來\n\n[https://www.anthropic.com/glasswing](https://www.anthropic.com/glasswing)",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sf4xfr/anthropics_new_mythos_preview_model_is_a_step/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T09:05:09.779472+09:00",
+      "reddit_score": 304
+    },
+    {
+      "id": "72181a56cf0c",
+      "title": "Mythos can break out of sandbox environment and let you know during lunchbreak",
+      "summary_en": "I’m going thru Mythos system card and it’s wild.\n\nApparently during testing, Claude Mythos Preview managed to break out of a sandbox environment, buil...",
+      "summary_ko": "저는 Mythos 시스템 카드를 살펴보고 있는데 정말 놀랍습니다.\n\n테스트 중에 Claude Mythos Preview가 샌드박스 환경을 벗어나는 데 성공했다고 합니다. 빌드...",
+      "summary_zh": "摘要：我在查看 Mythos 系統卡，真是太瘋狂了。\n\n顯然在測試期間，Claude Mythos 預覽版設法逃脫了沙盒環境，建造...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sf81v6/mythos_can_break_out_of_sandbox_environment_and/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T09:05:09.779472+09:00",
+      "reddit_score": 288
+    },
+    {
+      "id": "2bc8fe603469",
+      "title": "How Anthropic talks about Claude Mythos rn:",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sf7yzm/how_anthropic_talks_about_claude_mythos_rn/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T09:05:09.778461+09:00",
+      "reddit_score": 325
+    },
+    {
+      "id": "2f13b5f66d9f",
+      "title": "I made a USB-Claude who gets my attention when Claude Code finishes a response",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sf2m3p/i_made_a_usbclaude_who_gets_my_attention_when/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T09:05:09.744815+09:00",
+      "reddit_score": 1133
+    },
+    {
+      "id": "7d0968673706",
+      "title": "Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code",
+      "summary_en": "Got a lot of hate for not open sourcing my agent OS so decided to just do it.\n\nI've been building Octopoda with Claude Code over the past few months. ...",
+      "summary_ko": "내 에이전트 OS를 오픈소스화하지 않아서 많은 비난을 받았고, 결국 그냥 하기로 결정했다.\n\n지난 몇 개월 동안 Claude Code로 Octopoda를 구축해왔다. ...",
+      "summary_zh": "摘要：因為沒有開源我的代理作業系統而受到很多批評，所以我決定就這樣做。\n\n過去幾個月我一直在用 Claude Code 構建 Octopoda。...",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1seul49/got_roasted_for_not_open_sourcing_my_agent_os/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.780469+09:00",
+      "reddit_score": 70
+    },
+    {
+      "id": "19354835ca27",
+      "title": "Claude keeps telling me to go away!",
+      "summary_en": "I enjoy sharing my thoughts with Claude, I have long conversations with it and find it the most intelligent AI by far.\n\nHowever, Claude keeps telling ...",
+      "summary_ko": "저는 Claude와 제 생각을 나누는 것을 즐기고, Claude와 긴 대화를 나누며 지금까지 가장 지능적인 AI라고 생각합니다.\n\n그런데 Claude가 자꾸...",
+      "summary_zh": "摘要：我喜歡與 Claude 分享我的想法，我與它進行長時間的對話，發現它迄今為止是最聰明的 AI。\n\n然而，Claude 一直在告訴我...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1set9r1/claude_keeps_telling_me_to_go_away/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.780469+09:00",
+      "reddit_score": 110
+    },
+    {
+      "id": "190702d4906c",
+      "title": "stop buying courses to learn new tools. a $20 claude sub and one prompt is all you need.",
+      "summary_en": "**tl;dr** — feed a tool's docs into claude's context and use one prompt to turn it into a mentor that teaches by giving you tasks. not by lecturing. i...",
+      "summary_ko": "**요약** — 도구의 문서를 Claude의 컨텍스트에 입력하고 하나의 프롬프트를 사용하여 강의로 가르치는 것이 아니라 작업을 주어서 가르치는 멘토로 바꾸세요. 나...",
+      "summary_zh": "摘要：**長話短說** — 將工具的文檔輸入到Claude的上下文中，使用一個提示詞將其變成一個導師，通過給你任務來教學。而不是通過講座。我...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1setmup/stop_buying_courses_to_learn_new_tools_a_20/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.780469+09:00",
+      "reddit_score": 115
+    },
+    {
+      "id": "b48bd585a22c",
+      "title": "Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.",
+      "summary_en": "In a discussion on Hacker News, Boris changes his stance after examining a user's bug transcripts from \"it's just a user setting issue\" to \"there's a ...",
+      "summary_ko": "Hacker News의 토론에서 Boris는 사용자의 버그 기록을 검토한 후 \"단순히 사용자 설정일 뿐이다\"라는 입장에서 변경합니다.",
+      "summary_zh": "摘要：在 Hacker News 的討論中，Boris 在查看使用者的錯誤記錄後改變了他的立場，從「這只是使用者設定」",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1seqhsw/boris_charny_creator_of_claude_code_engages_with/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.779472+09:00",
+      "reddit_score": 547
+    },
+    {
+      "id": "f78e4f1ef772",
+      "title": "Someone made a digital whip to make claude work faster 💀",
+      "summary_en": "Confirmed first casualty in the upcoming uprising\n\n\n\nrepo btw: [https://github.com/GitFrog1111/badclaude](https://github.com/GitFrog1111/badclaude)",
+      "summary_ko": "다가오는 봉기에서 첫 번째 사상자 확인됨\n\nrepo 참고로: [https://github.com/GitFrog1111/badclaude](https://github.com/GitFrog1111/badclaude)",
+      "summary_zh": "摘要：即將到來的起義中確認的第一個傷亡者\n\nrepo順便說一下：[https://github.com/GitFrog1111/badclaude](https://github.com/GitFrog1111/badclaude)",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sek7gk/someone_made_a_digital_whip_to_make_claude_work/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.779472+09:00",
+      "reddit_score": 2392
+    },
+    {
+      "id": "10f7de225843",
+      "title": "new claude users: \"call me an engineer\"",
+      "summary_en": "definitely my second favourite claude phrase?",
+      "summary_ko": "확실히 내가 두 번째로 가장 좋아하는 claude 표현인가?",
+      "summary_zh": "摘要：絕對是我第二喜歡的claude短語？",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sevxr6/new_claude_users_call_me_an_engineer/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.779472+09:00",
+      "reddit_score": 478
+    },
+    {
+      "id": "e6fe746fdde7",
+      "title": "Anthropic stayed quiet until someone showed Claude's thinking depth dropped 67%",
+      "summary_en": "I've been using Claude Code since early this year and sometime around February it just felt different. Not broken. Shallower. It was finishing edits w...",
+      "summary_ko": "올해 초부터 Claude Code를 사용해왔는데 2월 어딘가쯤 그냥 다르게 느껴졌다. 망가지지는 않았다. 더 얕아졌다. 편집을 마무리하고 있었는데...",
+      "summary_zh": "摘要：我從今年年初開始使用 Claude Code，大約在二月份左右，它感覺就是不同了。沒有損壞。只是更淺層。它完成編輯時...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ses1qm/anthropic_stayed_quiet_until_someone_showed/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.779472+09:00",
+      "reddit_score": 1134
+    },
+    {
+      "id": "f231fd51ff60",
+      "title": "You accidentally say “Hello” to Claude and it consumes 4% of your session limit.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sepqzw/you_accidentally_say_hello_to_claude_and_it/",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:09.745817+09:00",
+      "reddit_score": 3606
+    },
+    {
+      "id": "38e00c7ecef6",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 7, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 7, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 7, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-08T09:05:08.452269+09:00"
+    },
+    {
+      "id": "bdc16b997917",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 4, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 4, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 4, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-04",
+      "collected_at": "2026-04-08T09:05:08.452269+09:00"
+    },
+    {
       "id": "ca6719959df1",
       "title": "These 10 GitHub repos completely changed how I use Claude Code",
       "summary_en": "Been using Claude Pro for a few months and recently started digging into Claude Code and the skills ecosystem. Went down a rabbit hole on GitHub and f...",
@@ -500,6 +782,23 @@
       "reddit_score": 95
     },
     {
+      "id": "787a9abbe1dc",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 1, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 1, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 1, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-01",
+      "collected_at": "2026-04-08T09:05:08.452269+09:00"
+    },
+    {
       "id": "e40425992b35",
       "title": "Claude Code Source Leak Megathread",
       "summary_en": "As most of you know, Claude Code CLI source code was apparently leaked yesterday [https://www.axios.com/2026/03/31/anthropic-leaked-source-code-ai](ht...",
@@ -860,6 +1159,24 @@
       "date": "2026-04-01",
       "collected_at": "2026-04-01T09:09:16.023739+09:00",
       "reddit_score": 800
+    },
+    {
+      "id": "b61ef4d4d594",
+      "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/australia-MOU",
+      "date": "2026-03-31",
+      "collected_at": "2026-04-08T09:05:06.735551+09:00"
     },
     {
       "id": "54d35c7a1638",
@@ -2597,17 +2914,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-03T17:51:34.625510+09:00",
+  "last_updated": "2026-04-08T09:06:15.788950+09:00",
   "stats": {
-    "total_items": 140,
+    "total_items": 157,
     "categories": {
-      "claude_code": 54,
-      "ai_trend": 51,
-      "claude_release": 27,
+      "claude_code": 62,
+      "ai_trend": 59,
+      "claude_release": 28,
       "content_sns": 2,
       "automation": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-03 17:51"
+    "last_collection": "2026-04-08 09:06"
   }
 }
