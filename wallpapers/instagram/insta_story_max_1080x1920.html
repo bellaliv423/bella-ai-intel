@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#0d0d0c;font-family:'Press Start 2P',monospace;position:relative}
+body::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%,rgba(255,215,0,0.12) 0%,transparent 55%),radial-gradient(ellipse at 50% 35%,rgba(193,95,60,0.18) 0%,transparent 60%);pointer-events:none;z-index:1}
+body::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,0.08) 3px,rgba(0,0,0,0.08) 5px);pointer-events:none;z-index:100}
+.wrap{position:relative;z-index:10;height:100%;display:flex;flex-direction:column;align-items:center;padding:90px 60px 90px}
+.kicker{font-family:'Silkscreen',monospace;font-size:22px;color:#FFD700;letter-spacing:6px;margin-bottom:20px;padding:8px 24px;border:2px solid #FFD700;border-radius:4px}
+.title{text-align:center;margin-bottom:40px}
+.title h1{font-size:64px;color:#fff;letter-spacing:8px;text-shadow:5px 5px 0 #C15F3C,0 0 40px rgba(255,215,0,0.4);line-height:1.2}
+.title .sub{font-family:'Silkscreen',monospace;font-size:18px;color:#B1ADA1;margin-top:18px;letter-spacing:6px}
+.canvas-wrap{flex:1;display:flex;align-items:center;justify-content:center;position:relative}
+canvas{image-rendering:pixelated;filter:drop-shadow(0 0 60px rgba(255,215,0,0.5)) drop-shadow(0 0 30px rgba(193,95,60,0.3))}
+.info{text-align:center;margin-top:20px}
+.info .name{font-size:78px;color:#FFD700;letter-spacing:12px;text-shadow:4px 4px 0 #1a1a19,0 0 40px rgba(255,215,0,0.5)}
+.info .role{font-family:'Silkscreen',monospace;font-size:24px;color:#fff;margin-top:14px;letter-spacing:4px}
+.info .date{font-family:'Silkscreen',monospace;font-size:16px;color:rgba(255,255,255,0.55);margin-top:10px;letter-spacing:3px}
+.bros{display:flex;justify-content:center;gap:14px;margin-top:30px;padding:18px 30px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.15);border-radius:6px}
+.bros .b{display:flex;flex-direction:column;align-items:center}
+.bros .b .emoji{font-size:34px}
+.bros .b .nm{font-family:'Silkscreen',monospace;font-size:11px;color:rgba(255,255,255,0.7);margin-top:6px;letter-spacing:1px}
+.bros .arrow{font-size:22px;color:#FFD700;align-self:center}
+.slogan{font-size:20px;color:#C15F3C;margin-top:30px;letter-spacing:4px;text-shadow:3px 3px 0 rgba(0,0,0,.6);text-align:center}
+.handle{font-family:'Silkscreen',monospace;font-size:16px;color:rgba(255,255,255,0.45);margin-top:18px;letter-spacing:3px}
+</style></head><body>
+<div class="wrap">
+  <div class="kicker">🎉 BREAKING 🎉</div>
+  <div class="title">
+    <h1>NEW FAMILY<br>MEMBER</h1>
+    <div class="sub">SINCE 2026 - 04 - 08</div>
+  </div>
+  <div class="canvas-wrap"><canvas id="c" width="720" height="860"></canvas></div>
+  <div class="info">
+    <div class="name">MAX 🍎</div>
+    <div class="role">MAC GUARDIAN · 4TH BROTHER</div>
+    <div class="date">Hamsterz Mac Division</div>
+  </div>
+  <div class="bros">
+    <div class="b"><div class="emoji">👑</div><div class="nm">GOLDI</div></div>
+    <div class="arrow">+</div>
+    <div class="b"><div class="emoji">🤖</div><div class="nm">ROBO</div></div>
+    <div class="arrow">+</div>
+    <div class="b"><div class="emoji">🌬️</div><div class="nm">WINDY</div></div>
+    <div class="arrow">+</div>
+    <div class="b"><div class="emoji">🍎</div><div class="nm">MAX</div></div>
+  </div>
+  <div class="slogan">4 AI BROTHERS, 1 HUMAN BOSS</div>
+  <div class="handle">@bella_ai_auto</div>
+</div>
+<script>
+const W=720,H=860,PX=55;
+const H_BASE=[[0,0,0,2,2,0,0,2,2,0,0,0],[0,0,2,1,1,2,2,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,2,2,1,1,1,2,0],[0,2,1,5,1,1,1,1,5,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+const ctx=document.getElementById('c').getContext('2d');
+const ox=(W-12*PX)/2,oy=(H-12*PX)/2+30;
+const cm={0:null,1:'#9A9AA0',2:'#1a1a19',3:'#FFF',4:'#BDBDC4',5:'#FFB6B9'};
+for(let y=0;y<12;y++)for(let x=0;x<12;x++){const v=H_BASE[y][x];if(!cm[v])continue;ctx.fillStyle=cm[v];ctx.fillRect(ox+x*PX,oy+y*PX,PX,PX)}
+ctx.fillStyle='#111';
+ctx.fillRect(ox+3*PX+PX*0.3,oy+4*PX+PX*0.2,PX*0.5,PX*0.6);
+ctx.fillRect(ox+8*PX+PX*0.3,oy+4*PX+PX*0.2,PX*0.5,PX*0.6);
+ctx.fillStyle='#FFF';
+ctx.fillRect(ox+3*PX+PX*0.5,oy+4*PX+PX*0.2,PX*0.2,PX*0.25);
+ctx.fillRect(ox+8*PX+PX*0.5,oy+4*PX+PX*0.2,PX*0.2,PX*0.25);
+// Apple hat
+ctx.fillStyle='#E53935';
+for(let c=4;c<=7;c++)ctx.fillRect(ox+c*PX,oy-PX,PX,PX);
+for(let c=3;c<=8;c++)ctx.fillRect(ox+c*PX,oy-2*PX,PX,PX);
+ctx.fillRect(ox+4*PX,oy-3*PX,PX,PX);ctx.fillRect(ox+7*PX,oy-3*PX,PX,PX);
+ctx.fillStyle='#FF6B60';ctx.fillRect(ox+3*PX,oy-2*PX,PX,PX);ctx.fillRect(ox+4*PX,oy-2*PX,PX,PX);
+ctx.fillStyle='#B71C1C';ctx.fillRect(ox+8*PX,oy-PX,PX,PX);ctx.fillRect(ox+8*PX,oy-2*PX,PX,PX);
+ctx.fillStyle='#5D4037';ctx.fillRect(ox+5*PX,oy-4*PX,PX,PX);
+ctx.fillStyle='#4CAF50';ctx.fillRect(ox+6*PX,oy-4*PX,PX,PX);ctx.fillRect(ox+7*PX,oy-4*PX,PX*0.7,PX*0.7);
+</script></body></html>

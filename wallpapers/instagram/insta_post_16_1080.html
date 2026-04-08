@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1080px;background:#0d0d0c;overflow:hidden;font-family:'Press Start 2P',monospace;position:relative}
+body::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(193,95,60,0.10) 0%,transparent 60%);pointer-events:none}
+.wrap{position:relative;z-index:10;padding:50px 60px 40px;height:100%;display:flex;flex-direction:column}
+.title{text-align:center}
+.title h1{font-size:26px;color:#C15F3C;letter-spacing:5px;text-shadow:3px 3px 0 #7a3a24}
+.title .sub{font-family:'Silkscreen',monospace;font-size:12px;color:#B1ADA1;margin-top:8px;letter-spacing:5px}
+.title .slog{font-size:14px;color:#FFD700;margin-top:10px;letter-spacing:3px;text-shadow:2px 2px 0 rgba(0,0,0,.6)}
+.body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:20px;margin-top:20px}
+.label{font-size:10px;letter-spacing:3px;padding:4px 12px;display:inline-block;border:1px solid;border-radius:2px;margin-bottom:10px}
+.label.h{color:#C15F3C;border-color:rgba(193,95,60,0.5);background:rgba(193,95,60,0.1)}
+.label.p{color:#5B8DEF;border-color:rgba(91,141,239,0.5);background:rgba(91,141,239,0.1)}
+.team{text-align:center}
+.row{display:flex;justify-content:center;flex-wrap:wrap;gap:14px}
+.c{display:flex;flex-direction:column;align-items:center;gap:4px;position:relative}
+.nm{font-size:9px;letter-spacing:1.5px}
+.newb{position:absolute;top:-8px;right:-8px;background:#FFD700;color:#1a1a19;font-family:'Press Start 2P',monospace;font-size:7px;padding:3px 6px;border-radius:2px;z-index:5;animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.1)}}
+.ft{text-align:center;font-family:'Silkscreen',monospace;font-size:10px;color:#666;letter-spacing:2px;margin-top:14px}
+canvas{image-rendering:pixelated}
+.c.gm canvas{filter:drop-shadow(0 0 14px rgba(255,215,0,0.6))}
+</style></head><body>
+<div class="wrap">
+  <div class="title">
+    <h1>BELLA AI DREAM TEAM</h1>
+    <div class="sub">Hamsterz x Puppyz x Agents</div>
+    <div class="slog">4 AI BROTHERS · 1 HUMAN BOSS</div>
+  </div>
+  <div class="body">
+    <div class="team"><div class="label h">HAMSTERZ (11)</div><div class="row" id="hr"></div></div>
+    <div class="team"><div class="label p">PUPPYZ (6)</div><div class="row" id="pr"></div></div>
+  </div>
+  <div class="ft">16 AI MEMBERS · @bella_ai_auto · 2026-04-08</div>
+</div>
+<script>
+const PX=12;
+const H_BASE=[[0,0,0,2,2,0,0,2,2,0,0,0],[0,0,2,1,1,2,2,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,2,2,1,1,1,2,0],[0,2,1,5,1,1,1,1,5,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+const P_BASE=[[0,2,2,0,0,0,0,0,0,2,2,0],[2,4,4,2,0,0,0,0,2,4,4,2],[0,2,2,1,1,1,1,1,1,2,2,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,1,2,2,2,2,1,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+const hamsters=[
+  {n:'GOLDI',color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',nc:'#C15F3C',crown:true},
+  {n:'ROBO',color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',nc:'#4CAF50',bolt:true},
+  {n:'WINDY',color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',nc:'#5B8DEF',glasses:true},
+  {n:'MAX',color:'#9A9AA0',accent:'#BDBDC4',cheek:'#FFB6B9',nc:'#FFD700',apple:true,isNew:true,cls:'gm'},
+  {n:'SIRI',color:'#9C27B0',accent:'#AB47BC',cheek:'#CE93D8',nc:'#CE93D8'},
+  {n:'CHAI',color:'#FF5722',accent:'#FF7043',cheek:'#FF8A65',nc:'#FF5722'},
+  {n:'PANDA',color:'#607D8B',accent:'#78909C',cheek:'#FFF9C4',nc:'#9E9E9E',panda:true},
+  {n:'TEDDY',color:'#795548',accent:'#8D6E63',cheek:'#FFAB91',nc:'#A1887F'},
+  {n:'CAM',color:'#00BCD4',accent:'#26C6DA',cheek:'#80DEEA',nc:'#00BCD4'},
+  {n:'HUNTER',color:'#212121',accent:'#424242',cheek:'#EF5350',nc:'#EF5350'},
+  {n:'PEARL',color:'#E0E0E0',accent:'#F5F5F5',cheek:'#F8BBD0',nc:'#F48FB1'},
+];
+const puppies=[
+  {n:'COLLIE',color:'#FF9800',accent:'#FFB74D',cheek:'#FFE0B2',nc:'#FF9800'},
+  {n:'SHIBA',color:'#FFC107',accent:'#FFD54F',cheek:'#FFF8E1',nc:'#FFC107'},
+  {n:'RITRI',color:'#CDDC39',accent:'#D4E157',cheek:'#F0F4C3',nc:'#CDDC39'},
+  {n:'POMI',color:'#E91E63',accent:'#F06292',cheek:'#F8BBD0',nc:'#E91E63'},
+  {n:'DOBI',color:'#37474F',accent:'#546E7A',cheek:'#EF5350',nc:'#78909C',shades:true},
+  {n:'CORGI',color:'#FF7043',accent:'#FF8A65',cheek:'#FFCCBC',nc:'#FF7043'},
+];
+function draw(canvas,d,base){
+  const p=PX;canvas.width=12*p;canvas.height=14*p;
+  const ctx=canvas.getContext('2d');const oy=2*p;
+  const cm={0:null,1:d.color,2:'#1a1a19',3:'#FFF',4:d.accent,5:d.cheek};
+  for(let y=0;y<12;y++)for(let x=0;x<12;x++){const v=base[y][x];if(!cm[v])continue;ctx.fillStyle=cm[v];ctx.fillRect(x*p,oy+y*p,p,p)}
+  ctx.fillStyle='#111';ctx.fillRect(3*p+2,oy+4*p+2,p-4,p-4);ctx.fillRect(8*p+2,oy+4*p+2,p-4,p-4);
+  ctx.fillStyle='#FFF';ctx.fillRect(3*p+2,oy+4*p+2,3,3);ctx.fillRect(8*p+2,oy+4*p+2,3,3);
+  ctx.fillStyle='#1a1a19';ctx.fillRect(5*p,oy+5*p+Math.floor(p*0.55),p,2);ctx.fillRect(6*p,oy+5*p+Math.floor(p*0.55),p,2);
+  if(d.crown){ctx.fillStyle='#FFD700';ctx.fillRect(3*p,oy,6*p,p);ctx.fillRect(5.5*p,oy-p,p,p);ctx.fillStyle='#EF5350';ctx.fillRect(5.5*p+3,oy-p+3,p-6,p-6);}
+  if(d.bolt){ctx.fillStyle='#FFEB3B';ctx.fillRect(5*p,oy-2*p,p,p);ctx.fillStyle='#FFC107';ctx.fillRect(4*p,oy-p,p,p);ctx.fillStyle='#FFEB3B';ctx.fillRect(4*p,oy,p,p*0.5);}
+  if(d.glasses){ctx.fillStyle='#1a1a19';ctx.strokeStyle='#1a1a19';ctx.lineWidth=2;ctx.strokeRect(2*p,oy+4*p-2,2.5*p,p+4);ctx.strokeRect(7*p,oy+4*p-2,2.5*p,p+4);ctx.fillRect(4.5*p,oy+4*p+2,3*p,2);}
+  if(d.shades){ctx.fillStyle='#111';ctx.fillRect(2*p,oy+4*p-1,2.5*p,p+2);ctx.fillRect(7*p,oy+4*p-1,2.5*p,p+2);}
+  if(d.panda){ctx.fillStyle='#111';ctx.fillRect(2*p,oy+3.5*p,2.5*p,1.5*p);ctx.fillRect(7*p,oy+3.5*p,2.5*p,1.5*p);ctx.fillStyle='#FFF';ctx.fillRect(3*p+2,oy+4*p,p-4,p-4);ctx.fillRect(8*p+2,oy+4*p,p-4,p-4);}
+  if(d.apple){
+    ctx.fillStyle='#E53935';for(let c=4;c<=7;c++)ctx.fillRect(c*p,oy-p,p,p);for(let c=3;c<=8;c++)ctx.fillRect(c*p,oy-2*p,p,p);
+    ctx.fillRect(4*p,oy-3*p,p,p);ctx.fillRect(7*p,oy-3*p,p,p);
+    ctx.fillStyle='#B71C1C';ctx.fillRect(8*p,oy-p,p,p);
+    ctx.fillStyle='#5D4037';ctx.fillRect(5*p,oy-4*p,p,p);
+    ctx.fillStyle='#4CAF50';ctx.fillRect(6*p,oy-4*p,p,p);
+  }
+}
+function card(d,base){
+  const div=document.createElement('div');
+  div.className='c '+(d.cls||'');
+  const cv=document.createElement('canvas');
+  draw(cv,d,base);
+  if(d.isNew){const nb=document.createElement('div');nb.className='newb';nb.textContent='NEW!';div.appendChild(nb);}
+  const nm=document.createElement('div');nm.className='nm';nm.style.color=d.nc||d.color;nm.textContent=d.n;
+  div.append(cv,nm);return div;
+}
+hamsters.forEach(h=>document.getElementById('hr').appendChild(card(h,H_BASE)));
+puppies.forEach(pp=>document.getElementById('pr').appendChild(card(pp,P_BASE)));
+</script></body></html>

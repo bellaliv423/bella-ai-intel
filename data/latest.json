@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "id": "d68651a6f3bd",
+      "title": "Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?",
+      "summary_en": "I’ve been using Claude Cowork lately, and while the marketing hype is all about \"revolutionizing workflows\" and \"building entire companies with one pr...",
+      "summary_ko": "I’ve been using Claude Cowork lately, and while the marketing hype is all about \"revolutionizing workflows\" and \"building entire companies with one pr...",
+      "summary_zh": "",
+      "category": "automation",
+      "hashtags": [
+        "#AI자동화",
+        "#Cowork",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfhin6/beyond_the_lifechanging_hype_what_are_you/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T16:00:10.561167+09:00",
+      "reddit_score": 32
+    },
+    {
+      "id": "1aff9f2f04a7",
+      "title": "How I cut Claude Code usage in half (open source)",
+      "summary_en": "Every time I start a Claude Code session on a real codebase, it burns through tokens just trying to understand the repo. Read the file tree, open 20 f...",
+      "summary_ko": "Every time I start a Claude Code session on a real codebase, it burns through tokens just trying to understand the repo. Read the file tree, open 20 f...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfgnzd/how_i_cut_claude_code_usage_in_half_open_source/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T16:00:10.561167+09:00",
+      "reddit_score": 56
+    },
+    {
+      "id": "4c0169483c08",
+      "title": "After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sffb6i/after_nearly_four_years_of_working_with_frontier/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T16:00:10.561167+09:00",
+      "reddit_score": 110
+    },
+    {
+      "id": "95e73b3f7a1e",
+      "title": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
+      "summary_en": "Reduced Claude context from 47,450 tokens → 360 tokens.\n\n**“This week, Andrej Karpathy shared his ‘LLM Knowledge Bases’ setup and closed by saying, ‘I...",
+      "summary_ko": "Reduced Claude context from 47,450 tokens → 360 tokens.\n\n**“This week, Andrej Karpathy shared his ‘LLM Knowledge Bases’ setup and closed by saying, ‘I...",
+      "summary_zh": "",
+      "category": "automation",
+      "hashtags": [
+        "#AI자동화",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfdztg/90_fewer_tokens_per_session_by_reading_a/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T16:00:10.560194+09:00",
+      "reddit_score": 282
+    },
+    {
+      "id": "b24427152b59",
+      "title": "Opinion | Anthropic’s Restraint Is a Terrifying Warning Sign (Gift Article)",
+      "summary_en": "Claude Mythos, the newest generation of Anthropic’s large language model, is arriving sooner than expected and will have profound geopolitical implica...",
+      "summary_ko": "Claude Mythos, the newest generation of Anthropic’s large language model, is arriving sooner than expected and will have profound geopolitical implica...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfelqv/opinion_anthropics_restraint_is_a_terrifying/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T16:00:10.560194+09:00",
+      "reddit_score": 279
+    },
+    {
+      "id": "93a1ad586633",
+      "title": "Every Anthropic press release",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfdwdl/every_anthropic_press_release/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-08T16:00:10.560194+09:00",
+      "reddit_score": 1142
+    },
+    {
       "id": "052b8a34de7c",
       "title": "Why does Claude Desktop take up so much space? I hardly ever use it.",
       "summary_en": "I use Claude Code, but in theory they're two separate tools.",
@@ -2914,17 +3029,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-08T09:06:15.788950+09:00",
+  "last_updated": "2026-04-08T16:00:10.562165+09:00",
   "stats": {
-    "total_items": 157,
+    "total_items": 163,
     "categories": {
-      "claude_code": 62,
-      "ai_trend": 59,
+      "automation": 4,
+      "claude_code": 63,
+      "ai_trend": 62,
       "claude_release": 28,
       "content_sns": 2,
-      "automation": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-08 09:06"
+    "last_collection": "2026-04-08 16:00"
   }
 }

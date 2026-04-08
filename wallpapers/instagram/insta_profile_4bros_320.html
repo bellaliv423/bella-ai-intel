@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:320px;height:320px;background:#0d0d0c;overflow:hidden;font-family:'Press Start 2P',monospace;position:relative}
+body::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(193,95,60,0.18) 0%,transparent 70%);pointer-events:none}
+.grid{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;padding:18px 18px 58px 18px;gap:6px;z-index:2}
+.cell{display:flex;align-items:center;justify-content:center;position:relative}
+.cell canvas{image-rendering:pixelated}
+.newb{position:absolute;top:-4px;right:-4px;background:#FFD700;color:#1a1a19;font-family:'Press Start 2P',monospace;font-size:7px;padding:2px 5px;border-radius:2px;z-index:5}
+.bottom{position:absolute;bottom:0;left:0;right:0;height:50px;background:linear-gradient(90deg,#0d0d0c,#C15F3C,#0d0d0c);display:flex;flex-direction:column;align-items:center;justify-content:center;border-top:1px solid rgba(255,255,255,.2);z-index:3}
+.bottom .s1{font-size:9px;letter-spacing:2px;color:#fff;text-shadow:1px 1px 0 #000}
+.bottom .s2{font-family:'Silkscreen',monospace;font-size:7px;color:rgba(255,255,255,.7);margin-top:3px;letter-spacing:1px}
+</style></head><body>
+<div class="grid">
+  <div class="cell" data-i="0"></div>
+  <div class="cell" data-i="1"></div>
+  <div class="cell" data-i="2"></div>
+  <div class="cell" data-i="3"><div class="newb">NEW!</div></div>
+</div>
+<div class="bottom"><div class="s1">4 BROTHERS</div><div class="s2">BELLA AI DREAM TEAM</div></div>
+<script>
+const PX=8;
+const H_BASE=[[0,0,0,2,2,0,0,2,2,0,0,0],[0,0,2,1,1,2,2,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,2,2,1,1,1,2,0],[0,2,1,5,1,1,1,1,5,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+const bros=[
+  {color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',hat:'crown'},
+  {color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',hat:'bolt'},
+  {color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',hat:'glasses'},
+  {color:'#9A9AA0',accent:'#BDBDC4',cheek:'#FFB6B9',hat:'apple'},
+];
+function draw(canvas,d){
+  canvas.width=12*PX;canvas.height=14*PX;
+  const ctx=canvas.getContext('2d');
+  const oy=2*PX;
+  const cm={0:null,1:d.color,2:'#1a1a19',3:'#FFF',4:d.accent,5:d.cheek};
+  for(let y=0;y<12;y++)for(let x=0;x<12;x++){const v=H_BASE[y][x];if(!cm[v])continue;ctx.fillStyle=cm[v];ctx.fillRect(x*PX,oy+y*PX,PX,PX)}
+  ctx.fillStyle='#111';ctx.fillRect(3*PX+2,oy+4*PX+2,PX-4,PX-4);ctx.fillRect(8*PX+2,oy+4*PX+2,PX-4,PX-4);
+  ctx.fillStyle='#FFF';ctx.fillRect(3*PX+2,oy+4*PX+2,2,2);ctx.fillRect(8*PX+2,oy+4*PX+2,2,2);
+  if(d.hat==='crown'){ctx.fillStyle='#FFD700';for(let c=3;c<=8;c++)ctx.fillRect(c*PX,oy-PX,PX,PX);ctx.fillRect(5.5*PX,oy-1.5*PX,PX,PX);ctx.fillStyle='#EF5350';ctx.fillRect(5.5*PX+2,oy-1.5*PX+2,PX-4,PX-4);}
+  else if(d.hat==='bolt'){ctx.fillStyle='#FFEB3B';ctx.fillRect(5*PX,oy-2*PX,PX,PX);ctx.fillRect(4*PX,oy-PX,PX,PX);ctx.fillRect(5*PX,oy,PX,PX*0.5);}
+  else if(d.hat==='glasses'){ctx.fillStyle='#1a1a19';ctx.strokeStyle='#1a1a19';ctx.lineWidth=2;ctx.strokeRect(2*PX,oy+4*PX-2,2.5*PX,PX+4);ctx.strokeRect(7*PX,oy+4*PX-2,2.5*PX,PX+4);ctx.fillRect(4.5*PX,oy+4*PX+2,3*PX,2);}
+  else if(d.hat==='apple'){
+    ctx.fillStyle='#E53935';
+    for(let c=4;c<=7;c++)ctx.fillRect(c*PX,oy-PX,PX,PX);
+    for(let c=3;c<=8;c++)ctx.fillRect(c*PX,oy-2*PX,PX,PX);
+    ctx.fillStyle='#5D4037';ctx.fillRect(5*PX,oy-3*PX,PX,PX);
+    ctx.fillStyle='#4CAF50';ctx.fillRect(6*PX,oy-3*PX,PX,PX);
+  }
+}
+document.querySelectorAll('.cell').forEach((c,i)=>{const cv=document.createElement('canvas');c.appendChild(cv);draw(cv,bros[i]);});
+</script></body></html>
