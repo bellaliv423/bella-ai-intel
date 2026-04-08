@@ -4,8 +4,8 @@
       "id": "d68651a6f3bd",
       "title": "Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?",
       "summary_en": "I’ve been using Claude Cowork lately, and while the marketing hype is all about \"revolutionizing workflows\" and \"building entire companies with one pr...",
-      "summary_ko": "I’ve been using Claude Cowork lately, and while the marketing hype is all about \"revolutionizing workflows\" and \"building entire companies with one pr...",
-      "summary_zh": "",
+      "summary_ko": "최근에 Claude Cowork을 사용해오고 있는데, 마케팅 과장광고에서는 \"워크플로우를 혁신한다\"와 \"단 하나의 pr...로 전체 회사를 구축한다\"고 하지만",
+      "summary_zh": "摘要：我最近一直在使用Claude Cowork，雖然行銷宣傳都是關於\"革新工作流程\"和\"用一個提示詞構建整個公司\"...",
       "category": "automation",
       "hashtags": [
         "#AI자동화",
@@ -24,8 +24,8 @@
       "id": "1aff9f2f04a7",
       "title": "How I cut Claude Code usage in half (open source)",
       "summary_en": "Every time I start a Claude Code session on a real codebase, it burns through tokens just trying to understand the repo. Read the file tree, open 20 f...",
-      "summary_ko": "Every time I start a Claude Code session on a real codebase, it burns through tokens just trying to understand the repo. Read the file tree, open 20 f...",
-      "summary_zh": "",
+      "summary_ko": "실제 코드베이스에서 Claude Code 세션을 시작할 때마다 저장소를 이해하려고 노력하면서 토큰을 소모합니다. 파일 트리를 읽고, 20개의 파일을 열어보세요...",
+      "summary_zh": "摘要：每次我在實際代碼庫上啟動Claude Code會話時，它都會消耗大量tokens來理解該倉庫。閱讀文件樹、打開20個檔案...",
       "category": "claude_code",
       "hashtags": [
         "#ClaudeCode",
@@ -62,8 +62,8 @@
       "id": "95e73b3f7a1e",
       "title": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
       "summary_en": "Reduced Claude context from 47,450 tokens → 360 tokens.\n\n**“This week, Andrej Karpathy shared his ‘LLM Knowledge Bases’ setup and closed by saying, ‘I...",
-      "summary_ko": "Reduced Claude context from 47,450 tokens → 360 tokens.\n\n**“This week, Andrej Karpathy shared his ‘LLM Knowledge Bases’ setup and closed by saying, ‘I...",
-      "summary_zh": "",
+      "summary_ko": "Claude 컨텍스트를 47,450 토큰 → 360 토큰으로 감소.\n\n**\"이번 주, Andrej Karpathy가 자신의 'LLM Knowledge Bases' 설정을 공유했고 마지막으로 '저는...",
+      "summary_zh": "摘要：將 Claude 上下文從 47,450 個 token 減少到 360 個 token。\n\n**\"本週，Andrej Karpathy 分享了他的『LLM 知識庫』設置，並最後說道：『我...",
       "category": "automation",
       "hashtags": [
         "#AI자동화",
@@ -81,8 +81,8 @@
       "id": "b24427152b59",
       "title": "Opinion | Anthropic’s Restraint Is a Terrifying Warning Sign (Gift Article)",
       "summary_en": "Claude Mythos, the newest generation of Anthropic’s large language model, is arriving sooner than expected and will have profound geopolitical implica...",
-      "summary_ko": "Claude Mythos, the newest generation of Anthropic’s large language model, is arriving sooner than expected and will have profound geopolitical implica...",
-      "summary_zh": "",
+      "summary_ko": "앤스로픽의 최신 세대 대규모 언어 모델인 클로드 신화가 예상보다 빨리 도래하고 있으며 심각한 지정학적 영향을 미칠 것입니다...",
+      "summary_zh": "摘要：Anthropic 最新一代的大型語言模型 Claude Mythos 的推出時間比預期提前，將產生深遠的地緣政治影響...",
       "category": "ai_trend",
       "hashtags": [
         "#AI트렌드",
@@ -3029,7 +3029,7 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-08T16:00:10.562165+09:00",
+  "last_updated": "2026-04-08T16:54:54.724654+09:00",
   "stats": {
     "total_items": 163,
     "categories": {
@@ -3040,6 +3040,6 @@
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-08 16:00"
+    "last_collection": "2026-04-08 16:54"
   }
 }

@@ -1,6 +1,28 @@
 {
   "features": [
     {
+      "news_title": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
+      "news_date": "2026-04-08",
+      "news_category": "automation",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
+      "matched_keywords": [
+        "knowledge"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' → Obsidian 지식자산 자동화 파이프라인 강화!",
+      "suggestion_zh": "'90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' → 可應用於 Obsidian 知識資產",
+      "learning_note_ko": "💡 90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.\n   → Claude 컨텍스트를 47,450 토큰 → 360 토큰으로 감소.\n\n**\"이번 주, Andrej Karpathy가 자신의 'LLM Knowle...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.\n   → 摘要：將 Claude 上下文從 47,450 個 token 減少到 360 個 token。\n\n**\"本週，Andrej Karpathy 分享了他的『LL...\n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code",
       "news_date": "2026-04-07",
       "news_category": "claude_code",
@@ -43,28 +65,6 @@
       "learning_note_zh": "💡 Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.\n   → 摘要：在 Hacker News 的討論中，Boris 在查看使用者的錯誤記錄後改變了他的立場，從「這只是使用者設定」\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 1
-    },
-    {
-      "news_title": "Claude Desktop release notes? Do they even make them?",
-      "news_date": "2026-04-02",
-      "news_category": "claude_release",
-      "project_id": "obsidian_knowledge",
-      "project_name_ko": "Obsidian 지식자산",
-      "project_name_zh": "Obsidian 知識資產",
-      "matched_keywords": [
-        "note"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Claude Desktop release notes? Do they even make them?' → Obsidian 지식자산 워크플로우 개선에 적용 가능!",
-      "suggestion_zh": "'Claude Desktop release notes? Do they even make them?' → 可應用於 Obsidian 知識資產",
-      "learning_note_ko": "💡 Claude Desktop release notes? Do they even make them?\n   → 저는 Windows에서 Claude Desktop을 사용 중입니다. 업데이트 주기가 정말 빠르네요. 보통 며칠마다 한 번씩 업데이트하고, 때로는...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Claude Desktop release notes? Do they even make them?\n   → 摘要：我在 Windows 上使用 Claude Desktop。更新節奏瘋狂，通常每隔幾天更新一次，有時甚至每天更新，我甚至已經...\n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
     }
   ],
   "upgrades": [
@@ -73,10 +73,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code",
-      "trigger_date": "2026-04-07",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' 可提升效能",
+      "trigger_news": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
+      "trigger_date": "2026-04-08",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → '90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 '90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -85,10 +85,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code",
-      "trigger_date": "2026-04-07",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' 可提升效能",
+      "trigger_news": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
+      "trigger_date": "2026-04-08",
+      "upgrade_suggestion_ko": "auto_tagger.py → '90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 '90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -97,10 +97,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code",
-      "trigger_date": "2026-04-07",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' 可提升效能",
+      "trigger_news": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
+      "trigger_date": "2026-04-08",
+      "upgrade_suggestion_ko": "generate_dashboard.py → '90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 '90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
@@ -111,9 +111,43 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Why does Claude Desktop take up so much space? I hardly ever use it.' 실습 세션",
-      "title_zh": "'Why does Claude Desktop take up so much space? I hardly ever use it.' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Why does Claude Desktop take up so much space? I hardly ever use it. 체험 + Q&A",
+      "title_ko": "'Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?' 실습 세션",
+      "title_zh": "'Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 체험 + Q&A",
+      "hashtags": [
+        "#AI자동화",
+        "#Cowork",
+        "#업무자동화",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-04-08"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 총정리",
+      "title_zh": "2026年 2026-04 Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 總整理",
+      "description_ko": "Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI자동화",
+        "#Cowork",
+        "#업무자동화",
+        "#Reddit",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-08"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'How I cut Claude Code usage in half (open source)' 실습 세션",
+      "title_zh": "'How I cut Claude Code usage in half (open source)' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 How I cut Claude Code usage in half (open source) 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -128,9 +162,9 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Why does Claude Desktop take up so much space? I hardly ever use it. 총정리",
-      "title_zh": "2026年 2026-04 Why does Claude Desktop take up so much space? I hardly ever use it. 總整理",
-      "description_ko": "Why does Claude Desktop take up so much space? I hardly ever use it. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 How I cut Claude Code usage in half (open source) 총정리",
+      "title_zh": "2026年 2026-04 How I cut Claude Code usage in half (open source) 總整理",
+      "description_ko": "How I cut Claude Code usage in half (open source) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -145,44 +179,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public' 핵심 정리 카드",
-      "title_zh": "'Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-08"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public 총정리",
-      "title_zh": "2026年 2026-04 Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public 總整理",
-      "description_ko": "Anthropic's new Mythos Preview model is a \"step change\" in model capability, but it won't be available to general public 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-08"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Mythos can break out of sandbox environment and let you know during lunchbreak' 핵심 정리 카드",
-      "title_zh": "'Mythos can break out of sandbox environment and let you know during lunchbreak' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Mythos can break out of sandbox environment and let you know during lunchbreak 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone.' 핵심 정리 카드",
+      "title_zh": "'After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone. 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -194,7 +193,7 @@
       "news_date": "2026-04-08"
     }
   ],
-  "last_analyzed": "2026-04-08T09:06:25.828143+09:00",
+  "last_analyzed": "2026-04-08T16:54:56.068049+09:00",
   "analyzed_date": "2026-04-08",
-  "analyzed_time": "09:06 KST"
+  "analyzed_time": "16:54 KST"
 }
