@@ -96,7 +96,14 @@ function draw(canvas,d,base){
   ctx.fillStyle='#111';ctx.fillRect(3*p+2,4*p+2,p-4,p-4);ctx.fillRect(8*p+2,4*p+2,p-4,p-4);
   ctx.fillStyle='#FFF';ctx.fillRect(3*p+2,4*p+2,3,3);ctx.fillRect(8*p+2,4*p+2,3,3);
   ctx.fillStyle='#1a1a19';ctx.fillRect(5*p,5*p+Math.floor(p*0.55),p,3);ctx.fillRect(6*p,5*p+Math.floor(p*0.55),p,3);
-  if(d.crown){ctx.fillStyle='#FFD700';ctx.fillRect(3*p,0,6*p,p);ctx.fillRect(4*p,-p,p,p);ctx.fillRect(5.5*p,-1.5*p,p,1.5*p);ctx.fillRect(7*p,-p,p,p);ctx.fillStyle='#EF5350';ctx.fillRect(5.5*p+Math.floor(p*0.25),-1.5*p+1,Math.floor(p*0.5),Math.floor(p*0.5));}
+  if(d.crown){
+    // profile_goldi.html 스타일과 동일 — 밴드 cols 2-9 + 봉우리 cols 3/5/8 + 핑크 보석
+    ctx.fillStyle='#FFD700';
+    for(let c=2;c<=9;c++) ctx.fillRect(c*p,-p,p,p);
+    [3,5,8].forEach(cc=>{ctx.fillRect(cc*p,-2*p,p,p)});
+    ctx.fillStyle='#FF69B4';
+    ctx.fillRect(5*p+Math.max(1,Math.floor(p*0.2)),-2*p+Math.max(1,Math.floor(p*0.2)),p-Math.max(2,Math.floor(p*0.4)),p-Math.max(2,Math.floor(p*0.4)));
+  }
   if(d.bolt){ctx.fillStyle='#FFEB3B';ctx.fillRect(5*p,-2.5*p,p,p);ctx.fillRect(5*p,-1.5*p,p,p);ctx.fillStyle='#FFC107';ctx.fillRect(4*p,-1.5*p,p,p);ctx.fillStyle='#FFEB3B';ctx.fillRect(4*p,-0.5*p,p,p);ctx.fillRect(5*p,-0.5*p,p,p);}
   if(d.glasses){ctx.fillStyle='#1a1a19';ctx.strokeStyle='#1a1a19';ctx.lineWidth=2;ctx.strokeRect(2*p,4*p-2,2.5*p,p+4);ctx.strokeRect(7*p,4*p-2,2.5*p,p+4);ctx.fillRect(4.5*p,4*p+2,3*p,3);}
   if(d.shades){ctx.fillStyle='#111';ctx.fillRect(2*p,4*p-1,2.5*p,p+2);ctx.fillRect(7*p,4*p-1,2.5*p,p+2);ctx.fillStyle='#333';ctx.fillRect(2*p+2,4*p+1,2.5*p-4,p-2);ctx.fillRect(7*p+2,4*p+1,2.5*p-4,p-2);}
