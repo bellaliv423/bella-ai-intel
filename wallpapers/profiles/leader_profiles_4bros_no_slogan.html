@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Dream Team 4 Brothers</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1920px;height:340px;background:#0d0d0c;overflow:hidden;font-family:'Press Start 2P',monospace}
+  .row{display:flex;justify-content:center;align-items:center;gap:60px;padding-top:10px}
+  .slogan{display:none!important}
+  .card{width:340px;height:320px;position:relative;overflow:hidden;border-radius:6px;background:#0d0d0c}
+  .card canvas{image-rendering:pixelated;position:absolute;top:0;left:10px;z-index:2}
+  .name-bar{position:absolute;bottom:0;left:0;right:0;z-index:10;padding:14px 10px 12px;text-align:center}
+  .name-bar .name{font-size:18px;letter-spacing:3px;color:#fff;text-shadow:2px 2px 0 rgba(0,0,0,0.5)}
+  .name-bar .role{font-family:'Silkscreen',monospace;font-size:10px;color:rgba(255,255,255,0.85);margin-top:5px;letter-spacing:2px}
+  .name-bar .team-tag{font-family:'Silkscreen',monospace;font-size:8px;letter-spacing:1px;margin-top:4px;opacity:0.65;color:#fff}
+  .ribbon{position:absolute;top:16px;right:-34px;transform:rotate(38deg);background:linear-gradient(90deg,#FFD700,#FF9B3C);color:#1a1a19;font-family:'Press Start 2P',monospace;font-size:11px;letter-spacing:2px;padding:6px 42px;box-shadow:0 4px 12px rgba(0,0,0,.5);border-top:2px solid #FFF3B0;border-bottom:2px solid #C47A1A;z-index:20}
+  .slogan{position:absolute;bottom:0;left:0;right:0;height:80px;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#0d0d0c 0%,#1a1a19 50%,#0d0d0c 100%);border-top:2px solid #C15F3C}
+  .slogan .s1{font-family:'Press Start 2P',monospace;font-size:22px;letter-spacing:5px;color:#C15F3C;text-shadow:2px 2px 0 rgba(0,0,0,.6)}
+  .slogan .s2{font-family:'Silkscreen',monospace;font-size:14px;letter-spacing:3px;color:rgba(255,255,255,.55);margin-left:24px}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="card" data-i="0"><div class="name-bar"><div class="name">GOLDI</div><div class="role">Master</div><div class="team-tag">Hamsterz 👑</div></div></div>
+  <div class="card" data-i="1"><div class="name-bar"><div class="name">ROBO</div><div class="role">Auto</div><div class="team-tag">Hamsterz ⚡</div></div></div>
+  <div class="card" data-i="2"><div class="name-bar"><div class="name">WINDY</div><div class="role">Mentor</div><div class="team-tag">Hamsterz 🌬️</div></div></div>
+  <div class="card" data-i="3"><div class="ribbon">NEW!</div><div class="name-bar"><div class="name">MAX</div><div class="role">Mac Guardian</div><div class="team-tag">Hamsterz 🍎</div></div></div>
+</div>
+<div class="slogan"><div class="s1">4 AI BROTHERS, 1 HUMAN BOSS</div><div class="s2">BELLA AI DREAM TEAM · 2026</div></div>
+<script>
+const PX=20;
+const H_BASE=[[0,0,0,2,2,0,0,2,2,0,0,0],[0,0,2,1,1,2,2,1,1,2,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,2,1,1,1,1,1,1,1,1,2,0],[0,2,1,3,1,1,1,1,3,1,2,0],[0,2,1,1,1,2,2,1,1,1,2,0],[0,2,1,5,1,1,1,1,5,1,2,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,0,2,1,1,1,1,2,0,0,0],[0,0,2,1,1,1,1,1,1,2,0,0],[0,0,2,1,0,0,0,0,1,2,0,0],[0,0,0,2,0,0,0,0,2,0,0,0]];
+
+const bros=[
+  {n:'GOLDI',color:'#C15F3C',accent:'#E8845A',cheek:'#FF9B7A',bar:'#C15F3C',glow:'rgba(193,95,60,0.28)',hat:'crown'},
+  {n:'ROBO', color:'#4CAF50',accent:'#66BB6A',cheek:'#81C784',bar:'#388E3C',glow:'rgba(76,175,80,0.28)',hat:'bolt'},
+  {n:'WINDY',color:'#5B8DEF',accent:'#7BA4F5',cheek:'#9DBCFA',bar:'#3F6FD0',glow:'rgba(91,141,239,0.28)',hat:'glasses'},
+  {n:'MAX',  color:'#9A9AA0',accent:'#BDBDC4',cheek:'#FFB6B9',bar:'#48484A',glow:'rgba(174,174,178,0.30)',hat:'apple'},
+];
+
+function draw(canvas,d){
+  const W=320,H=320;
+  canvas.width=W;canvas.height=H;canvas.style.width=W+'px';canvas.style.height=H+'px';
+  const ctx=canvas.getContext('2d');
+  ctx.fillStyle='#0d0d0c';ctx.fillRect(0,0,W,H);
+  const glow=ctx.createRadialGradient(W/2,H/2+10,30,W/2,H/2+10,170);
+  glow.addColorStop(0,d.glow);glow.addColorStop(0.5,d.glow.replace('0.28','0.08').replace('0.30','0.08'));glow.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=glow;ctx.fillRect(0,0,W,H);
+  const ox=(W-12*PX)/2,oy=(H-12*PX)/2+20;
+  const cm={0:null,1:d.color,2:'#1a1a19',3:'#FFF',4:d.accent,5:d.cheek};
+  for(let y=0;y<12;y++)for(let x=0;x<12;x++){const v=H_BASE[y][x];if(!cm[v])continue;ctx.fillStyle=cm[v];ctx.fillRect(ox+x*PX,oy+y*PX,PX,PX)}
+  // eyes
+  ctx.fillStyle='#111';
+  ctx.fillRect(ox+3*PX+PX*0.35,oy+4*PX+PX*0.25,PX*0.45,PX*0.55);
+  ctx.fillRect(ox+8*PX+PX*0.35,oy+4*PX+PX*0.25,PX*0.45,PX*0.55);
+  ctx.fillStyle='#FFF';
+  ctx.fillRect(ox+3*PX+PX*0.55,oy+4*PX+PX*0.25,PX*0.2,PX*0.25);
+  ctx.fillRect(ox+8*PX+PX*0.55,oy+4*PX+PX*0.25,PX*0.2,PX*0.25);
+  // hats
+  if(d.hat==='crown'){
+    ctx.fillStyle='#FFD700';
+    for(let c=2;c<=9;c++) ctx.fillRect(ox+c*PX,oy-PX,PX,PX);
+    [3,5,8].forEach(p=>ctx.fillRect(ox+p*PX,oy-2*PX,PX,PX));
+    ctx.fillStyle='#FF69B4';ctx.fillRect(ox+5*PX+2,oy-2*PX+2,PX-4,PX-4);
+  }else if(d.hat==='bolt'){
+    ctx.fillStyle='#FFEB3B';
+    ctx.fillRect(ox+5*PX,oy-2.5*PX,PX,PX);ctx.fillRect(ox+5*PX,oy-1.5*PX,PX,PX);
+    ctx.fillStyle='#FFC107';ctx.fillRect(ox+4*PX,oy-1.5*PX,PX,PX);
+    ctx.fillStyle='#FFEB3B';ctx.fillRect(ox+4*PX,oy-0.5*PX,PX,PX);ctx.fillRect(ox+5*PX,oy-0.5*PX,PX,PX);
+  }else if(d.hat==='glasses'){
+    ctx.fillStyle='#1a1a19';ctx.strokeStyle='#1a1a19';ctx.lineWidth=2;
+    ctx.strokeRect(ox+2*PX,oy+4*PX-2,2.5*PX,PX+4);
+    ctx.strokeRect(ox+7*PX,oy+4*PX-2,2.5*PX,PX+4);
+    ctx.fillRect(ox+4.5*PX,oy+4*PX+2,3*PX,3);
+  }else if(d.hat==='apple'){
+    // apple body
+    ctx.fillStyle='#E53935';
+    for(let c=4;c<=7;c++) ctx.fillRect(ox+c*PX,oy-PX,PX,PX);
+    for(let c=3;c<=8;c++) ctx.fillRect(ox+c*PX,oy-2*PX,PX,PX);
+    ctx.fillRect(ox+4*PX,oy-3*PX,PX,PX);
+    ctx.fillRect(ox+7*PX,oy-3*PX,PX,PX);
+    ctx.fillStyle='#FF6B60';ctx.fillRect(ox+3*PX,oy-2*PX,PX,PX);ctx.fillRect(ox+4*PX,oy-2*PX,PX,PX);
+    ctx.fillStyle='#B71C1C';ctx.fillRect(ox+8*PX,oy-PX,PX,PX);ctx.fillRect(ox+8*PX,oy-2*PX,PX,PX);
+    // stem+leaf
+    ctx.fillStyle='#5D4037';ctx.fillRect(ox+5*PX,oy-4*PX,PX,PX);
+    ctx.fillStyle='#4CAF50';ctx.fillRect(ox+6*PX,oy-4*PX,PX,PX);
+  }
+  // bar
+  const barH=70;
+  const grad=ctx.createLinearGradient(0,H-barH-20,0,H);
+  grad.addColorStop(0,'rgba(0,0,0,0)');grad.addColorStop(0.3,d.bar+'CC');grad.addColorStop(1,d.bar);
+  ctx.fillStyle=grad;ctx.fillRect(0,H-barH-20,W,barH+20);
+  ctx.fillStyle='rgba(255,255,255,0.3)';ctx.fillRect(0,H-barH-20,W,2);
+}
+
+document.querySelectorAll('.card').forEach((card,i)=>{
+  const cv=document.createElement('canvas');
+  card.insertBefore(cv,card.firstChild);
+  draw(cv,bros[i]);
+});
+</script>
+</body>
+</html>
