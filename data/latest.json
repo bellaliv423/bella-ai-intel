@@ -1,6 +1,86 @@
 {
   "items": [
     {
+      "id": "23f20b8ea4e2",
+      "title": "So, Mythos.",
+      "summary_en": "So... Haiku is short form poetry. Sonnet is longer, lyrical one. Opus can be any kind of long form major work. Something you would call a feat.  \n  \nN...",
+      "summary_ko": "그래서... 하이쿠는 단편 시다. 소네트는 더 길고 서정적인 것이다. 오푸스는 어떤 종류의 장편 대작이 될 수 있다. 당신이 위업이라고 부를 만한 것이다.\n\nN...",
+      "summary_zh": "摘要：所以…俳句是短篇詩歌。十四行詩是較長的抒情詩。鉅作可以是任何長篇的重要作品。某種你會稱之為壯舉的東西。\n\nN...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Haiku",
+        "#Opus",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgdffd/so_mythos/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T16:00:11.879380+09:00",
+      "reddit_score": 22
+    },
+    {
+      "id": "3bac84f5784a",
+      "title": "Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found.",
+      "summary_en": "Managed Agents dropped a few hours ago. I had been reading the docs ahead of time, so I built a full Slack relay right away - Socket Mode listener, se...",
+      "summary_ko": "Managed Agents가 몇 시간 전에 출시되었습니다. 미리 문서를 읽고 있었기 때문에 바로 완전한 Slack 릴레이를 구축했습니다 - Socket Mode 리스너, se...",
+      "summary_zh": "摘要：託管代理幾小時前發佈。我之前已經閱讀了文檔，所以立即構建了一個完整的 Slack 中繼 - Socket 模式監聽器，se...",
+      "category": "claude_release",
+      "hashtags": [
+        "#AIAgent",
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgejap/managed_agents_launched_today_i_built_a_slack/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T16:00:11.879380+09:00",
+      "reddit_score": 24
+    },
+    {
+      "id": "765e10d07bfa",
+      "title": "They removed the buddy from latest? (Claude Code v2.1.97)",
+      "summary_en": "In the latest changelog:  \n**REMOVED:** System Prompt: Buddy Mode — Removed the coding companion personality generator for terminal buddies.\n\nSeems co...",
+      "summary_ko": "최신 변경 로그에서:\n**제거됨:** 시스템 프롬프트: 버디 모드 — 터미널 버디를 위한 코딩 동료 성격 생성기가 제거되었습니다.\n\n뭔가 코...",
+      "summary_zh": "摘要：在最新的更新日誌中：\n**移除：** 系統提示：夥伴模式 — 移除了終端夥伴的編碼夥伴個性生成器。\n\n看起來合作...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgcbcj/they_removed_the_buddy_from_latest_claude_code/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T16:00:11.879380+09:00",
+      "reddit_score": 45
+    },
+    {
+      "id": "988391a785d6",
+      "title": "The duality of man",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sg9ko4/the_duality_of_man/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T16:00:11.878364+09:00",
+      "reddit_score": 154
+    },
+    {
       "id": "b2108bd57d46",
       "title": "Burned 5B tokens with Claude Code in March to build a financial research agent.",
       "summary_en": "**TL;DR:** I built a financial research harness with Claude Code, full stack and open-source under Apache 2.0 ([github.com/ginlix-ai/langalpha](https:...",
@@ -3258,17 +3338,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-09T09:06:05.660639+09:00",
+  "last_updated": "2026-04-09T16:32:59.451361+09:00",
   "stats": {
-    "total_items": 175,
+    "total_items": 179,
     "categories": {
-      "claude_code": 67,
-      "ai_trend": 69,
-      "claude_release": 29,
+      "ai_trend": 71,
+      "claude_release": 30,
+      "claude_code": 68,
       "automation": 4,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-09 09:06"
+    "last_collection": "2026-04-09 16:32"
   }
 }

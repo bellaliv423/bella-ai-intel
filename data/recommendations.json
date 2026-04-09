@@ -107,94 +107,96 @@
   ],
   "content": [
     {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'So, Mythos.' 핵심 정리 카드",
+      "title_zh": "'So, Mythos.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 So, Mythos. 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#Haiku",
+        "#Opus",
+        "#Sonnet",
+        "#생성형AI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-04-09"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 So, Mythos. 총정리",
+      "title_zh": "2026年 2026-04 So, Mythos. 總整理",
+      "description_ko": "So, Mythos. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#Haiku",
+        "#Opus",
+        "#Sonnet",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-09"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found.' 핵심 정리 카드",
+      "title_zh": "'Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found. 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AIAgent",
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-04-09"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found. 총정리",
+      "title_zh": "2026年 2026-04 Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found. 總整理",
+      "description_ko": "Managed Agents launched today. I built a Slack relay, tested it end-to-end. Here's what I found. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AIAgent",
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-09"
+    },
+    {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Burned 5B tokens with Claude Code in March to build a financial research agent.' 실습 세션",
-      "title_zh": "'Burned 5B tokens with Claude Code in March to build a financial research agent.' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Burned 5B tokens with Claude Code in March to build a financial research agent. 체험 + Q&A",
+      "title_ko": "'They removed the buddy from latest? (Claude Code v2.1.97)' 실습 세션",
+      "title_zh": "'They removed the buddy from latest? (Claude Code v2.1.97)' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 They removed the buddy from latest? (Claude Code v2.1.97) 체험 + Q&A",
       "hashtags": [
-        "#AIAgent",
         "#ClaudeCode",
         "#코딩자동화",
+        "#Reddit",
         "#AI세미나",
         "#실습"
       ],
       "news_date": "2026-04-09"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Burned 5B tokens with Claude Code in March to build a financial research agent. 총정리",
-      "title_zh": "2026年 2026-04 Burned 5B tokens with Claude Code in March to build a financial research agent. 總整理",
-      "description_ko": "Burned 5B tokens with Claude Code in March to build a financial research agent. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AIAgent",
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-09"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like.' 핵심 정리 카드",
-      "title_zh": "'i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-09"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 총정리",
-      "title_zh": "2026年 2026-04 i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 總整理",
-      "description_ko": "i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-09"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.' 핵심 정리 카드",
-      "title_zh": "'A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users. 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-09"
     }
   ],
-  "last_analyzed": "2026-04-09T09:06:06.675296+09:00",
+  "last_analyzed": "2026-04-09T16:33:04.025145+09:00",
   "analyzed_date": "2026-04-09",
-  "analyzed_time": "09:06 KST"
+  "analyzed_time": "16:33 KST"
 }
