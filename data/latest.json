@@ -1,6 +1,218 @@
 {
   "items": [
     {
+      "id": "b2108bd57d46",
+      "title": "Burned 5B tokens with Claude Code in March to build a financial research agent.",
+      "summary_en": "**TL;DR:** I built a financial research harness with Claude Code, full stack and open-source under Apache 2.0 ([github.com/ginlix-ai/langalpha](https:...",
+      "summary_ko": "**TL;DR:** Claude Code를 사용하여 금융 리서치 도구를 구축했으며, Apache 2.0 라이선스 하의 완전한 오픈 소스 스택입니다 ([github.com/ginlix-ai/langalpha](https:...",
+      "summary_zh": "摘要：**長話短說：** 我使用 Claude Code 構建了一個金融研究工具，全棧開源，採用 Apache 2.0 許可證 ([github.com/ginlix-ai/langalpha](https:...",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfxapw/burned_5b_tokens_with_claude_code_in_march_to/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.033612+09:00",
+      "reddit_score": 63
+    },
+    {
+      "id": "6fbaaa6e4e79",
+      "title": "i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like.",
+      "summary_en": "got laid off from my work. had ADHD and no structure and no idea what to do with myself. decided to build the app i always wished existed: a productiv...",
+      "summary_ko": "직장에서 해고당했다. ADHD가 있었고 구조도 없었고 내가 뭘 할지 몰랐다. 항상 있었으면 좋겠다고 생각했던 앱을 만들기로 결정했다: 생산성...",
+      "summary_zh": "摘要：被公司裁員。患有ADHD，沒有結構，不知道該如何自處。決定構建我一直希望存在的應用：一個生產力...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfxur8/i_built_a_full_ios_app_with_claude_in_2_months/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.033612+09:00",
+      "reddit_score": 77
+    },
+    {
+      "id": "2231867eb1e2",
+      "title": "A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.",
+      "summary_en": "Study link: [https://ojs.aaai.org/index.php/AAAI/article/view/41259](https://ojs.aaai.org/index.php/AAAI/article/view/41259)\n\nHad to share it after I ...",
+      "summary_ko": "연구 링크: [https://ojs.aaai.org/index.php/AAAI/article/view/41",
+      "summary_zh": "摘要：研究連結：[https://ojs.aaai.org/index.php/AAAI/article/view/41",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfyjlt/a_recent_study_has_found_that_llms_are_worse_at/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.032613+09:00",
+      "reddit_score": 123
+    },
+    {
+      "id": "350723f375bb",
+      "title": "Claude Code got my Meta ads account permanently banned. Don't make the same mistake I did.",
+      "summary_en": "connected claude code to our meta ads account thinking i was about to automate everything. pulling campaign data, generating creatives, shifting budge...",
+      "summary_ko": "Claude Code를 Meta 광고 계정에 연결했는데 모든 것을 자동화할 수 있을 줄 알았습니다. 캠페인 데이터를 가져오고, 크리에이티브를 생성하고, 예산을 이동시키는...",
+      "summary_zh": "摘要：我把 Claude Code 連接到我們的 Meta 廣告帳戶，以為能自動化所有事務。提取活動數據、生成創意內容、轉移預算...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sg6vpl/claude_code_got_my_meta_ads_account_permanently/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.032613+09:00",
+      "reddit_score": 49
+    },
+    {
+      "id": "efc512333fd8",
+      "title": "Anthropic's recent run of \"Bad Luck\" is exactly what State sponsored AI attacks would look like",
+      "summary_en": "Anthropic recently announced an AI model called 'Mythos' that reportedly was able to find \"zero-day\" attacks in numerous common software stacks, basic...",
+      "summary_ko": "Anthropic은 최근 수많은 일반적인 소프트웨어 스택에서 \"제로데이\" 공격을 찾을 수 있었다고 보도된 'Mythos'라는 AI 모델을 발표했습니다...",
+      "summary_zh": "摘要：Anthropic 最近宣布了一個名為「Mythos」的AI模型，據報導它能夠在許多常見軟體棧中發現「零日」攻擊，基本...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sg5088/anthropics_recent_run_of_bad_luck_is_exactly_what/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.032613+09:00",
+      "reddit_score": 129
+    },
+    {
+      "id": "30c70207f4f3",
+      "title": "Official: Anthropic introduces Claude Managed Agents, everything you need to build &amp; deploy agents at scale",
+      "summary_en": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale.\n\nIt pairs an agent harness tuned for performance with prod...",
+      "summary_ko": "Claude Managed Agents 소개: 규모에 맞게 에이전트를 구축하고 배포하는 데 필요한 모든 것입니다.\n\n성능을 위해 조정된 에이전트 하네스와 프로드...를 결합합니다.",
+      "summary_zh": "摘要：推出Claude託管代理：您需要的一切以大規模構建和部署代理。\n\n它將為性能而調整的代理框架與生產...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfzcyk/official_anthropic_introduces_claude_managed/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.032613+09:00",
+      "reddit_score": 301
+    },
+    {
+      "id": "c85bcb08d7a6",
+      "title": "Something happened to Opus 4.6's reasoning effort",
+      "summary_en": "It now fails the car wash test consistently (5/5 tries) and doesn't display a thinking block.\n\nSonnet 4.6 and Opus 4.5 still manage to get it right.\n\n...",
+      "summary_ko": "이제 자동차 세차 테스트에서 일관되게 실패합니다 (5/5 시도). 그리고 생각 블록을 표시하지 않습니다.\n\nSonnet 4.6과 Opus 4.5는 여전히 올바르게 해냅니다.\n\n...",
+      "summary_zh": "摘要：它現在在洗車測試中持續失敗（5/5次嘗試），且不顯示思考塊。\n\nSonnet 4.6和Opus 4.5仍然能夠正確完成。",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfw9b5/something_happened_to_opus_46s_reasoning_effort/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-09T09:05:10.032613+09:00",
+      "reddit_score": 1934
+    },
+    {
+      "id": "889c5fa379ff",
+      "title": "How to save 80% on your claude bill with better context",
+      "summary_en": "been building web apps with claude lately and those token limits have honestly started hitting me too. i’m using claude 4.6 sonnet for a research tool...",
+      "summary_ko": "최근에 Claude로 웹 앱을 만들고 있는데 그 토큰 제한이 솔직히 나한테도 영향을 미치기 시작했어. 나는 연구 도구를 위해 Claude 4.6 Sonnet을 사용하고 있어...",
+      "summary_zh": "摘要：最近一直在用 Claude 開發網路應用程式，那些 token 限制說實話已經開始困擾我了。我正在為一個研究工具使用 Claude 4.6 Sonnet...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfsqq5/how_to_save_80_on_your_claude_bill_with_better/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-09T09:05:10.033612+09:00",
+      "reddit_score": 188
+    },
+    {
+      "id": "381119994542",
+      "title": "I vibe-coded my cat",
+      "summary_en": "My cat Mauri has not only lost more weight than before, but he can no longer meow either. Last year doctors treated him for hepatitis because they not...",
+      "summary_ko": "내 고양이 마우리는 이전보다 더 많은 체중을 잃었을 뿐만 아니라 더 이상 야옹거릴 수도 없다. 지난해 의사들은 그가 간염으로 치료받았는데...",
+      "summary_zh": "摘要：我的貓毛瑞不僅比以前瘦了很多，而且他再也不能喵喵叫了。去年醫生因為肝炎給他治療，因為他們不...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfpopp/i_vibecoded_my_cat/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-09T09:05:10.033612+09:00",
+      "reddit_score": 297
+    },
+    {
+      "id": "629d21d9fbe1",
+      "title": "I gave Claude my dead game's 30-year-old files and asked it to bring the game back to life",
+      "summary_en": "In 1992 I built an online multiplayer game called Legends of Future Past. It ran on CompuServe, won an award from Computer Gaming World, and shut down...",
+      "summary_ko": "1992년 나는 Legends of Future Past라는 온라인 멀티플레이 게임을 만들었다. 그것은 CompuServe에서 실행되었고, Computer Gaming World로부터 상을 받았으며, 결국 종료되었다...",
+      "summary_zh": "摘要：1992年我開發了一款名為《未來過去的傳說》的線上多人遊戲。它在CompuServe上運行，獲得了電腦遊戲世界的獎項，後來停運了...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfsz67/i_gave_claude_my_dead_games_30yearold_files_and/",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-09T09:05:10.032613+09:00",
+      "reddit_score": 2019
+    },
+    {
+      "id": "8a2563a8f126",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 8, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 8, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 8, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-09T09:05:08.739012+09:00"
+    },
+    {
       "id": "d68651a6f3bd",
       "title": "Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?",
       "summary_en": "I’ve been using Claude Cowork lately, and while the marketing hype is all about \"revolutionizing workflows\" and \"building entire companies with one pr...",
@@ -646,6 +858,23 @@
       "date": "2026-04-03",
       "collected_at": "2026-04-03T09:05:36.230310+09:00",
       "reddit_score": 565
+    },
+    {
+      "id": "9f6e00988b99",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 2, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 2, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 2, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-02",
+      "collected_at": "2026-04-09T09:05:08.739012+09:00"
     },
     {
       "id": "bcf4215e85c6",
@@ -3029,17 +3258,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-08T16:54:54.724654+09:00",
+  "last_updated": "2026-04-09T09:06:05.660639+09:00",
   "stats": {
-    "total_items": 163,
+    "total_items": 175,
     "categories": {
+      "claude_code": 67,
+      "ai_trend": 69,
+      "claude_release": 29,
       "automation": 4,
-      "claude_code": 63,
-      "ai_trend": 62,
-      "claude_release": 28,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-08 16:54"
+    "last_collection": "2026-04-09 09:06"
   }
 }

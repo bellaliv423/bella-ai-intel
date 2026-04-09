@@ -1,6 +1,50 @@
 {
   "features": [
     {
+      "news_title": "A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.",
+      "news_date": "2026-04-09",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "form"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.\n   → 연구 링크: [https://ojs.aaai.org/index.php/AAAI/article/view/41\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.\n   → 摘要：研究連結：[https://ojs.aaai.org/index.php/AAAI/article/view/41\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
+      "news_title": "Claude Code got my Meta ads account permanently banned. Don't make the same mistake I did.",
+      "news_date": "2026-04-09",
+      "news_category": "claude_code",
+      "project_id": "amazon_data",
+      "project_name_ko": "Amazon 데이터 통합",
+      "project_name_zh": "Amazon 數據整合",
+      "matched_keywords": [
+        "ads"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "높음 🔥",
+      "impact_zh": "高 🔥",
+      "suggestion_ko": "'Claude Code got my Meta ads account permanently banned. Don't make the same mistake I did.' → Amazon 데이터 통합 코드 품질 향상에 활용 가능!",
+      "suggestion_zh": "'Claude Code got my Meta ads account permanently banned. Don't make the same mistake I did.' → 可應用於 Amazon 數據整合",
+      "learning_note_ko": "💡 Claude Code got my Meta ads account permanently banned. Don't make the same mistake I did.\n   → Claude Code를 Meta 광고 계정에 연결했는데 모든 것을 자동화할 수 있을 줄 알았습니다. 캠페인 데이터를 가져오고, 크리에이티브를 생...\n   → 벨라님 프로젝트 'Amazon 데이터 통합'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Claude Code got my Meta ads account permanently banned. Don't make the same mistake I did.\n   → 摘要：我把 Claude Code 連接到我們的 Meta 廣告帳戶，以為能自動化所有事務。提取活動數據、生成創意內容、轉移預算...\n   → 應用到 Bella 的專案「Amazon 數據整合」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.",
       "news_date": "2026-04-08",
       "news_category": "automation",
@@ -19,50 +63,6 @@
       "suggestion_zh": "'90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.' → 可應用於 Obsidian 知識資產",
       "learning_note_ko": "💡 90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.\n   → Claude 컨텍스트를 47,450 토큰 → 360 토큰으로 감소.\n\n**\"이번 주, Andrej Karpathy가 자신의 'LLM Knowle...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
       "learning_note_zh": "💡 90%+ fewer tokens per session by reading a pre-compiled wiki instead of exploring files cold. Built from Karpathy's workflow.\n   → 摘要：將 Claude 上下文從 47,450 個 token 減少到 360 個 token。\n\n**\"本週，Andrej Karpathy 分享了他的『LL...\n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
-    },
-    {
-      "news_title": "Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code",
-      "news_date": "2026-04-07",
-      "news_category": "claude_code",
-      "project_id": "obsidian_knowledge",
-      "project_name_ko": "Obsidian 지식자산",
-      "project_name_zh": "Obsidian 知識資產",
-      "matched_keywords": [
-        "dashboard"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "높음 🔥",
-      "impact_zh": "高 🔥",
-      "suggestion_ko": "'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' → Obsidian 지식자산 코드 품질 향상에 활용 가능!",
-      "suggestion_zh": "'Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code' → 可應用於 Obsidian 知識資產",
-      "learning_note_ko": "💡 Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code\n   → 내 에이전트 OS를 오픈소스화하지 않아서 많은 비난을 받았고, 결국 그냥 하기로 결정했다.\n\n지난 몇 개월 동안 Claude Code로 Octo...\n   → 벨라님 프로젝트 'Obsidian 지식자산'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Got roasted for not open sourcing my agent OS (dashboard),  so I did. Built the whole thing with Claude Code\n   → 摘要：因為沒有開源我的代理作業系統而受到很多批評，所以我決定就這樣做。\n\n過去幾個月我一直在用 Claude Code 構建 Octopoda。...\n   → 應用到 Bella 的專案「Obsidian 知識資產」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
-    },
-    {
-      "news_title": "Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.",
-      "news_date": "2026-04-07",
-      "news_category": "claude_code",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "form"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.' → kndli.com 웹사이트 코드 품질 향상에 활용 가능!",
-      "suggestion_zh": "'Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.\n   → Hacker News의 토론에서 Boris는 사용자의 버그 기록을 검토한 후 \"단순히 사용자 설정일 뿐이다\"라는 입장에서 변경합니다.\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Boris Charny, creator of Claude Code, engages with external developers and accepts task performance degradation since February was not only due to user error.\n   → 摘要：在 Hacker News 的討論中，Boris 在查看使用者的錯誤記錄後改變了他的立場，從「這只是使用者設定」\n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 1
     }
@@ -111,77 +111,43 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?' 실습 세션",
-      "title_zh": "'Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for?' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 체험 + Q&A",
+      "title_ko": "'Burned 5B tokens with Claude Code in March to build a financial research agent.' 실습 세션",
+      "title_zh": "'Burned 5B tokens with Claude Code in March to build a financial research agent.' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Burned 5B tokens with Claude Code in March to build a financial research agent. 체험 + Q&A",
       "hashtags": [
-        "#AI자동화",
-        "#Cowork",
-        "#업무자동화",
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-08"
+      "news_date": "2026-04-09"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 총정리",
-      "title_zh": "2026年 2026-04 Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 總整理",
-      "description_ko": "Beyond the \"Life-Changing\" Hype, what are you actually using Claude Cowork for? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Burned 5B tokens with Claude Code in March to build a financial research agent. 총정리",
+      "title_zh": "2026年 2026-04 Burned 5B tokens with Claude Code in March to build a financial research agent. 總整理",
+      "description_ko": "Burned 5B tokens with Claude Code in March to build a financial research agent. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AI자동화",
-        "#Cowork",
-        "#업무자동화",
-        "#Reddit",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-08"
-    },
-    {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'How I cut Claude Code usage in half (open source)' 실습 세션",
-      "title_zh": "'How I cut Claude Code usage in half (open source)' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 How I cut Claude Code usage in half (open source) 체험 + Q&A",
-      "hashtags": [
+        "#AIAgent",
         "#ClaudeCode",
         "#코딩자동화",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
-      ],
-      "news_date": "2026-04-08"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 How I cut Claude Code usage in half (open source) 총정리",
-      "title_zh": "2026年 2026-04 How I cut Claude Code usage in half (open source) 總整理",
-      "description_ko": "How I cut Claude Code usage in half (open source) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-08"
+      "news_date": "2026-04-09"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone.' 핵심 정리 카드",
-      "title_zh": "'After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 After nearly four years of working with frontier models, I burst out laughing at its joke. Yes, I know I’m immature. But it marks a milestone. 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like.' 핵심 정리 카드",
+      "title_zh": "'i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -190,10 +156,45 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-08"
+      "news_date": "2026-04-09"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 총정리",
+      "title_zh": "2026年 2026-04 i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 總整理",
+      "description_ko": "i built a full iOS app with Claude in 2 months. zero coding background. here's what that actually looks like. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-09"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.' 핵심 정리 카드",
+      "title_zh": "'A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 A recent study has found that LLMs are worse at giving accurate, truthful answers to people who have lower English proficiency and less formal education, rendering them more unreliable towards the most vulnerable users. 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-04-09"
     }
   ],
-  "last_analyzed": "2026-04-08T16:54:56.068049+09:00",
-  "analyzed_date": "2026-04-08",
-  "analyzed_time": "16:54 KST"
+  "last_analyzed": "2026-04-09T09:06:06.675296+09:00",
+  "analyzed_date": "2026-04-09",
+  "analyzed_time": "09:06 KST"
 }
