@@ -1,6 +1,276 @@
 {
   "items": [
     {
+      "id": "e3c6409ef8a6",
+      "title": "Claude on 3ds is amazing",
+      "summary_en": "Wrote a native SSH terminal for my 3DS so I could run Claude Code on it.\n\nC app, GPU-rendered with citro2d, custom VT100 parser with truecolor, Nerd F...",
+      "summary_ko": "3DS에서 Claude Code를 실행할 수 있도록 네이티브 SSH 터미널을 작성했어요.\n\nC 앱, citro2d로 GPU 렌더링, 트루컬러를 지원하는 커스텀 VT100 파서, Nerd F...",
+      "summary_zh": "摘要：為我的 3DS 編寫了一個原生 SSH 終端，這樣我就可以在上面運行 Claude Code。\n\nC 應用，使用 citro2d 進行 GPU 渲染，自訂 VT100 解析器支援真彩色，Nerd F...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgs9xn/claude_on_3ds_is_amazing/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.600947+09:00",
+      "reddit_score": 63
+    },
+    {
+      "id": "b9b27bbd7e18",
+      "title": "When Claude accuses you of using ai...",
+      "summary_en": "Funny how similar this looks to online posts where someone accuses someone else of using ai as if to downplay the content",
+      "summary_ko": "누군가가 내용을 폄하하기 위해 다른 사람이 AI를 사용하고 있다고 비난하는 온라인 게시물과 이것이 얼마나 유사한지 재미있습니다",
+      "summary_zh": "摘要：有趣的是，這看起來與在線帖子非常相似，有人指責別人使用人工智能，似乎是為了貶低內容",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgw2uy/when_claude_accuses_you_of_using_ai/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.600947+09:00",
+      "reddit_score": 43
+    },
+    {
+      "id": "0773984f5a71",
+      "title": "I let Claude Code autonomously test my iOS app. It found real bugs in 8 minutes",
+      "summary_en": "Hey everyone!\n\nI've been building Wanderlist, a place curation app (save spots you love, organize into collections, browse on a map). Wanted to see wh...",
+      "summary_ko": "여러분 안녕하세요!\n\n저는 장소 큐레이션 앱인 Wanderlist를 개발 중입니다 (좋아하는 장소를 저장하고, 컬렉션으로 정리하고, 지도에서 찾아보기). 어떻게 되는지 보고 싶어서...",
+      "summary_zh": "摘要：大家好！\n\n我一直在開發 Wanderlist，一個地點策劃應用程序（保存你喜歡的地點、組織成集合、在地圖上瀏覽）。想看看...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sh5aae/i_let_claude_code_autonomously_test_my_ios_app_it/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.597947+09:00",
+      "reddit_score": 19
+    },
+    {
+      "id": "289bfdef6177",
+      "title": "Pair Opus as an advisor with Sonnet or Haiku as an executor, and get near Opus-level intelligence in your agents at a fraction of the cost - Thread",
+      "summary_en": "Official Tweet: [https://x.com/claudeai/status/2042308622181339453](https://x.com/claudeai/status/2042308622181339453)",
+      "summary_ko": "공식 트윗: [https://x.com/claudeai/status/2042308622181339453](https://x.com/claudeai/status/2042308622181339453)",
+      "summary_zh": "摘要：官方推文：[https://x.com/claudeai/status/2042308622181339453](https://x.com/claudeai/status/2042308622181339453)",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#Haiku",
+        "#Opus",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgyt6s/pair_opus_as_an_advisor_with_sonnet_or_haiku_as/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.597947+09:00",
+      "reddit_score": 52
+    },
+    {
+      "id": "f1f67a00220f",
+      "title": "Claude Enterprise pricing - am I missing something, or are we literally being penalized for scaling?",
+      "summary_en": "We're an organization of 800 users, actively evaluating Claude Enterprise. I've been going back and forth with an Anthropic sales rep and the more I d...",
+      "summary_ko": "우리는 800명의 사용자를 가진 조직이며 Claude Enterprise를 적극적으로 평가 중입니다. 저는 Anthropic 영업 담당자와 계속 오가고 있으며 더...",
+      "summary_zh": "摘要：我們是一個擁有 800 名用戶的組織，正在積極評估 Claude Enterprise。我一直在與 Anthropic 銷售代表來回協商，而且我越來越...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sh2scb/claude_enterprise_pricing_am_i_missing_something/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.597947+09:00",
+      "reddit_score": 40
+    },
+    {
+      "id": "2539357883fd",
+      "title": "Never Buy The Subscription In App",
+      "summary_en": "I just tried buying Claude 20x max plan on the iPhone app, and it’s literally $50 more expensive then just simply going online to purchase it. This se...",
+      "summary_ko": "아이폰 앱에서 Claude 20x max 플랜을 구매해봤는데, 온라인에서 구매하는 것보다 정말 50달러가 더 비쌉니다. 이것은...",
+      "summary_zh": "摘要：我剛剛嘗試在iPhone應用程式上購買Claude 20x最高方案，結果發現它比直接在網上購買貴50美元。這真是...",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgwa8g/never_buy_the_subscription_in_app/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.596951+09:00",
+      "reddit_score": 80
+    },
+    {
+      "id": "050e55ebaf1b",
+      "title": "People with Max plan, are you doing ok?",
+      "summary_en": "I am just curious about those who pay 200$ each month for claude. Like are you actually generating revenue, or just stuck in the building loop. And do...",
+      "summary_ko": "저는 매달 Claude에 200달러를 지출하는 사람들이 궁금합니다. 실제로 수익을 창출하고 있는 건지, 아니면 계속 개발 루프에만 머물러 있는 건지요. 그리고...",
+      "summary_zh": "摘要：我只是好奇那些每月花費 200 美元使用 Claude 的人。你們真的在產生收益嗎？還是只是陷入了無限構建的循環中。而且...",
+      "category": "claude_release",
+      "hashtags": [
+        "#AIAgent",
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sh1d4n/people_with_max_plan_are_you_doing_ok/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.596951+09:00",
+      "reddit_score": 57
+    },
+    {
+      "id": "1cbfe4d6217b",
+      "title": "claude code hardware",
+      "summary_en": "I turned Claude Code's 18 ASCII buddies into physical glowing desk toys\n\nBeen using Claude Code a lot and loved the little ASCII buddy characters. Tho...",
+      "summary_ko": "Claude Code의 18개 ASCII 친구 캐릭터를 실제 발광 책상 장난감으로 만들었습니다.\n\nClaude Code를 많이 사용해왔고 작은 ASCII 친구 캐릭터들을 정말 좋아했습니다. 하지만...",
+      "summary_zh": "摘要：我把Claude Code的18個ASCII小伙伴變成了實體發光的桌面玩具\n\n一直在使用Claude Code，喜歡那些小的ASCII伙伴角色。雖然...",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgsofx/claude_code_hardware/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.596951+09:00",
+      "reddit_score": 287
+    },
+    {
+      "id": "bd63e22127e3",
+      "title": "Anthropic employees have had Mythos since Feb 24",
+      "summary_en": "That’s why since then we’ve had:\n\n\\- Perfect server uptime\n\n\\- No software bugs\n\n\\- No major security incidents (def nothing like source code being le...",
+      "summary_ko": "그 이후로 우리는 다음을 가지고 있습니다:\n\n\\- 완벽한 서버 가동시간\n\n\\- 소프트웨어 버그 없음\n\n\\- 주요 보안 사건 없음 (확실히 소스 코드가 유출되는 것 같은 것은 아무것도 없음...)",
+      "summary_zh": "摘要：這就是為什麼自那以後我們擁有：\n\n\\- 完美的伺服器正常運行時間\n\n\\- 沒有軟體漏洞\n\n\\- 沒有重大安全事件（絕對不像原始碼被洩...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.595949+09:00",
+      "reddit_score": 510
+    },
+    {
+      "id": "7bf291aa949a",
+      "title": "Lol",
+      "summary_en": "This one tho!",
+      "summary_ko": "이건 진짜!",
+      "summary_zh": "摘要：這個真的！",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sh13dk/lol/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T09:05:09.594939+09:00",
+      "reddit_score": 214
+    },
+    {
+      "id": "bf74f9f3c929",
+      "title": "Passed Anthropic's Claude Certified Architect (893/1000)",
+      "summary_en": "I've been building agentic supply chain systems for enterprise clients such as forecast review, procurement intelligence, packaging line diagnostics. ...",
+      "summary_ko": "예측 검토, 조달 인텔리전스, 포장 라인 진단 등 엔터프라이즈 클라이언트를 위한 에이전틱 공급망 시스템을 구축해 왔습니다. ...",
+      "summary_zh": "摘要：我一直在為企業客戶構建代理式供應鏈系統，例如需求預測審查、採購智能、包裝生產線診斷。...",
+      "category": "automation",
+      "hashtags": [
+        "#AIAgent",
+        "#AI자동화",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgn0cf/passed_anthropics_claude_certified_architect/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-10T09:05:09.598948+09:00",
+      "reddit_score": 153
+    },
+    {
+      "id": "8f0d44b2afd5",
+      "title": "A private company now has powerful zero-day exploits of almost every software project you've heard of.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgold6/a_private_company_now_has_powerful_zeroday/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-10T09:05:09.596951+09:00",
+      "reddit_score": 211
+    },
+    {
+      "id": "043229edd374",
+      "title": "BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats",
+      "summary_en": "Sources close to Anthropic have confirmed that their latest reasoning model, codenamed “Mythos,” has located the legendary treasure One Piece during w...",
+      "summary_ko": "Anthropic 측 소식통들이 그들의 최신 추론 모델인 \"신화\"라는 암호명의 모델이 동안 전설의 보물 한 조각을 발견했음을 확인했습니다...",
+      "summary_zh": "摘要：接近Anthropic的消息人士證實，該公司最新推理模型代號為「神話」，已在以下期間定位到傳說中的寶藏One Piece...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-10T09:05:09.593925+09:00",
+      "reddit_score": 2715
+    },
+    {
+      "id": "d66733985c07",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 9, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 9, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 9, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-10T09:05:08.006913+09:00"
+    },
+    {
       "id": "23f20b8ea4e2",
       "title": "So, Mythos.",
       "summary_en": "So... Haiku is short form poetry. Sonnet is longer, lyrical one. Opus can be any kind of long form major work. Something you would call a feat.  \n  \nN...",
@@ -671,6 +941,23 @@
       "url": "https://code.claude.com/docs/en/changelog",
       "date": "2026-04-07",
       "collected_at": "2026-04-08T09:05:08.452269+09:00"
+    },
+    {
+      "id": "5d960108a479",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 4, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 4, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 4, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-04",
+      "collected_at": "2026-04-10T09:05:08.006913+09:00"
     },
     {
       "id": "bdc16b997917",
@@ -3338,17 +3625,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-09T16:32:59.451361+09:00",
+  "last_updated": "2026-04-10T09:06:27.208544+09:00",
   "stats": {
-    "total_items": 179,
+    "total_items": 194,
     "categories": {
-      "ai_trend": 71,
-      "claude_release": 30,
-      "claude_code": 68,
-      "automation": 4,
+      "claude_code": 73,
+      "ai_trend": 77,
+      "claude_release": 33,
+      "automation": 5,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-09 16:32"
+    "last_collection": "2026-04-10 09:06"
   }
 }
