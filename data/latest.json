@@ -1,6 +1,82 @@
 {
   "items": [
     {
+      "id": "12aabe92ec5e",
+      "title": "Claude used to push back, now it just agrees with everything",
+      "summary_en": "When I first started using Claude, it was the only AI that would tell me no, that would actually argue against me. It felt more objective. I don’t kno...",
+      "summary_ko": "처음 Claude를 사용했을 때, 그것은 나에게 \"아니오\"라고 말하고 실제로 나와 논쟁할 유일한 AI였다. 더 객관적으로 느껴졌다. 나는 모르겠지만...",
+      "summary_zh": "摘要：當我最初開始使用 Claude 時，它是唯一會告訴我「不」的 AI，會實際上與我辯論。它感覺更客觀。我不知道...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1shexwv/claude_used_to_push_back_now_it_just_agrees_with/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T16:00:23.203227+09:00",
+      "reddit_score": 11
+    },
+    {
+      "id": "d628cd72cf41",
+      "title": "Prompt so ass they took away the submit button",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sh910w/prompt_so_ass_they_took_away_the_submit_button/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T16:00:23.203227+09:00",
+      "reddit_score": 57
+    },
+    {
+      "id": "da154e7535e6",
+      "title": "If Only…",
+      "summary_en": "Why yes, a mistake was in fact made. Too bad this didn’t actually do the research. ",
+      "summary_ko": "그렇다, 실수가 있었던 것이 맞다. 유감스럽게도 이것은 실제로 연구를 하지 않았다.",
+      "summary_zh": "摘要：是的，確實犯了一個錯誤。遺憾的是，這實際上並沒有進行研究。",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sh7wos/if_only/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T16:00:23.202221+09:00",
+      "reddit_score": 101
+    },
+    {
+      "id": "679cbfc91b5d",
+      "title": "Any other ADHD programmers find ClaudeCode to be a dream come true?",
+      "summary_en": "Every random whim is suddenly a new session solving something. I can finally juggle 10 things AND keep track of it all!! Playing Claude session like B...",
+      "summary_ko": "모든 갑작스러운 생각이 갑자기 새로운 세션이 되어 뭔가를 해결해요. 이제 드디어 10가지를 동시에 처리하면서도 모든 것을 추적할 수 있어요!! Claude 세션을 마치 B처럼 사용하고 있어요...",
+      "summary_zh": "摘要：每一個隨意的想法突然都變成了一個新會話去解決一些問題。我終於可以同時處理10件事情，還能跟蹤所有事情！！像B一樣玩Claude會話...",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1shciwa/any_other_adhd_programmers_find_claudecode_to_be/",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-10T16:00:23.202221+09:00",
+      "reddit_score": 123
+    },
+    {
       "id": "e3c6409ef8a6",
       "title": "Claude on 3ds is amazing",
       "summary_en": "Wrote a native SSH terminal for my 3DS so I could run Claude Code on it.\n\nC app, GPU-rendered with citro2d, custom VT100 parser with truecolor, Nerd F...",
@@ -3625,17 +3701,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-10T09:06:27.208544+09:00",
+  "last_updated": "2026-04-10T16:00:40.561177+09:00",
   "stats": {
-    "total_items": 194,
+    "total_items": 198,
     "categories": {
+      "ai_trend": 81,
       "claude_code": 73,
-      "ai_trend": 77,
       "claude_release": 33,
       "automation": 5,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-10 09:06"
+    "last_collection": "2026-04-10 16:00"
   }
 }
