@@ -1,6 +1,28 @@
 {
   "features": [
     {
+      "news_title": "Claude Code + Obsidian?",
+      "news_date": "2026-04-14",
+      "news_category": "claude_code",
+      "project_id": "instagram_automation",
+      "project_name_ko": "인스타 자동화",
+      "project_name_zh": "Instagram 自動化",
+      "matched_keywords": [
+        "post"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Claude Code + Obsidian?' → 인스타 자동화 코드 품질 향상에 활용 가능!",
+      "suggestion_zh": "'Claude Code + Obsidian?' → 可應用於 Instagram 自動化",
+      "learning_note_ko": "💡 Claude Code + Obsidian?\n   → Been seeing some posts recently of people hyping up obsidian saying to pair it w...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Claude Code + Obsidian?\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z",
       "news_date": "2026-04-14",
       "news_category": "claude_release",
@@ -43,52 +65,18 @@
       "learning_note_zh": "💡 follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 1
-    },
-    {
-      "news_title": "The creator of Claude Code notes on the current Caching Issue",
-      "news_date": "2026-04-13",
-      "news_category": "claude_code",
-      "project_id": "certificate_origin",
-      "project_name_ko": "원산지증명서 자동화",
-      "project_name_zh": "原產地證明自動化",
-      "matched_keywords": [
-        "document"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'The creator of Claude Code notes on the current Caching Issue' → 원산지증명서 자동화 코드 품질 향상에 활용 가능!",
-      "suggestion_zh": "'The creator of Claude Code notes on the current Caching Issue' → 可應用於 原產地證明自動化",
-      "learning_note_ko": "💡 The creator of Claude Code notes on the current Caching Issue\n   → It's been pretty well documented on this subreddit + GH issues that caching is a...\n   → 벨라님 프로젝트 '원산지증명서 자동화'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 The creator of Claude Code notes on the current Caching Issue\n   → \n   → 應用到 Bella 的專案「原產地證明自動化」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
     }
   ],
   "upgrades": [
-    {
-      "script_name": "generate_cert.js",
-      "project_id": "certificate_origin",
-      "project_name_ko": "원산지증명서 자동화",
-      "project_name_zh": "原產地證明自動化",
-      "trigger_news": "The creator of Claude Code notes on the current Caching Issue",
-      "trigger_date": "2026-04-13",
-      "upgrade_suggestion_ko": "generate_cert.js → 'The creator of Claude Code notes on the current Caching Issue' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_cert.js → 應用 'The creator of Claude Code notes on the current Caching Issue' 可提升效能",
-      "difficulty": 1,
-      "difficulty_stars": "⭐"
-    },
     {
       "script_name": "sync_claude_to_obsidian.py",
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "The creator of Claude Code notes on the current Caching Issue",
-      "trigger_date": "2026-04-13",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'The creator of Claude Code notes on the current Caching Issue' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'The creator of Claude Code notes on the current Caching Issue' 可提升效能",
+      "trigger_news": "Claude Code + Obsidian?",
+      "trigger_date": "2026-04-14",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Claude Code + Obsidian?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Claude Code + Obsidian?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -97,26 +85,73 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "The creator of Claude Code notes on the current Caching Issue",
-      "trigger_date": "2026-04-13",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'The creator of Claude Code notes on the current Caching Issue' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'The creator of Claude Code notes on the current Caching Issue' 可提升效能",
+      "trigger_news": "Claude Code + Obsidian?",
+      "trigger_date": "2026-04-14",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'Claude Code + Obsidian?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Claude Code + Obsidian?' 可提升效能",
+      "difficulty": 1,
+      "difficulty_stars": "⭐"
+    },
+    {
+      "script_name": "generate_dashboard.py",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
+      "trigger_news": "Claude Code + Obsidian?",
+      "trigger_date": "2026-04-14",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'Claude Code + Obsidian?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'Claude Code + Obsidian?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
   ],
   "content": [
     {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Claude diagnosed me when my doctor wouldn’t' 핵심 정리 카드",
+      "title_zh": "'Claude diagnosed me when my doctor wouldn’t' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Claude diagnosed me when my doctor wouldn’t 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-04-14"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 Claude diagnosed me when my doctor wouldn’t 총정리",
+      "title_zh": "2026年 2026-04 Claude diagnosed me when my doctor wouldn’t 總整理",
+      "description_ko": "Claude diagnosed me when my doctor wouldn’t 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-14"
+    },
+    {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Emotional priming changes Claude's code more than explicit instruction does' 실습 세션",
-      "title_zh": "'Emotional priming changes Claude's code more than explicit instruction does' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Emotional priming changes Claude's code more than explicit instruction does 체험 + Q&A",
+      "title_ko": "'Claude has just fixed over-usage of their compute' 실습 세션",
+      "title_zh": "'Claude has just fixed over-usage of their compute' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Claude has just fixed over-usage of their compute 체험 + Q&A",
       "hashtags": [
-        "#AI자동화",
-        "#업무자동화",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#Reddit",
         "#AI세미나",
         "#실습"
@@ -128,12 +163,12 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Emotional priming changes Claude's code more than explicit instruction does 총정리",
-      "title_zh": "2026年 2026-04 Emotional priming changes Claude's code more than explicit instruction does 總整理",
-      "description_ko": "Emotional priming changes Claude's code more than explicit instruction does 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Claude has just fixed over-usage of their compute 총정리",
+      "title_zh": "2026年 2026-04 Claude has just fixed over-usage of their compute 總整理",
+      "description_ko": "Claude has just fixed over-usage of their compute 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AI자동화",
-        "#업무자동화",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
@@ -141,60 +176,24 @@
       "news_date": "2026-04-14"
     },
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Yes, my friend, let's gooo!' 핵심 정리 카드",
-      "title_zh": "'Yes, my friend, let's gooo!' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Yes, my friend, let's gooo! 설명 + 실전 활용법 5장 캐러셀",
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'Claude Code + Obsidian?' 실습 세션",
+      "title_zh": "'Claude Code + Obsidian?' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Claude Code + Obsidian? 체험 + Q&A",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#ClaudeCode",
+        "#코딩자동화",
         "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-14"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Yes, my friend, let's gooo! 총정리",
-      "title_zh": "2026年 2026-04 Yes, my friend, let's gooo! 總整理",
-      "description_ko": "Yes, my friend, let's gooo! 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-14"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude is amazing… but the weekly limits make no sense on a monthly plan' 핵심 정리 카드",
-      "title_zh": "'Claude is amazing… but the weekly limits make no sense on a monthly plan' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude is amazing… but the weekly limits make no sense on a monthly plan 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
+        "#AI세미나",
+        "#실습"
       ],
       "news_date": "2026-04-14"
     }
   ],
-  "last_analyzed": "2026-04-14T09:05:30.090191+09:00",
+  "last_analyzed": "2026-04-14T16:00:42.615942+09:00",
   "analyzed_date": "2026-04-14",
-  "analyzed_time": "09:05 KST"
+  "analyzed_time": "16:00 KST"
 }

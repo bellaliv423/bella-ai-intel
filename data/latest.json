@@ -1,6 +1,99 @@
 {
   "items": [
     {
+      "id": "e329ff2e8d39",
+      "title": "Claude diagnosed me when my doctor wouldn’t",
+      "summary_en": "I’ve got to give a shout out to Claude/anthropic because I was feeling weird the other day and had a strange pain unlike anything else I’ve ever felt ...",
+      "summary_ko": "I’ve got to give a shout out to Claude/anthropic because I was feeling weird the other day and had a strange pain unlike anything else I’ve ever felt ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skl7z9/claude_diagnosed_me_when_my_doctor_wouldnt/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T16:00:18.192259+09:00",
+      "reddit_score": 68
+    },
+    {
+      "id": "b9e8772ab53f",
+      "title": "Claude has just fixed over-usage of their compute",
+      "summary_en": "As of 2.1.105 you cannot paste the auth code into the terminal, hence you cannot login. Of course, one workaround is to downgrade to 104. \n\nBut we can...",
+      "summary_ko": "As of 2.1.105 you cannot paste the auth code into the terminal, hence you cannot login. Of course, one workaround is to downgrade to 104. \n\nBut we can...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skzbiw/claude_has_just_fixed_overusage_of_their_compute/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T16:00:18.192259+09:00",
+      "reddit_score": 12
+    },
+    {
+      "id": "b845841ff05c",
+      "title": "Claude Code + Obsidian?",
+      "summary_en": "Been seeing some posts recently of people hyping up obsidian saying to pair it with Claude for a “persistent brain”. Has anyone actually done it and i...",
+      "summary_ko": "Been seeing some posts recently of people hyping up obsidian saying to pair it with Claude for a “persistent brain”. Has anyone actually done it and i...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skw2vb/claude_code_obsidian/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T16:00:18.191249+09:00",
+      "reddit_score": 59
+    },
+    {
+      "id": "24457c79ba03",
+      "title": "TUI to see where Claude Code tokens actually go",
+      "summary_en": "been spending $200+/day on claude code and had zero visibility into what was eating the tokens. ccusage shows cost per model per day which is great bu...",
+      "summary_ko": "been spending $200+/day on claude code and had zero visibility into what was eating the tokens. ccusage shows cost per model per day which is great bu...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skqub5/tui_to_see_where_claude_code_tokens_actually_go/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T16:00:18.191249+09:00",
+      "reddit_score": 327
+    },
+    {
+      "id": "47d2c716f9ab",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 14, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 14, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 14, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T16:00:16.291214+09:00"
+    },
+    {
       "id": "eeeeddd7dd00",
       "title": "Emotional priming changes Claude's code more than explicit instruction does",
       "summary_en": "I noticed Claude writing more defensive code after a frustrating debugging session. Got curious whether that was real, so I tested it.\n\nTook 5 ordinar...",
@@ -4233,17 +4326,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-14T09:05:29.137209+09:00",
+  "last_updated": "2026-04-14T16:00:41.110196+09:00",
   "stats": {
-    "total_items": 226,
+    "total_items": 231,
     "categories": {
+      "ai_trend": 102,
+      "claude_code": 82,
       "automation": 6,
-      "ai_trend": 101,
       "claude_release": 35,
-      "claude_code": 78,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-14 09:05"
+    "last_collection": "2026-04-14 16:00"
   }
 }
