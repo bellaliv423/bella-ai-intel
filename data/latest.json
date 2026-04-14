@@ -1,6 +1,504 @@
 {
   "items": [
     {
+      "id": "eeeeddd7dd00",
+      "title": "Emotional priming changes Claude's code more than explicit instruction does",
+      "summary_en": "I noticed Claude writing more defensive code after a frustrating debugging session. Got curious whether that was real, so I tested it.\n\nTook 5 ordinar...",
+      "summary_ko": "I noticed Claude writing more defensive code after a frustrating debugging session. Got curious whether that was real, so I tested it.\n\nTook 5 ordinar...",
+      "summary_zh": "",
+      "category": "automation",
+      "hashtags": [
+        "#AI자동화",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skmgef/emotional_priming_changes_claudes_code_more_than/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.970706+09:00",
+      "reddit_score": 21
+    },
+    {
+      "id": "438f143ec126",
+      "title": "Yes, my friend, let's gooo!",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skp5t4/yes_my_friend_lets_gooo/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.970706+09:00",
+      "reddit_score": 19
+    },
+    {
+      "id": "2a6a16520d8f",
+      "title": "Claude is amazing… but the weekly limits make no sense on a monthly plan",
+      "summary_en": "Hey guys,\n\nI think we can all agree that Claude is an amazing product.\n\nBut there’s one thing that’s been really frustrating for me: the usage limits....",
+      "summary_ko": "Hey guys,\n\nI think we can all agree that Claude is an amazing product.\n\nBut there’s one thing that’s been really frustrating for me: the usage limits....",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skdrpx/claude_is_amazing_but_the_weekly_limits_make_no/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.970706+09:00",
+      "reddit_score": 54
+    },
+    {
+      "id": "1152cffc8cdf",
+      "title": "At this point, Claude Opus doesn't even bother to check the context, just fabricates. Any tips to fix this?",
+      "summary_en": "Over the last 1-2 weeks, this has been happening more and more. At some point, Claude decides to be lazy and not even read the context shared 2 chats ...",
+      "summary_ko": "Over the last 1-2 weeks, this has been happening more and more. At some point, Claude decides to be lazy and not even read the context shared 2 chats ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skgeer/at_this_point_claude_opus_doesnt_even_bother_to/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.970706+09:00",
+      "reddit_score": 44
+    },
+    {
+      "id": "78e3b87143b5",
+      "title": "When you turn off telemetry, Anthropic also disable experiment gates",
+      "summary_en": "Boris Cherny said something important:  \n[https://x.com/bcherny/status/2043715740080222549?s=20](https://x.com/bcherny/status/2043715740080222549?s=20...",
+      "summary_ko": "Boris Cherny said something important:  \n[https://x.com/bcherny/status/2043715740080222549?s=20](https://x.com/bcherny/status/2043715740080222549?s=20...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skkc7m/when_you_turn_off_telemetry_anthropic_also/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.969708+09:00",
+      "reddit_score": 34
+    },
+    {
+      "id": "d2d97698bc80",
+      "title": "Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai down\n\nCheck on progress and whe...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai down\n\nCheck on progress and whe...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sken9y/claude_status_update_claudeai_down_on/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.969708+09:00",
+      "reddit_score": 150
+    },
+    {
+      "id": "6d302cebcef8",
+      "title": "Fair",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skq7bb/fair/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.969708+09:00",
+      "reddit_score": 204
+    },
+    {
+      "id": "223b22c1458c",
+      "title": "You can now switch models mid-chat",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-14T09:05:05.969708+09:00",
+      "reddit_score": 556
+    },
+    {
+      "id": "b9eeb9bd5a76",
+      "title": "New to claude but found this extremely true",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sk8w7q/new_to_claude_but_found_this_extremely_true/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-14T09:05:05.970706+09:00",
+      "reddit_score": 103
+    },
+    {
+      "id": "17db22ea4eac",
+      "title": "follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.",
+      "summary_en": "last week's [token insights post](https://www.reddit.com/r/ClaudeCode/comments/1sd8t5u/anthropic_isnt_the_only_reason_youre_hitting/) sparked a debate...",
+      "summary_ko": "last week's [token insights post](https://www.reddit.com/r/ClaudeCode/comments/1sd8t5u/anthropic_isnt_the_only_reason_youre_hitting/) sparked a debate...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-14T09:05:05.969708+09:00",
+      "reddit_score": 255
+    },
+    {
+      "id": "c1a37480ebc4",
+      "title": "The creator of Claude Code notes on the current Caching Issue",
+      "summary_en": "It's been pretty well documented on this subreddit + GH issues that caching is a big current problem. \n\nBoris said this in the raised GH issue (https:...",
+      "summary_ko": "It's been pretty well documented on this subreddit + GH issues that caching is a big current problem. \n\nBoris said this in the raised GH issue (https:...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-14T09:05:05.969708+09:00",
+      "reddit_score": 253
+    },
+    {
+      "id": "38bf7a78dc9f",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 13, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 13, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 13, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-14T09:05:04.687455+09:00"
+    },
+    {
+      "id": "f8187a9b25d1",
+      "title": "Opus 4.6 - another absolute nerfing example. How to spend more tokens to increase quality?",
+      "summary_en": "20x Max user here, the quality of Opus 4.6 even with Extended has been shockingly bad recently. I asked about a simple rule on Hyrox in a new chat. Th...",
+      "summary_ko": "20x Max user here, the quality of Opus 4.6 even with Extended has been shockingly bad recently. I asked about a simple rule on Hyrox in a new chat. Th...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjtqke/opus_46_another_absolute_nerfing_example_how_to/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 22
+    },
+    {
+      "id": "b53f8b56240d",
+      "title": "Claude does not play around when it comes to biology and silly questions.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjjyfy/claude_does_not_play_around_when_it_comes_to/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 93
+    },
+    {
+      "id": "de435d377216",
+      "title": "&lt;total_tokens&gt; or how a new injection made Opus unusable",
+      "summary_en": "Recently Opus refused a query, telling me it didn’t have enough tokens to complete it. I’d never seen that before. So I dug in and found something inj...",
+      "summary_ko": "Recently Opus refused a query, telling me it didn’t have enough tokens to complete it. I’d never seen that before. So I dug in and found something inj...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjs4db/total_tokens_or_how_a_new_injection_made_opus/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 112
+    },
+    {
+      "id": "d763a92976ae",
+      "title": "Is anyone else's boyfriend / girlfriend *consumed* by Claude?",
+      "summary_en": "I haven't talked to my boyfriend about much other than Claude in weeks. \n\nAs the founder of a consumer electronics business, Cowork, and now managed a...",
+      "summary_ko": "I haven't talked to my boyfriend about much other than Claude in weeks. \n\nAs the founder of a consumer electronics business, Cowork, and now managed a...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#Cowork",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjufh3/is_anyone_elses_boyfriend_girlfriend_consumed_by/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.499475+09:00",
+      "reddit_score": 141
+    },
+    {
+      "id": "c814da8ccdea",
+      "title": "Did they just find the issue with Claude? \"Cache TTL silently regressed from 1h to 5m\"",
+      "summary_en": "The claim is that \"Cache TTL silently regressed from 1h to 5m around early March 2026, causing quota and cost inflation\"\n\n\"With 5m TTL, any pause in a...",
+      "summary_ko": "The claim is that \"Cache TTL silently regressed from 1h to 5m around early March 2026, causing quota and cost inflation\"\n\n\"With 5m TTL, any pause in a...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjxrp1/did_they_just_find_the_issue_with_claude_cache/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.499475+09:00",
+      "reddit_score": 160
+    },
+    {
+      "id": "c67a2a593efa",
+      "title": "Claude isn't dumber, it's just not trying. Here's how to fix it in Chat.",
+      "summary_en": "If you've been on this sub the last month, you've seen the posts. \"Opus got nerfed.\" \"Claude feels lobotomized.\" \"What happened to my favorite model?\"...",
+      "summary_ko": "If you've been on this sub the last month, you've seen the posts. \"Opus got nerfed.\" \"Claude feels lobotomized.\" \"What happened to my favorite model?\"...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjz1hg/claude_isnt_dumber_its_just_not_trying_heres_how/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.499475+09:00",
+      "reddit_score": 299
+    },
+    {
+      "id": "961d1ffc73f4",
+      "title": "The golden age is over",
+      "summary_en": "I really think the golden age of consumer and prosumer access to LLMs is done. I have subs to Claude, ChatGPT, Gemini, and Perplexity. I am running th...",
+      "summary_ko": "I really think the golden age of consumer and prosumer access to LLMs is done. I have subs to Claude, ChatGPT, Gemini, and Perplexity. I am running th...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#Gemini",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-13T16:00:14.499475+09:00",
+      "reddit_score": 1019
+    },
+    {
+      "id": "390e791fbab9",
+      "title": "Delighted",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjc7j4/delighted/",
+      "date": "2026-04-12",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 229
+    },
+    {
+      "id": "b6e0d98d428c",
+      "title": "how dare you",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjee5x/how_dare_you/",
+      "date": "2026-04-12",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 254
+    },
+    {
+      "id": "02a5fd884c9f",
+      "title": "this is the first time ive actually had it happen to me",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sj5vb4/this_is_the_first_time_ive_actually_had_it_happen/",
+      "date": "2026-04-12",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 1288
+    },
+    {
+      "id": "22801ff7d227",
+      "title": "Frog put Claude in the box",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjex0y/frog_put_claude_in_the_box/",
+      "date": "2026-04-12",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 432
+    },
+    {
+      "id": "5a39f5dec143",
+      "title": "Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/",
+      "date": "2026-04-12",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 846
+    },
+    {
+      "id": "c0290427b447",
+      "title": "“Wow” - my brother in silicon you are the demand curve",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sj5vby/wow_my_brother_in_silicon_you_are_the_demand_curve/",
+      "date": "2026-04-12",
+      "collected_at": "2026-04-13T16:00:14.500474+09:00",
+      "reddit_score": 3740
+    },
+    {
+      "id": "99d53a38fb9e",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 10, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 10, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 10, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-10",
+      "collected_at": "2026-04-13T16:00:12.651464+09:00"
+    },
+    {
       "id": "12aabe92ec5e",
       "title": "Claude used to push back, now it just agrees with everything",
       "summary_en": "When I first started using Claude, it was the only AI that would tell me no, that would actually argue against me. It felt more objective. I don’t kno...",
@@ -564,6 +1062,23 @@
       "reddit_score": 1934
     },
     {
+      "id": "cbcdb37c6247",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 8, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 8, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 8, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-08",
+      "collected_at": "2026-04-14T09:05:04.687455+09:00"
+    },
+    {
       "id": "889c5fa379ff",
       "title": "How to save 80% on your claude bill with better context",
       "summary_en": "been building web apps with claude lately and those token limits have honestly started hitting me too. i’m using claude 4.6 sonnet for a research tool...",
@@ -847,6 +1362,23 @@
       "date": "2026-04-08",
       "collected_at": "2026-04-08T09:05:09.744815+09:00",
       "reddit_score": 1133
+    },
+    {
+      "id": "69095c45aa71",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 7, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 7, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 7, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-07",
+      "collected_at": "2026-04-13T16:00:12.652465+09:00"
     },
     {
       "id": "7d0968673706",
@@ -3701,17 +4233,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-10T16:00:40.561177+09:00",
+  "last_updated": "2026-04-14T09:05:29.137209+09:00",
   "stats": {
-    "total_items": 198,
+    "total_items": 226,
     "categories": {
-      "ai_trend": 81,
-      "claude_code": 73,
-      "claude_release": 33,
-      "automation": 5,
+      "automation": 6,
+      "ai_trend": 101,
+      "claude_release": 35,
+      "claude_code": 78,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-10 16:00"
+    "last_collection": "2026-04-14 09:05"
   }
 }
