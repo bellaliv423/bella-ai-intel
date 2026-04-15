@@ -1,6 +1,236 @@
 {
   "items": [
     {
+      "id": "d908c284c549",
+      "title": "I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code)",
+      "summary_en": "Inspired by Karpathy's autoresearch idea — an LLM runs training experiments autonomously to beat its own best score — but applied to code instead of M...",
+      "summary_ko": "Inspired by Karpathy's autoresearch idea — an LLM runs training experiments autonomously to beat its own best score — but applied to code instead of M...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Plugin",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1slft9w/i_built_a_claude_code_plugin_that_optimizes_your/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.350835+09:00",
+      "reddit_score": 45
+    },
+    {
+      "id": "9e264630fd25",
+      "title": "I made my first earning from a vibe coded app using Claude Code",
+      "summary_en": "I recently launched an app called [Color Vibes](https://apps.apple.com/us/app/color-vibes-ai-coloring-book/id6759094325), an AI-powered coloring book ...",
+      "summary_ko": "I recently launched an app called [Color Vibes](https://apps.apple.com/us/app/color-vibes-ai-coloring-book/id6759094325), an AI-powered coloring book ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1slczgg/i_made_my_first_earning_from_a_vibe_coded_app/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.350835+09:00",
+      "reddit_score": 73
+    },
+    {
+      "id": "db1289c9a880",
+      "title": "Now in research preview: routines in Claude Code",
+      "summary_en": "Configure a routine once (a prompt, a repo, and your connectors) and it can run on a schedule, from an API call, or in response to a GitHub webhook. R...",
+      "summary_ko": "Configure a routine once (a prompt, a repo, and your connectors) and it can run on a schedule, from an API call, or in response to a GitHub webhook. R...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sle6tg/now_in_research_preview_routines_in_claude_code/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.350835+09:00",
+      "reddit_score": 74
+    },
+    {
+      "id": "82bf48cf35b7",
+      "title": "Thought it would land like a wholesome bonker",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sllo62/thought_it_would_land_like_a_wholesome_bonker/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.349835+09:00",
+      "reddit_score": 35
+    },
+    {
+      "id": "f17cfb5a9707",
+      "title": "Gigachad Claude refused to write a bit of code so i could learn.",
+      "summary_en": "I actually asked him at the start of the project not to produce code unless i ask it, just the core architecture of a project which needs gravity simu...",
+      "summary_ko": "I actually asked him at the start of the project not to produce code unless i ask it, just the core architecture of a project which needs gravity simu...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sljajz/gigachad_claude_refused_to_write_a_bit_of_code_so/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.348834+09:00",
+      "reddit_score": 98
+    },
+    {
+      "id": "803806974a35",
+      "title": "Claude, what was that fake-out with June?",
+      "summary_en": "Im glad it got the right answer but that fake-out was unexpected.",
+      "summary_ko": "Im glad it got the right answer but that fake-out was unexpected.",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.348834+09:00",
+      "reddit_score": 415
+    },
+    {
+      "id": "7a3451d2da25",
+      "title": "The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T09:05:23.348834+09:00",
+      "reddit_score": 343
+    },
+    {
+      "id": "6dfbe8213e7a",
+      "title": "When, if ever, will open-source match the capability of Claude Opus 4.5?",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sl3ew6/when_if_ever_will_opensource_match_the_capability/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-15T09:05:23.351834+09:00",
+      "reddit_score": 149
+    },
+    {
+      "id": "82ba9d98a2a2",
+      "title": "I just used Caveman and it reduced generation time from 1 hour to 10 min on a complex benchmark. 50% less token spent.",
+      "summary_en": "A friend just told me about [Caveman](https://github.com/JuliusBrussee/caveman/blob/main/README.md) project, and I gave it a try on [this](https://dar...",
+      "summary_ko": "A friend just told me about [Caveman](https://github.com/JuliusBrussee/caveman/blob/main/README.md) project, and I gave it a try on [this](https://dar...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sl967a/i_just_used_caveman_and_it_reduced_generation/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-15T09:05:23.350835+09:00",
+      "reddit_score": 68
+    },
+    {
+      "id": "9e2bd7ac5776",
+      "title": "Claude's reaction to the recent meme.",
+      "summary_en": "I had to get Claude's opinion. was not disappointed",
+      "summary_ko": "I had to get Claude's opinion. was not disappointed",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-15T09:05:23.348834+09:00",
+      "reddit_score": 487
+    },
+    {
+      "id": "e36850d7340f",
+      "title": "Just say the word…",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-15T09:05:23.348834+09:00",
+      "reddit_score": 3163
+    },
+    {
+      "id": "9e6d18f3e4e4",
+      "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-15T09:05:21.731287+09:00"
+    },
+    {
       "id": "e329ff2e8d39",
       "title": "Claude diagnosed me when my doctor wouldn’t",
       "summary_en": "I’ve got to give a shout out to Claude/anthropic because I was feeling weird the other day and had a strange pain unlike anything else I’ve ever felt ...",
@@ -861,6 +1091,23 @@
       "date": "2026-04-10",
       "collected_at": "2026-04-10T09:05:09.594939+09:00",
       "reddit_score": 214
+    },
+    {
+      "id": "abe598d0a984",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 9, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 9, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 9, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-09",
+      "collected_at": "2026-04-15T09:05:22.193913+09:00"
     },
     {
       "id": "bf74f9f3c929",
@@ -4326,17 +4573,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-14T16:00:41.110196+09:00",
+  "last_updated": "2026-04-15T09:10:09.202056+09:00",
   "stats": {
-    "total_items": 231,
+    "total_items": 244,
     "categories": {
-      "ai_trend": 102,
-      "claude_code": 82,
+      "claude_code": 86,
+      "ai_trend": 111,
       "automation": 6,
       "claude_release": 35,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-14 16:00"
+    "last_collection": "2026-04-15 09:10"
   }
 }

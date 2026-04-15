@@ -1,6 +1,50 @@
 {
   "features": [
     {
+      "news_title": "Now in research preview: routines in Claude Code",
+      "news_date": "2026-04-15",
+      "news_category": "claude_code",
+      "project_id": "instagram_automation",
+      "project_name_ko": "인스타 자동화",
+      "project_name_zh": "Instagram 自動化",
+      "matched_keywords": [
+        "schedule"
+      ],
+      "difficulty": 2,
+      "difficulty_stars": "⭐⭐",
+      "difficulty_ko": "보통",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Now in research preview: routines in Claude Code' → 인스타 자동화 코드 품질 향상에 활용 가능!",
+      "suggestion_zh": "'Now in research preview: routines in Claude Code' → 可應用於 Instagram 自動化",
+      "learning_note_ko": "💡 Now in research preview: routines in Claude Code\n   → Configure a routine once (a prompt, a repo, and your connectors) and it can run ...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Now in research preview: routines in Claude Code\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
+      "difficulty_zh": "中等",
+      "score": 1
+    },
+    {
+      "news_title": "The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week",
+      "news_date": "2026-04-15",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "form"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week\n   → \n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "Claude Code + Obsidian?",
       "news_date": "2026-04-14",
       "news_category": "claude_code",
@@ -19,50 +63,6 @@
       "suggestion_zh": "'Claude Code + Obsidian?' → 可應用於 Instagram 自動化",
       "learning_note_ko": "💡 Claude Code + Obsidian?\n   → Been seeing some posts recently of people hyping up obsidian saying to pair it w...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
       "learning_note_zh": "💡 Claude Code + Obsidian?\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
-    },
-    {
-      "news_title": "Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z",
-      "news_date": "2026-04-14",
-      "news_category": "claude_release",
-      "project_id": "instagram_automation",
-      "project_name_ko": "인스타 자동화",
-      "project_name_zh": "Instagram 自動化",
-      "matched_keywords": [
-        "post"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z' → 인스타 자동화 워크플로우 개선에 적용 가능!",
-      "suggestion_zh": "'Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z' → 可應用於 Instagram 自動化",
-      "learning_note_ko": "💡 Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z\n   → This is an automatic post triggered within 2 minutes of an official Claude syste...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
-    },
-    {
-      "news_title": "follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.",
-      "news_date": "2026-04-13",
-      "news_category": "ai_trend",
-      "project_id": "instagram_automation",
-      "project_name_ko": "인스타 자동화",
-      "project_name_zh": "Instagram 自動化",
-      "matched_keywords": [
-        "post"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.' → 인스타 자동화 전략 참고 + 콘텐츠 소재 활용!",
-      "suggestion_zh": "'follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.' → 可應用於 Instagram 自動化",
-      "learning_note_ko": "💡 follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.\n   → last week's [token insights post](https://www.reddit.com/r/ClaudeCode/comments/1...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 1
     }
@@ -107,48 +107,47 @@
   ],
   "content": [
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude diagnosed me when my doctor wouldn’t' 핵심 정리 카드",
-      "title_zh": "'Claude diagnosed me when my doctor wouldn’t' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude diagnosed me when my doctor wouldn’t 설명 + 실전 활용법 5장 캐러셀",
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code)' 실습 세션",
+      "title_zh": "'I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code)' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 체험 + Q&A",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
+        "#ClaudeCode",
+        "#Plugin",
+        "#코딩자동화",
+        "#AI세미나",
+        "#실습"
       ],
-      "news_date": "2026-04-14"
+      "news_date": "2026-04-15"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude diagnosed me when my doctor wouldn’t 총정리",
-      "title_zh": "2026年 2026-04 Claude diagnosed me when my doctor wouldn’t 總整理",
-      "description_ko": "Claude diagnosed me when my doctor wouldn’t 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 총정리",
+      "title_zh": "2026年 2026-04 I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 總整理",
+      "description_ko": "I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
+        "#ClaudeCode",
+        "#Plugin",
+        "#코딩자동화",
         "#Reddit",
-        "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-14"
+      "news_date": "2026-04-15"
     },
     {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Claude has just fixed over-usage of their compute' 실습 세션",
-      "title_zh": "'Claude has just fixed over-usage of their compute' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude has just fixed over-usage of their compute 체험 + Q&A",
+      "title_ko": "'I made my first earning from a vibe coded app using Claude Code' 실습 세션",
+      "title_zh": "'I made my first earning from a vibe coded app using Claude Code' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I made my first earning from a vibe coded app using Claude Code 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -156,16 +155,16 @@
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-14"
+      "news_date": "2026-04-15"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude has just fixed over-usage of their compute 총정리",
-      "title_zh": "2026年 2026-04 Claude has just fixed over-usage of their compute 總整理",
-      "description_ko": "Claude has just fixed over-usage of their compute 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 I made my first earning from a vibe coded app using Claude Code 총정리",
+      "title_zh": "2026年 2026-04 I made my first earning from a vibe coded app using Claude Code 總整理",
+      "description_ko": "I made my first earning from a vibe coded app using Claude Code 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -173,16 +172,16 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-14"
+      "news_date": "2026-04-15"
     },
     {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Claude Code + Obsidian?' 실습 세션",
-      "title_zh": "'Claude Code + Obsidian?' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude Code + Obsidian? 체험 + Q&A",
+      "title_ko": "'Now in research preview: routines in Claude Code' 실습 세션",
+      "title_zh": "'Now in research preview: routines in Claude Code' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Now in research preview: routines in Claude Code 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -190,10 +189,10 @@
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-14"
+      "news_date": "2026-04-15"
     }
   ],
-  "last_analyzed": "2026-04-14T16:00:42.615942+09:00",
-  "analyzed_date": "2026-04-14",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-04-15T09:10:14.010363+09:00",
+  "analyzed_date": "2026-04-15",
+  "analyzed_time": "09:10 KST"
 }
