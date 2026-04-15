@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "id": "b4528cea60d6",
+      "title": "i think ive been working claude to hard",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1slhxn4/i_think_ive_been_working_claude_to_hard/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T16:00:16.022708+09:00",
+      "reddit_score": 36
+    },
+    {
+      "id": "6c3671e93ae4",
+      "title": "Honestly don’t understand why Chat and Cowork need to be separate products.",
+      "summary_en": "So i use the desktop app frequently. Even for Claude Code. \n\nFrom my understanding, Cowork is basically Chat- few differences being parallel subagents...",
+      "summary_ko": "So i use the desktop app frequently. Even for Claude Code. \n\nFrom my understanding, Cowork is basically Chat- few differences being parallel subagents...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#Cowork",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sltv5n/honestly_dont_understand_why_chat_and_cowork_need/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T16:00:16.021703+09:00",
+      "reddit_score": 17
+    },
+    {
+      "id": "ce13ea551bad",
+      "title": "I made Claude Code more enjoyable: everytime you prompt, you create a beautiful forest in your terminal!",
+      "summary_en": "hey guys!\n\nI built a cool little tool called [honeytree](https://www.tryhoney.xyz/): every time you prompt on claude code, it creates a pixelated fore...",
+      "summary_ko": "hey guys!\n\nI built a cool little tool called [honeytree](https://www.tryhoney.xyz/): every time you prompt on claude code, it creates a pixelated fore...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1slsrkz/i_made_claude_code_more_enjoyable_everytime_you/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-15T16:00:16.021703+09:00",
+      "reddit_score": 23
+    },
+    {
       "id": "d908c284c549",
       "title": "I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code)",
       "summary_en": "Inspired by Karpathy's autoresearch idea — an LLM runs training experiments autonomously to beat its own best score — but applied to code instead of M...",
@@ -4573,17 +4632,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-15T09:10:09.202056+09:00",
+  "last_updated": "2026-04-15T16:05:45.820316+09:00",
   "stats": {
-    "total_items": 244,
+    "total_items": 247,
     "categories": {
-      "claude_code": 86,
-      "ai_trend": 111,
+      "ai_trend": 112,
+      "claude_code": 88,
       "automation": 6,
       "claude_release": 35,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-15 09:10"
+    "last_collection": "2026-04-15 16:05"
   }
 }

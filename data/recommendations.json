@@ -107,19 +107,20 @@
   ],
   "content": [
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code)' 실습 세션",
-      "title_zh": "'I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code)' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'i think ive been working claude to hard' 핵심 정리 카드",
+      "title_zh": "'i think ive been working claude to hard' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 i think ive been working claude to hard 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#Plugin",
-        "#코딩자동화",
-        "#AI세미나",
-        "#실습"
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
       "news_date": "2026-04-15"
     },
@@ -128,46 +129,12 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 총정리",
-      "title_zh": "2026年 2026-04 I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 總整理",
-      "description_ko": "I built a Claude Code plugin that optimizes your codebase through experiments (autoresearch for code) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 i think ive been working claude to hard 총정리",
+      "title_zh": "2026年 2026-04 i think ive been working claude to hard 總整理",
+      "description_ko": "i think ive been working claude to hard 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#ClaudeCode",
-        "#Plugin",
-        "#코딩자동화",
-        "#Reddit",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-15"
-    },
-    {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'I made my first earning from a vibe coded app using Claude Code' 실습 세션",
-      "title_zh": "'I made my first earning from a vibe coded app using Claude Code' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I made my first earning from a vibe coded app using Claude Code 체험 + Q&A",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#AI세미나",
-        "#실습"
-      ],
-      "news_date": "2026-04-15"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I made my first earning from a vibe coded app using Claude Code 총정리",
-      "title_zh": "2026年 2026-04 I made my first earning from a vibe coded app using Claude Code 總整理",
-      "description_ko": "I made my first earning from a vibe coded app using Claude Code 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
         "#ClaudeAI",
         "#AI블로그"
@@ -179,9 +146,43 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Now in research preview: routines in Claude Code' 실습 세션",
-      "title_zh": "'Now in research preview: routines in Claude Code' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Now in research preview: routines in Claude Code 체험 + Q&A",
+      "title_ko": "'Honestly don’t understand why Chat and Cowork need to be separate products.' 실습 세션",
+      "title_zh": "'Honestly don’t understand why Chat and Cowork need to be separate products.' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Honestly don’t understand why Chat and Cowork need to be separate products. 체험 + Q&A",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#Cowork",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-04-15"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 Honestly don’t understand why Chat and Cowork need to be separate products. 총정리",
+      "title_zh": "2026年 2026-04 Honestly don’t understand why Chat and Cowork need to be separate products. 總整理",
+      "description_ko": "Honestly don’t understand why Chat and Cowork need to be separate products. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#Cowork",
+        "#코딩자동화",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-15"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'I made Claude Code more enjoyable: everytime you prompt, you create a beautiful forest in your terminal!' 실습 세션",
+      "title_zh": "'I made Claude Code more enjoyable: everytime you prompt, you create a beautiful forest in your terminal!' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I made Claude Code more enjoyable: everytime you prompt, you create a beautiful forest in your terminal! 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -192,7 +193,7 @@
       "news_date": "2026-04-15"
     }
   ],
-  "last_analyzed": "2026-04-15T09:10:14.010363+09:00",
+  "last_analyzed": "2026-04-15T16:05:47.475717+09:00",
   "analyzed_date": "2026-04-15",
-  "analyzed_time": "09:10 KST"
+  "analyzed_time": "16:05 KST"
 }
