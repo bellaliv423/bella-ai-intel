@@ -24,6 +24,28 @@
       "score": 2
     },
     {
+      "news_title": "Opus 4.7 spotted on Google Vertex",
+      "news_date": "2026-04-16",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "google"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Opus 4.7 spotted on Google Vertex' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'Opus 4.7 spotted on Google Vertex' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 Opus 4.7 spotted on Google Vertex\n   → Credit to this guy for finding it first.\n\nhttps://x.com/i/status/204460598286156...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Opus 4.7 spotted on Google Vertex\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 1
+    },
+    {
       "news_title": "Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z",
       "news_date": "2026-04-16",
       "news_category": "claude_code",
@@ -43,28 +65,6 @@
       "learning_note_ko": "💡 Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z\n   → This is an automatic post triggered within 2 minutes of an official Claude syste...\n   → 벨라님 프로젝트 '인스타 자동화'에 적용하면 효율 UP!",
       "learning_note_zh": "💡 Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z\n   → \n   → 應用到 Bella 的專案「Instagram 自動化」可提升效率！",
       "difficulty_zh": "中等",
-      "score": 1
-    },
-    {
-      "news_title": "Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)",
-      "news_date": "2026-04-16",
-      "news_category": "ai_trend",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "web"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "높음 🔥",
-      "impact_zh": "高 🔥",
-      "suggestion_ko": "'Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
-      "suggestion_zh": "'Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)\n   → i'm building agents for procurement &amp; one thread has been to let claude syst...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
       "score": 1
     }
   ],
@@ -112,9 +112,9 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z' 실습 세션",
-      "title_zh": "'Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z 체험 + Q&A",
+      "title_ko": "'Why don’t they just use Mythos to fix all the bugs in Claude Code?' 실습 세션",
+      "title_zh": "'Why don’t they just use Mythos to fix all the bugs in Claude Code?' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Why don’t they just use Mythos to fix all the bugs in Claude Code? 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -129,9 +129,9 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z 총정리",
-      "title_zh": "2026年 2026-04 Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z 總整理",
-      "description_ko": "Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Why don’t they just use Mythos to fix all the bugs in Claude Code? 총정리",
+      "title_zh": "2026年 2026-04 Why don’t they just use Mythos to fix all the bugs in Claude Code? 總整理",
+      "description_ko": "Why don’t they just use Mythos to fix all the bugs in Claude Code? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -146,11 +146,10 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)' 핵심 정리 카드",
-      "title_zh": "'Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss) 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Why does Claude keep telling me to sleep?' 핵심 정리 카드",
+      "title_zh": "'Why does Claude keep telling me to sleep?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Why does Claude keep telling me to sleep? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#AIAgent",
         "#AI트렌드",
         "#생성형AI",
         "#Reddit",
@@ -165,14 +164,14 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss) 총정리",
-      "title_zh": "2026年 2026-04 Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss) 總整理",
-      "description_ko": "Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Why does Claude keep telling me to sleep? 총정리",
+      "title_zh": "2026年 2026-04 Why does Claude keep telling me to sleep? 總整理",
+      "description_ko": "Why does Claude keep telling me to sleep? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#AIAgent",
         "#AI트렌드",
         "#생성형AI",
         "#Reddit",
+        "#ClaudeAI",
         "#AI블로그"
       ],
       "news_date": "2026-04-16"
@@ -182,10 +181,11 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Wondering why code quality fell off the cliff, then found this in CLAUDE.md.' 핵심 정리 카드",
-      "title_zh": "'Wondering why code quality fell off the cliff, then found this in CLAUDE.md.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Wondering why code quality fell off the cliff, then found this in CLAUDE.md. 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Read through Anthropic's 2026 agentic coding report, a few numbers that stuck with me' 핵심 정리 카드",
+      "title_zh": "'Read through Anthropic's 2026 agentic coding report, a few numbers that stuck with me' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Read through Anthropic's 2026 agentic coding report, a few numbers that stuck with me 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
+        "#AIAgent",
         "#AI트렌드",
         "#생성형AI",
         "#Reddit",
@@ -196,7 +196,7 @@
       "news_date": "2026-04-16"
     }
   ],
-  "last_analyzed": "2026-04-16T09:05:36.737795+09:00",
+  "last_analyzed": "2026-04-16T16:00:37.759934+09:00",
   "analyzed_date": "2026-04-16",
-  "analyzed_time": "09:05 KST"
+  "analyzed_time": "16:00 KST"
 }

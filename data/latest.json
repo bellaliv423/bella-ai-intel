@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "4f83105b42e1",
+      "title": "Why don’t they just use Mythos to fix all the bugs in Claude Code?",
+      "summary_en": "If it’s as good as they say it should be able to do it super easily. Have they just not thought about that?\n\n[](https://www.reddit.com/submit/?source_...",
+      "summary_ko": "If it’s as good as they say it should be able to do it super easily. Have they just not thought about that?\n\n[](https://www.reddit.com/submit/?source_...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smkgoz/why_dont_they_just_use_mythos_to_fix_all_the_bugs/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T16:00:12.933091+09:00",
+      "reddit_score": 87
+    },
+    {
+      "id": "fc55fb5807ed",
+      "title": "Why does Claude keep telling me to sleep?",
+      "summary_en": "It keeps ending messages with \"Now sleep\", \"Get some rest\", \"Go to bed\", \"Finish this then sleep\", and if I kept going it will say \"Sleep. For real th...",
+      "summary_ko": "It keeps ending messages with \"Now sleep\", \"Get some rest\", \"Go to bed\", \"Finish this then sleep\", and if I kept going it will say \"Sleep. For real th...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smtoh1/why_does_claude_keep_telling_me_to_sleep/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T16:00:12.932091+09:00",
+      "reddit_score": 26
+    },
+    {
+      "id": "158ec0c87731",
+      "title": "Read through Anthropic's 2026 agentic coding report, a few numbers that stuck with me",
+      "summary_en": "Anthropic put out an 18-page report on agentic coding trends. Skimmed it expecting the usual hype but a few things actually caught me off guard\n\nThe b...",
+      "summary_ko": "Anthropic put out an 18-page report on agentic coding trends. Skimmed it expecting the usual hype but a few things actually caught me off guard\n\nThe b...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smuabd/read_through_anthropics_2026_agentic_coding/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T16:00:12.932091+09:00",
+      "reddit_score": 29
+    },
+    {
+      "id": "614409ca7ea7",
+      "title": "Opus 4.7 spotted on Google Vertex",
+      "summary_en": "Credit to this guy for finding it first.\n\nhttps://x.com/i/status/2044605982861566463",
+      "summary_ko": "Credit to this guy for finding it first.\n\nhttps://x.com/i/status/2044605982861566463",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#VertexAI",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smrnk5/opus_47_spotted_on_google_vertex/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T16:00:12.932091+09:00",
+      "reddit_score": 109
+    },
+    {
+      "id": "9302d0217b17",
+      "title": "Claude is about to begin its KYC verification process.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smr9vs/claude_is_about_to_begin_its_kyc_verification/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T16:00:12.932091+09:00",
+      "reddit_score": 382
+    },
+    {
       "id": "bf2ff53fae1e",
       "title": "Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z",
       "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
@@ -4917,17 +5015,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-16T09:05:35.156689+09:00",
+  "last_updated": "2026-04-16T16:00:36.052530+09:00",
   "stats": {
-    "total_items": 262,
+    "total_items": 267,
     "categories": {
-      "claude_code": 95,
-      "ai_trend": 120,
+      "claude_code": 96,
+      "ai_trend": 124,
       "automation": 6,
       "claude_release": 35,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-16 09:05"
+    "last_collection": "2026-04-16 16:00"
   }
 }
