@@ -1,6 +1,274 @@
 {
   "items": [
     {
+      "id": "bf2ff53fae1e",
+      "title": "Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T15:03:39.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm8rh2/claude_status_update_elevated_errors_on_claudeai/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.662195+09:00",
+      "reddit_score": 68
+    },
+    {
+      "id": "3548738b55f2",
+      "title": "Claude + Playwright to teardown websites and unearth dark pattern trackers &amp; feature flags (oss)",
+      "summary_en": "i'm building agents for procurement &amp; one thread has been to let claude systematically deconstruct a website so agents can navigate them.\n\nbut as ...",
+      "summary_ko": "i'm building agents for procurement &amp; one thread has been to let claude systematically deconstruct a website so agents can navigate them.\n\nbut as ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smb8kj/claude_playwright_to_teardown_websites_and/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.661194+09:00",
+      "reddit_score": 65
+    },
+    {
+      "id": "661cd6ef4f3f",
+      "title": "Wondering why code quality fell off the cliff, then found this in CLAUDE.md.",
+      "summary_en": "Ofc, claude found it too .. while trying to figure out why all code was now horrible. Single character typo eating all my tokens. ",
+      "summary_ko": "Ofc, claude found it too .. while trying to figure out why all code was now horrible. Single character typo eating all my tokens. ",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smkde5/wondering_why_code_quality_fell_off_the_cliff/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.661194+09:00",
+      "reddit_score": 26
+    },
+    {
+      "id": "21366352f8c8",
+      "title": "Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T16:29:45.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smb5uf/claude_status_update_elevated_errors_on_claudeai/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.661194+09:00",
+      "reddit_score": 79
+    },
+    {
+      "id": "2c2aac3f6b63",
+      "title": "The cost of code use to be a middleware for our brains.",
+      "summary_en": "I'm an engineer at a large telecom. I've bene all-in on agentic coding and have been tuning and tweaking my setup for at least 2 years now. In AI year...",
+      "summary_ko": "I'm an engineer at a large telecom. I've bene all-in on agentic coding and have been tuning and tweaking my setup for at least 2 years now. In AI year...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smjbvq/the_cost_of_code_use_to_be_a_middleware_for_our/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.660193+09:00",
+      "reddit_score": 60
+    },
+    {
+      "id": "749f5afcf8e0",
+      "title": "Claude Cowork found me a flat to rent in London in just 5 days",
+      "summary_en": "Twice a day, Claude Cowork searched SpareRoom, OpenRent, Rightmove and Zoopla, filtered out student flats and 3+ bed houses, wrote personalised outrea...",
+      "summary_ko": "Twice a day, Claude Cowork searched SpareRoom, OpenRent, Rightmove and Zoopla, filtered out student flats and 3+ bed houses, wrote personalised outrea...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Cowork",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smay7l/claude_cowork_found_me_a_flat_to_rent_in_london/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.659195+09:00",
+      "reddit_score": 198
+    },
+    {
+      "id": "7e3236aad826",
+      "title": "Are we gonna look back on Mythos like this in a few years?",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smgz06/are_we_gonna_look_back_on_mythos_like_this_in_a/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.654194+09:00",
+      "reddit_score": 445
+    },
+    {
+      "id": "6d4197a39522",
+      "title": "Me when Claude already wrote like 3k lines of code and I notice an error on my prompt",
+      "summary_en": "Me when Claude already wrote like 3k lines of code and I notice an error on my prompt",
+      "summary_ko": "Me when Claude already wrote like 3k lines of code and I notice an error on my prompt",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-16T09:05:08.653193+09:00",
+      "reddit_score": 2237
+    },
+    {
+      "id": "3cedf15429b3",
+      "title": "Claude Status Update : Elevated errors on Claude.ai, API, Claude Code on 2026-04-15T14:53:02.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Elevated errors on Claude.ai, API, Claude...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm8f5y/claude_status_update_elevated_errors_on_claudeai/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-16T09:05:08.660193+09:00",
+      "reddit_score": 157
+    },
+    {
+      "id": "204fede5bbc1",
+      "title": "I built a Claude Code plugin that extracts any website's full design system",
+      "summary_en": "Just type `/extract-design` [`https://stripe.com`](https://stripe.com) in Claude Code and it pulls the entire design language — colors, fonts, spacing...",
+      "summary_ko": "Just type `/extract-design` [`https://stripe.com`](https://stripe.com) in Claude Code and it pulls the entire design language — colors, fonts, spacing...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Plugin",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm23sp/i_built_a_claude_code_plugin_that_extracts_any/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-16T09:05:08.660193+09:00",
+      "reddit_score": 403
+    },
+    {
+      "id": "95a5109282dc",
+      "title": "Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it",
+      "summary_en": "https://preview.redd.it/u1u8hwhhjcvg1.png?width=1638&amp;format=png&amp;auto=webp&amp;s=c70e6aa7b9a738e0b6d6e64790ee31319cb4989b\n\nPLEASE NOTE:  \n\\- I ...",
+      "summary_ko": "https://preview.redd.it/u1u8hwhhjcvg1.png?width=1638&amp;format=png&amp;auto=webp&amp;s=c70e6aa7b9a738e0b6d6e64790ee31319cb4989b\n\nPLEASE NOTE:  \n\\- I ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm4kto/built_an_antivibecoding_tool_for_claude_code/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-16T09:05:08.658194+09:00",
+      "reddit_score": 455
+    },
+    {
+      "id": "18e2abd2695f",
+      "title": "All Claude subs",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm2yom/all_claude_subs/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-16T09:05:08.656195+09:00",
+      "reddit_score": 700
+    },
+    {
+      "id": "9db82eff175a",
+      "title": "Claude had enough of this user",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-16T09:05:08.653193+09:00",
+      "reddit_score": 2473
+    },
+    {
+      "id": "4d345e177097",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 15, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 15, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 15, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-15",
+      "collected_at": "2026-04-16T09:05:07.181554+09:00"
+    },
+    {
       "id": "b4528cea60d6",
       "title": "i think ive been working claude to hard",
       "summary_en": "",
@@ -534,6 +802,23 @@
       "date": "2026-04-14",
       "collected_at": "2026-04-14T09:05:05.969708+09:00",
       "reddit_score": 556
+    },
+    {
+      "id": "e8d8db46efc8",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 13, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 13, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 13, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-13",
+      "collected_at": "2026-04-16T09:05:07.182555+09:00"
     },
     {
       "id": "b9eeb9bd5a76",
@@ -4632,17 +4917,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-15T16:05:45.820316+09:00",
+  "last_updated": "2026-04-16T09:05:35.156689+09:00",
   "stats": {
-    "total_items": 247,
+    "total_items": 262,
     "categories": {
-      "ai_trend": 112,
-      "claude_code": 88,
+      "claude_code": 95,
+      "ai_trend": 120,
       "automation": 6,
       "claude_release": 35,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-15 16:05"
+    "last_collection": "2026-04-16 09:05"
   }
 }
