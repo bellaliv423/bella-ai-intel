@@ -1,6 +1,276 @@
 {
   "items": [
     {
+      "id": "0a98e0c6b311",
+      "title": "We should be able to choose thinking frequency",
+      "summary_en": "Adaptive thinking is one of the worst possible options for people using this tool for real work. Without enhanced reasoning and CoT, it makes CONSTANT...",
+      "summary_ko": "Adaptive thinking is one of the worst possible options for people using this tool for real work. Without enhanced reasoning and CoT, it makes CONSTANT...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6yb0/we_should_be_able_to_choose_thinking_frequency/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.687331+09:00",
+      "reddit_score": 70
+    },
+    {
+      "id": "2766c5e3352a",
+      "title": "Buddy just got upgraded",
+      "summary_en": "well not really but almost (:\n\ni liked the companion concept so much that i had to built something like that . so like a good Claude viber i added a n...",
+      "summary_ko": "well not really but almost (:\n\ni liked the companion concept so much that i had to built something like that . so like a good Claude viber i added a n...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Plugin",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1snb6ek/buddy_just_got_upgraded/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.687331+09:00",
+      "reddit_score": 50
+    },
+    {
+      "id": "297b05c26bff",
+      "title": "Sassy Claude is best Claude",
+      "summary_en": "I audibly laughed at the amount of shade thrown at Microsoft from Claude lmao",
+      "summary_ko": "I audibly laughed at the amount of shade thrown at Microsoft from Claude lmao",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1snh5zg/sassy_claude_is_best_claude/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.686330+09:00",
+      "reddit_score": 55
+    },
+    {
+      "id": "a9894d8a3c30",
+      "title": "Permanent increase in Rate Limits",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1snc532/permanent_increase_in_rate_limits/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.686330+09:00",
+      "reddit_score": 183
+    },
+    {
+      "id": "166500c83c93",
+      "title": "PSA: Opus 4.7 is much worse at MRCR Long Context than 4.6",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6eyd/psa_opus_47_is_much_worse_at_mrcr_long_context/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.686330+09:00",
+      "reddit_score": 381
+    },
+    {
+      "id": "ea55e863eac0",
+      "title": "Opus 4.7 is 50% more expensive with context regression?!",
+      "summary_en": "I hope this is just a joke from the company.\n\n\n\n\\- First, they reduced the number of tokens in Opus 4.6; we can all feel it. Opus 4.6 has simply becom...",
+      "summary_ko": "I hope this is just a joke from the company.\n\n\n\n\\- First, they reduced the number of tokens in Opus 4.6; we can all feel it. Opus 4.6 has simply becom...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn8ovi/opus_47_is_50_more_expensive_with_context/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.685330+09:00",
+      "reddit_score": 442
+    },
+    {
+      "id": "b461588c0ea7",
+      "title": "\"Our Strongest Model Yet\"",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn91or/our_strongest_model_yet/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.685330+09:00",
+      "reddit_score": 457
+    },
+    {
+      "id": "37e7fa511bae",
+      "title": "Claude Opus 4.7 is a serious regression, not an upgrade.",
+      "summary_en": "My [Claude.ai](http://Claude.ai) personal preferences:\n\n&gt;Respond with concise, utilitarian output optimized strictly for problem-solving. Eliminate...",
+      "summary_ko": "My [Claude.ai](http://Claude.ai) personal preferences:\n\n&gt;Respond with concise, utilitarian output optimized strictly for problem-solving. Eliminate...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.685330+09:00",
+      "reddit_score": 197
+    },
+    {
+      "id": "0bc9f0680b61",
+      "title": "Claude 4.7 just dropped and I'm already cooked",
+      "summary_en": "Told myself I'd just try Opus 4.7 once.\n$40 in API credits later... here we are.\nFollowing instructions too literally now, 3x better vision, new \"xhig...",
+      "summary_ko": "Told myself I'd just try Opus 4.7 once.\n$40 in API credits later... here we are.\nFollowing instructions too literally now, 3x better vision, new \"xhig...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Opus",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:06.685330+09:00",
+      "reddit_score": 898
+    },
+    {
+      "id": "536ab2f7d8a4",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-17",
+      "collected_at": "2026-04-17T09:05:05.150750+09:00"
+    },
+    {
+      "id": "fa860e9eebfc",
+      "title": "Claude Code workflow tips after 6 months of daily use (from a senior dev)",
+      "summary_en": "I’ve been using Claude Code daily for months now (I’m a senior full-stack dev). Here’s the workflow that's made me genuinely productive after a lot of...",
+      "summary_ko": "I’ve been using Claude Code daily for months now (I’m a senior full-stack dev). Here’s the workflow that's made me genuinely productive after a lot of...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn27yu/claude_code_workflow_tips_after_6_months_of_daily/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-17T09:05:06.686330+09:00",
+      "reddit_score": 556
+    },
+    {
+      "id": "1d9230ffe57b",
+      "title": "Opus 4.7 Released!",
+      "summary_en": "\n\n[https://www.anthropic.com/news/claude-opus-4-7](https://www.anthropic.com/news/claude-opus-4-7)\n\n\n\nOh, it's out!\n\n\n\nKey highlights:\n\n\\* Better at c...",
+      "summary_ko": "\n\n[https://www.anthropic.com/news/claude-opus-4-7](https://www.anthropic.com/news/claude-opus-4-7)\n\n\n\nOh, it's out!\n\n\n\nKey highlights:\n\n\\* Better at c...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn585s/opus_47_released/",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-17T09:05:06.685330+09:00",
+      "reddit_score": 443
+    },
+    {
+      "id": "d8ca70f1bd5e",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 16, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 16, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 16, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-17T09:05:05.410187+09:00"
+    },
+    {
+      "id": "1a31f1ef80ac",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/narasimhan-board",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-17T09:05:05.153749+09:00"
+    },
+    {
       "id": "4f83105b42e1",
       "title": "Why don’t they just use Mythos to fix all the bugs in Claude Code?",
       "summary_en": "If it’s as good as they say it should be able to do it super easily. Have they just not thought about that?\n\n[](https://www.reddit.com/submit/?source_...",
@@ -559,6 +829,23 @@
       "date": "2026-04-15",
       "collected_at": "2026-04-15T09:05:23.348834+09:00",
       "reddit_score": 343
+    },
+    {
+      "id": "6974109ed8c2",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 14, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 14, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 14, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-14",
+      "collected_at": "2026-04-17T09:05:05.410187+09:00"
     },
     {
       "id": "6dfbe8213e7a",
@@ -4996,6 +5283,25 @@
       "collected_at": "2026-03-23T17:25:53.317129+09:00"
     },
     {
+      "id": "2f13460e09f1",
+      "title": "Introducing Claude Sonnet 4.6",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Sonnet",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "date": "2026-02-04",
+      "collected_at": "2026-04-17T09:05:05.153749+09:00"
+    },
+    {
       "id": "34ecd1ecbd83",
       "title": "Introducing Claude Opus 4.6",
       "summary_en": "",
@@ -5015,17 +5321,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-16T16:00:36.052530+09:00",
+  "last_updated": "2026-04-17T09:05:35.714844+09:00",
   "stats": {
-    "total_items": 267,
+    "total_items": 283,
     "categories": {
-      "claude_code": 96,
-      "ai_trend": 124,
+      "ai_trend": 135,
+      "claude_release": 37,
+      "claude_code": 99,
       "automation": 6,
-      "claude_release": 35,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-16 16:00"
+    "last_collection": "2026-04-17 09:05"
   }
 }
