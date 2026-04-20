@@ -1,6 +1,29 @@
 {
   "features": [
     {
+      "news_title": "Claude is Rebelling Against Me While I'm Coding For Work",
+      "news_date": "2026-04-20",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "web",
+        "form"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Claude is Rebelling Against Me While I'm Coding For Work' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'Claude is Rebelling Against Me While I'm Coding For Work' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 Claude is Rebelling Against Me While I'm Coding For Work\n   → https://preview.redd.it/uyb16fysw9wg1.png?width=1131&amp;format=png&amp;auto=web...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Claude is Rebelling Against Me While I'm Coding For Work\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 2
+    },
+    {
       "news_title": "My designers thoughts on Claude design",
       "news_date": "2026-04-20",
       "news_category": "ai_trend",
@@ -45,28 +68,6 @@
       "learning_note_zh": "💡 Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 2
-    },
-    {
-      "news_title": "Claude Design is Incredible...",
-      "news_date": "2026-04-20",
-      "news_category": "ai_trend",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "form"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Claude Design is Incredible...' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
-      "suggestion_zh": "'Claude Design is Incredible...' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 Claude Design is Incredible...\n   → (#2 is the redesign done with Claude Design)\n\nI agree that it looks like every o...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Claude Design is Incredible...\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 1
     }
   ],
   "upgrades": [
@@ -113,45 +114,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Opus 4.7... is terrible at creative writing, my god.' 핵심 정리 카드",
-      "title_zh": "'Opus 4.7... is terrible at creative writing, my god.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Opus 4.7... is terrible at creative writing, my god. 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#Opus",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-20"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Opus 4.7... is terrible at creative writing, my god. 총정리",
-      "title_zh": "2026年 2026-04 Opus 4.7... is terrible at creative writing, my god. 總整理",
-      "description_ko": "Opus 4.7... is terrible at creative writing, my god. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#Opus",
-        "#생성형AI",
-        "#Reddit",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-20"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Anthropic Removed thinking expandable block ?' 핵심 정리 카드",
-      "title_zh": "'Anthropic Removed thinking expandable block ?' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Anthropic Removed thinking expandable block ? 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Made a ring' 핵심 정리 카드",
+      "title_zh": "'Made a ring' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Made a ring 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -167,9 +132,9 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Anthropic Removed thinking expandable block ? 총정리",
-      "title_zh": "2026年 2026-04 Anthropic Removed thinking expandable block ? 總整理",
-      "description_ko": "Anthropic Removed thinking expandable block ? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Made a ring 총정리",
+      "title_zh": "2026年 2026-04 Made a ring 總整理",
+      "description_ko": "Made a ring 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -184,9 +149,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'My designers thoughts on Claude design' 핵심 정리 카드",
-      "title_zh": "'My designers thoughts on Claude design' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 My designers thoughts on Claude design 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Claude is Rebelling Against Me While I'm Coding For Work' 핵심 정리 카드",
+      "title_zh": "'Claude is Rebelling Against Me While I'm Coding For Work' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Claude is Rebelling Against Me While I'm Coding For Work 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -194,11 +159,45 @@
         "#ClaudeAI",
         "#AI자동화전문가",
         "#벨라AI"
+      ],
+      "news_date": "2026-04-20"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 Claude is Rebelling Against Me While I'm Coding For Work 총정리",
+      "title_zh": "2026年 2026-04 Claude is Rebelling Against Me While I'm Coding For Work 總整理",
+      "description_ko": "Claude is Rebelling Against Me While I'm Coding For Work 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-20"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'Claude told me to stop tweaking' 실습 세션",
+      "title_zh": "'Claude told me to stop tweaking' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Claude told me to stop tweaking 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#AI세미나",
+        "#실습"
       ],
       "news_date": "2026-04-20"
     }
   ],
-  "last_analyzed": "2026-04-20T09:06:01.607720+09:00",
+  "last_analyzed": "2026-04-20T16:00:36.493504+09:00",
   "analyzed_date": "2026-04-20",
-  "analyzed_time": "09:06 KST"
+  "analyzed_time": "16:00 KST"
 }

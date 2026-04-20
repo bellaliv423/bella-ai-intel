@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "ed621569662c",
+      "title": "Made a ring",
+      "summary_en": "It’s my hobby - making jewelry. So this weekend I made the Claude ring. Just sterling silver.",
+      "summary_ko": "It’s my hobby - making jewelry. So this weekend I made the Claude ring. Just sterling silver.",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqaof4/made_a_ring/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-20T16:00:11.702151+09:00",
+      "reddit_score": 31
+    },
+    {
+      "id": "6be17c3de14d",
+      "title": "Claude is Rebelling Against Me While I'm Coding For Work",
+      "summary_en": "https://preview.redd.it/uyb16fysw9wg1.png?width=1131&amp;format=png&amp;auto=webp&amp;s=3295fb1e2b08978deae466a86d57fe2ae09831e2\n\nHas this happened to...",
+      "summary_ko": "https://preview.redd.it/uyb16fysw9wg1.png?width=1131&amp;format=png&amp;auto=webp&amp;s=3295fb1e2b08978deae466a86d57fe2ae09831e2\n\nHas this happened to...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqf4qm/claude_is_rebelling_against_me_while_im_coding/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-20T16:00:11.701152+09:00",
+      "reddit_score": 38
+    },
+    {
+      "id": "45a7d4551368",
+      "title": "Claude told me to stop tweaking",
+      "summary_en": "Was using Claude Code to help me make a pitch deck. I gave it the slides I thought could be improved, and it told me to stop tweaking 😭\n\nHas this happ...",
+      "summary_ko": "Was using Claude Code to help me make a pitch deck. I gave it the slides I thought could be improved, and it told me to stop tweaking 😭\n\nHas this happ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqf59r/claude_told_me_to_stop_tweaking/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-20T16:00:11.701152+09:00",
+      "reddit_score": 49
+    },
+    {
       "id": "26f525247045",
       "title": "Opus 4.7... is terrible at creative writing, my god.",
       "summary_en": "Now I'm not here to talk about the ethics of creative writing being replaced by AI or whatever, I'm here to mostly discuss how much of a downgrade Opu...",
@@ -5642,17 +5699,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-20T09:06:00.019440+09:00",
+  "last_updated": "2026-04-20T16:00:35.455230+09:00",
   "stats": {
-    "total_items": 300,
+    "total_items": 303,
     "categories": {
-      "ai_trend": 148,
+      "ai_trend": 150,
+      "claude_code": 103,
       "claude_release": 38,
-      "claude_code": 102,
       "automation": 6,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-20 09:06"
+    "last_collection": "2026-04-20 16:00"
   }
 }
