@@ -1,6 +1,85 @@
 {
   "items": [
     {
+      "id": "3788f17708ee",
+      "title": "Claude Opus 4.7 feels weird",
+      "summary_en": "I have been a max user for a year now. Big fan of claude code and opus 4.6. I have built some very interesting projects internally for my company but ...",
+      "summary_ko": "I have been a max user for a year now. Big fan of claude code and opus 4.6. I have built some very interesting projects internally for my company but ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Opus",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sre49g/claude_opus_47_feels_weird/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T16:00:13.396565+09:00",
+      "reddit_score": 33
+    },
+    {
+      "id": "13419b34d6b2",
+      "title": "Guys, I think I solved the car wash question with Opus 4.7!",
+      "summary_en": "You just need 4 sub-agents to help out.",
+      "summary_ko": "You just need 4 sub-agents to help out.",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sr1qzz/guys_i_think_i_solved_the_car_wash_question_with/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T16:00:13.396565+09:00",
+      "reddit_score": 187
+    },
+    {
+      "id": "dbddc4161ced",
+      "title": "Make no mistakes!",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sre84i/make_no_mistakes/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T16:00:13.396565+09:00",
+      "reddit_score": 105
+    },
+    {
+      "id": "edc7f137ab14",
+      "title": "Amazon to invest up to $25 billion in Anthropic as part of $100 billion cloud deal",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sr8q0k/amazon_to_invest_up_to_25_billion_in_anthropic_as/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T16:00:13.396565+09:00",
+      "reddit_score": 772
+    },
+    {
       "id": "ef695eacbce8",
       "title": "No update needed",
       "summary_en": "",
@@ -6002,17 +6081,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-21T09:05:32.890924+09:00",
+  "last_updated": "2026-04-21T16:00:37.337103+09:00",
   "stats": {
-    "total_items": 319,
+    "total_items": 323,
     "categories": {
-      "ai_trend": 162,
-      "claude_code": 106,
+      "claude_code": 107,
+      "ai_trend": 165,
       "claude_release": 39,
       "automation": 6,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-21 09:05"
+    "last_collection": "2026-04-21 16:00"
   }
 }
