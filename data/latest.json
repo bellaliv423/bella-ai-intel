@@ -1,6 +1,292 @@
 {
   "items": [
     {
+      "id": "ef695eacbce8",
+      "title": "No update needed",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sr4uue/no_update_needed/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.533950+09:00",
+      "reddit_score": 27
+    },
+    {
+      "id": "f85ff12594ab",
+      "title": "Claude+Network made me a believer",
+      "summary_en": "I’m a network architect at a smaller publicly traded company. I have avoided AI as it is mostly geared towards general topics or software development....",
+      "summary_ko": "I’m a network architect at a smaller publicly traded company. I have avoided AI as it is mostly geared towards general topics or software development....",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqxaif/claudenetwork_made_me_a_believer/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.533950+09:00",
+      "reddit_score": 66
+    },
+    {
+      "id": "37ca3425d4d7",
+      "title": "I Gave Claude Its Own Radio Station — It Won't Stop Broadcasting (It's Fine)",
+      "summary_en": "I built a 24/7 AI radio station called WRIT-FM where Claude is the entire creative engine. Not a demo — it's been running continuously, generating all...",
+      "summary_ko": "I built a 24/7 AI radio station called WRIT-FM where Claude is the entire creative engine. Not a demo — it's been running continuously, generating all...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1squbo4/i_gave_claude_its_own_radio_station_it_wont_stop/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.533950+09:00",
+      "reddit_score": 110
+    },
+    {
+      "id": "291661028e79",
+      "title": "I Gave Opus 4.7 and 4.6 the Same Code Audit… The Results Surprised Me",
+      "summary_en": "i gave both opus 4.7 and opus 4.6 to do the same audit on 2 specific files in my program Both files have (1238 lines + 1117 lines)  \nthe audit asked t...",
+      "summary_ko": "i gave both opus 4.7 and opus 4.6 to do the same audit on 2 specific files in my program Both files have (1238 lines + 1117 lines)  \nthe audit asked t...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqy9by/i_gave_opus_47_and_46_the_same_code_audit_the/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.532949+09:00",
+      "reddit_score": 94
+    },
+    {
+      "id": "f12f9e81c125",
+      "title": "My relationship with Claude",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sr27jv/my_relationship_with_claude/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.532949+09:00",
+      "reddit_score": 95
+    },
+    {
+      "id": "989f55c7bf28",
+      "title": "The Opus 4.6 vs 4.7 Controversy in one image",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sr4gq2/the_opus_46_vs_47_controversy_in_one_image/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.532949+09:00",
+      "reddit_score": 80
+    },
+    {
+      "id": "3f6f6f174ede",
+      "title": "Claude Electrician 4.7 Part 2",
+      "summary_en": "**Me:** Claude Electrician, fix the wiring in my wall.\n\n&gt;*\\*Thinking\\**  \n*The wiring in the wall is clearly caused by the socket being hooked up w...",
+      "summary_ko": "**Me:** Claude Electrician, fix the wiring in my wall.\n\n&gt;*\\*Thinking\\**  \n*The wiring in the wall is clearly caused by the socket being hooked up w...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqyx82/claude_electrician_47_part_2/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.532949+09:00",
+      "reddit_score": 166
+    },
+    {
+      "id": "158b77d5a8f5",
+      "title": "Claude Design is Amazing! We're cooked!",
+      "summary_en": "I asked Claude Design to create an Operating System for me that wasn't AI-slop, and it came up with this on one shot! Incredible!",
+      "summary_ko": "I asked Claude Design to create an Operating System for me that wasn't AI-slop, and it came up with this on one shot! Incredible!",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1squwsy/claude_design_is_amazing_were_cooked/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.531948+09:00",
+      "reddit_score": 480
+    },
+    {
+      "id": "4773e540339f",
+      "title": "What two decades of data loss trauma does to a woman. (Claude Code)",
+      "summary_en": "I bought a Terramaster F4-425 Plus home NAS, along with a tiny 12V UPS. I used Claude Code on the NAS to analyze, reconstruct, and consolidate the cor...",
+      "summary_ko": "I bought a Terramaster F4-425 Plus home NAS, along with a tiny 12V UPS. I used Claude Code on the NAS to analyze, reconstruct, and consolidate the cor...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqv4g9/what_two_decades_of_data_loss_trauma_does_to_a/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:04.531948+09:00",
+      "reddit_score": 1003
+    },
+    {
+      "id": "18171b842867",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-21T09:05:03.099757+09:00"
+    },
+    {
+      "id": "bd7a7a64b5b5",
+      "title": "Opus 4.6 with 4.7 as an advisor mind be the best option for many of us!",
+      "summary_en": "Just wanted to share this, because I think this could interesting for some of you.\n\n From Anthropic‘s official docs:\n\n„When the executor hits a decisi...",
+      "summary_ko": "Just wanted to share this, because I think this could interesting for some of you.\n\n From Anthropic‘s official docs:\n\n„When the executor hits a decisi...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqm2uf/opus_46_with_47_as_an_advisor_mind_be_the_best/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-21T09:05:04.533950+09:00",
+      "reddit_score": 286
+    },
+    {
+      "id": "bf5204466cde",
+      "title": "I asked Claude Design to create a map of Middle East (quick \"dirty\" prompt, I have to admit). All the questions it asked right after were very interesting - I was like wow that's promising. Then I got the result.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqqhjo/i_asked_claude_design_to_create_a_map_of_middle/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-21T09:05:04.532949+09:00",
+      "reddit_score": 375
+    },
+    {
+      "id": "1dd15386095c",
+      "title": "Wow Claude...just wow...",
+      "summary_en": "https://preview.redd.it/o0yt3nkgbbwg1.png?width=1671&amp;format=png&amp;auto=webp&amp;s=4f62b0c43e6b79d16f17213aba907107c00a0c0f\n\n",
+      "summary_ko": "https://preview.redd.it/o0yt3nkgbbwg1.png?width=1671&amp;format=png&amp;auto=webp&amp;s=4f62b0c43e6b79d16f17213aba907107c00a0c0f\n\n",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqk4dz/wow_claudejust_wow/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-21T09:05:04.532949+09:00",
+      "reddit_score": 930
+    },
+    {
+      "id": "782c21d0ca23",
+      "title": "This cannot be real. I cannot believe my eyes",
+      "summary_en": "People can keep shitting on Dario, but when you see what they've achieved with each launch and you actually use it to produce something useful, you re...",
+      "summary_ko": "People can keep shitting on Dario, but when you see what they've achieved with each launch and you actually use it to produce something useful, you re...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqpb2f/this_cannot_be_real_i_cannot_believe_my_eyes/",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-21T09:05:04.531948+09:00",
+      "reddit_score": 1082
+    },
+    {
+      "id": "ea47d6cfc593",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 20, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 20, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 20, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-20",
+      "collected_at": "2026-04-21T09:05:03.411829+09:00"
+    },
+    {
       "id": "ed621569662c",
       "title": "Made a ring",
       "summary_en": "It’s my hobby - making jewelry. So this weekend I made the Claude ring. Just sterling silver.",
@@ -555,6 +841,23 @@
       "url": "https://www.anthropic.com/news/claude-opus-4-7",
       "date": "2026-04-17",
       "collected_at": "2026-04-17T09:05:05.150750+09:00"
+    },
+    {
+      "id": "9ce1ab68163f",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 16, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 16, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 16, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-16",
+      "collected_at": "2026-04-21T09:05:03.412830+09:00"
     },
     {
       "id": "fa860e9eebfc",
@@ -5699,17 +6002,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-20T16:00:35.455230+09:00",
+  "last_updated": "2026-04-21T09:05:32.890924+09:00",
   "stats": {
-    "total_items": 303,
+    "total_items": 319,
     "categories": {
-      "ai_trend": 150,
-      "claude_code": 103,
-      "claude_release": 38,
+      "ai_trend": 162,
+      "claude_code": 106,
+      "claude_release": 39,
       "automation": 6,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-20 16:00"
+    "last_collection": "2026-04-21 09:05"
   }
 }

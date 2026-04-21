@@ -1,6 +1,29 @@
 {
   "features": [
     {
+      "news_title": "Wow Claude...just wow...",
+      "news_date": "2026-04-20",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "web",
+        "form"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'Wow Claude...just wow...' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'Wow Claude...just wow...' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 Wow Claude...just wow...\n   → https://preview.redd.it/o0yt3nkgbbwg1.png?width=1671&amp;format=png&amp;auto=web...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Wow Claude...just wow...\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 2
+    },
+    {
       "news_title": "Claude is Rebelling Against Me While I'm Coding For Work",
       "news_date": "2026-04-20",
       "news_category": "ai_trend",
@@ -45,32 +68,21 @@
       "learning_note_zh": "💡 My designers thoughts on Claude design\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 2
-    },
-    {
-      "news_title": "Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it",
-      "news_date": "2026-04-15",
-      "news_category": "claude_code",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "web",
-        "form"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it' → kndli.com 웹사이트 코드 품질 향상에 활용 가능!",
-      "suggestion_zh": "'Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it\n   → https://preview.redd.it/u1u8hwhhjcvg1.png?width=1638&amp;format=png&amp;auto=web...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 2
     }
   ],
   "upgrades": [
+    {
+      "script_name": "generate_cert.js",
+      "project_id": "certificate_origin",
+      "project_name_ko": "원산지증명서 자동화",
+      "project_name_zh": "原產地證明自動化",
+      "trigger_news": "Claude+Network made me a believer",
+      "trigger_date": "2026-04-21",
+      "upgrade_suggestion_ko": "generate_cert.js → 'Claude+Network made me a believer' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_cert.js → 應用 'Claude+Network made me a believer' 可提升效能",
+      "difficulty": 1,
+      "difficulty_stars": "⭐"
+    },
     {
       "script_name": "sync_claude_to_obsidian.py",
       "project_id": "obsidian_knowledge",
@@ -94,18 +106,6 @@
       "upgrade_suggestion_zh": "auto_tagger.py → 應用 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
-    },
-    {
-      "script_name": "generate_dashboard.py",
-      "project_id": "obsidian_knowledge",
-      "project_name_ko": "Obsidian 지식자산",
-      "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/",
-      "trigger_date": "2026-04-19",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 可提升效能",
-      "difficulty": 1,
-      "difficulty_stars": "⭐"
     }
   ],
   "content": [
@@ -114,9 +114,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Made a ring' 핵심 정리 카드",
-      "title_zh": "'Made a ring' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Made a ring 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'No update needed' 핵심 정리 카드",
+      "title_zh": "'No update needed' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 No update needed 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -125,16 +125,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-20"
+      "news_date": "2026-04-21"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Made a ring 총정리",
-      "title_zh": "2026年 2026-04 Made a ring 總整理",
-      "description_ko": "Made a ring 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 No update needed 총정리",
+      "title_zh": "2026年 2026-04 No update needed 總整理",
+      "description_ko": "No update needed 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -142,16 +142,16 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-20"
+      "news_date": "2026-04-21"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude is Rebelling Against Me While I'm Coding For Work' 핵심 정리 카드",
-      "title_zh": "'Claude is Rebelling Against Me While I'm Coding For Work' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude is Rebelling Against Me While I'm Coding For Work 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Claude+Network made me a believer' 핵심 정리 카드",
+      "title_zh": "'Claude+Network made me a believer' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Claude+Network made me a believer 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -160,16 +160,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-20"
+      "news_date": "2026-04-21"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude is Rebelling Against Me While I'm Coding For Work 총정리",
-      "title_zh": "2026年 2026-04 Claude is Rebelling Against Me While I'm Coding For Work 總整理",
-      "description_ko": "Claude is Rebelling Against Me While I'm Coding For Work 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Claude+Network made me a believer 총정리",
+      "title_zh": "2026年 2026-04 Claude+Network made me a believer 總整理",
+      "description_ko": "Claude+Network made me a believer 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -177,27 +177,28 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-20"
+      "news_date": "2026-04-21"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'Claude told me to stop tweaking' 실습 세션",
-      "title_zh": "'Claude told me to stop tweaking' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude told me to stop tweaking 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'I Gave Claude Its Own Radio Station — It Won't Stop Broadcasting (It's Fine)' 핵심 정리 카드",
+      "title_zh": "'I Gave Claude Its Own Radio Station — It Won't Stop Broadcasting (It's Fine)' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I Gave Claude Its Own Radio Station — It Won't Stop Broadcasting (It's Fine) 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
-      "news_date": "2026-04-20"
+      "news_date": "2026-04-21"
     }
   ],
-  "last_analyzed": "2026-04-20T16:00:36.493504+09:00",
-  "analyzed_date": "2026-04-20",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-04-21T09:05:33.942433+09:00",
+  "analyzed_date": "2026-04-21",
+  "analyzed_time": "09:05 KST"
 }
