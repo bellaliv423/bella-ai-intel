@@ -1,6 +1,161 @@
 {
   "items": [
     {
+      "id": "a9aaff7ae19a",
+      "title": "How do I stop Claude from constantly trying to be my therapist?",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sscgtz/how_do_i_stop_claude_from_constantly_trying_to_be/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.330336+09:00",
+      "reddit_score": 15
+    },
+    {
+      "id": "88856951af9e",
+      "title": "We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain.",
+      "summary_en": "Three weeks of controlled experiments on a real production Next.js/TypeScript/Supabase codebase, Sonnet 4.6 worker, Opus 4.7 grader. Full data public,...",
+      "summary_ko": "Three weeks of controlled experiments on a real production Next.js/TypeScript/Supabase codebase, Sonnet 4.6 worker, Opus 4.7 grader. Full data public,...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#Opus",
+        "#Sonnet",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss7f38/we_ran_52_controlled_benchmarks_on_claude_code/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.330336+09:00",
+      "reddit_score": 40
+    },
+    {
+      "id": "940c264c5c5f",
+      "title": "Unfiltered Claude",
+      "summary_en": "Don’t really know if this is helpful for brainstorming or studying but it’s fun to use\n\nPaste in personal preferences: \n\nYou're my extremely impatient...",
+      "summary_ko": "Don’t really know if this is helpful for brainstorming or studying but it’s fun to use\n\nPaste in personal preferences: \n\nYou're my extremely impatient...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss6niy/unfiltered_claude/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.330336+09:00",
+      "reddit_score": 115
+    },
+    {
+      "id": "759b3bb188bb",
+      "title": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
+      "summary_en": "Every time I joined a new codebase I’d spend the first week asking Claude to “explain how X works”, watching it hallucinate, then reading 40 files to ...",
+      "summary_ko": "Every time I joined a new codebase I’d spend the first week asking Claude to “explain how X works”, watching it hallucinate, then reading 40 files to ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss28rj/i_built_a_graphify_skill_for_claude_code_that/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.329139+09:00",
+      "reddit_score": 300
+    },
+    {
+      "id": "87ccc20bc1f7",
+      "title": "How it feels to be a free user enjoying Sonnet 4.6",
+      "summary_en": "It’s my go to for almost everything, and it basically feels like unlimited usage the way I use it with adaptive thinking. Very rarely do I get message...",
+      "summary_ko": "It’s my go to for almost everything, and it basically feels like unlimited usage the way I use it with adaptive thinking. Very rarely do I get message...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ssaujs/how_it_feels_to_be_a_free_user_enjoying_sonnet_46/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.329139+09:00",
+      "reddit_score": 158
+    },
+    {
+      "id": "a044162e1922",
+      "title": "Anthropic response to Claude Code change",
+      "summary_en": "&gt;For clarity, we're running a small test on \\~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.  \nWhen we launched Max ...",
+      "summary_ko": "&gt;For clarity, we're running a small test on \\~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.  \nWhen we launched Max ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Cowork",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.329139+09:00",
+      "reddit_score": 725
+    },
+    {
+      "id": "89698500ad2f",
+      "title": "An open letter to Anthropic",
+      "summary_en": "**April 21, 2026**\n\nDear Anthropic,\n\nI am a Max-level user at the 20x tier. I run multiple high-level projects using Claude Co-work. And I need to tel...",
+      "summary_ko": "**April 21, 2026**\n\nDear Anthropic,\n\nI am a Max-level user at the 20x tier. I run multiple high-level projects using Claude Co-work. And I need to tel...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:11.329139+09:00",
+      "reddit_score": 681
+    },
+    {
+      "id": "266628f51492",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 22, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 22, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 22, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T16:00:10.098294+09:00"
+    },
+    {
       "id": "b705161088b9",
       "title": "I call Claude Mr. Meeseeks now",
       "summary_en": "I was talking to Claude about how he was like Mr. Meeseeks. If he doesn't fulfill his purpose and things go on too long, things start to \"get weird\". ...",
@@ -6314,17 +6469,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-22T09:05:51.719705+09:00",
+  "last_updated": "2026-04-22T16:00:34.280416+09:00",
   "stats": {
-    "total_items": 335,
+    "total_items": 343,
     "categories": {
-      "ai_trend": 174,
-      "claude_code": 110,
+      "ai_trend": 178,
+      "claude_code": 114,
       "claude_release": 39,
       "automation": 6,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-22 09:05"
+    "last_collection": "2026-04-22 16:00"
   }
 }

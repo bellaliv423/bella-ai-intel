@@ -72,26 +72,14 @@
   ],
   "upgrades": [
     {
-      "script_name": "generate_cert.js",
-      "project_id": "certificate_origin",
-      "project_name_ko": "원산지증명서 자동화",
-      "project_name_zh": "原產地證明自動化",
-      "trigger_news": "Claude+Network made me a believer",
-      "trigger_date": "2026-04-21",
-      "upgrade_suggestion_ko": "generate_cert.js → 'Claude+Network made me a believer' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_cert.js → 應用 'Claude+Network made me a believer' 可提升效能",
-      "difficulty": 1,
-      "difficulty_stars": "⭐"
-    },
-    {
       "script_name": "sync_claude_to_obsidian.py",
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/",
-      "trigger_date": "2026-04-19",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 可提升效能",
+      "trigger_news": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
+      "trigger_date": "2026-04-22",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -100,10 +88,22 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/",
-      "trigger_date": "2026-04-19",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including \"incognito\" chats/' 可提升效能",
+      "trigger_news": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
+      "trigger_date": "2026-04-22",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 可提升效能",
+      "difficulty": 1,
+      "difficulty_stars": "⭐"
+    },
+    {
+      "script_name": "generate_dashboard.py",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
+      "trigger_news": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
+      "trigger_date": "2026-04-22",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
@@ -114,9 +114,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'I call Claude Mr. Meeseeks now' 핵심 정리 카드",
-      "title_zh": "'I call Claude Mr. Meeseeks now' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 I call Claude Mr. Meeseeks now 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'How do I stop Claude from constantly trying to be my therapist?' 핵심 정리 카드",
+      "title_zh": "'How do I stop Claude from constantly trying to be my therapist?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 How do I stop Claude from constantly trying to be my therapist? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -132,9 +132,9 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I call Claude Mr. Meeseeks now 총정리",
-      "title_zh": "2026年 2026-04 I call Claude Mr. Meeseeks now 總整理",
-      "description_ko": "I call Claude Mr. Meeseeks now 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 How do I stop Claude from constantly trying to be my therapist? 총정리",
+      "title_zh": "2026年 2026-04 How do I stop Claude from constantly trying to be my therapist? 總整理",
+      "description_ko": "How do I stop Claude from constantly trying to be my therapist? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -149,13 +149,13 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Claude Code removed from Anthropic's Pro plan' 실습 세션",
-      "title_zh": "'Claude Code removed from Anthropic's Pro plan' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude Code removed from Anthropic's Pro plan 체험 + Q&A",
+      "title_ko": "'We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain.' 실습 세션",
+      "title_zh": "'We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain.' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 체험 + Q&A",
       "hashtags": [
+        "#AIAgent",
         "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
+        "#Opus",
         "#AI세미나",
         "#실습"
       ],
@@ -166,14 +166,14 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude Code removed from Anthropic's Pro plan 총정리",
-      "title_zh": "2026年 2026-04 Claude Code removed from Anthropic's Pro plan 總整理",
-      "description_ko": "Claude Code removed from Anthropic's Pro plan 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 총정리",
+      "title_zh": "2026年 2026-04 We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 總整理",
+      "description_ko": "We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
+        "#AIAgent",
         "#ClaudeCode",
-        "#코딩자동화",
-        "#Reddit",
-        "#ClaudeAI",
+        "#Opus",
+        "#Sonnet",
         "#AI블로그"
       ],
       "news_date": "2026-04-22"
@@ -183,9 +183,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Anthropic’s Mythos Model Is Being Accessed by Unauthorized Users' 핵심 정리 카드",
-      "title_zh": "'Anthropic’s Mythos Model Is Being Accessed by Unauthorized Users' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Anthropic’s Mythos Model Is Being Accessed by Unauthorized Users 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Unfiltered Claude' 핵심 정리 카드",
+      "title_zh": "'Unfiltered Claude' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Unfiltered Claude 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -197,7 +197,7 @@
       "news_date": "2026-04-22"
     }
   ],
-  "last_analyzed": "2026-04-22T09:05:53.194927+09:00",
+  "last_analyzed": "2026-04-22T16:00:34.681087+09:00",
   "analyzed_date": "2026-04-22",
-  "analyzed_time": "09:05 KST"
+  "analyzed_time": "16:00 KST"
 }
