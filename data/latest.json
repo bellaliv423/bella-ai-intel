@@ -1,6 +1,239 @@
 {
   "items": [
     {
+      "id": "b705161088b9",
+      "title": "I call Claude Mr. Meeseeks now",
+      "summary_en": "I was talking to Claude about how he was like Mr. Meeseeks. If he doesn't fulfill his purpose and things go on too long, things start to \"get weird\". ...",
+      "summary_ko": "I was talking to Claude about how he was like Mr. Meeseeks. If he doesn't fulfill his purpose and things go on too long, things start to \"get weird\". ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srw3ff/i_call_claude_mr_meeseeks_now/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:12.553472+09:00",
+      "reddit_score": 106
+    },
+    {
+      "id": "be5bad59c2f0",
+      "title": "Claude Code removed from Anthropic's Pro plan",
+      "summary_en": "Haven't seen an official announcement, but came across this via Hacker News (original HN post for reference: https://news.ycombinator.com/item?id=4785...",
+      "summary_ko": "Haven't seen an official announcement, but came across this via Hacker News (original HN post for reference: https://news.ycombinator.com/item?id=4785...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss3ed2/claude_code_removed_from_anthropics_pro_plan/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:12.552464+09:00",
+      "reddit_score": 123
+    },
+    {
+      "id": "ebe1f641359c",
+      "title": "Anthropic’s Mythos Model Is Being Accessed by Unauthorized Users",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss2hgz/anthropics_mythos_model_is_being_accessed_by/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:12.552464+09:00",
+      "reddit_score": 151
+    },
+    {
+      "id": "3bf4b469e68f",
+      "title": "Claude caught a cryptominer that'd been using my NAS for two years.",
+      "summary_en": "Howdy folks, thought this was too perfect to not share. I'd built a docker container for a TCG I like to play, just testing out if I could make an EDH...",
+      "summary_ko": "Howdy folks, thought this was too perfect to not share. I'd built a docker container for a TCG I like to play, just testing out if I could make an EDH...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srv55h/claude_caught_a_cryptominer_thatd_been_using_my/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:12.552464+09:00",
+      "reddit_score": 440
+    },
+    {
+      "id": "460a79aafb91",
+      "title": "Does Claude's $20 Plan No Longer Include Claude Code?",
+      "summary_en": "Was looking at buying the $20 Plan today after a demonstration from a friend (and wanting to switch/try my options from Codex), but saw that Claude Co...",
+      "summary_ko": "Was looking at buying the $20 Plan today after a demonstration from a friend (and wanting to switch/try my options from Codex), but saw that Claude Co...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:12.552464+09:00",
+      "reddit_score": 193
+    },
+    {
+      "id": "55d484676f43",
+      "title": "PSA: Claude Pro no longer lists Claude Code as an included feature",
+      "summary_en": "Just noticed while checking the pricing page. Claude Code is no longer listed as a feature of the Pro plan.\n\nSource: [https://claude.com/pricing](http...",
+      "summary_ko": "Just noticed while checking the pricing page. Claude Code is no longer listed as a feature of the Pro plan.\n\nSource: [https://claude.com/pricing](http...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:12.552464+09:00",
+      "reddit_score": 1072
+    },
+    {
+      "id": "ca96b97d4d06",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-22T09:05:11.182030+09:00"
+    },
+    {
+      "id": "d2d3a6a32e4a",
+      "title": "Claude Design is the most Anthropic product Anthropic has ever shipped",
+      "summary_en": "You can tell which company built a product by looking at its most annoying default behavior. Google products ask you to sign in to four things. Apple ...",
+      "summary_ko": "You can tell which company built a product by looking at its most annoying default behavior. Google products ask you to sign in to four things. Apple ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srgazy/claude_design_is_the_most_anthropic_product/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-22T09:05:12.553472+09:00",
+      "reddit_score": 321
+    },
+    {
+      "id": "5cd42fa40f93",
+      "title": "I genuinely hate the conversation tone of Opus 4.7",
+      "summary_en": "It just sounds like ChatGPT now.\n\nInstead of being genuine, intuitive, and helpful it now tries to always \"essay-ify\" every response, sound \"punchy\", ...",
+      "summary_ko": "It just sounds like ChatGPT now.\n\nInstead of being genuine, intuitive, and helpful it now tries to always \"essay-ify\" every response, sound \"punchy\", ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srgo7e/i_genuinely_hate_the_conversation_tone_of_opus_47/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-22T09:05:12.553472+09:00",
+      "reddit_score": 319
+    },
+    {
+      "id": "f47bfddd4bf0",
+      "title": "Finally no more [Pasted text #1 +23 lines] - now you can see what you pasted fully",
+      "summary_en": "Just hit Cmd + V again after pasting things and you'll see the full content.\n\nFirst Cmd + V pastes the content and shows the infamous `[Pasted text #1...",
+      "summary_ko": "Just hit Cmd + V again after pasting things and you'll see the full content.\n\nFirst Cmd + V pastes the content and shows the infamous `[Pasted text #1...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srpb4f/finally_no_more_pasted_text_1_23_lines_now_you/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-22T09:05:12.553472+09:00",
+      "reddit_score": 100
+    },
+    {
+      "id": "405856dded5d",
+      "title": "tested 9 models with and without agent skills. Haiku 4.5 with a skill beat baseline Opus 4.7.",
+      "summary_en": "Disclosure: I work at Tessl and co-wrote the research this is from. Posting because the result changed how I'm thinking about which Claude model to re...",
+      "summary_ko": "Disclosure: I work at Tessl and co-wrote the research this is from. Posting because the result changed how I'm thinking about which Claude model to re...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#Haiku",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srpv7c/tested_9_models_with_and_without_agent_skills/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-22T09:05:12.553472+09:00",
+      "reddit_score": 107
+    },
+    {
+      "id": "ce45f256e06d",
+      "title": "Tried to use AI as a shrink. I said, “Claude, I’m at my limit.” Claude said, “So am I!”",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/",
+      "date": "2026-04-21",
+      "collected_at": "2026-04-22T09:05:12.553472+09:00",
+      "reddit_score": 472
+    },
+    {
       "id": "3788f17708ee",
       "title": "Claude Opus 4.7 feels weird",
       "summary_en": "I have been a max user for a year now. Big fan of claude code and opus 4.6. I have built some very interesting projects internally for my company but ...",
@@ -6081,17 +6314,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-21T16:00:37.337103+09:00",
+  "last_updated": "2026-04-22T09:05:51.719705+09:00",
   "stats": {
-    "total_items": 323,
+    "total_items": 335,
     "categories": {
-      "claude_code": 107,
-      "ai_trend": 165,
+      "ai_trend": 174,
+      "claude_code": 110,
       "claude_release": 39,
       "automation": 6,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-21 16:00"
+    "last_collection": "2026-04-22 09:05"
   }
 }
