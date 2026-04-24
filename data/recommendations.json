@@ -110,13 +110,47 @@
   ],
   "content": [
     {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'Dad building a voice educational game for kids 6-12 with Claude Code' 실습 세션",
+      "title_zh": "'Dad building a voice educational game for kids 6-12 with Claude Code' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 Dad building a voice educational game for kids 6-12 with Claude Code 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-04-24"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 Dad building a voice educational game for kids 6-12 with Claude Code 총정리",
+      "title_zh": "2026年 2026-04 Dad building a voice educational game for kids 6-12 with Claude Code 總整理",
+      "description_ko": "Dad building a voice educational game for kids 6-12 with Claude Code 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-24"
+    },
+    {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'How do I stop Claude from constantly trying to be my therapist?' 핵심 정리 카드",
-      "title_zh": "'How do I stop Claude from constantly trying to be my therapist?' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 How do I stop Claude from constantly trying to be my therapist? 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Moderator questions' 핵심 정리 카드",
+      "title_zh": "'Moderator questions' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Moderator questions 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -125,16 +159,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-22"
+      "news_date": "2026-04-24"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 How do I stop Claude from constantly trying to be my therapist? 총정리",
-      "title_zh": "2026年 2026-04 How do I stop Claude from constantly trying to be my therapist? 總整理",
-      "description_ko": "How do I stop Claude from constantly trying to be my therapist? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 Moderator questions 총정리",
+      "title_zh": "2026年 2026-04 Moderator questions 總整理",
+      "description_ko": "Moderator questions 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -142,62 +176,27 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-22"
+      "news_date": "2026-04-24"
     },
     {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain.' 실습 세션",
-      "title_zh": "'We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain.' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 체험 + Q&A",
+      "title_ko": "'An update on recent Claude Code quality reports' 실습 세션",
+      "title_zh": "'An update on recent Claude Code quality reports' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 An update on recent Claude Code quality reports 체험 + Q&A",
       "hashtags": [
-        "#AIAgent",
         "#ClaudeCode",
-        "#Opus",
+        "#코딩자동화",
+        "#Reddit",
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-22"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 총정리",
-      "title_zh": "2026年 2026-04 We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 總整理",
-      "description_ko": "We ran 52 controlled benchmarks on Claude Code. Agent Teams cost 73-124% more than sequential with zero quality gain. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AIAgent",
-        "#ClaudeCode",
-        "#Opus",
-        "#Sonnet",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-22"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Unfiltered Claude' 핵심 정리 카드",
-      "title_zh": "'Unfiltered Claude' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Unfiltered Claude 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-22"
+      "news_date": "2026-04-24"
     }
   ],
-  "last_analyzed": "2026-04-22T16:00:34.681087+09:00",
-  "analyzed_date": "2026-04-22",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-04-24T09:12:25.280165+09:00",
+  "analyzed_date": "2026-04-24",
+  "analyzed_time": "09:12 KST"
 }
