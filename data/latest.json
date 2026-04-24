@@ -1,6 +1,102 @@
 {
   "items": [
     {
+      "id": "bb3d24786571",
+      "title": "Without prompting, Claude signed off with 'Narf.'",
+      "summary_en": "Any idea why? I've searched the sub and didn't find an answer. Results online are, personality, long token count, and a reference to a DOD contract. T...",
+      "summary_ko": "Any idea why? I've searched the sub and didn't find an answer. Results online are, personality, long token count, and a reference to a DOD contract. T...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1su41y8/without_prompting_claude_signed_off_with_narf/",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-24T16:00:13.610845+09:00",
+      "reddit_score": 29
+    },
+    {
+      "id": "716441ad9a07",
+      "title": "Claude Pro plan is back to normal, includes Claude Code again. Few!",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1su0ewb/claude_pro_plan_is_back_to_normal_includes_claude/",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-24T16:00:13.610845+09:00",
+      "reddit_score": 65
+    },
+    {
+      "id": "b08cb29194f2",
+      "title": "Opus 4.7 is weird",
+      "summary_en": "I live in Claude, not because I want to but because I use it for my job all day everyday. \n\nOpus 4.5 was a special model. Not because it was perfect b...",
+      "summary_ko": "I live in Claude, not because I want to but because I use it for my job all day everyday. \n\nOpus 4.5 was a special model. Not because it was perfect b...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1su5air/opus_47_is_weird/",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-24T16:00:13.609845+09:00",
+      "reddit_score": 42
+    },
+    {
+      "id": "d591eda49ac1",
+      "title": "I vibe-coded GTA: Google Earth over the weekend",
+      "summary_en": "Built crimeworld over the weekend - a browser-based GTA-style game that runs on real Google Earth cities. Zero game dev background. \n\nWhat it does: \n\n...",
+      "summary_ko": "Built crimeworld over the weekend - a browser-based GTA-style game that runs on real Google Earth cities. Zero game dev background. \n\nWhat it does: \n\n...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1su2pbf/i_vibecoded_gta_google_earth_over_the_weekend/",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-24T16:00:13.609845+09:00",
+      "reddit_score": 357
+    },
+    {
+      "id": "e62a3dc7403e",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-24T16:00:12.036791+09:00"
+    },
+    {
       "id": "ca426882756e",
       "title": "Dad building a voice educational game for kids 6-12 with Claude Code",
       "summary_en": "I'm a dad of two (8 and 10). As soon as my oldest struggles with his homework, I've seen him go to Claude for help far too often. They're not using Cl...",
@@ -6758,17 +6854,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-24T09:12:23.808081+09:00",
+  "last_updated": "2026-04-24T16:00:37.693099+09:00",
   "stats": {
-    "total_items": 358,
+    "total_items": 363,
     "categories": {
-      "claude_code": 120,
-      "ai_trend": 185,
+      "ai_trend": 189,
+      "claude_code": 121,
       "automation": 8,
       "claude_release": 39,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-24 09:12"
+    "last_collection": "2026-04-24 16:00"
   }
 }
