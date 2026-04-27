@@ -76,10 +76,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
-      "trigger_date": "2026-04-22",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 可提升效能",
+      "trigger_news": "How do you get AI to generate UI that actually feels designed?",
+      "trigger_date": "2026-04-27",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'How do you get AI to generate UI that actually feels designed?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'How do you get AI to generate UI that actually feels designed?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -88,10 +88,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
-      "trigger_date": "2026-04-22",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 可提升效能",
+      "trigger_news": "How do you get AI to generate UI that actually feels designed?",
+      "trigger_date": "2026-04-27",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'How do you get AI to generate UI that actually feels designed?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'How do you get AI to generate UI that actually feels designed?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -100,58 +100,23 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)",
-      "trigger_date": "2026-04-22",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'I built a /graphify skill for Claude Code that maps your entire codebase into a knowledge graph, 71x fewer tokens, way less hallucination (32k stars, 250k downloads)' 可提升效能",
+      "trigger_news": "How do you get AI to generate UI that actually feels designed?",
+      "trigger_date": "2026-04-27",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'How do you get AI to generate UI that actually feels designed?' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'How do you get AI to generate UI that actually feels designed?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
   ],
   "content": [
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Without prompting, Claude signed off with 'Narf.'' 핵심 정리 카드",
-      "title_zh": "'Without prompting, Claude signed off with 'Narf.'' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Without prompting, Claude signed off with 'Narf.' 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-24"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Without prompting, Claude signed off with 'Narf.' 총정리",
-      "title_zh": "2026年 2026-04 Without prompting, Claude signed off with 'Narf.' 總整理",
-      "description_ko": "Without prompting, Claude signed off with 'Narf.' 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-24"
-    },
-    {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'Claude Pro plan is back to normal, includes Claude Code again. Few!' 실습 세션",
-      "title_zh": "'Claude Pro plan is back to normal, includes Claude Code again. Few!' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 Claude Pro plan is back to normal, includes Claude Code again. Few! 체험 + Q&A",
+      "title_ko": "'I add CatchEm and now i catch this cool characters while working with Claude' 실습 세션",
+      "title_zh": "'I add CatchEm and now i catch this cool characters while working with Claude' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I add CatchEm and now i catch this cool characters while working with Claude 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -159,16 +124,16 @@
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-24"
+      "news_date": "2026-04-27"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude Pro plan is back to normal, includes Claude Code again. Few! 총정리",
-      "title_zh": "2026年 2026-04 Claude Pro plan is back to normal, includes Claude Code again. Few! 總整理",
-      "description_ko": "Claude Pro plan is back to normal, includes Claude Code again. Few! 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 I add CatchEm and now i catch this cool characters while working with Claude 총정리",
+      "title_zh": "2026年 2026-04 I add CatchEm and now i catch this cool characters while working with Claude 總整理",
+      "description_ko": "I add CatchEm and now i catch this cool characters while working with Claude 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -176,29 +141,63 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-24"
+      "news_date": "2026-04-27"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Opus 4.7 is weird' 핵심 정리 카드",
-      "title_zh": "'Opus 4.7 is weird' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Opus 4.7 is weird 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'What Claude Design does really well (and not so well)' 핵심 정리 카드",
+      "title_zh": "'What Claude Design does really well (and not so well)' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 What Claude Design does really well (and not so well) 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
-        "#Opus",
         "#생성형AI",
         "#Reddit",
         "#ClaudeAI",
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-24"
+      "news_date": "2026-04-27"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 What Claude Design does really well (and not so well) 총정리",
+      "title_zh": "2026年 2026-04 What Claude Design does really well (and not so well) 總整理",
+      "description_ko": "What Claude Design does really well (and not so well) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-27"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Is running multiple Claude chats actually making you more productive?' 핵심 정리 카드",
+      "title_zh": "'Is running multiple Claude chats actually making you more productive?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Is running multiple Claude chats actually making you more productive? 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-04-27"
     }
   ],
-  "last_analyzed": "2026-04-24T16:00:38.611930+09:00",
-  "analyzed_date": "2026-04-24",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-04-27T09:05:36.380408+09:00",
+  "analyzed_date": "2026-04-27",
+  "analyzed_time": "09:05 KST"
 }

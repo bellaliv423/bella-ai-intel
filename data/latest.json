@@ -1,6 +1,314 @@
 {
   "items": [
     {
+      "id": "1a5d53b52d3a",
+      "title": "I add CatchEm and now i catch this cool characters while working with Claude",
+      "summary_en": "developing with Claude code is great. it feels like a game where you always want to go back and do “just one more thing”.\n\nbut in games you get reward...",
+      "summary_ko": "developing with Claude code is great. it feels like a game where you always want to go back and do “just one more thing”.\n\nbut in games you get reward...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swd2s2/i_add_catchem_and_now_i_catch_this_cool/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T09:05:07.039670+09:00",
+      "reddit_score": 11
+    },
+    {
+      "id": "a8bb2c46b129",
+      "title": "What Claude Design does really well (and not so well)",
+      "summary_en": "I did a deep dive on Claude Design and below are my thoughts.\n\nWhat it does extremely well:\n\n* **Improves your prompt** \\- similar to \"ask me question...",
+      "summary_ko": "I did a deep dive on Claude Design and below are my thoughts.\n\nWhat it does extremely well:\n\n* **Improves your prompt** \\- similar to \"ask me question...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swe5um/what_claude_design_does_really_well_and_not_so/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T09:05:07.039670+09:00",
+      "reddit_score": 11
+    },
+    {
+      "id": "72b66113e603",
+      "title": "Is running multiple Claude chats actually making you more productive?",
+      "summary_en": "I’ve been seeing a lot of people talk about running multiple Claude chats in parallel — basically multitasking with several prompts/tasks at the same ...",
+      "summary_ko": "I’ve been seeing a lot of people talk about running multiple Claude chats in parallel — basically multitasking with several prompts/tasks at the same ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swaef2/is_running_multiple_claude_chats_actually_making/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T09:05:07.039670+09:00",
+      "reddit_score": 20
+    },
+    {
+      "id": "d8c491c43bb6",
+      "title": "How do you get AI to generate UI that actually feels designed?",
+      "summary_en": "I’m building a dashboard-style app (React + Tailwind), mostly focused on content consumption, and I’ve been trying to use AI to generate the UI direct...",
+      "summary_ko": "I’m building a dashboard-style app (React + Tailwind), mostly focused on content consumption, and I’ve been trying to use AI to generate the UI direct...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swf8hx/how_do_you_get_ai_to_generate_ui_that_actually/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T09:05:07.038668+09:00",
+      "reddit_score": 12
+    },
+    {
+      "id": "c854e4df3c6c",
+      "title": "Is Claude Design actually useful or just hype?",
+      "summary_en": "I’ve been seeing people mention Claude Design a lot recently, but I’m not sure how much people are actually using it in real workflows. For those who’...",
+      "summary_ko": "I’ve been seeing people mention Claude Design a lot recently, but I’m not sure how much people are actually using it in real workflows. For those who’...",
+      "summary_zh": "",
+      "category": "automation",
+      "hashtags": [
+        "#AI자동화",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swlkp2/is_claude_design_actually_useful_or_just_hype/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T09:05:07.037667+09:00",
+      "reddit_score": 24
+    },
+    {
+      "id": "a32ee27af83e",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T09:05:05.505540+09:00"
+    },
+    {
+      "id": "1fafddf8f315",
+      "title": "Claude snuck in a new email sign off",
+      "summary_en": "I don’t usually use AI to draft emails but today I had to pull some info from a number of sources so had Claude draft something.\n\nI did lol when I saw...",
+      "summary_ko": "I don’t usually use AI to draft emails but today I had to pull some info from a number of sources so had Claude draft something.\n\nI did lol when I saw...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sw4je6/claude_snuck_in_a_new_email_sign_off/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.039670+09:00",
+      "reddit_score": 40
+    },
+    {
+      "id": "487459f0dfb5",
+      "title": "How do you decide which Claude Code tasks to run with Opus vs Sonnet vs Haiku?",
+      "summary_en": "Been vibe coding full-time for a few months. One workflow question I haven't nailed down yet: how do you decide which model to use for which task in C...",
+      "summary_ko": "Been vibe coding full-time for a few months. One workflow question I haven't nailed down yet: how do you decide which model to use for which task in C...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Haiku",
+        "#Opus",
+        "#Sonnet",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sw4bl6/how_do_you_decide_which_claude_code_tasks_to_run/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.038668+09:00",
+      "reddit_score": 60
+    },
+    {
+      "id": "e584591af52b",
+      "title": "Cloudflare just shipped enterprise MCP governance, is this where the industry is heading or does nobody care",
+      "summary_en": "Cloudflare wrapped Agents Week last week. The enterprise MCP stuff caught my eye. They shipped MCP server portals that aggregate multiple upstream ser...",
+      "summary_ko": "Cloudflare wrapped Agents Week last week. The enterprise MCP stuff caught my eye. They shipped MCP server portals that aggregate multiple upstream ser...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sw4zmj/cloudflare_just_shipped_enterprise_mcp_governance/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.038668+09:00",
+      "reddit_score": 59
+    },
+    {
+      "id": "bebbe949164f",
+      "title": "Claude in excel is the best thing AI has brought to my life",
+      "summary_en": "What are regular folks using Claude for? Pictures and designs are not my interest. I’d like to use Claude more but I can’t find where else to exploit ...",
+      "summary_ko": "What are regular folks using Claude for? Pictures and designs are not my interest. I’d like to use Claude more but I can’t find where else to exploit ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#ClaudeExcel",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1svv1at/claude_in_excel_is_the_best_thing_ai_has_brought/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.038668+09:00",
+      "reddit_score": 387
+    },
+    {
+      "id": "3e73e7c26746",
+      "title": "Anthropic's support system is broken by design — there is literally no path to a human for billing issues",
+      "summary_en": "This isn't a post asking for help with my account. I want to talk about the structural problem with Anthropic's support system, because I think more p...",
+      "summary_ko": "This isn't a post asking for help with my account. I want to talk about the structural problem with Anthropic's support system, because I think more p...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1svzspd/anthropics_support_system_is_broken_by_design/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.038668+09:00",
+      "reddit_score": 201
+    },
+    {
+      "id": "37590f57ccdd",
+      "title": "Claude for Personal USE",
+      "summary_en": "Anybody out here using Claude for daily personal usage- like weekly grocery, personal training or finances ? Would love to hear !! ",
+      "summary_ko": "Anybody out here using Claude for daily personal usage- like weekly grocery, personal training or finances ? Would love to hear !! ",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1svxhn9/claude_for_personal_use/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.037667+09:00",
+      "reddit_score": 487
+    },
+    {
+      "id": "09f885bd37de",
+      "title": "Claude 4.7 named a journalist from 125 words of unpublished writing",
+      "summary_en": "Surprised this isn't a bigger topic but you tell me!\n\nIn short: writer Kelsey Piper pasted 125 words of an unpublished political column into 4.7 and g...",
+      "summary_ko": "Surprised this isn't a bigger topic but you tell me!\n\nIn short: writer Kelsey Piper pasted 125 words of an unpublished political column into 4.7 and g...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sw8npc/claude_47_named_a_journalist_from_125_words_of/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.036667+09:00",
+      "reddit_score": 418
+    },
+    {
+      "id": "ce076da42c44",
+      "title": "You're right to push back.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/",
+      "date": "2026-04-26",
+      "collected_at": "2026-04-27T09:05:07.036667+09:00",
+      "reddit_score": 5292
+    },
+    {
+      "id": "2ee3dc19e4f8",
+      "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-27T09:05:05.509051+09:00"
+    },
+    {
+      "id": "7940571b1d33",
+      "title": "An update on our election safeguards",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-27T09:05:05.508051+09:00"
+    },
+    {
       "id": "bb3d24786571",
       "title": "Without prompting, Claude signed off with 'Narf.'",
       "summary_en": "Any idea why? I've searched the sub and didn't find an answer. Results online are, personality, long token count, and a reference to a DOD contract. T...",
@@ -6854,17 +7162,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-24T16:00:37.693099+09:00",
+  "last_updated": "2026-04-27T09:05:34.761935+09:00",
   "stats": {
-    "total_items": 363,
+    "total_items": 379,
     "categories": {
-      "ai_trend": 189,
-      "claude_code": 121,
-      "automation": 8,
+      "claude_code": 124,
+      "ai_trend": 201,
+      "automation": 9,
       "claude_release": 39,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-24 16:00"
+    "last_collection": "2026-04-27 09:05"
   }
 }
