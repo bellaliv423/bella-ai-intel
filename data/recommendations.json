@@ -72,6 +72,18 @@
   ],
   "upgrades": [
     {
+      "script_name": "generate_cert.js",
+      "project_id": "certificate_origin",
+      "project_name_ko": "원산지증명서 자동화",
+      "project_name_zh": "原產地證明自動化",
+      "trigger_news": "Deferring Planned Items",
+      "trigger_date": "2026-04-27",
+      "upgrade_suggestion_ko": "generate_cert.js → 'Deferring Planned Items' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_cert.js → 應用 'Deferring Planned Items' 可提升效能",
+      "difficulty": 1,
+      "difficulty_stars": "⭐"
+    },
+    {
       "script_name": "sync_claude_to_obsidian.py",
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
@@ -94,18 +106,6 @@
       "upgrade_suggestion_zh": "auto_tagger.py → 應用 'How do you get AI to generate UI that actually feels designed?' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
-    },
-    {
-      "script_name": "generate_dashboard.py",
-      "project_id": "obsidian_knowledge",
-      "project_name_ko": "Obsidian 지식자산",
-      "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "How do you get AI to generate UI that actually feels designed?",
-      "trigger_date": "2026-04-27",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'How do you get AI to generate UI that actually feels designed?' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'How do you get AI to generate UI that actually feels designed?' 可提升效能",
-      "difficulty": 1,
-      "difficulty_stars": "⭐"
     }
   ],
   "content": [
@@ -114,9 +114,9 @@
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'I add CatchEm and now i catch this cool characters while working with Claude' 실습 세션",
-      "title_zh": "'I add CatchEm and now i catch this cool characters while working with Claude' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I add CatchEm and now i catch this cool characters while working with Claude 체험 + Q&A",
+      "title_ko": "'I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator' 실습 세션",
+      "title_zh": "'I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -124,16 +124,16 @@
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-27"
+      "news_date": "2026-04-28"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I add CatchEm and now i catch this cool characters while working with Claude 총정리",
-      "title_zh": "2026年 2026-04 I add CatchEm and now i catch this cool characters while working with Claude 總整理",
-      "description_ko": "I add CatchEm and now i catch this cool characters while working with Claude 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator 총정리",
+      "title_zh": "2026年 2026-04 I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator 總整理",
+      "description_ko": "I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -141,16 +141,16 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-27"
+      "news_date": "2026-04-28"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'What Claude Design does really well (and not so well)' 핵심 정리 카드",
-      "title_zh": "'What Claude Design does really well (and not so well)' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 What Claude Design does really well (and not so well) 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?)' 핵심 정리 카드",
+      "title_zh": "'I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?)' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?) 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -159,16 +159,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-27"
+      "news_date": "2026-04-28"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 What Claude Design does really well (and not so well) 총정리",
-      "title_zh": "2026年 2026-04 What Claude Design does really well (and not so well) 總整理",
-      "description_ko": "What Claude Design does really well (and not so well) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?) 총정리",
+      "title_zh": "2026年 2026-04 I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?) 總整理",
+      "description_ko": "I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -176,16 +176,16 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-27"
+      "news_date": "2026-04-28"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Is running multiple Claude chats actually making you more productive?' 핵심 정리 카드",
-      "title_zh": "'Is running multiple Claude chats actually making you more productive?' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Is running multiple Claude chats actually making you more productive? 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'What's this? Is this an upcoming update or something?' 핵심 정리 카드",
+      "title_zh": "'What's this? Is this an upcoming update or something?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 What's this? Is this an upcoming update or something? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -194,10 +194,10 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-27"
+      "news_date": "2026-04-28"
     }
   ],
-  "last_analyzed": "2026-04-27T09:05:36.380408+09:00",
-  "analyzed_date": "2026-04-27",
-  "analyzed_time": "09:05 KST"
+  "last_analyzed": "2026-04-28T16:51:01.847660+09:00",
+  "analyzed_date": "2026-04-28",
+  "analyzed_time": "16:51 KST"
 }

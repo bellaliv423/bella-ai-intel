@@ -1,6 +1,409 @@
 {
   "items": [
     {
+      "id": "8251c585895a",
+      "title": "I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator",
+      "summary_en": "I’ve been playing with a Divoom MiniToo and ended up reverse-engineering enough of its Bluetooth protocol to use it as a physical Claude Code status i...",
+      "summary_ko": "I’ve been playing with a Divoom MiniToo and ended up reverse-engineering enough of its Bluetooth protocol to use it as a physical Claude Code status i...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxaj1t/i_vibe_reverseengineered_my_divoom_minitoos/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.943304+09:00",
+      "reddit_score": 108
+    },
+    {
+      "id": "cc329c4b85fd",
+      "title": "I thought I had a good idea when I hit 98% usage. Just a bit late (would this have worked?)",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxq95d/i_thought_i_had_a_good_idea_when_i_hit_98_usage/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.943304+09:00",
+      "reddit_score": 23
+    },
+    {
+      "id": "5eccbf05c53f",
+      "title": "What's this? Is this an upcoming update or something?",
+      "summary_en": "Found on this [support page](https://support.claude.com/en/articles/11940350-claude-code-model-configuration), which apparently had a recent update.\n\n...",
+      "summary_ko": "Found on this [support page](https://support.claude.com/en/articles/11940350-claude-code-model-configuration), which apparently had a recent update.\n\n...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxdo4q/whats_this_is_this_an_upcoming_update_or_something/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.943304+09:00",
+      "reddit_score": 143
+    },
+    {
+      "id": "932dc3230c97",
+      "title": "Claude Code is only a „7 day trial“ on Pro plan?",
+      "summary_en": "Are they A/B testing again?",
+      "summary_ko": "Are they A/B testing again?",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxlp0i/claude_code_is_only_a_7_day_trial_on_pro_plan/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.942305+09:00",
+      "reddit_score": 139
+    },
+    {
+      "id": "6426809a103c",
+      "title": "How are people using so many tokens ???",
+      "summary_en": "I've been using Claude basically since it launched, and use Claude Code extensively (Swift, C++, Shaders, TS, AWS, etc)...\n\nMaybe this is just tech tw...",
+      "summary_ko": "I've been using Claude basically since it launched, and use Claude Code extensively (Swift, C++, Shaders, TS, AWS, etc)...\n\nMaybe this is just tech tw...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxq24c/how_are_people_using_so_many_tokens/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.942305+09:00",
+      "reddit_score": 82
+    },
+    {
+      "id": "cbcafe70885c",
+      "title": "GitHub Copilot 9x price increase for Claude models",
+      "summary_en": "So it seems that GitHub Copilot is increasing their costs by 900% for Claude models starting in June:\n\nSee https://docs.github.com/en/copilot/referenc...",
+      "summary_ko": "So it seems that GitHub Copilot is increasing their costs by 900% for Claude models starting in June:\n\nSee https://docs.github.com/en/copilot/referenc...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxcxge/github_copilot_9x_price_increase_for_claude_models/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.942305+09:00",
+      "reddit_score": 454
+    },
+    {
+      "id": "3e7324ef105b",
+      "title": "Opus is NOT being removed from Pro plans",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Opus",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxmjcj/opus_is_not_being_removed_from_pro_plans/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.942305+09:00",
+      "reddit_score": 157
+    },
+    {
+      "id": "0786100a79f7",
+      "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxe7cf/claudepowered_ai_coding_agent_deletes_entire/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.942305+09:00",
+      "reddit_score": 448
+    },
+    {
+      "id": "e895d51a4f64",
+      "title": "Anthropic just quietly locked Opus behind a paywall-within-a-paywall for Pro users in Claude Code",
+      "summary_en": "If you're on Claude Pro and using Claude Code, you might have noticed something buried in their support docs:\n\n\n\n\"When using a Pro plan with Claude Co...",
+      "summary_ko": "If you're on Claude Pro and using Claude Code, you might have noticed something buried in their support docs:\n\n\n\n\"When using a Pro plan with Claude Co...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Opus",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxi9mo/anthropic_just_quietly_locked_opus_behind_a/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.941306+09:00",
+      "reddit_score": 505
+    },
+    {
+      "id": "e3b07db96046",
+      "title": "Claude knows when you cheat on it with Codex??",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxe46v/claude_knows_when_you_cheat_on_it_with_codex/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:12.941306+09:00",
+      "reddit_score": 828
+    },
+    {
+      "id": "356ec35700a7",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 28, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 28, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 28, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:11.803325+09:00"
+    },
+    {
+      "id": "44454cf08071",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-28T16:00:11.387677+09:00"
+    },
+    {
+      "id": "c6c686801368",
+      "title": "Woah Claude's disclaimer at the bottom is getting weird....",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sx4amo/woah_claudes_disclaimer_at_the_bottom_is_getting/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-28T16:00:12.943304+09:00",
+      "reddit_score": 321
+    },
+    {
+      "id": "c3aa1093b935",
+      "title": "Drop your best Claude skills in here!",
+      "summary_en": "Hi everyone. Please share the Claude skills that you often use and are best for your day to day use cases or in businesses, would love to explore them...",
+      "summary_ko": "Hi everyone. Please share the Claude skills that you often use and are best for your day to day use cases or in businesses, would love to explore them...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-28T16:00:12.942305+09:00",
+      "reddit_score": 1001
+    },
+    {
+      "id": "e7b66f1ccec4",
+      "title": "When your data is so bad...",
+      "summary_en": "Biggest front one could receive ",
+      "summary_ko": "Biggest front one could receive ",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-28T16:00:12.941306+09:00",
+      "reddit_score": 3022
+    },
+    {
+      "id": "dbbc8d087538",
+      "title": "Official uninstall instructions do not remove \"Claude Code URL Handler\" on Mac OS",
+      "summary_en": "The official [uninstall instructions](https://code.claude.com/docs/en/setup#uninstall-claude-code) provided by Anthropic result in a left over app on ...",
+      "summary_ko": "The official [uninstall instructions](https://code.claude.com/docs/en/setup#uninstall-claude-code) provided by Anthropic result in a left over app on ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swryf1/official_uninstall_instructions_do_not_remove/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T16:00:08.109834+09:00",
+      "reddit_score": 6
+    },
+    {
+      "id": "7a48ac471f69",
+      "title": "how i restructured my claude workflow to stop fighting context drift, and what i ended up building with claude code along the way",
+      "summary_en": "spent the past two months iterating on how i load context into claude for a product i'm building and figured it might be useful to share because i don...",
+      "summary_ko": "spent the past two months iterating on how i load context into claude for a product i'm building and figured it might be useful to share because i don...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swp6of/how_i_restructured_my_claude_workflow_to_stop/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T16:00:08.109834+09:00",
+      "reddit_score": 10
+    },
+    {
+      "id": "aa43b99e1564",
+      "title": "Deferring Planned Items",
+      "summary_en": "Something has happened with Opus 4.7 where it now just starts making decisions to “defer” integral tasks and activities to a documented plan.\n\nOften, ...",
+      "summary_ko": "Something has happened with Opus 4.7 where it now just starts making decisions to “defer” integral tasks and activities to a documented plan.\n\nOften, ...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Opus",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swtkmb/deferring_planned_items/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T16:00:08.109834+09:00",
+      "reddit_score": 8
+    },
+    {
+      "id": "289b339b8844",
+      "title": "Claude Code started to use with me very specific words it was not using before",
+      "summary_en": "Since Opus 4.7, My Claude Code started to use new words it was not using before.  \n  \nWords like **land** or **surface** started to appear everywhere ...",
+      "summary_ko": "Since Opus 4.7, My Claude Code started to use new words it was not using before.  \n  \nWords like **land** or **surface** started to appear everywhere ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Opus",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swmsw1/claude_code_started_to_use_with_me_very_specific/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T16:00:08.109834+09:00",
+      "reddit_score": 27
+    },
+    {
+      "id": "b8eb654731ae",
+      "title": "I've been working with Claude (among others) to build an \"Individual\". Would love your thoughts!",
+      "summary_en": "I've been building a thing called Fathom. It's a partly-Claude-based agent that's been running since January, changing my mind about how it should wor...",
+      "summary_ko": "I've been building a thing called Fathom. It's a partly-Claude-based agent that's been running since January, changing my mind about how it should wor...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swt7ue/ive_been_working_with_claude_among_others_to/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T16:00:08.108836+09:00",
+      "reddit_score": 15
+    },
+    {
+      "id": "c81d299878ff",
+      "title": "Claude helped me create a survivable diet and I've lost 15 lbs in 7 weeks",
+      "summary_en": "I told Claude I needed to cut down my cholesterol and that I was pre-diabetic based on my last annual check-up. I also mentioned that past diets have ...",
+      "summary_ko": "I told Claude I needed to cut down my cholesterol and that I was pre-diabetic based on my last annual check-up. I also mentioned that past diets have ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swpik6/claude_helped_me_create_a_survivable_diet_and_ive/",
+      "date": "2026-04-27",
+      "collected_at": "2026-04-27T16:00:08.108836+09:00",
+      "reddit_score": 103
+    },
+    {
       "id": "1a5d53b52d3a",
       "title": "I add CatchEm and now i catch this cool characters while working with Claude",
       "summary_en": "developing with Claude code is great. it feels like a game where you always want to go back and do “just one more thing”.\n\nbut in games you get reward...",
@@ -271,6 +674,24 @@
       "date": "2026-04-26",
       "collected_at": "2026-04-27T09:05:07.036667+09:00",
       "reddit_score": 5292
+    },
+    {
+      "id": "eacc910fc999",
+      "title": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/election-safeguards-update",
+      "date": "2026-04-24",
+      "collected_at": "2026-04-28T16:00:11.416681+09:00"
     },
     {
       "id": "2ee3dc19e4f8",
@@ -675,6 +1096,23 @@
       "url": "https://code.claude.com/docs/en/changelog",
       "date": "2026-04-23",
       "collected_at": "2026-04-24T09:11:30.501120+09:00"
+    },
+    {
+      "id": "6d543e1598e9",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 22, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 22, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 22, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-22",
+      "collected_at": "2026-04-28T16:00:11.804330+09:00"
     },
     {
       "id": "a9aaff7ae19a",
@@ -7162,17 +7600,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-27T09:05:34.761935+09:00",
+  "last_updated": "2026-04-28T16:51:00.286449+09:00",
   "stats": {
-    "total_items": 379,
+    "total_items": 402,
     "categories": {
-      "claude_code": 124,
-      "ai_trend": 201,
+      "claude_code": 133,
+      "ai_trend": 212,
+      "claude_release": 42,
       "automation": 9,
-      "claude_release": 39,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-27 09:05"
+    "last_collection": "2026-04-28 16:51"
   }
 }
