@@ -1,0 +1,62 @@
+{
+  "_metadata": {
+    "version": "v1.0",
+    "created": "2026-04-27",
+    "purpose": "DM 발송 후 7일 / 21일 자동 후속 — 신뢰 형성 → 컨설팅 추천 흐름"
+  },
+
+  "day_7_followup": {
+    "ko": {
+      "greeting": "{{name}}님, 일주일 잘 보내셨어요? 🌷",
+      "body": "지난주 보내드린 드림팀 자료 잘 보셨나요?\n\n오늘은 다른 인기 콘텐츠 하나 추천드려요:\n👉 {{recommended_post_url}}\n\n혹시 회사에 맞춤형 AI 봇 시스템 도입 고민 있으시면,\n답글에 「컨설팅」 한 단어 적어주세요.\n벨라가 직접 답장드려요 🙌",
+      "signature": "\n— 햄스터즈 (자동 후속)"
+    },
+    "zh": {
+      "greeting": "{{name}}！這週過得如何? 🌷",
+      "body": "上週收到的夢想團隊資料看了嗎?\n\n今天推薦另一個人氣內容:\n👉 {{recommended_post_url}}\n\n如果您正在考慮為公司導入客製化 AI Bot 系統,\n請在訊息中回覆「諮詢」一個詞。\nBella 會親自回覆您 🙌",
+      "signature": "\n— Hamsterz (自動跟進)"
+    },
+    "en": {
+      "greeting": "Hi {{name}}! How was your week? 🌷",
+      "body": "Did you check out the Dream Team material from last week?\n\nToday's recommended post:\n👉 {{recommended_post_url}}\n\nIf you're considering AI bot system setup for your company,\nreply with \"CONSULT\" — Bella will respond personally 🙌",
+      "signature": "\n— Hamsterz (auto follow-up)"
+    }
+  },
+
+  "day_21_followup_consulting": {
+    "trigger_conditions": [
+      "사용자 engagement_count >= 2 (댓글/DM 2회 이상)",
+      "DREAMTEAM 또는 SKILL 키워드 응답 후 21일 경과",
+      "차단·삭제·신고 안 한 사용자만"
+    ],
+    "ko": {
+      "greeting": "{{name}}님, 안녕하세요 🌷",
+      "body": "3주간 우리 콘텐츠 함께 해주셔서 정말 감사해요.\n\n혹시 회사에 맞춤형 Claude/AI 봇 시스템 도입을\n진지하게 고민하고 계신다면,\n무료 30분 컨설팅 1회를 제공해드릴게요.\n\n다루는 주제:\n• 만능이 (Anthropic Managed Agent) 셋업\n• 햄스터즈 (Claude Code) 페르소나 분기\n• 퍼피즈 (OpenClaw) 24/7 운영\n• 자동 콘텐츠 + DM 응답 시스템\n• 60일 토큰 갱신 자동화\n\n관심 있으시면 답글에 「컨설팅」 또는 「CONSULT」 한 단어 남겨주세요.\n벨라가 직접 일정 잡아드려요 🙌\n\n(이 메시지는 자동 발송이지만, 답장은 100% 벨라가 직접 확인합니다)",
+      "signature": "\n— 벨라 드림"
+    }
+  },
+
+  "consulting_lead_packages": {
+    "1on1_4hr": {
+      "name": "1:1 과외 4시간",
+      "price_krw": 300000,
+      "includes": "본 가이드 PPT 25장 강의 + 학생 본인 계정 발행 시연"
+    },
+    "setup_full": {
+      "name": "셋업 풀 패키지",
+      "price_krw": 800000,
+      "includes": "메타 앱 + IG/FB 토큰 + .env + 4단계 자동화 + 60일 갱신"
+    },
+    "monthly_ops": {
+      "name": "월 운영 위탁",
+      "price_krw": 300000,
+      "includes": "DM 검토 + 한도 관리 + 보고서"
+    },
+    "5_session_master": {
+      "name": "5회차 마스터 패키지",
+      "price_krw": 2500000,
+      "includes": "셋업 + 자동 발행 + 다국어 + 분석 + AI 에이전트 + 60일 갱신",
+      "recommended": true
+    }
+  }
+}

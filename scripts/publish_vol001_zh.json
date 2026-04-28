@@ -1,0 +1,16 @@
+{
+  "_metadata": {
+    "vol": "001",
+    "lang": "zh",
+    "scheduled": "2026-04-27 18:30 KST",
+    "theme": "MONDAY · CLAUDE",
+    "title": "夢想團隊 20 角色 + 3 Bot 系統 (繁體中文)"
+  },
+  "image_urls": [
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_zh_01_hook.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_zh_02_team_showcase.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_zh_03_three_bots.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_zh_04_cta.png"
+  ],
+  "caption": "🌟 大家好,我是 @bella_ai_auto VOL.001 第一篇貼文。\n\n我是 Bella。\n一邊上班一邊用 AI 自動化每週發布 6 篇內容。\n\n秘訣是這個 →\n\nBella 1 人 + AI 3 系統 = 20 個行銷角色\n3 個 Bot 系統以 20 個角色 24/7 自動切換\n\n──────────\n\n✷ 24/7 運營 Bot 系統 3 個\n\n① ☁️ 萬能 (Claude API · Slack Bolt)\n   整合秘書 · 審查 · EOD\n   目前 Mac mini launchd 24/7\n\n② 🐹 倉鼠團隊 (Claude Code)\n   Windows 桌機 + 行動筆電\n   12 角色自動切換\n   Goldi · Robo · Windy · Max + 8\n\n③ 🐕 小狗團隊 (OpenClaw · Mac mini)\n   launchd 24/7\n   6 角色自動切換\n   Collie + 5\n\n→ 20 個角色,真實 3 個 Bot\n\n──────────\n\n💡 萬能進化故事\n   非開發者意識成本,逐步打造的真實運營 IP\n\nPhase 0: 從 Anthropic Managed Agent 開始\nPhase 1: Slack Bolt + Socket Mode (家用電腦)\nPhase 2: Mac mini launchd 遷移 ← 目前\nPhase 3: 7 重防禦穩定化 ← 目前\nPhase 4: Managed Agent 部分重新導入 (預定)\nPhase 5: Cloud Drive 完整整合 (2026 H2)\n\n──────────\n\n📅 每週 6 篇夢想團隊日誌\n\n週一 = Claude / 週二 = 趨勢 / 週三 = 夢想團隊故事\n週四 = 教學 / 週五 = MCP 評測 / 週六 = SecondBrain\n\n──────────\n\n📩 自動指南發送條件\n\n① 追蹤 @bella_ai_auto\n② 貼文按 ❤️\n③ 留言「DREAMTEAM」\n\n→ 全部達成\n   20 角色矩陣 + 設置指南自動發送 ✷\n\n(自動回覆: 倉鼠團隊 24 小時內)\n\n#夢想團隊 #ClaudeAI #AI自動化 #非開發者 #VOL001"
+}

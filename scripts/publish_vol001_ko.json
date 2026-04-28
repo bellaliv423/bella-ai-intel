@@ -1,0 +1,16 @@
+{
+  "_metadata": {
+    "vol": "001",
+    "lang": "ko",
+    "scheduled": "2026-04-27 17:00 KST",
+    "theme": "MONDAY · CLAUDE",
+    "title": "드림팀 20명 페르소나 + 3개 봇 시스템 소개"
+  },
+  "image_urls": [
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_ko_01_hook.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_ko_02_team_showcase_alt.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_ko_02_three_bots_v2.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-nest/master/public/posts/2026-04-27/2026-04-27_vol001_ko_04_cta.png"
+  ],
+  "caption": "🌟 안녕하세요, @bella_ai_auto VOL.001 첫 게시물이에요.\n\n저는 벨라.\n회사 다니면서 AI 자동화로 매주 6편씩 콘텐츠 발행 중입니다.\n\n비밀은 이거예요 →\n\n벨라 1명 + AI 3개 시스템 = 20개 마케팅 페르소나\n3개 봇 시스템이 20개 역할로 24/7 자동 전환\n\n──────────\n\n✷ 24/7 운영 봇 시스템 3개\n\n① ☁️ 만능이 (Claude API · Slack Bolt)\n   통합 비서 · 검수 · EOD\n   현재 Mac mini launchd 24/7\n\n② 🐹 햄스터즈 (Claude Code)\n   윈도우 데스크탑 + 이동식 노트북\n   12 페르소나 자동 전환\n   골디·로보·윈디·맥스 + 8명\n\n③ 🐕 퍼피즈 (OpenClaw · Mac mini)\n   launchd 24/7\n   6 페르소나 자동 전환\n   콜리 + 5명\n\n→ 페르소나 20명, 진짜 봇 3개\n\n──────────\n\n💡 만능이 진화 스토리\n   비개발자가 비용 의식하며 키우는 진짜 운영 IP\n\nPhase 0: Anthropic Managed Agent로 시작\nPhase 1: Slack Bolt + Socket Mode (집 PC)\nPhase 2: Mac mini launchd 이전 ← 현재\nPhase 3: 7중 방어 안정화 ← 현재\nPhase 4: Managed Agent 부분 재도입 (예정)\nPhase 5: Cloud Drive 풀 통합 (2026 H2)\n\n──────────\n\n📅 매주 6회 드림팀 일지 공개\n\n월 = Claude / 화 = 트렌드 / 수 = 드림팀 스토리\n목 = 튜토리얼 / 금 = MCP 리뷰 / 토 = SecondBrain\n\n──────────\n\n📩 자동 가이드 발송 조건\n\n① 팔로우 @bella_ai_auto\n② 게시물에 ❤️ 좋아요\n③ 댓글에 「DREAMTEAM」\n\n→ 3가지 모두 충족하시면\n   20명 매트릭스 + 셋업 가이드 자동 발송 ✷\n\n(자동 응답: 햄스터즈 24시간 내)\n\n#드림팀 #ClaudeAI #AI자동화 #비개발자 #VOL001"
+}

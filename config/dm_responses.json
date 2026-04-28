@@ -1,0 +1,95 @@
+{
+  "_metadata": {
+    "version": "v2.0",
+    "created": "2026-04-28",
+    "principle": "가벼운 맛보기 + 호흡 멘트 + 무료 PDF + 컨설팅 가벼운 CTA (가격 X — 팬 사인 후 단계적 노출)",
+    "trigger_keywords": {
+      "DREAMTEAM": "드림팀 한 장 소개 + Skill 리스트 PDF + 매주 시리즈 안내",
+      "SKILL": "Claude Skills 4종 + 5분 만들기 PDF",
+      "CLAUDE": "Claude 활용 가이드 (DREAMTEAM fallback)",
+      "GUIDE": "범용 가이드 (DREAMTEAM fallback)"
+    },
+    "follow_up_schedule": {
+      "day_3": "다른 인기 시리즈 추천",
+      "day_7": "주간 시리즈 회고 + 댓글 응답 안내",
+      "day_30": "(팬 사인 후) 컨설팅 단계 노출"
+    },
+    "safety_rules": [
+      "동일 사용자 24시간 1회만 발송",
+      "일일 한도 200건",
+      "외부 링크는 우리 도메인만 (bella-nest.vercel.app, raw.githubusercontent.com/bellaliv423, kndli.com)",
+      "가격 절대 무료 자료 노출 금지 (팬 사인 후 단계적)"
+    ]
+  },
+
+  "DREAMTEAM": {
+    "ko": {
+      "greeting_template": "안녕하세요 {{name}}님 🌷",
+      "intro": "@bella_ai_auto에 「DREAMTEAM」 댓글 남겨주셔서 정말 감사해요!",
+      "main_body": "약속드린 자료 가벼운 버전으로 보내드려요 ✷\n\n📦 드림팀 한 장 소개:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/dreamteam_onepager.png\n\n📅 매주 6일 시리즈 캘린더:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/dreamteam_weekly_calendar.png\n\n📘 무료 Skill 리스트 PDF:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/pdfs/dreamteam_skill_list_v2_ko.pdf\n\n매주 6회 시리즈로 풀어드려요:\n월 Claude / 화 트렌드 / 수 드림팀\n목 튜토리얼 / 금 MCP / 토 SecondBrain\n\n비개발자 1인 + 3봇 시스템 = 20명 24/7 운영의 진짜 이야기",
+      "cta": "🎁 더 보고 싶으시면?\n\n• 팔로우 + 알림 ON → 매주 6편 자동\n• 댓글로 질문 → 햄스터즈 24h 안에 답변\n• 더 깊이 → DM으로 「관심」 보내주세요 ✨",
+      "signature": "\n— 벨라 드림 (드림팀과 함께) ✷",
+      "attachments": []
+    },
+    "zh": {
+      "greeting_template": "您好 {{name}}！🌷",
+      "intro": "感謝您在 @bella_ai_auto 留言「DREAMTEAM」！",
+      "main_body": "依約定，將輕量版資料寄給您 ✷\n\n📦 夢想團隊一頁介紹：\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/dreamteam_onepager.png\n\n📅 每週 6 日系列日曆：\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/dreamteam_weekly_calendar.png\n\n📘 免費 Skill 清單 PDF：\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/pdfs/dreamteam_skill_list_v2_zh.pdf\n\n每週 6 次系列分享：\n週一 Claude / 週二 趨勢 / 週三 夢想團隊\n週四 教學 / 週五 MCP / 週六 SecondBrain\n\n1 位非開發者 + 3 機器人系統 = 20 個角色 24/7 運營的真實故事",
+      "cta": "🎁 想看更多？\n\n• 追蹤 + 開啟通知 → 每週 6 篇自動\n• 留言提問 → 倉鼠隊 24h 內回覆\n• 更深入 → 私訊「興趣」給我們 ✨",
+      "signature": "\n— Bella (與夢想團隊) ✷",
+      "attachments": []
+    },
+    "en": {
+      "greeting_template": "Hi {{name}}! 🌷",
+      "intro": "Thank you for commenting \"DREAMTEAM\" on @bella_ai_auto!",
+      "main_body": "Here's the light version as promised ✷\n\n📦 Dream Team One-Pager:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/dreamteam_onepager.png\n\n📅 Weekly 6-Day Calendar:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/dreamteam_weekly_calendar.png\n\n📘 Free Skill List PDF:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/pdfs/dreamteam_skill_list_v2_en.pdf\n\nWeekly 6-day series:\nMon Claude / Tue Trends / Wed Dream Team\nThu Tutorial / Fri MCP / Sat SecondBrain\n\n1 non-dev + 3 bot systems = 20 personas running 24/7 — the real story",
+      "cta": "🎁 Want more?\n\n• Follow + turn on notifications → 6 weekly posts\n• Comment your question → Hamsterz reply within 24h\n• Go deeper → DM us \"INTEREST\" ✨",
+      "signature": "\n— Bella (with the Dream Team) ✷",
+      "attachments": []
+    }
+  },
+
+  "SKILL": {
+    "ko": {
+      "greeting_template": "안녕하세요 {{name}}님 🌷",
+      "intro": "Claude Skills 댓글 감사해요!",
+      "main_body": "약속드린 가이드 가벼운 버전 ✷\n\n📘 Claude Skills 4종 즉시 사용 (claude.ai 무료/Pro):\n📊 Excel — 데이터 분석·차트\n📝 Word — 문서 작성\n🎨 PowerPoint — 프레젠테이션\n📄 PDF — 보고서 생성\n\n🛠 Custom Skill 5분 만들기:\n1. claude.ai → 설정 → 기능\n2. SKILL.md 파일 작성\n3. ZIP 업로드 → 다음 대화부터 자동 적용 ✨\n\n📘 PDF 가이드:\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/pdfs/dreamteam_skill_list_v2_ko.pdf",
+      "cta": "🎁 매주 시리즈 받기:\n• 화: 트렌드 / 금: MCP 리뷰\n• 댓글 = 햄스터즈 24h 답변",
+      "signature": "\n— 벨라 드림 ✷",
+      "attachments": []
+    },
+    "zh": {
+      "greeting_template": "您好 {{name}}！🌷",
+      "intro": "感謝您留言關心 Claude Skills！",
+      "main_body": "輕量版指南 ✷\n\n📘 Claude Skills 4 種即用 (claude.ai 免費/Pro)：\n📊 Excel — 數據分析·圖表\n📝 Word — 文件撰寫\n🎨 PowerPoint — 簡報\n📄 PDF — 報告生成\n\n🛠 5 分鐘做出自己的 Skill：\n1. claude.ai → 設定 → 功能\n2. 編寫 SKILL.md\n3. ZIP 上傳 → 下次對話自動應用 ✨\n\n📘 PDF 指南：\n👉 https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/pdfs/dreamteam_skill_list_v2_zh.pdf",
+      "cta": "🎁 每週系列：\n• 二：趨勢 / 五：MCP 評測\n• 留言 = 倉鼠隊 24h 回覆",
+      "signature": "\n— Bella ✷",
+      "attachments": []
+    }
+  },
+
+  "CLAUDE": {
+    "ko": {"fallback_to": "DREAMTEAM"},
+    "zh": {"fallback_to": "DREAMTEAM"}
+  },
+
+  "GUIDE": {
+    "ko": {"fallback_to": "DREAMTEAM"},
+    "zh": {"fallback_to": "DREAMTEAM"}
+  },
+
+  "default_unknown": {
+    "ko": {
+      "greeting_template": "안녕하세요 {{name}}님 🌷",
+      "intro": "댓글 남겨주셔서 감사해요!",
+      "main_body": "어떤 주제가 궁금하신가요?\n\n• 「DREAMTEAM」 — 드림팀 한 장 소개 + 매주 캘린더\n• 「SKILL」 — Claude Skills 4종 + 5분 만들기\n\n키워드 적어주시면 자동으로 자료 보내드릴게요!",
+      "signature": "\n— 햄스터즈 (드림팀 자동 응답)"
+    },
+    "zh": {
+      "greeting_template": "您好 {{name}}！🌷",
+      "intro": "感謝您留言！",
+      "main_body": "想了解哪個主題呢？\n\n• 「DREAMTEAM」— 夢想團隊一頁介紹 + 每週日曆\n• 「SKILL」— Claude Skills 4 種 + 5 分鐘製作\n\n留下關鍵字，我們自動寄給您！",
+      "signature": "\n— 倉鼠隊 (夢想團隊自動回覆)"
+    }
+  }
+}
