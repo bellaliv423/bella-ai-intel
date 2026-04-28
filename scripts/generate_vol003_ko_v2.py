@@ -137,21 +137,28 @@ def slide_2(out):
     d.text((80, 220), "3개의 24/7", fill=DARK, font=f_huge)
     d.text((80, 305), "봇 시스템", fill=DARK, font=f_huge)
 
-    # 3 카드 세로
+    # 3 카드 세로 (이모지 X, 색상 컬러 바로 구분)
+    PURPLE = (124, 58, 237)
+    ORANGE = (217, 119, 87)
+    PINK = (236, 72, 153)
     cards = [
-        ("☁️ 만능이", "Claude API · Slack Bolt", "Mac mini launchd 24/7", BROWN),
-        ("🐹 햄스터즈", "Claude Code · 12 페르소나 자동", "윈도우 데스크탑 + 노트북", DARK),
-        ("🐕 퍼피즈", "OpenClaw · 6 페르소나 자동", "Mac mini launchd", DARK),
+        ("만능이", "MANNEUNGI", "Claude API · Slack Bolt · Mac mini 24/7", PURPLE),
+        ("햄스터즈", "HAMSTERZ", "Claude Code · 12 페르소나 · 윈도우 + 노트북", ORANGE),
+        ("퍼피즈", "PUPPYZ", "OpenClaw · 6 페르소나 · Mac mini launchd", PINK),
     ]
+    f_eng = ImageFont.truetype(F_BOLD, 18)
     y = 460
-    for i, (name, desc1, desc2, color) in enumerate(cards):
-        # 좌측 컬러 바
-        d.rectangle([(80, y), (88, y + 110)], fill=BROWN)
-        # 이름
-        d.text((110, y + 5), name, fill=DARK, font=f_card_name)
-        # 디스크립션
-        d.text((110, y + 55), desc1, fill=GRAY, font=f_card_desc)
-        d.text((110, y + 82), desc2, fill=GRAY, font=f_card_sub)
+    for kr, en, desc, color in cards:
+        # 좌측 컬러 바 (각 봇 색상)
+        d.rectangle([(80, y), (90, y + 105)], fill=color)
+        # 색상 도트
+        d.ellipse([(110, y + 12), (138, y + 40)], fill=color)
+        # 영문 코드명 (작게, 색상)
+        d.text((150, y + 8), en, fill=color, font=f_eng)
+        # 한글 이름 (큰 검정)
+        d.text((110, y + 40), kr, fill=DARK, font=f_card_name)
+        # 디스크립션 (회색)
+        d.text((110, y + 90), desc, fill=GRAY, font=f_card_sub)
         y += 130
 
     # 임팩트 박스 (Crail Brown)
@@ -217,10 +224,13 @@ def slide_4(out):
     # 우측 별
     draw_star(d, 1010, 90, 30, WHITE, width=2)
 
-    # 메인
+    # 메인 (이모지 ✷ 대신 직접 그림 별)
     d.text((110, 230), "댓글에", fill=WHITE, font=f_huge)
     d.text((110, 330), "「DREAMTEAM」", fill=WHITE, font=f_huge)
-    d.text((110, 430), "남기시면 ✷", fill=WHITE, font=f_huge)
+    d.text((110, 430), "남기시면", fill=WHITE, font=f_huge)
+    # "남기시면" 옆에 흰 별 그림
+    text_w = d.textlength("남기시면", font=f_huge)
+    draw_star(d, 110 + text_w + 50, 470, 50, WHITE, width=4)
 
     # 가벼운 약속 박스 (흰 테두리)
     d.rounded_rectangle([(110, 600), (970, 800)], radius=14, outline=WHITE, width=3)
