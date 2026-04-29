@@ -1,6 +1,312 @@
 {
   "items": [
     {
+      "id": "eced841dc9cc",
+      "title": "Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai unavailable and elevated errors...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai unavailable and elevated errors...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy8wmx/claude_status_update_claudeai_unavailable_and/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.311686+09:00",
+      "reddit_score": 73
+    },
+    {
+      "id": "3329d34590c5",
+      "title": "How to make a Product Promo Video with Claude Design (Prompts inside)",
+      "summary_en": "I just made this product promo video completely with Claude code. Explaining the process here with the prompts. I also have a generic prompt at the bo...",
+      "summary_ko": "I just made this product promo video completely with Claude code. Explaining the process here with the prompts. I also have a generic prompt at the bo...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sypn6t/how_to_make_a_product_promo_video_with_claude/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.310685+09:00",
+      "reddit_score": 8
+    },
+    {
+      "id": "be9fb71f7e70",
+      "title": "Claude Status Update : Claude.ai unavailable on 2026-04-28T17:41:55.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai unavailable\n\nCheck on progress ...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai unavailable\n\nCheck on progress ...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy8k22/claude_status_update_claudeai_unavailable_on/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.310685+09:00",
+      "reddit_score": 103
+    },
+    {
+      "id": "211e0d27abab",
+      "title": "Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each",
+      "summary_en": "Mapped the canonical pipeline of 11 popular Claude Code workflow systems side-by-side. Yellow tags = sub-loops (repeat per task / per story / until ve...",
+      "summary_ko": "Mapped the canonical pipeline of 11 popular Claude Code workflow systems side-by-side. Yellow tags = sub-loops (repeat per task / per story / until ve...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sybpya/compared_11_popular_claude_code_workflow_systems/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.310685+09:00",
+      "reddit_score": 84
+    },
+    {
+      "id": "6c853791d928",
+      "title": "I built a Kanban board for Claude Code so I can run agent sessions straight from cards",
+      "summary_en": "I've been running 4-5 Claude Code sessions in parallel and kept losing track - which terminal had the auth work, which one was the bug fix, what's act...",
+      "summary_ko": "I've been running 4-5 Claude Code sessions in parallel and kept losing track - which terminal had the auth work, which one was the bug fix, what's act...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sye8bs/i_built_a_kanban_board_for_claude_code_so_i_can/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.309685+09:00",
+      "reddit_score": 84
+    },
+    {
+      "id": "60ce9acbda7f",
+      "title": "Your Claude Code project dashboard is now on the Mac App Store",
+      "summary_en": "Follow up to my .story/ post last week. The Mac companion is now live on the Mac App Store, free.\n\nApp Store: [https://apps.apple.com/us/app/storybloq...",
+      "summary_ko": "Follow up to my .story/ post last week. The Mac companion is now live on the Mac App Store, free.\n\nApp Store: [https://apps.apple.com/us/app/storybloq...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1symv0c/your_claude_code_project_dashboard_is_now_on_the/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.309685+09:00",
+      "reddit_score": 39
+    },
+    {
+      "id": "fa5b53a61d42",
+      "title": "Claude now connects to Blender",
+      "summary_en": "Claude now connects to the tools creative professionals already use.  \nWith the new Blender connector, you can debug a scene, build new tools, or batc...",
+      "summary_ko": "Claude now connects to the tools creative professionals already use.  \nWith the new Blender connector, you can debug a scene, build new tools, or batc...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy49oi/claude_now_connects_to_blender/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.309685+09:00",
+      "reddit_score": 372
+    },
+    {
+      "id": "e422cd6d1da1",
+      "title": "Opus 4.7 is just 4.6 with a stick up its butt. Give me my tokens back!",
+      "summary_en": "I've been a Claude user for a while now, and don't get me wrong — Claude has almost always been one of the most insufferable models when it comes to i...",
+      "summary_ko": "I've been a Claude user for a while now, and don't get me wrong — Claude has almost always been one of the most insufferable models when it comes to i...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1syipwf/opus_47_is_just_46_with_a_stick_up_its_butt_give/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.309685+09:00",
+      "reddit_score": 90
+    },
+    {
+      "id": "146a50234b2a",
+      "title": "Talkie: a 13B LLM trained only on pre-1931 text used Claude Sonnet to help test the model and judge its output",
+      "summary_en": "Researchers Alec Radford (GPT, CLIP, Whisper), Nick Levine, and David Duvenaud just released **talkie**: a 13 billion parameter language model trained...",
+      "summary_ko": "Researchers Alec Radford (GPT, CLIP, Whisper), Nick Levine, and David Duvenaud just released **talkie**: a 13 billion parameter language model trained...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy7rry/talkie_a_13b_llm_trained_only_on_pre1931_text/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:12.308714+09:00",
+      "reddit_score": 716
+    },
+    {
+      "id": "93644b879bd5",
+      "title": "Claude Code v7.1.0 Release",
+      "summary_en": "Claude Code 7.1.0 released on April 29, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 7.1.0 릴리즈 (April 29, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 7.1.0 發布 (April 29, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:09.849096+09:00"
+    },
+    {
+      "id": "176509fd7baa",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-29T16:00:09.537698+09:00"
+    },
+    {
+      "id": "0361157036cb",
+      "title": "No More Subsidised AI Subscriptions?",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy0v5z/no_more_subsidised_ai_subscriptions/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-29T16:00:12.310685+09:00",
+      "reddit_score": 212
+    },
+    {
+      "id": "bbdcf06d89bb",
+      "title": "PullMD - gave Claude Code an MCP server so it stops burning tokens parsing HTML",
+      "summary_en": "Hey all,\n\nBuilt this over the past few weeks because I got tired of two things:\n\n**1. Mobile copy-paste is awful.** Long Reddit thread or blog post on...",
+      "summary_ko": "Hey all,\n\nBuilt this over the past few weeks because I got tired of two things:\n\n**1. Mobile copy-paste is awful.** Long Reddit thread or blog post on...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxzlh6/pullmd_gave_claude_code_an_mcp_server_so_it_stops/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-29T16:00:12.310685+09:00",
+      "reddit_score": 262
+    },
+    {
+      "id": "9882e2939c13",
+      "title": "Built a business this weekend. I'm scared.",
+      "summary_en": "One of my favorite things to do is just chat with my LLMs about my silly ideas.  I never intend to execute them, but Claude discovered for me that I a...",
+      "summary_ko": "One of my favorite things to do is just chat with my LLMs about my silly ideas.  I never intend to execute them, but Claude discovered for me that I a...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy31hr/built_a_business_this_weekend_im_scared/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-29T16:00:12.309685+09:00",
+      "reddit_score": 248
+    },
+    {
+      "id": "2a2a6b0c4f11",
+      "title": "Claude has made me excited to work",
+      "summary_en": "For the past few years, I’ve been going through the motions at work, completely devoid of any passion for what I do. I thought I had lost the drive th...",
+      "summary_ko": "For the past few years, I’ve been going through the motions at work, completely devoid of any passion for what I do. I thought I had lost the drive th...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy1hyb/claude_has_made_me_excited_to_work/",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-29T16:00:12.309685+09:00",
+      "reddit_score": 505
+    },
+    {
+      "id": "264469cc8c83",
+      "title": "Claude for Creative Work",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "date": "2026-04-28",
+      "collected_at": "2026-04-29T16:00:09.540704+09:00"
+    },
+    {
       "id": "8251c585895a",
       "title": "I vibe reverse-engineered my Divoom MiniToo's Bluetooth protocol to make a physical Claude Code status indicator",
       "summary_en": "I’ve been playing with a Divoom MiniToo and ended up reverse-engineering enough of its Bluetooth protocol to use it as a physical Claude Code status i...",
@@ -999,6 +1305,23 @@
       "date": "2026-04-24",
       "collected_at": "2026-04-24T09:11:32.230480+09:00",
       "reddit_score": 879
+    },
+    {
+      "id": "494d9aaf693e",
+      "title": "Claude Code v6.5.1 Release",
+      "summary_en": "Claude Code 6.5.1 released on April 23, 2026. Check changelog for details.",
+      "summary_ko": "Claude Code 6.5.1 릴리즈 (April 23, 2026). 변경사항은 체인지로그를 확인하세요.",
+      "summary_zh": "Claude Code 6.5.1 發布 (April 23, 2026)。詳情請查看更新日誌。",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Changelog"
+      ],
+      "source": "Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "date": "2026-04-23",
+      "collected_at": "2026-04-29T16:00:09.849096+09:00"
     },
     {
       "id": "3c234efff18e",
@@ -7600,17 +7923,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-28T16:51:00.286449+09:00",
+  "last_updated": "2026-04-29T17:16:14.247805+09:00",
   "stats": {
-    "total_items": 402,
+    "total_items": 419,
     "categories": {
-      "claude_code": 133,
-      "ai_trend": 212,
-      "claude_release": 42,
+      "claude_release": 45,
+      "claude_code": 140,
+      "ai_trend": 219,
       "automation": 9,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-28 16:51"
+    "last_collection": "2026-04-29 17:16"
   }
 }
