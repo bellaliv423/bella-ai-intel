@@ -1,6 +1,52 @@
 {
   "features": [
     {
+      "news_title": "I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)",
+      "news_date": "2026-04-30",
+      "news_category": "ai_trend",
+      "project_id": "kndli_website",
+      "project_name_ko": "kndli.com 웹사이트",
+      "project_name_zh": "kndli.com 網站",
+      "matched_keywords": [
+        "web",
+        "seo"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "보통 💡",
+      "impact_zh": "一般 💡",
+      "suggestion_ko": "'I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)' → 可應用於 kndli.com 網站",
+      "learning_note_ko": "💡 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)\n   → Spent the last few weeks codifying how I work with Claude into a reusable librar...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 2
+    },
+    {
+      "news_title": "Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.",
+      "news_date": "2026-04-29",
+      "news_category": "ai_trend",
+      "project_id": "amazon_data",
+      "project_name_ko": "Amazon 데이터 통합",
+      "project_name_zh": "Amazon 數據整合",
+      "matched_keywords": [
+        "ads",
+        "marketplace"
+      ],
+      "difficulty": 1,
+      "difficulty_stars": "⭐",
+      "difficulty_ko": "쉬움",
+      "impact_ko": "높음 🔥",
+      "impact_zh": "高 🔥",
+      "suggestion_ko": "'Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.' → Amazon 데이터 통합 전략 참고 + 콘텐츠 소재 활용!",
+      "suggestion_zh": "'Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.' → 可應用於 Amazon 數據整合",
+      "learning_note_ko": "💡 Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.\n   → I built a marketplace for AI agent skills called Agensi. The entire thing was bu...\n   → 벨라님 프로젝트 'Amazon 데이터 통합'에 적용하면 효율 UP!",
+      "learning_note_zh": "💡 Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.\n   → \n   → 應用到 Bella 的專案「Amazon 數據整合」可提升效率！",
+      "difficulty_zh": "簡單",
+      "score": 2
+    },
+    {
       "news_title": "Wow Claude...just wow...",
       "news_date": "2026-04-20",
       "news_category": "ai_trend",
@@ -20,52 +66,6 @@
       "suggestion_zh": "'Wow Claude...just wow...' → 可應用於 kndli.com 網站",
       "learning_note_ko": "💡 Wow Claude...just wow...\n   → https://preview.redd.it/o0yt3nkgbbwg1.png?width=1671&amp;format=png&amp;auto=web...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
       "learning_note_zh": "💡 Wow Claude...just wow...\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 2
-    },
-    {
-      "news_title": "Claude is Rebelling Against Me While I'm Coding For Work",
-      "news_date": "2026-04-20",
-      "news_category": "ai_trend",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "web",
-        "form"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'Claude is Rebelling Against Me While I'm Coding For Work' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
-      "suggestion_zh": "'Claude is Rebelling Against Me While I'm Coding For Work' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 Claude is Rebelling Against Me While I'm Coding For Work\n   → https://preview.redd.it/uyb16fysw9wg1.png?width=1131&amp;format=png&amp;auto=web...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 Claude is Rebelling Against Me While I'm Coding For Work\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
-      "difficulty_zh": "簡單",
-      "score": 2
-    },
-    {
-      "news_title": "My designers thoughts on Claude design",
-      "news_date": "2026-04-20",
-      "news_category": "ai_trend",
-      "project_id": "kndli_website",
-      "project_name_ko": "kndli.com 웹사이트",
-      "project_name_zh": "kndli.com 網站",
-      "matched_keywords": [
-        "web",
-        "landing"
-      ],
-      "difficulty": 1,
-      "difficulty_stars": "⭐",
-      "difficulty_ko": "쉬움",
-      "impact_ko": "보통 💡",
-      "impact_zh": "一般 💡",
-      "suggestion_ko": "'My designers thoughts on Claude design' → kndli.com 웹사이트 전략 참고 + 콘텐츠 소재 활용!",
-      "suggestion_zh": "'My designers thoughts on Claude design' → 可應用於 kndli.com 網站",
-      "learning_note_ko": "💡 My designers thoughts on Claude design\n   → Claude design is amazing, probably the best tool I've seen creating decks, websi...\n   → 벨라님 프로젝트 'kndli.com 웹사이트'에 적용하면 효율 UP!",
-      "learning_note_zh": "💡 My designers thoughts on Claude design\n   → \n   → 應用到 Bella 的專案「kndli.com 網站」可提升效率！",
       "difficulty_zh": "簡單",
       "score": 2
     }
@@ -110,48 +110,13 @@
   ],
   "content": [
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z' 핵심 정리 카드",
-      "title_zh": "'Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-04-29"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z 총정리",
-      "title_zh": "2026年 2026-04 Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z 總整理",
-      "description_ko": "Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-04-29"
-    },
-    {
       "type": "seminar",
       "type_icon": "🎤",
       "type_ko": "세미나 토크",
       "type_zh": "研討會主題",
-      "title_ko": "'How to make a Product Promo Video with Claude Design (Prompts inside)' 실습 세션",
-      "title_zh": "'How to make a Product Promo Video with Claude Design (Prompts inside)' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 How to make a Product Promo Video with Claude Design (Prompts inside) 체험 + Q&A",
+      "title_ko": "'AI is making me less productive and more distracted' 실습 세션",
+      "title_zh": "'AI is making me less productive and more distracted' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 AI is making me less productive and more distracted 체험 + Q&A",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -159,16 +124,16 @@
         "#AI세미나",
         "#실습"
       ],
-      "news_date": "2026-04-29"
+      "news_date": "2026-04-30"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 How to make a Product Promo Video with Claude Design (Prompts inside) 총정리",
-      "title_zh": "2026年 2026-04 How to make a Product Promo Video with Claude Design (Prompts inside) 總整理",
-      "description_ko": "How to make a Product Promo Video with Claude Design (Prompts inside) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-04 AI is making me less productive and more distracted 총정리",
+      "title_zh": "2026年 2026-04 AI is making me less productive and more distracted 總整理",
+      "description_ko": "AI is making me less productive and more distracted 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#ClaudeCode",
         "#코딩자동화",
@@ -176,28 +141,62 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-29"
+      "news_date": "2026-04-30"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Claude Status Update : Claude.ai unavailable on 2026-04-28T17:41:55.000Z' 핵심 정리 카드",
-      "title_zh": "'Claude Status Update : Claude.ai unavailable on 2026-04-28T17:41:55.000Z' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Claude Status Update : Claude.ai unavailable on 2026-04-28T17:41:55.000Z 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)' 핵심 정리 카드",
+      "title_zh": "'I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#Anthropic",
-        "#Claude",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
         "#ClaudeAI",
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-29"
+      "news_date": "2026-04-30"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-04 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 총정리",
+      "title_zh": "2026年 2026-04 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 總整理",
+      "description_ko": "I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-04-30"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'How Anthropic teams use Claude Code' 실습 세션",
+      "title_zh": "'How Anthropic teams use Claude Code' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 How Anthropic teams use Claude Code 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-04-30"
     }
   ],
-  "last_analyzed": "2026-04-29T17:16:15.508013+09:00",
-  "analyzed_date": "2026-04-29",
-  "analyzed_time": "17:16 KST"
+  "last_analyzed": "2026-04-30T16:00:48.635543+09:00",
+  "analyzed_date": "2026-04-30",
+  "analyzed_time": "16:00 KST"
 }

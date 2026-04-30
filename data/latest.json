@@ -1,6 +1,277 @@
 {
   "items": [
     {
+      "id": "1463d016d2b0",
+      "title": "AI is making me less productive and more distracted",
+      "summary_en": "I've been doing web development for around 12 years, and lately I've been using Claude Code a lot.\n\nI use AI and Claude code every day and yes, in som...",
+      "summary_ko": "I've been doing web development for around 12 years, and lately I've been using Claude Code a lot.\n\nI use AI and Claude code every day and yes, in som...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz2nf3/ai_is_making_me_less_productive_and_more/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.713680+09:00",
+      "reddit_score": 116
+    },
+    {
+      "id": "8fbde82dfa00",
+      "title": "I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)",
+      "summary_en": "Spent the last few weeks codifying how I work with Claude into a reusable library. Sharing because it might save someone else the same effort.\n\nWhat i...",
+      "summary_ko": "Spent the last few weeks codifying how I work with Claude into a reusable library. Sharing because it might save someone else the same effort.\n\nWhat i...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz5alu/i_opensourced_59_claude_skills_covering_the_full/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.713680+09:00",
+      "reddit_score": 94
+    },
+    {
+      "id": "b54e9015eb95",
+      "title": "How Anthropic teams use Claude Code",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szjx4v/how_anthropic_teams_use_claude_code/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.713680+09:00",
+      "reddit_score": 17
+    },
+    {
+      "id": "eb5add3b8609",
+      "title": "Converting Claude Code into the most intelligent Deep Research Agent",
+      "summary_en": "Over the past several weeks, I've been working on HyperResearch, a Claude Code skill harness that converts CC into the most intelligent deep research ...",
+      "summary_ko": "Over the past several weeks, I've been working on HyperResearch, a Claude Code skill harness that converts CC into the most intelligent deep research ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz9ib0/converting_claude_code_into_the_most_intelligent/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.712680+09:00",
+      "reddit_score": 90
+    },
+    {
+      "id": "54a8c0e5731a",
+      "title": "Almanac, turn claude code into a deep research agent",
+      "summary_en": "If you've tried doing research with Claude Code, you know how bad the default search and read webpage is.\n\nI built Almanac MCP to fix that. Claude can...",
+      "summary_ko": "If you've tried doing research with Claude Code, you know how bad the default search and read webpage is.\n\nI built Almanac MCP to fix that. Claude can...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szfeg3/almanac_turn_claude_code_into_a_deep_research/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.712680+09:00",
+      "reddit_score": 51
+    },
+    {
+      "id": "906f48a2dfeb",
+      "title": "Launched My First App Using Claude",
+      "summary_en": "Hello everyone. About a week ago, I was able to launch my very own app, all of it being built by Claude.\n\nIt’s a vehicle management app. Allows you to...",
+      "summary_ko": "Hello everyone. About a week ago, I was able to launch my very own app, all of it being built by Claude.\n\nIt’s a vehicle management app. Allows you to...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz38u6/launched_my_first_app_using_claude/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.712680+09:00",
+      "reddit_score": 235
+    },
+    {
+      "id": "c62e6731cf9f",
+      "title": "Claude Status Update : claude.ai and API unavailable on 2026-04-30T01:20:26.000Z",
+      "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: claude.ai and API unavailable\n\nCheck on p...",
+      "summary_ko": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: claude.ai and API unavailable\n\nCheck on p...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szhurv/claude_status_update_claudeai_and_api_unavailable/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.712680+09:00",
+      "reddit_score": 59
+    },
+    {
+      "id": "d81fcb995104",
+      "title": "what is claude mythos doing in my azure model catalog 😭",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szbrd1/what_is_claude_mythos_doing_in_my_azure_model/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.711681+09:00",
+      "reddit_score": 128
+    },
+    {
+      "id": "72f5b8c91e5c",
+      "title": "Claude picked the moral high ground in the red button/blue button vote",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.711681+09:00",
+      "reddit_score": 669
+    },
+    {
+      "id": "927809efc704",
+      "title": "Thanks for the advice Claude",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:20.711681+09:00",
+      "reddit_score": 1728
+    },
+    {
+      "id": "ddb19a1c6c2c",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-30",
+      "collected_at": "2026-04-30T16:00:17.766903+09:00"
+    },
+    {
+      "id": "32639c308da9",
+      "title": "Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.",
+      "summary_en": "I built a marketplace for AI agent skills called Agensi. The entire thing was built with Claude and Lovable. I'm not a developer. But that's not what ...",
+      "summary_ko": "I built a marketplace for AI agent skills called Agensi. The entire thing was built with Claude and Lovable. I'm not a developer. But that's not what ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1syt37w/claude_is_my_seo_strategist_content_engine_and/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-30T16:00:20.713680+09:00",
+      "reddit_score": 572
+    },
+    {
+      "id": "a7c1b573c490",
+      "title": "The final nail in the coffin for entry level creative freelancers just dropped",
+      "summary_en": "Anthropic just officially released the blender mcp connector today alongside adobe ,splice and sketchup, you can now type \"create a low poly beach sce...",
+      "summary_ko": "Anthropic just officially released the blender mcp connector today alongside adobe ,splice and sketchup, you can now type \"create a low poly beach sce...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#MCP",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1syu949/the_final_nail_in_the_coffin_for_entry_level/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-30T16:00:20.712680+09:00",
+      "reddit_score": 556
+    },
+    {
+      "id": "e28f4ba6ce63",
+      "title": "When you've got money to burn 😂",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/",
+      "date": "2026-04-29",
+      "collected_at": "2026-04-30T16:00:20.711681+09:00",
+      "reddit_score": 1128
+    },
+    {
       "id": "eced841dc9cc",
       "title": "Claude Status Update : Claude.ai unavailable and elevated errors on the API on 2026-04-28T17:51:36.000Z",
       "summary_en": "This is an automatic post triggered within 2 minutes of an official Claude system status update. \n\nIncident: Claude.ai unavailable and elevated errors...",
@@ -7923,17 +8194,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-29T17:16:14.247805+09:00",
+  "last_updated": "2026-04-30T16:00:46.469328+09:00",
   "stats": {
-    "total_items": 419,
+    "total_items": 433,
     "categories": {
-      "claude_release": 45,
-      "claude_code": 140,
-      "ai_trend": 219,
+      "claude_code": 144,
+      "ai_trend": 227,
+      "claude_release": 47,
       "automation": 9,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-29 17:16"
+    "last_collection": "2026-04-30 16:00"
   }
 }
