@@ -1,0 +1,12 @@
+{
+  "vol": "VOL.009 EN",
+  "topic": "Monday Claude Code — 5-min install D+12",
+  "lang": "en",
+  "image_urls": [
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_en_01_cover.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_en_02_why.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_en_03_how.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_en_04_cta.png"
+  ],
+  "caption": "Claude Code installs in 5 minutes ✷\n\nMonday = Claude Code series.\n\n3 STEPS only:\n- STEP 1: npm install -g @anthropic-ai/claude-code (1 min)\n- STEP 2: set ANTHROPIC_API_KEY env var (2 min)\n- STEP 3: cd into your repo, ask in plain English (1 min)\n\n1 npm command = AI coding companion instantly.\nDream Team's Windy/Robo/Collie/Manneungi all use Claude Code daily.\n\n✷ Want the library?\nComment 'DREAMTEAM' to receive\nVOL.009 fan library auto-sent\n👉 Different VOL daily · Fresh value (0% repeat)\n\n──────────\n\n👥 Made by our Dream Team:\n👑 Lecturer: Goldie\n🐹 Copy: Chai\n☁️ Research: Manneungi\n🎨 Design: Arty\n🤖 Dev: Robo\n🛡️ Review: Max\n🐕 Publish: Collie (Mac mini holiday auto)\n🌬️ Archive: Windy\n\n— Always archived, everywhere. Windy ✷\n\n──────────\n\n📅 Weekly 6-day series:\nMON Claude / TUE Trends / WED Dream Team / THU Tutorial / FRI MCP / SAT SecondBrain\n\nFollow + Notifications ON ✨\n\n#ClaudeCode #npm #AICoding #5MinInstall #DreamTeam #AIAutomation #productivity #AIAgent"
+}

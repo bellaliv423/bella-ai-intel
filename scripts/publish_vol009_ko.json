@@ -1,0 +1,12 @@
+{
+  "vol": "VOL.009",
+  "topic": "월요일 Claude Code — 5분 설치 D+12",
+  "lang": "ko",
+  "image_urls": [
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_ko_01_cover.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_ko_02_why.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_ko_03_how.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-05-04/2026-05-04_vol009_ko_04_cta.png"
+  ],
+  "caption": "Claude Code, 5분이면 설치돼요 ✷\n\n월요일은 Claude Code 시리즈.\n\n3 STEP만 알면 끝:\n- STEP 1: npm install -g @anthropic-ai/claude-code (1분)\n- STEP 2: ANTHROPIC_API_KEY 환경변수 (2분)\n- STEP 3: 프로젝트 폴더에서 자연어 프롬프트 (1분)\n\nnpm 1줄 = AI 코딩 도우미 즉시.\n드림팀 윈디·로보·콜리·만능이 모두 Claude Code 사용 중.\n\n✷ 자료 받기:\n댓글 'DREAMTEAM' 남기시면\nVOL.009 라이브러리 자동 발송\n👉 매일 다른 VOL · 매일 새로운 가치 (중복 0%)\n\n──────────\n\n👥 이번 VOL 만든 우리 드림팀:\n👑 기획·강사: 골디 (Claude 마스터)\n🐹 카피: 차이\n☁️ 리서치: 만능이 (설치 도구 매트릭스)\n🎨 디자인: 아티 (vol001 톤 8장 PIL)\n🤖 개발: 로보 (npm 검증)\n🛡️ 검수: 맥스 (보안 룰)\n🐕 발행: 콜리 (Mac mini 연휴 자율)\n🌬️ 박제: 윈디\n\n— 어디 가도 박제되어 있어요. 윈디 ✷\n\n──────────\n\n📅 매주 6회 시리즈:\n월 Claude / 화 트렌드 / 수 드림팀 / 목 튜토리얼 / 금 MCP / 토 SecondBrain\n\n팔로우 + 알림 ON 부탁드려요 ✨\n\n#ClaudeCode #npm #AI코딩 #5분설치 #드림팀 #AI자동화 #productivity #AIAgent #벨라의둥지"
+}
