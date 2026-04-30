@@ -1,0 +1,12 @@
+{
+  "vol": "VOL.006",
+  "topic": "목요일 튜토리얼 — Custom Skill 5분 만들기 D+8",
+  "lang": "ko",
+  "image_urls": [
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_ko_01_cover.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_ko_02_why.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_ko_03_how.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_ko_04_cta.png"
+  ],
+  "caption": "나만의 Custom Skill, 5분이면 만들 수 있어요 ✷\n\n목요일은 튜토리얼 시리즈.\n\n3 STEP만 알면 끝:\n- STEP 1: ~/.claude/skills/myskill/ 폴더 (1분)\n- STEP 2: SKILL.md 1개 파일 (3분)\n- STEP 3: /myskill 호출 (1분)\n\n반복 작업 1번 정의 = 무한 호출.\n드림팀에는 이미 10+ 개 Custom Skill 가동 중.\n\n✷ 자료 받기:\n댓글 'DREAMTEAM' 남기시면\nVOL.006 라이브러리 자동 발송\n👉 매일 다른 VOL · 매일 새로운 가치 (중복 0%)\n\n──────────\n\n👥 이번 VOL 만든 우리 드림팀:\n🐹 기획·카피·강사: 차이\n☁️ 리서치: 만능이 (Skill API D+8 통합)\n🎨 디자인: 아티 (vol001 톤 8장 PIL)\n🤖 개발: 로보 (3-Step 핸즈온 검증)\n🛡️ 검수: 맥스 (사업성 콘텐츠 0)\n🐕 발행: 콜리 (Mac mini launchd 18:00 연기)\n🌬️ 박제: 윈디\n\n— 어디 가도 박제되어 있어요. 윈디 ✷\n\n──────────\n\n📅 매주 6회 시리즈:\n월 Claude / 화 트렌드 / 수 드림팀 / 목 튜토리얼 / 금 MCP / 토 SecondBrain\n\n팔로우 + 알림 ON 부탁드려요 ✨\n\n#클로드코드 #CustomSkill #튜토리얼 #드림팀 #AI자동화 #비개발자 #productivity #AIAgent #벨라의둥지"
+}

@@ -1,0 +1,12 @@
+{
+  "vol": "VOL.006 EN",
+  "topic": "Thursday Tutorial — Custom Skill in 5 minutes D+8",
+  "lang": "en",
+  "image_urls": [
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_en_01_cover.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_en_02_why.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_en_03_how.png",
+    "https://raw.githubusercontent.com/bellaliv423/bella-ai-intel/master/public_assets/instagram/2026-04-30/2026-04-30_vol006_en_04_cta.png"
+  ],
+  "caption": "Your own Custom Skill, in 5 minutes ✷\n\nThursday = Tutorial day.\n\n3 STEPS, that is it:\n- STEP 1: Create ~/.claude/skills/myskill/ folder (1 min)\n- STEP 2: Write 1 SKILL.md file (3 min)\n- STEP 3: Call /myskill in any session (1 min)\n\nDefine a repeated task once = infinite reuse.\nDream Team already runs 10+ custom skills daily.\n\n✷ Want the library?\nComment 'DREAMTEAM' to receive\nVOL.006 fan library auto-sent\n👉 Different VOL daily · Fresh value (0% repeat)\n\n──────────\n\n👥 Made by our Dream Team:\n🐹 Strategy/copy/lecturer: Chai\n☁️ Research: Manneungi (Skill API D+8)\n🎨 Design: Arty (vol001 tone 8 PIL)\n🤖 Dev: Robo (3-Step hands-on validated)\n🛡️ Review: Max\n🐕 Publish: Collie (Mac mini launchd 18:00 delay)\n🌬️ Archive: Windy\n\n— Always archived, everywhere. Windy ✷\n\n──────────\n\n📅 Weekly 6-day series:\nMON Claude / TUE Trends / WED Dream Team / THU Tutorial / FRI MCP / SAT SecondBrain\n\nFollow + Notifications ON ✨\n\n#ClaudeCode #CustomSkill #Tutorial #DreamTeam #AIAutomation #NoCode #productivity #AIAgent"
+}
