@@ -57,12 +57,18 @@ def load_env():
 def api_post(url: str, params: dict) -> dict:
     payload = urllib.parse.urlencode(params).encode('utf-8')
     req = urllib.request.Request(url, data=payload, method='POST')
+    safe_url = url.split('?')[0]
+    print(f'    [DEBUG] POST {safe_url} (params: {[k for k in params if k != "access_token"]})')
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             return {'success': True, 'data': json.loads(r.read())}
     except urllib.error.HTTPError as e:
-        return {'success': False, 'error': f'HTTP {e.code}', 'body': e.read().decode()[:500]}
+        body = e.read().decode()
+        print(f'    [DEBUG ERROR] HTTP {e.code} URL={safe_url}')
+        print(f'    [DEBUG ERROR BODY] {body}')
+        return {'success': False, 'error': f'HTTP {e.code}', 'body': body, 'url': safe_url}
     except Exception as e:
+        print(f'    [DEBUG ERROR] {type(e).__name__}: {e}')
         return {'success': False, 'error': f'{type(e).__name__}: {e}'}
 
 
