@@ -1,6 +1,241 @@
 {
   "items": [
     {
+      "id": "f0020e79669a",
+      "title": "Spent an evening making a launch video with Claude + Blender MCP",
+      "summary_en": "Solo dev working on a habit tracker app (Spira — habits become flowers that bloom over time). Needed a 10s vertical video for App Store / TikTok and d...",
+      "summary_ko": "Solo dev working on a habit tracker app (Spira — habits become flowers that bloom over time). Needed a 10s vertical video for App Store / TikTok and d...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#MCP",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t09rrr/spent_an_evening_making_a_launch_video_with/",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 8
+    },
+    {
+      "id": "a2e047322028",
+      "title": "AGI is here 🗣🗣",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0cc8e/agi_is_here/",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 14
+    },
+    {
+      "id": "65e3a0086d08",
+      "title": "Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI:",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#OpenAI",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t07339/anthropic_world_is_not_ready_for_mythos_systems/",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-01T09:05:06.211316+09:00",
+      "reddit_score": 65
+    },
+    {
+      "id": "c28ef634eb98",
+      "title": "Dear Claude",
+      "summary_en": "what could you possibly be thinking so long for 😭",
+      "summary_ko": "what could you possibly be thinking so long for 😭",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szz3ea/dear_claude/",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-01T09:05:06.211316+09:00",
+      "reddit_score": 233
+    },
+    {
+      "id": "4498371de381",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-01T09:05:04.718192+09:00"
+    },
+    {
+      "id": "e7310279c99c",
+      "title": "What’s the best free resource to learn about Claude (from scratch)?",
+      "summary_en": "For example:\n\n\\- YouTube Tutorials \n\n\\- Newsletters \n\n\\- Blogs\n\n\\- Top Voices on social media \n\n**For context**: I’m planning to spend the long weeken...",
+      "summary_ko": "For example:\n\n\\- YouTube Tutorials \n\n\\- Newsletters \n\n\\- Blogs\n\n\\- Top Voices on social media \n\n**For context**: I’m planning to spend the long weeken...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szs2ke/whats_the_best_free_resource_to_learn_about/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 50
+    },
+    {
+      "id": "30b2ceac369f",
+      "title": "Absolutely blown away by the utility of the Claude Word add-in",
+      "summary_en": "I can have multiple, dense legal documents on my screen, each 40, 60, or 100+ pages each with the Claude Word add-in agents syncing, pushing and pulli...",
+      "summary_ko": "I can have multiple, dense legal documents on my screen, each 40, 60, or 100+ pages each with the Claude Word add-in agents syncing, pushing and pulli...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szm5l3/absolutely_blown_away_by_the_utility_of_the/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 160
+    },
+    {
+      "id": "c8ea375f04fb",
+      "title": "I made a Blender character animation from scratch with Claude",
+      "summary_en": "I created a character and animation from scratch in Blender using Claude.\n\nAs a game developer, this was such a fascinating experience. It’s hard to b...",
+      "summary_ko": "I created a character and animation from scratch in Blender using Claude.\n\nAs a game developer, this was such a fascinating experience. It’s hard to b...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szuz3o/i_made_a_blender_character_animation_from_scratch/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 46
+    },
+    {
+      "id": "b4d93c480203",
+      "title": "How to be better than 99% of Claude Code users while doing less, imo:",
+      "summary_en": "tl;dr: your skill in AI is a measure of your **quality** and **scale**. Use **success criteria** and **subagents** intentionally to get excellent resu...",
+      "summary_ko": "tl;dr: your skill in AI is a measure of your **quality** and **scale**. Use **success criteria** and **subagents** intentionally to get excellent resu...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#ClaudeExcel",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szn9b0/how_to_be_better_than_99_of_claude_code_users/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 207
+    },
+    {
+      "id": "fcc920092cdc",
+      "title": "Spent $40 on a single Claude Code session for a small task — what am I doing wrong?",
+      "summary_en": "Was fixing a deploy script, nothing complicated. By the end of the session it showed 12.8M input tokens and $40.78 billed for just 611 lines of code c...",
+      "summary_ko": "Was fixing a deploy script, nothing complicated. By the end of the session it showed 12.8M input tokens and $40.78 billed for just 611 lines of code c...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sztmrq/spent_40_on_a_single_claude_code_session_for_a/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 79
+    },
+    {
+      "id": "32a69cbf63a7",
+      "title": "[Open Source] We built a local code search MCP for Claude Code that uses ~98% fewer tokens than grep+read",
+      "summary_en": "Working on large codebases with Claude Code, we kept running into the same issue: when Claude looks for relevant code, it falls back to grep, reading ...",
+      "summary_ko": "Working on large codebases with Claude Code, we kept running into the same issue: when Claude looks for relevant code, it falls back to grep, reading ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1szvo7t/open_source_we_built_a_local_code_search_mcp_for/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.227236+09:00",
+      "reddit_score": 76
+    },
+    {
+      "id": "bf32c64f0ed5",
+      "title": "Claude said it needs to rest.. What?",
+      "summary_en": "I was using Claude across multiple sessions to deploy automations for a client. Everything was going well, Claude was handling tasks effectively with ...",
+      "summary_ko": "I was using Claude across multiple sessions to deploy automations for a client. Everything was going well, Claude was handling tasks effectively with ...",
+      "summary_zh": "",
+      "category": "automation",
+      "hashtags": [
+        "#AI자동화",
+        "#업무자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1sztk86/claude_said_it_needs_to_rest_what/",
+      "date": "2026-04-30",
+      "collected_at": "2026-05-01T09:05:06.211316+09:00",
+      "reddit_score": 590
+    },
+    {
       "id": "1463d016d2b0",
       "title": "AI is making me less productive and more distracted",
       "summary_en": "I've been doing web development for around 12 years, and lately I've been using Claude Code a lot.\n\nI use AI and Claude code every day and yes, in som...",
@@ -8194,17 +8429,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-04-30T16:00:46.469328+09:00",
+  "last_updated": "2026-05-01T09:05:31.485388+09:00",
   "stats": {
-    "total_items": 433,
+    "total_items": 445,
     "categories": {
-      "claude_code": 144,
-      "ai_trend": 227,
-      "claude_release": 47,
-      "automation": 9,
+      "claude_release": 49,
+      "ai_trend": 233,
+      "claude_code": 147,
+      "automation": 10,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-04-30 16:00"
+    "last_collection": "2026-05-01 09:05"
   }
 }

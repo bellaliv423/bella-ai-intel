@@ -72,14 +72,26 @@
   ],
   "upgrades": [
     {
+      "script_name": "generate_cert.js",
+      "project_id": "certificate_origin",
+      "project_name_ko": "원산지증명서 자동화",
+      "project_name_zh": "原產地證明自動化",
+      "trigger_news": "Absolutely blown away by the utility of the Claude Word add-in",
+      "trigger_date": "2026-04-30",
+      "upgrade_suggestion_ko": "generate_cert.js → 'Absolutely blown away by the utility of the Claude Word add-in' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_cert.js → 應用 'Absolutely blown away by the utility of the Claude Word add-in' 可提升效能",
+      "difficulty": 1,
+      "difficulty_stars": "⭐"
+    },
+    {
       "script_name": "sync_claude_to_obsidian.py",
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each",
-      "trigger_date": "2026-04-29",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each' 可提升效能",
+      "trigger_news": "Absolutely blown away by the utility of the Claude Word add-in",
+      "trigger_date": "2026-04-30",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Absolutely blown away by the utility of the Claude Word add-in' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Absolutely blown away by the utility of the Claude Word add-in' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -88,69 +100,59 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each",
-      "trigger_date": "2026-04-29",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each' 可提升效能",
-      "difficulty": 1,
-      "difficulty_stars": "⭐"
-    },
-    {
-      "script_name": "generate_dashboard.py",
-      "project_id": "obsidian_knowledge",
-      "project_name_ko": "Obsidian 지식자산",
-      "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each",
-      "trigger_date": "2026-04-29",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'Compared 11 popular Claude Code workflow systems in one table — here's the canonical pipeline of each' 可提升效能",
+      "trigger_news": "Absolutely blown away by the utility of the Claude Word add-in",
+      "trigger_date": "2026-04-30",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'Absolutely blown away by the utility of the Claude Word add-in' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Absolutely blown away by the utility of the Claude Word add-in' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
   ],
   "content": [
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'AI is making me less productive and more distracted' 실습 세션",
-      "title_zh": "'AI is making me less productive and more distracted' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 AI is making me less productive and more distracted 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Spent an evening making a launch video with Claude + Blender MCP' 핵심 정리 카드",
+      "title_zh": "'Spent an evening making a launch video with Claude + Blender MCP' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Spent an evening making a launch video with Claude + Blender MCP 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#Anthropic",
+        "#Claude",
+        "#MCP",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
-      "news_date": "2026-04-30"
+      "news_date": "2026-05-01"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 AI is making me less productive and more distracted 총정리",
-      "title_zh": "2026年 2026-04 AI is making me less productive and more distracted 總整理",
-      "description_ko": "AI is making me less productive and more distracted 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-05 Spent an evening making a launch video with Claude + Blender MCP 총정리",
+      "title_zh": "2026年 2026-05 Spent an evening making a launch video with Claude + Blender MCP 總整理",
+      "description_ko": "Spent an evening making a launch video with Claude + Blender MCP 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#Anthropic",
+        "#Claude",
+        "#MCP",
         "#Reddit",
-        "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-30"
+      "news_date": "2026-05-01"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)' 핵심 정리 카드",
-      "title_zh": "'I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth)' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'AGI is here 🗣🗣' 핵심 정리 카드",
+      "title_zh": "'AGI is here 🗣🗣' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 AGI is here 🗣🗣 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -159,16 +161,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-04-30"
+      "news_date": "2026-05-01"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-04 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 총정리",
-      "title_zh": "2026年 2026-04 I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 總整理",
-      "description_ko": "I open-sourced 59 Claude Skills covering the full website lifecycle (brand, design, content, SEO, dev, ops, growth) 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-05 AGI is here 🗣🗣 총정리",
+      "title_zh": "2026年 2026-05 AGI is here 🗣🗣 總整理",
+      "description_ko": "AGI is here 🗣🗣 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -176,27 +178,29 @@
         "#ClaudeAI",
         "#AI블로그"
       ],
-      "news_date": "2026-04-30"
+      "news_date": "2026-05-01"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'How Anthropic teams use Claude Code' 실습 세션",
-      "title_zh": "'How Anthropic teams use Claude Code' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 How Anthropic teams use Claude Code 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI:' 핵심 정리 카드",
+      "title_zh": "'Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI:' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI: 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#ClaudeCode",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#OpenAI",
+        "#생성형AI",
         "#Reddit",
-        "#AI세미나",
-        "#실습"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
-      "news_date": "2026-04-30"
+      "news_date": "2026-05-01"
     }
   ],
-  "last_analyzed": "2026-04-30T16:00:48.635543+09:00",
-  "analyzed_date": "2026-04-30",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-05-01T09:05:32.476054+09:00",
+  "analyzed_date": "2026-05-01",
+  "analyzed_time": "09:05 KST"
 }
