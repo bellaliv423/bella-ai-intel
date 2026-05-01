@@ -27,6 +27,15 @@ PROJECT_ROOT = Path(__file__).parent.parent
 ENV_PATH = PROJECT_ROOT / '.env'
 
 
+ENV_ALIASES = {
+    'IG_USER_ID': ['INSTAGRAM_BUSINESS_ACCOUNT_ID', 'IG_BUSINESS_ACCOUNT_ID'],
+    'IG_ACCESS_TOKEN': ['INSTAGRAM_ACCESS_TOKEN', 'IG_LONG_LIVED_TOKEN', 'META_LONG_LIVED_TOKEN'],
+    'IG_USERNAME': ['INSTAGRAM_USERNAME'],
+    'UPLOAD_POST_API_KEY': ['UPLOAD_POST_API_TOKEN'],
+    'UPLOAD_POST_PROFILE': ['UPLOAD_POST_ACCOUNT_NAME'],
+}
+
+
 def load_env():
     env = {}
     for line in ENV_PATH.read_text(encoding='utf-8').splitlines():
@@ -35,6 +44,13 @@ def load_env():
             continue
         k, v = line.split('=', 1)
         env[k.strip()] = v.strip()
+    for canonical, aliases in ENV_ALIASES.items():
+        if canonical in env and env[canonical]:
+            continue
+        for alt in aliases:
+            if alt in env and env[alt]:
+                env[canonical] = env[alt]
+                break
     return env
 
 
