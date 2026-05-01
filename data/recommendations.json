@@ -114,45 +114,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Spent an evening making a launch video with Claude + Blender MCP' 핵심 정리 카드",
-      "title_zh": "'Spent an evening making a launch video with Claude + Blender MCP' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Spent an evening making a launch video with Claude + Blender MCP 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#MCP",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-05-01"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 Spent an evening making a launch video with Claude + Blender MCP 총정리",
-      "title_zh": "2026年 2026-05 Spent an evening making a launch video with Claude + Blender MCP 總整理",
-      "description_ko": "Spent an evening making a launch video with Claude + Blender MCP 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#Anthropic",
-        "#Claude",
-        "#MCP",
-        "#Reddit",
-        "#AI블로그"
-      ],
-      "news_date": "2026-05-01"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'AGI is here 🗣🗣' 핵심 정리 카드",
-      "title_zh": "'AGI is here 🗣🗣' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 AGI is here 🗣🗣 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'Best way to move a long Claude project chat into a fresh chat without losing context?' 핵심 정리 카드",
+      "title_zh": "'Best way to move a long Claude project chat into a fresh chat without losing context?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Best way to move a long Claude project chat into a fresh chat without losing context? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -168,9 +132,9 @@
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 AGI is here 🗣🗣 총정리",
-      "title_zh": "2026年 2026-05 AGI is here 🗣🗣 總整理",
-      "description_ko": "AGI is here 🗣🗣 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-05 Best way to move a long Claude project chat into a fresh chat without losing context? 총정리",
+      "title_zh": "2026年 2026-05 Best way to move a long Claude project chat into a fresh chat without losing context? 總整理",
+      "description_ko": "Best way to move a long Claude project chat into a fresh chat without losing context? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -185,12 +149,47 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI:' 핵심 정리 카드",
-      "title_zh": "'Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI:' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Anthropic: World is not ready for Mythos. Systems will break, Cybersecurity will be compromised. Its too dangerous to release. OpenAI: 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'I built CanvasGPT – work with Claude on an open canvas' 핵심 정리 카드",
+      "title_zh": "'I built CanvasGPT – work with Claude on an open canvas' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I built CanvasGPT – work with Claude on an open canvas 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
-        "#OpenAI",
+        "#GPT",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-05-01"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-05 I built CanvasGPT – work with Claude on an open canvas 총정리",
+      "title_zh": "2026年 2026-05 I built CanvasGPT – work with Claude on an open canvas 總整理",
+      "description_ko": "I built CanvasGPT – work with Claude on an open canvas 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#생성형AI",
+        "#Reddit",
+        "#AI블로그"
+      ],
+      "news_date": "2026-05-01"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'I built a practical guide for running real businesses with Claude (based on 35+ founder stories)' 핵심 정리 카드",
+      "title_zh": "'I built a practical guide for running real businesses with Claude (based on 35+ founder stories)' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I built a practical guide for running real businesses with Claude (based on 35+ founder stories) 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
         "#생성형AI",
         "#Reddit",
         "#ClaudeAI",
@@ -200,7 +199,7 @@
       "news_date": "2026-05-01"
     }
   ],
-  "last_analyzed": "2026-05-01T09:05:32.476054+09:00",
+  "last_analyzed": "2026-05-01T16:00:38.889719+09:00",
   "analyzed_date": "2026-05-01",
-  "analyzed_time": "09:05 KST"
+  "analyzed_time": "16:00 KST"
 }
