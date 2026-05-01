@@ -1,0 +1,93 @@
+name: Instagram Auto Publish (cron + manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      vol:
+        description: 'VOL number (e.g. 009)'
+        required: true
+        default: '009'
+      lang:
+        description: 'Language (ko / zh / en)'
+        required: true
+        default: 'ko'
+  schedule:
+    # KST 17:00 = UTC 08:00 / KST 18:00 = UTC 09:00
+    # 5/2 (Sat) 17:00 KST VOL.008 ZH (KO already LIVE on company PC)
+    - cron: '0 9 2 5 *'   # 5/2 18:00 KST VOL.008 ZH
+    # 5/4 (Mon) - VOL.009 KO 17:00 (회사 PC 발행 시 SKIP) / VOL.009 ZH 18:00
+    - cron: '0 9 4 5 *'   # 5/4 18:00 KST VOL.009 ZH
+    # 5/5 (Tue) VOL.010 KO 17:00 + ZH 18:00
+    - cron: '0 8 5 5 *'   # 5/5 17:00 KST VOL.010 KO
+    - cron: '0 9 5 5 *'   # 5/5 18:00 KST VOL.010 ZH
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Determine VOL/LANG from cron
+        id: schedule
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "vol=${{ inputs.vol }}" >> $GITHUB_OUTPUT
+            echo "lang=${{ inputs.lang }}" >> $GITHUB_OUTPUT
+          else
+            DATE=$(date -u +%m-%d)
+            HOUR=$(date -u +%H)
+            case "${DATE}-${HOUR}" in
+              05-02-09) echo "vol=008" >> $GITHUB_OUTPUT ; echo "lang=zh" >> $GITHUB_OUTPUT ;;
+              05-04-09) echo "vol=009" >> $GITHUB_OUTPUT ; echo "lang=zh" >> $GITHUB_OUTPUT ;;
+              05-05-08) echo "vol=010" >> $GITHUB_OUTPUT ; echo "lang=ko" >> $GITHUB_OUTPUT ;;
+              05-05-09) echo "vol=010" >> $GITHUB_OUTPUT ; echo "lang=zh" >> $GITHUB_OUTPUT ;;
+            esac
+          fi
+
+      - name: Generate .env from secrets
+        run: |
+          cat > .env <<EOF
+          IG_USERNAME=${{ secrets.IG_USERNAME }}
+          IG_USER_ID=${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          IG_ACCESS_TOKEN=${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ACCOUNT_ID=${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          INSTAGRAM_ACCESS_TOKEN=${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          UPLOAD_POST_API_KEY=${{ secrets.UPLOAD_POST_API_TOKEN }}
+          UPLOAD_POST_PROFILE=${{ secrets.UPLOAD_POST_ACCOUNT_NAME }}
+          EOF
+          chmod 600 .env
+
+      - name: Publish carousel
+        run: |
+          VOL=${{ steps.schedule.outputs.vol }}
+          LANG=${{ steps.schedule.outputs.lang }}
+          CONFIG="scripts/publish_vol${VOL}_${LANG}.json"
+          echo "Publishing $CONFIG"
+          python3 scripts/publish_carousel.py --config "$CONFIG" | tee /tmp/publish.log
+
+      - name: Slack notify on success
+        if: success() && env.SLACK_WEBHOOK != ''
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_BOT_COLLAB }}
+        run: |
+          POST_ID=$(grep -oE 'post_id=[0-9]+' /tmp/publish.log | head -1 | cut -d= -f2)
+          PERMALINK=$(grep -oE 'https://www.instagram.com/p/[A-Za-z0-9_-]+' /tmp/publish.log | head -1)
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"✅ GitHub Actions 자율 발행 — VOL.${{ steps.schedule.outputs.vol }} ${{ steps.schedule.outputs.lang }}\npost_id: ${POST_ID}\npermalink: ${PERMALINK}\"}" \
+            "$SLACK_WEBHOOK"
+
+      - name: Slack notify on failure
+        if: failure() && env.SLACK_WEBHOOK != ''
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_BOT_COLLAB }}
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"🚨 GitHub Actions 발행 실패 — VOL.${{ steps.schedule.outputs.vol }} ${{ steps.schedule.outputs.lang }}\nrun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            "$SLACK_WEBHOOK"
