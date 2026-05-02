@@ -1,6 +1,105 @@
 {
   "items": [
     {
+      "id": "b56187bc075a",
+      "title": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.",
+      "summary_en": "Tokens be damned, this makes every interaction so much better:\n\nHere is what I asked the agent to dump about its operating procedures that we’ve built...",
+      "summary_ko": "Tokens be damned, this makes every interaction so much better:\n\nHere is what I asked the agent to dump about its operating procedures that we’ve built...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#AIAgent",
+        "#AIMemory",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1cys0/i_gave_my_claude_code_agent_the_ability_to_add/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T16:00:06.396479+09:00",
+      "reddit_score": 14
+    },
+    {
+      "id": "e6d611754344",
+      "title": "loading every MCP server on every prompt was quietly destroying my token budget",
+      "summary_en": "had like 5 or 6 MCP servers configured and did not realize all of them were loading every single time i sent a prompt. even for the dumbest simplest q...",
+      "summary_ko": "had like 5 or 6 MCP servers configured and did not realize all of them were loading every single time i sent a prompt. even for the dumbest simplest q...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1e5u0/loading_every_mcp_server_on_every_prompt_was/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T16:00:06.396479+09:00",
+      "reddit_score": 12
+    },
+    {
+      "id": "f54b49b099f9",
+      "title": "When to use Claude Cowork vs Claude Code",
+      "summary_en": "How are people choosing when to use cowork vs code? \n\nClaude’s answer:   \nRule of thumb: codebase → Code, everything else file-based → Cowork.",
+      "summary_ko": "How are people choosing when to use cowork vs code? \n\nClaude’s answer:   \nRule of thumb: codebase → Code, everything else file-based → Cowork.",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Cowork",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1byip/when_to_use_claude_cowork_vs_claude_code/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T16:00:06.395516+09:00",
+      "reddit_score": 35
+    },
+    {
+      "id": "e6b0b687466b",
+      "title": "Used Claude AI to write a legal notice and got a full refund of Rs. 40,219 (~$480) for a defective refurbished MacBook. Company settled in 48 hours.",
+      "summary_en": "I want to share a real world use case that honestly blew my mind a little.\n\nI bought a refurbished MacBook Air M1 in December 2025 from a popular elec...",
+      "summary_ko": "I want to share a real world use case that honestly blew my mind a little.\n\nI bought a refurbished MacBook Air M1 in December 2025 from a popular elec...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1gz76/used_claude_ai_to_write_a_legal_notice_and_got_a/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T16:00:06.394516+09:00",
+      "reddit_score": 29
+    },
+    {
+      "id": "f17b2dfe380e",
+      "title": "I dont even have a funny title for this one, I'm just confused",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1ag3j/i_dont_even_have_a_funny_title_for_this_one_im/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T16:00:06.393480+09:00",
+      "reddit_score": 146
+    },
+    {
       "id": "8670b8e1563b",
       "title": "IDK why the chat-apps don't have this thing!!",
       "summary_en": "I shipped a side project: QuotePin, an AI chat app with inline annotations to reduce \"clarification clutter.\"\n\nThe problem: In ChatGPT/Claude-style ch...",
@@ -8793,17 +8892,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-05-02T09:05:29.250549+09:00",
+  "last_updated": "2026-05-02T16:00:29.505764+09:00",
   "stats": {
-    "total_items": 464,
+    "total_items": 469,
     "categories": {
-      "ai_trend": 245,
+      "claude_code": 153,
+      "ai_trend": 247,
       "claude_release": 53,
-      "claude_code": 150,
       "automation": 10,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-05-02 09:05"
+    "last_collection": "2026-05-02 16:00"
   }
 }

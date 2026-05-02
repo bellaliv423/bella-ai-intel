@@ -76,10 +76,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "trigger_news": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.",
       "trigger_date": "2026-05-02",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 可提升效能",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -88,10 +88,10 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "trigger_news": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.",
       "trigger_date": "2026-05-02",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 可提升效能",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -100,107 +100,102 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "trigger_news": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.",
       "trigger_date": "2026-05-02",
-      "upgrade_suggestion_ko": "generate_dashboard.py → 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 可提升效能",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
   ],
   "content": [
     {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'IDK why the chat-apps don't have this thing!!' 핵심 정리 카드",
-      "title_zh": "'IDK why the chat-apps don't have this thing!!' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 IDK why the chat-apps don't have this thing!! 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#GPT",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 IDK why the chat-apps don't have this thing!! 총정리",
-      "title_zh": "2026年 2026-05 IDK why the chat-apps don't have this thing!! 總整理",
-      "description_ko": "IDK why the chat-apps don't have this thing!! 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#GPT",
-        "#생성형AI",
-        "#Reddit",
-        "#AI블로그"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'I built a \"Six Hats\" skill that runs structured debates inside AI conversations' 핵심 정리 카드",
-      "title_zh": "'I built a \"Six Hats\" skill that runs structured debates inside AI conversations' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 I built a \"Six Hats\" skill that runs structured debates inside AI conversations 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 I built a \"Six Hats\" skill that runs structured debates inside AI conversations 총정리",
-      "title_zh": "2026年 2026-05 I built a \"Six Hats\" skill that runs structured debates inside AI conversations 總整理",
-      "description_ko": "I built a \"Six Hats\" skill that runs structured debates inside AI conversations 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security.' 핵심 정리 카드",
-      "title_zh": "'Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security.' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security. 설명 + 실전 활용법 5장 캐러셀",
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 실습 세션",
+      "title_zh": "'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 체험 + Q&A",
       "hashtags": [
         "#AIAgent",
-        "#Anthropic",
-        "#Claude",
+        "#AIMemory",
+        "#ClaudeCode",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-05-02"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-05 I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 총정리",
+      "title_zh": "2026年 2026-05 I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 總整理",
+      "description_ko": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AIAgent",
+        "#AIMemory",
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#AI블로그"
+      ],
+      "news_date": "2026-05-02"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'loading every MCP server on every prompt was quietly destroying my token budget' 실습 세션",
+      "title_zh": "'loading every MCP server on every prompt was quietly destroying my token budget' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 loading every MCP server on every prompt was quietly destroying my token budget 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#AI세미나",
+        "#실습"
+      ],
+      "news_date": "2026-05-02"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-05 loading every MCP server on every prompt was quietly destroying my token budget 총정리",
+      "title_zh": "2026年 2026-05 loading every MCP server on every prompt was quietly destroying my token budget 總整理",
+      "description_ko": "loading every MCP server on every prompt was quietly destroying my token budget 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
         "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
+        "#AI블로그"
+      ],
+      "news_date": "2026-05-02"
+    },
+    {
+      "type": "seminar",
+      "type_icon": "🎤",
+      "type_ko": "세미나 토크",
+      "type_zh": "研討會主題",
+      "title_ko": "'When to use Claude Cowork vs Claude Code' 실습 세션",
+      "title_zh": "'When to use Claude Cowork vs Claude Code' 實作課程",
+      "description_ko": "참가자가 직접 따라하는 When to use Claude Cowork vs Claude Code 체험 + Q&A",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Cowork",
+        "#코딩자동화",
+        "#AI세미나",
+        "#실습"
       ],
       "news_date": "2026-05-02"
     }
   ],
-  "last_analyzed": "2026-05-02T09:05:30.597919+09:00",
+  "last_analyzed": "2026-05-02T16:00:30.549835+09:00",
   "analyzed_date": "2026-05-02",
-  "analyzed_time": "09:05 KST"
+  "analyzed_time": "16:00 KST"
 }
