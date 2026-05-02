@@ -1,6 +1,238 @@
 {
   "items": [
     {
+      "id": "8670b8e1563b",
+      "title": "IDK why the chat-apps don't have this thing!!",
+      "summary_en": "I shipped a side project: QuotePin, an AI chat app with inline annotations to reduce \"clarification clutter.\"\n\nThe problem: In ChatGPT/Claude-style ch...",
+      "summary_ko": "I shipped a side project: QuotePin, an AI chat app with inline annotations to reduce \"clarification clutter.\"\n\nThe problem: In ChatGPT/Claude-style ch...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t14jje/idk_why_the_chatapps_dont_have_this_thing/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.093674+09:00",
+      "reddit_score": 8
+    },
+    {
+      "id": "eeb2dda3f88e",
+      "title": "I built a \"Six Hats\" skill that runs structured debates inside AI conversations",
+      "summary_en": "I've been frustrated that AI conversations turn into loose brainstorming. You ask for advice, get a nice response, but it's not rigorous.\n\nSo I built ...",
+      "summary_ko": "I've been frustrated that AI conversations turn into loose brainstorming. You ask for advice, get a nice response, but it's not rigorous.\n\nSo I built ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t16utb/i_built_a_six_hats_skill_that_runs_structured/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.092741+09:00",
+      "reddit_score": 9
+    },
+    {
+      "id": "0cb13968be00",
+      "title": "Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security.",
+      "summary_en": "https://vexjoy.com/posts/cloud-skills-are-still-just-skills/\n\nThe skill ecosystem’s strength is composability. I can take a review skill, pair it with...",
+      "summary_ko": "https://vexjoy.com/posts/cloud-skills-are-still-just-skills/\n\nThe skill ecosystem’s strength is composability. I can take a review skill, pair it with...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#AIAgent",
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0wlme/cloud_skills_are_still_just_skills_how_anthropic/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.091731+09:00",
+      "reddit_score": 47
+    },
+    {
+      "id": "5e9cba34f2f6",
+      "title": "Anthropic just launched Claude Security in public beta  AI that scans your codebase, validates its own findings, and proposes fixes. Here's what actually matters.",
+      "summary_en": "Claude Security just went into public beta for Enterprise customers, and I think this is worth paying attention to  not for the hype, but for one spec...",
+      "summary_ko": "Claude Security just went into public beta for Enterprise customers, and I think this is worth paying attention to  not for the hype, but for one spec...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t12l3t/anthropic_just_launched_claude_security_in_public/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.090687+09:00",
+      "reddit_score": 35
+    },
+    {
+      "id": "66925186860e",
+      "title": "This guy can not be real",
+      "summary_en": "I'm just using a caveman propmt in system instructions ",
+      "summary_ko": "I'm just using a caveman propmt in system instructions ",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t11mtq/this_guy_can_not_be_real/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.090687+09:00",
+      "reddit_score": 44
+    },
+    {
+      "id": "d029b327d543",
+      "title": "I got tired of AI gaslighting across claude and gpt. pivoted the whole startup to fix it.",
+      "summary_en": "I posted a toy here a while back called Roundtable where two AIs argued in a chat window. didn't expect much, but the feedback was wild. People weren'...",
+      "summary_ko": "I posted a toy here a while back called Roundtable where two AIs argued in a chat window. didn't expect much, but the feedback was wild. People weren'...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#GPT",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t144z1/i_got_tired_of_ai_gaslighting_across_claude_and/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.089678+09:00",
+      "reddit_score": 43
+    },
+    {
+      "id": "eb8f82af1b41",
+      "title": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "summary_en": "On April 5th I shipped a Claude Code skill called graphify. Type /graphify . and it reads every file in your repo, builds a knowledge graph with Leide...",
+      "summary_ko": "On April 5th I shipped a Claude Code skill called graphify. Type /graphify . and it reads every file in your repo, builds a knowledge graph with Leide...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t18eeh/i_built_graphify_26_days_450k_downloads_40k_stars/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.086683+09:00",
+      "reddit_score": 71
+    },
+    {
+      "id": "dde453a4bf8d",
+      "title": "I accidentally burned ~$6,000 of Claude usage overnight with one command.",
+      "summary_en": "Last week I woke up to an email saying my Claude usage limit was gone. I hadn't done anything unusual — or so I thought.\n\nAfter digging through the lo...",
+      "summary_ko": "Last week I woke up to an email saying my Claude usage limit was gone. I hadn't done anything unusual — or so I thought.\n\nAfter digging through the lo...",
+      "summary_zh": "",
+      "category": "claude_release",
+      "hashtags": [
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t11mmy/i_accidentally_burned_6000_of_claude_usage/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.086683+09:00",
+      "reddit_score": 441
+    },
+    {
+      "id": "7237f1432204",
+      "title": "claude.md files in apple’s support app.",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0wch0/claudemd_files_in_apples_support_app/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:05.085733+09:00",
+      "reddit_score": 1144
+    },
+    {
+      "id": "3eed68328a1d",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-02T09:05:03.567183+09:00"
+    },
+    {
+      "id": "d5dd4304a15e",
+      "title": "Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0t47t/opus_47/",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-02T09:05:05.088691+09:00",
+      "reddit_score": 165
+    },
+    {
+      "id": "6ab907368fca",
+      "title": "Claude is hilariously petty",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t0nh6v/claude_is_hilariously_petty/",
+      "date": "2026-05-01",
+      "collected_at": "2026-05-02T09:05:05.087731+09:00",
+      "reddit_score": 942
+    },
+    {
       "id": "b2bfafb190be",
       "title": "Best way to move a long Claude project chat into a fresh chat without losing context?",
       "summary_en": "I’ve been using one Claude chat for about 2 weeks for a large project, and it’s starting to get really slow/laggy on my Windows PC in both the browser...",
@@ -8561,17 +8793,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-05-01T16:00:38.022935+09:00",
+  "last_updated": "2026-05-02T09:05:29.250549+09:00",
   "stats": {
-    "total_items": 452,
+    "total_items": 464,
     "categories": {
-      "ai_trend": 237,
-      "claude_release": 50,
-      "claude_code": 149,
+      "ai_trend": 245,
+      "claude_release": 53,
+      "claude_code": 150,
       "automation": 10,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-05-01 16:00"
+    "last_collection": "2026-05-02 09:05"
   }
 }

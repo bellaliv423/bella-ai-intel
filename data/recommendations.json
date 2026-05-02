@@ -72,26 +72,14 @@
   ],
   "upgrades": [
     {
-      "script_name": "generate_cert.js",
-      "project_id": "certificate_origin",
-      "project_name_ko": "원산지증명서 자동화",
-      "project_name_zh": "原產地證明自動化",
-      "trigger_news": "Absolutely blown away by the utility of the Claude Word add-in",
-      "trigger_date": "2026-04-30",
-      "upgrade_suggestion_ko": "generate_cert.js → 'Absolutely blown away by the utility of the Claude Word add-in' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "generate_cert.js → 應用 'Absolutely blown away by the utility of the Claude Word add-in' 可提升效能",
-      "difficulty": 1,
-      "difficulty_stars": "⭐"
-    },
-    {
       "script_name": "sync_claude_to_obsidian.py",
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Absolutely blown away by the utility of the Claude Word add-in",
-      "trigger_date": "2026-04-30",
-      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'Absolutely blown away by the utility of the Claude Word add-in' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'Absolutely blown away by the utility of the Claude Word add-in' 可提升效能",
+      "trigger_news": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "trigger_date": "2026-05-02",
+      "upgrade_suggestion_ko": "sync_claude_to_obsidian.py → 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "sync_claude_to_obsidian.py → 應用 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     },
@@ -100,10 +88,22 @@
       "project_id": "obsidian_knowledge",
       "project_name_ko": "Obsidian 지식자산",
       "project_name_zh": "Obsidian 知識資產",
-      "trigger_news": "Absolutely blown away by the utility of the Claude Word add-in",
-      "trigger_date": "2026-04-30",
-      "upgrade_suggestion_ko": "auto_tagger.py → 'Absolutely blown away by the utility of the Claude Word add-in' 적용 시 성능/기능 향상 가능",
-      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'Absolutely blown away by the utility of the Claude Word add-in' 可提升效能",
+      "trigger_news": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "trigger_date": "2026-05-02",
+      "upgrade_suggestion_ko": "auto_tagger.py → 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "auto_tagger.py → 應用 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 可提升效能",
+      "difficulty": 1,
+      "difficulty_stars": "⭐"
+    },
+    {
+      "script_name": "generate_dashboard.py",
+      "project_id": "obsidian_knowledge",
+      "project_name_ko": "Obsidian 지식자산",
+      "project_name_zh": "Obsidian 知識資產",
+      "trigger_news": "I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.",
+      "trigger_date": "2026-05-02",
+      "upgrade_suggestion_ko": "generate_dashboard.py → 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 적용 시 성능/기능 향상 가능",
+      "upgrade_suggestion_zh": "generate_dashboard.py → 應用 'I built /graphify, 26 days, 450k+ downloads, ~40k stars. Here’s what I didn’t expect.' 可提升效能",
       "difficulty": 1,
       "difficulty_stars": "⭐"
     }
@@ -114,44 +114,9 @@
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'Best way to move a long Claude project chat into a fresh chat without losing context?' 핵심 정리 카드",
-      "title_zh": "'Best way to move a long Claude project chat into a fresh chat without losing context?' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 Best way to move a long Claude project chat into a fresh chat without losing context? 설명 + 실전 활용법 5장 캐러셀",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI자동화전문가",
-        "#벨라AI"
-      ],
-      "news_date": "2026-05-01"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 Best way to move a long Claude project chat into a fresh chat without losing context? 총정리",
-      "title_zh": "2026年 2026-05 Best way to move a long Claude project chat into a fresh chat without losing context? 總整理",
-      "description_ko": "Best way to move a long Claude project chat into a fresh chat without losing context? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AI트렌드",
-        "#생성형AI",
-        "#Reddit",
-        "#ClaudeAI",
-        "#AI블로그"
-      ],
-      "news_date": "2026-05-01"
-    },
-    {
-      "type": "instagram",
-      "type_icon": "📸",
-      "type_ko": "인스타 캐러셀",
-      "type_zh": "Instagram 輪播",
-      "title_ko": "'I built CanvasGPT – work with Claude on an open canvas' 핵심 정리 카드",
-      "title_zh": "'I built CanvasGPT – work with Claude on an open canvas' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 I built CanvasGPT – work with Claude on an open canvas 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'IDK why the chat-apps don't have this thing!!' 핵심 정리 카드",
+      "title_zh": "'IDK why the chat-apps don't have this thing!!' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 IDK why the chat-apps don't have this thing!! 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#GPT",
@@ -161,16 +126,16 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-05-01"
+      "news_date": "2026-05-02"
     },
     {
       "type": "blog",
       "type_icon": "📝",
       "type_ko": "블로그/스레드",
       "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 I built CanvasGPT – work with Claude on an open canvas 총정리",
-      "title_zh": "2026年 2026-05 I built CanvasGPT – work with Claude on an open canvas 總整理",
-      "description_ko": "I built CanvasGPT – work with Claude on an open canvas 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "title_ko": "2026년 2026-05 IDK why the chat-apps don't have this thing!! 총정리",
+      "title_zh": "2026年 2026-05 IDK why the chat-apps don't have this thing!! 總整理",
+      "description_ko": "IDK why the chat-apps don't have this thing!! 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
         "#AI트렌드",
         "#GPT",
@@ -178,16 +143,16 @@
         "#Reddit",
         "#AI블로그"
       ],
-      "news_date": "2026-05-01"
+      "news_date": "2026-05-02"
     },
     {
       "type": "instagram",
       "type_icon": "📸",
       "type_ko": "인스타 캐러셀",
       "type_zh": "Instagram 輪播",
-      "title_ko": "'I built a practical guide for running real businesses with Claude (based on 35+ founder stories)' 핵심 정리 카드",
-      "title_zh": "'I built a practical guide for running real businesses with Claude (based on 35+ founder stories)' 重點整理卡片",
-      "description_ko": "비개발자도 이해하는 I built a practical guide for running real businesses with Claude (based on 35+ founder stories) 설명 + 실전 활용법 5장 캐러셀",
+      "title_ko": "'I built a \"Six Hats\" skill that runs structured debates inside AI conversations' 핵심 정리 카드",
+      "title_zh": "'I built a \"Six Hats\" skill that runs structured debates inside AI conversations' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I built a \"Six Hats\" skill that runs structured debates inside AI conversations 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
         "#AI트렌드",
         "#생성형AI",
@@ -196,10 +161,46 @@
         "#AI자동화전문가",
         "#벨라AI"
       ],
-      "news_date": "2026-05-01"
+      "news_date": "2026-05-02"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-05 I built a \"Six Hats\" skill that runs structured debates inside AI conversations 총정리",
+      "title_zh": "2026年 2026-05 I built a \"Six Hats\" skill that runs structured debates inside AI conversations 總整理",
+      "description_ko": "I built a \"Six Hats\" skill that runs structured debates inside AI conversations 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-05-02"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security.' 핵심 정리 카드",
+      "title_zh": "'Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security.' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Cloud Skills Are Still Just Skills - How Anthropic no longer releases new skills, and gates them within the Cloud now with Ultraplan, Ultrareview, and Cloud Security. 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AIAgent",
+        "#Anthropic",
+        "#Claude",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-05-02"
     }
   ],
-  "last_analyzed": "2026-05-01T16:00:38.889719+09:00",
-  "analyzed_date": "2026-05-01",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-05-02T09:05:30.597919+09:00",
+  "analyzed_date": "2026-05-02",
+  "analyzed_time": "09:05 KST"
 }
