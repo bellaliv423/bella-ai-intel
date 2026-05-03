@@ -1,6 +1,221 @@
 {
   "items": [
     {
+      "id": "518f9cceb2db",
+      "title": "Act Without Asking?",
+      "summary_en": "Personally I won't risk it, despite the occasional inconvenience. What about you?",
+      "summary_ko": "Personally I won't risk it, despite the occasional inconvenience. What about you?",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t215t7/act_without_asking/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T09:05:10.142548+09:00",
+      "reddit_score": 9
+    },
+    {
+      "id": "7bf8ba4f82e7",
+      "title": "I thought Cowork was gaslighting me about browser use",
+      "summary_en": "I was testing out Cowork on my Linux machine and asked it to search for a hotel ok booking.com. So off it goes, asks for my permission to use Chrome e...",
+      "summary_ko": "I was testing out Cowork on my Linux machine and asked it to search for a hotel ok booking.com. So off it goes, asks for my permission to use Chrome e...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#ClaudeChrome",
+        "#Cowork",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1t9f5/i_thought_cowork_was_gaslighting_me_about_browser/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T09:05:10.140548+09:00",
+      "reddit_score": 57
+    },
+    {
+      "id": "a9672c78f2fd",
+      "title": "Non-business uses for Claude Cowork",
+      "summary_en": "I see a lot of posts about how people are using Claude for business, so I thought I'd post something different. I use Claude almost exclusively for pe...",
+      "summary_ko": "I see a lot of posts about how people are using Claude for business, so I thought I'd post something different. I use Claude almost exclusively for pe...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Cowork",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t22v8r/nonbusiness_uses_for_claude_cowork/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T09:05:10.140548+09:00",
+      "reddit_score": 46
+    },
+    {
+      "id": "9a90cc93c3f0",
+      "title": "I used Claude as my pair programmer to build a safe for kids generative coloring book app for my daughter!",
+      "summary_en": "Hey r/ClaudeAI\n\nRecently I’ve been having a hard time finding safe, kid friendly, easy to use coloring book apps for my child. Everything I found was ...",
+      "summary_ko": "Hey r/ClaudeAI\n\nRecently I’ve been having a hard time finding safe, kid friendly, easy to use coloring book apps for my child. Everything I found was ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1wrfs/i_used_claude_as_my_pair_programmer_to_build_a/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T09:05:10.139551+09:00",
+      "reddit_score": 150
+    },
+    {
+      "id": "4793320a2334",
+      "title": "Well, one...",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1yoo4/well_one/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T09:05:10.139551+09:00",
+      "reddit_score": 287
+    },
+    {
+      "id": "b8a3c483b5c6",
+      "title": "Introducing Claude Opus 4.7",
+      "summary_en": "",
+      "summary_ko": "",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#생성형AI",
+        "#Anthropic",
+        "#Official"
+      ],
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T09:05:08.393077+09:00"
+    },
+    {
+      "id": "aec067468663",
+      "title": "I reverse-engineered the Perplexity app and built an MCP that turns your Perplexity/Comet account into a Claude MCP, so Claude can search like crazy and read 200+ sources in one answer with your personal account subscription without API product needed. [Experiment - Educational Purpose]",
+      "summary_en": "Here's video showcase: [***https://youtu.be/wErgEe9Pgqo***](https://youtu.be/wErgEe9Pgqo)",
+      "summary_ko": "Here's video showcase: [***https://youtu.be/wErgEe9Pgqo***](https://youtu.be/wErgEe9Pgqo)",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#MCP",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1pdqc/i_reverseengineered_the_perplexity_app_and_built/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-03T09:05:10.141549+09:00",
+      "reddit_score": 89
+    },
+    {
+      "id": "f095db3ea8f3",
+      "title": "It’s a Weird Time to Be Named Claude",
+      "summary_en": "*The once-rare name is now shared with Anthropic’s fast-growing AI assistant — leaving the humans called Claude to adjust.*",
+      "summary_ko": "*The once-rare name is now shared with Anthropic’s fast-growing AI assistant — leaving the humans called Claude to adjust.*",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1ocha/its_a_weird_time_to_be_named_claude/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-03T09:05:10.141549+09:00",
+      "reddit_score": 105
+    },
+    {
+      "id": "5bc2e1a8c535",
+      "title": "Claude has a friend?",
+      "summary_en": "who is its friend? I’m afraid to ask. ",
+      "summary_ko": "who is its friend? I’m afraid to ask. ",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1p098/claude_has_a_friend/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-03T09:05:10.140548+09:00",
+      "reddit_score": 147
+    },
+    {
+      "id": "d5fac3221027",
+      "title": "Giving Claude access to my MacBook be like",
+      "summary_en": "Not sure if it's a good idea",
+      "summary_ko": "Not sure if it's a good idea",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1pn4r/giving_claude_access_to_my_macbook_be_like/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-03T09:05:10.140548+09:00",
+      "reddit_score": 315
+    },
+    {
+      "id": "31346fc7439a",
+      "title": "I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here's the full setup",
+      "summary_en": "Was hitting my weekly Pro limit by Wednesday every single week. Tried compact, Sonnet for simple tasks, tighter prompts — nothing worked.             ...",
+      "summary_ko": "Was hitting my weekly Pro limit by Wednesday every single week. Tried compact, Sonnet for simple tasks, tighter prompts — nothing worked.             ...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#Cowork",
+        "#Sonnet",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/",
+      "date": "2026-05-02",
+      "collected_at": "2026-05-03T09:05:10.139551+09:00",
+      "reddit_score": 643
+    },
+    {
       "id": "b56187bc075a",
       "title": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.",
       "summary_en": "Tokens be damned, this makes every interaction so much better:\n\nHere is what I asked the agent to dump about its operating procedures that we’ve built...",
@@ -8892,17 +9107,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-05-02T16:00:29.505764+09:00",
+  "last_updated": "2026-05-03T09:05:36.417009+09:00",
   "stats": {
-    "total_items": 469,
+    "total_items": 480,
     "categories": {
-      "claude_code": 153,
-      "ai_trend": 247,
+      "ai_trend": 256,
+      "claude_code": 155,
       "claude_release": 53,
       "automation": 10,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-05-02 16:00"
+    "last_collection": "2026-05-03 09:05"
   }
 }

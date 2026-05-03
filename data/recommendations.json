@@ -110,92 +110,97 @@
   ],
   "content": [
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 실습 세션",
-      "title_zh": "'I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back.' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 체험 + Q&A",
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Act Without Asking?' 핵심 정리 카드",
+      "title_zh": "'Act Without Asking?' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Act Without Asking? 설명 + 실전 활용법 5장 캐러셀",
       "hashtags": [
-        "#AIAgent",
-        "#AIMemory",
-        "#ClaudeCode",
-        "#AI세미나",
-        "#실습"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 총정리",
-      "title_zh": "2026年 2026-05 I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 總整理",
-      "description_ko": "I gave my Claude code agent the ability to add memes to discord transport messages and I will never look back. 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#AIAgent",
-        "#AIMemory",
-        "#ClaudeCode",
-        "#코딩자동화",
-        "#AI블로그"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'loading every MCP server on every prompt was quietly destroying my token budget' 실습 세션",
-      "title_zh": "'loading every MCP server on every prompt was quietly destroying my token budget' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 loading every MCP server on every prompt was quietly destroying my token budget 체험 + Q&A",
-      "hashtags": [
-        "#ClaudeCode",
-        "#MCP",
-        "#코딩자동화",
-        "#AI세미나",
-        "#실습"
-      ],
-      "news_date": "2026-05-02"
-    },
-    {
-      "type": "blog",
-      "type_icon": "📝",
-      "type_ko": "블로그/스레드",
-      "type_zh": "部落格/Threads",
-      "title_ko": "2026년 2026-05 loading every MCP server on every prompt was quietly destroying my token budget 총정리",
-      "title_zh": "2026年 2026-05 loading every MCP server on every prompt was quietly destroying my token budget 總整理",
-      "description_ko": "loading every MCP server on every prompt was quietly destroying my token budget 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
-      "hashtags": [
-        "#ClaudeCode",
-        "#MCP",
-        "#코딩자동화",
+        "#AI트렌드",
+        "#생성형AI",
         "#Reddit",
-        "#AI블로그"
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
       ],
-      "news_date": "2026-05-02"
+      "news_date": "2026-05-03"
     },
     {
-      "type": "seminar",
-      "type_icon": "🎤",
-      "type_ko": "세미나 토크",
-      "type_zh": "研討會主題",
-      "title_ko": "'When to use Claude Cowork vs Claude Code' 실습 세션",
-      "title_zh": "'When to use Claude Cowork vs Claude Code' 實作課程",
-      "description_ko": "참가자가 직접 따라하는 When to use Claude Cowork vs Claude Code 체험 + Q&A",
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-05 Act Without Asking? 총정리",
+      "title_zh": "2026年 2026-05 Act Without Asking? 總整理",
+      "description_ko": "Act Without Asking? 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
       "hashtags": [
-        "#ClaudeCode",
-        "#Cowork",
-        "#코딩자동화",
-        "#AI세미나",
-        "#실습"
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI블로그"
       ],
-      "news_date": "2026-05-02"
+      "news_date": "2026-05-03"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'I thought Cowork was gaslighting me about browser use' 핵심 정리 카드",
+      "title_zh": "'I thought Cowork was gaslighting me about browser use' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 I thought Cowork was gaslighting me about browser use 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#ClaudeChrome",
+        "#Cowork",
+        "#생성형AI",
+        "#Reddit",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-05-03"
+    },
+    {
+      "type": "blog",
+      "type_icon": "📝",
+      "type_ko": "블로그/스레드",
+      "type_zh": "部落格/Threads",
+      "title_ko": "2026년 2026-05 I thought Cowork was gaslighting me about browser use 총정리",
+      "title_zh": "2026年 2026-05 I thought Cowork was gaslighting me about browser use 總整理",
+      "description_ko": "I thought Cowork was gaslighting me about browser use 상세 분석 + 실전 적용 사례 + 벨라님 경험담",
+      "hashtags": [
+        "#AI트렌드",
+        "#ClaudeChrome",
+        "#Cowork",
+        "#생성형AI",
+        "#AI블로그"
+      ],
+      "news_date": "2026-05-03"
+    },
+    {
+      "type": "instagram",
+      "type_icon": "📸",
+      "type_ko": "인스타 캐러셀",
+      "type_zh": "Instagram 輪播",
+      "title_ko": "'Non-business uses for Claude Cowork' 핵심 정리 카드",
+      "title_zh": "'Non-business uses for Claude Cowork' 重點整理卡片",
+      "description_ko": "비개발자도 이해하는 Non-business uses for Claude Cowork 설명 + 실전 활용법 5장 캐러셀",
+      "hashtags": [
+        "#AI트렌드",
+        "#Cowork",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI",
+        "#AI자동화전문가",
+        "#벨라AI"
+      ],
+      "news_date": "2026-05-03"
     }
   ],
-  "last_analyzed": "2026-05-02T16:00:30.549835+09:00",
-  "analyzed_date": "2026-05-02",
-  "analyzed_time": "16:00 KST"
+  "last_analyzed": "2026-05-03T09:05:38.155552+09:00",
+  "analyzed_date": "2026-05-03",
+  "analyzed_time": "09:05 KST"
 }
