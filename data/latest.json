@@ -1,6 +1,87 @@
 {
   "items": [
     {
+      "id": "67d1e8333e16",
+      "title": "spent way too long manually steering claude code every session until i stopped doing that",
+      "summary_en": "every session i was basically rewriting the same thing. here is how i like code structured, here is how i want errors handled, do not ask me to confir...",
+      "summary_ko": "every session i was basically rewriting the same thing. here is how i like code structured, here is how i want errors handled, do not ask me to confir...",
+      "summary_zh": "",
+      "category": "claude_code",
+      "hashtags": [
+        "#ClaudeCode",
+        "#코딩자동화",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t23l7f/spent_way_too_long_manually_steering_claude_code/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T16:00:15.517009+09:00",
+      "reddit_score": 27
+    },
+    {
+      "id": "91ac21f2cb67",
+      "title": "I left my Agent OS running overnight and it built 4 new tools I didn't even ask for",
+      "summary_en": "I’ve been obsessed with autonomous agents lately, but I got tired of them hitting walls because they didn't have the right \"tools\" or because their co...",
+      "summary_ko": "I’ve been obsessed with autonomous agents lately, but I got tired of them hitting walls because they didn't have the right \"tools\" or because their co...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AIAgent",
+        "#AI트렌드",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t29fq6/i_left_my_agent_os_running_overnight_and_it_built/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T16:00:15.517009+09:00",
+      "reddit_score": 16
+    },
+    {
+      "id": "bbbf4a0d8a93",
+      "title": "Are there privacy concerns regarding Cowork or connecting Claude to your cloud or emails?",
+      "summary_en": "When it comes to AI, I'm really starting to feel like a boomer who can't keep up with technology. I've been using Claude casually over the past month ...",
+      "summary_ko": "When it comes to AI, I'm really starting to feel like a boomer who can't keep up with technology. I've been using Claude casually over the past month ...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Cowork",
+        "#GPT",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t29hxk/are_there_privacy_concerns_regarding_cowork_or/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T16:00:15.517009+09:00",
+      "reddit_score": 16
+    },
+    {
+      "id": "3cb0d3177c58",
+      "title": "Why Adaptive Thinking nukes Claude entirely",
+      "summary_en": "This isn't just a performance issue for the thread, this is an overarching criticism of the Adaptive Thinking model as a whole.  \n  \nOpus 4.7 and Sonn...",
+      "summary_ko": "This isn't just a performance issue for the thread, this is an overarching criticism of the Adaptive Thinking model as a whole.  \n  \nOpus 4.7 and Sonn...",
+      "summary_zh": "",
+      "category": "ai_trend",
+      "hashtags": [
+        "#AI트렌드",
+        "#Opus",
+        "#Sonnet",
+        "#생성형AI",
+        "#Reddit",
+        "#ClaudeAI"
+      ],
+      "source": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1yvzr/why_adaptive_thinking_nukes_claude_entirely/",
+      "date": "2026-05-03",
+      "collected_at": "2026-05-03T16:00:15.517009+09:00",
+      "reddit_score": 92
+    },
+    {
       "id": "518f9cceb2db",
       "title": "Act Without Asking?",
       "summary_en": "Personally I won't risk it, despite the occasional inconvenience. What about you?",
@@ -9107,17 +9188,17 @@
       "collected_at": "2026-03-27T19:21:57.482376+09:00"
     }
   ],
-  "last_updated": "2026-05-03T09:05:36.417009+09:00",
+  "last_updated": "2026-05-03T16:00:38.815183+09:00",
   "stats": {
-    "total_items": 480,
+    "total_items": 484,
     "categories": {
-      "ai_trend": 256,
-      "claude_code": 155,
+      "claude_code": 156,
+      "ai_trend": 259,
       "claude_release": 53,
       "automation": 10,
       "content_sns": 2,
       "claude_api": 4
     },
-    "last_collection": "2026-05-03 09:05"
+    "last_collection": "2026-05-03 16:00"
   }
 }
